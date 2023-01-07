@@ -7,24 +7,24 @@
 N/A
 ** Module 2 Software Analysis and Tools
 *** GOALS: install all necessary dev, deploy, & analysis tool
-*** TODO Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17 [0/3]
-   - [ ] Get ISO
-   - [ ] Provision hd with 50-100 gb
-   - [ ] Install as new VM
-   - [ ] Install VMWware Tools for file transfer
-*** TODO Configure devbox with following tools. [0/2]
-   - [ ] BASIC TOOLS: [0/5]
+*** TODO Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17 [4/4]
+   - [X] Get ISO
+   - [X] Provision hd with 50-100 gb
+   - [X] Install as new VM
+   - [X] Install VMWware Tools for file transfer
+*** TODO Configure devbox with following tools. [1/2]
+   - [-] BASIC TOOLS: [4/5]
      - [ ] ssh
-     - [ ] tmux
-     - [ ] powerline
-     - [ ] chrome
-     - [ ] git tools
-   - [ ] ADVANCED TOOLS: [0/4]
-     - [ ] VMware Workstation (inside ubuntu)
-*** TODO Configure deployment box (vm inside vm) [0/3]
+     - [X] tmux
+     - [X] powerline
+     - [X] chrome
+     - [X] git tools
+   - [X] ADVANCED TOOLS: [1/1]
+     - [X] VMware Workstation (inside ubuntu)
+*** TODO Configure deployment box (vm inside vm) [1/3]
    - [ ] Dolwnload QEMU
    - [ ] Download buildroot
-   - [ ] select vagrant or direct install method
+   - [X] select vagrant or direct install method
 ** Module 3
 ** Module 4
 ** Module 5
