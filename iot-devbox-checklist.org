@@ -1,0 +1,11 @@
+* IoT Dev Box Setup
+** Scripted Installs
+*** see 'ubuntu-post-installer.sh' file
+** Manuall Installs
+*** install python3 (necessary for binwalk)
+** URL's / helpful install links
+*** https://www.novetta.com/2018/02/emulating-embedded-linux-devices-with-qemu/
+*** https://cjhackerz.net/posts/arm-emulated-environment-iotsec-qemu/
+*** https://github.com/threadexio/sasquatch
+*** https://www.thirtythreeforty.net/posts/2020/01/mastering-embedded-linux-part-3-buildroot/
+*** 
