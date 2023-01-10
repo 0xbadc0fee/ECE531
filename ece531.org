@@ -25,6 +25,8 @@ N/A
    - [ ] Dolwnload QEMU
    - [ ] Download buildroot
    - [X] select vagrant or direct install method
+*** COMMENTS: 
+**** BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
 ** Module 3
 ** Module 4
 ** Module 5
