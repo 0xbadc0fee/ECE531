@@ -25,24 +25,34 @@ N/A
    - [X] Dolwnload QEMU
    - [X] Download buildroot
    - [X] select vagrant or direct install method
-*** TODO Download & Analyze HS110 [2/4]
+*** TODO Download & Analyze HS110 [3/4]
    - [X] Download firmware
    - [X] Run binwalk on binary
-   - [-] Review output of binwalk [2/5]
+   - [X] Review output of binwalk [5/5]
      - [X] run and save entropy graph
      - [X] run '$ strings -n 10 10300 > strings.out'
-     - [ ] run '$ strings -n 10 439C > 439C-strings.out'
-     - [ ] explore f/s i.e. 'squashfs-root:$ tree bin' & 'etc:$ tree .'
-     - [ ] hone in on start up ps's i.e. shd 'usr/bin:$ tree .'
-   - [ ] Analyze applications found in the firmware
-     - [ ] Quick Inventory
+     - [X] run '$ strings -n 10 439C > 439C-strings.out'
+     - [X] explore f/s i.e. 'squashfs-root:$ tree bin' & 'etc:$ tree .'
+     - [X] hone in on start up ps's i.e. shd 'usr/bin:$ tree .'
+   - [-] Analyze applications found in the firmware
+     - [X] Quick Inventory
      - [ ] Static Analysis
-     - [ ] Dynamic Analysis
-       - [ ] run in emulator, QEMU.  copy qemu-*-static into the binwalk output directory you're working in.
+     - [-] Dynamic Analysis (chroot req'd when dyn libraries called by applications, see below)
+       - [X] run in emulator, QEMU.  copy qemu-*-static into the binwalk output directory you're working in.  Add ' -h' flag...
+       - [ ] list libraries called by application (i.e. SHD) '$ mips-linux-gnu-readelf -d user/bin/shd', '-d'= dump dyn dependencies
+       - [ ] list location of libraries above.. i.e. '$ ls -al lib' (shows preloaded libraries, assume will be called by app's)
      - [ ] Tools: GDB, LLDB, binutils, DTrace, Strace, 
 *** COMMENTS: 
-**** BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
-**** BINWALK / needed to install matplot lib for entropy png.
+***** BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
+***** BINWALK / needed to install matplot lib for entropy png.
+***** DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
+*** TODO Assignment: NC220 Firmware Analysis [0/6]
+    - [ ] Download NC220, 3 versions
+    - [ ] Quick Inventory
+    - [ ] Binwalk
+    - [ ] Static Analysis
+    - [ ] Dynamic Analysis
+    - [ ] Summary of Findings
 ** Module 3
 ** Module 4
 ** Module 5
