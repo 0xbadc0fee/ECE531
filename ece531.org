@@ -42,10 +42,15 @@ N/A
        - [ ] list libraries called by application (i.e. SHD) '$ mips-linux-gnu-readelf -d user/bin/shd', '-d'= dump dyn dependencies
        - [ ] list location of libraries above.. i.e. '$ ls -al lib' (shows preloaded libraries, assume will be called by app's)
      - [ ] Tools: GDB, LLDB, binutils, DTrace, Strace, 
-*** COMMENTS: 
+*** COMMENTS:
 ***** BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
 ***** BINWALK / needed to install matplot lib for entropy png.
 ***** DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
+*** CODE BLOCKS:
+#+BEGIN_SRC shell
+strings -n 10 10300 > strings.o
+strings -n 10 439C > 439C-strings.out
+#+END_SRC
 *** OWASP Model Template
      1. Information Gathering / Recon
      2. Obtain Firmware
