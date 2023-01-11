@@ -11,9 +11,6 @@
     - [[#configure-deployment-box-vm-inside-vm-33][Configure deployment box (vm inside vm)]]
     - [[#download--analyze-hs110-34][Download & Analyze HS110]]
     - [[#comments][COMMENTS:]]
-        - [[#buildroot--be-careful-with-net-dev-net-user-nic-info-in-qemu-start-up-script][BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.]]
-        - [[#binwalk--needed-to-install-matplot-lib-for-entropy-png][BINWALK / needed to install matplot lib for entropy png.]]
-        - [[#dynamic-analysis--when-running-processes-inside-firmware-emulation-if-get-error-while-loading-make-sure-using-chroot][DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot']]
     - [[#code-blocks][CODE BLOCKS:]]
     - [[#owasp-model-template][OWASP Model Template]]
     - [[#assignment-nc220-firmware-analysis-use-owasp-model-00][Assignment: NC220 Firmware Analysis (use OWASP model)]]
@@ -69,9 +66,9 @@ N/A
        - [ ] list location of libraries above.. i.e. '$ ls -al lib' (shows preloaded libraries, assume will be called by app's)
      - [ ] Tools: GDB, LLDB, binutils, DTrace, Strace, 
 *** COMMENTS:
-***** BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
-***** BINWALK / needed to install matplot lib for entropy png.
-***** DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
+    BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
+    BINWALK / needed to install matplot lib for entropy png.
+    DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
 *** CODE BLOCKS:
 #+BEGIN_SRC shell
 strings -n 10 10300 > strings.out 
