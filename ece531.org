@@ -1,4 +1,30 @@
-* ECE-531 Introduction to IoT
+* ECE-531 Introduction to IoT :TOC:
+  - [[#course-info][Course Info]]
+    - [[#syllabus][Syllabus]]
+    - [[#course-map][Course Map]]
+    - [[#schedule][Schedule]]
+  - [[#module-1][Module 1]]
+  - [[#module-2-software-analysis-and-tools][Module 2 Software Analysis and Tools]]
+    - [[#goals-install-all-necessary-dev-deploy--analysis-tool][GOALS: install all necessary dev, deploy, & analysis tool]]
+    - [[#install-ubuntu-2004-as-vm-in-vmware-workstation-pro-17-44][Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17]]
+    - [[#configure-devbox-with-following-tools-22][Configure devbox with following tools.]]
+    - [[#configure-deployment-box-vm-inside-vm-33][Configure deployment box (vm inside vm)]]
+    - [[#download--analyze-hs110-34][Download & Analyze HS110]]
+    - [[#comments][COMMENTS:]]
+        - [[#buildroot--be-careful-with-net-dev-net-user-nic-info-in-qemu-start-up-script][BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.]]
+        - [[#binwalk--needed-to-install-matplot-lib-for-entropy-png][BINWALK / needed to install matplot lib for entropy png.]]
+        - [[#dynamic-analysis--when-running-processes-inside-firmware-emulation-if-get-error-while-loading-make-sure-using-chroot][DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot']]
+    - [[#code-blocks][CODE BLOCKS:]]
+    - [[#owasp-model-template][OWASP Model Template]]
+    - [[#assignment-nc220-firmware-analysis-use-owasp-model-00][Assignment: NC220 Firmware Analysis (use OWASP model)]]
+  - [[#module-3][Module 3]]
+  - [[#module-4][Module 4]]
+  - [[#module-5][Module 5]]
+  - [[#modu-le-6][Modu le 6]]
+  - [[#module-7][Module 7]]
+  - [[#module-8][Module 8]]
+  - [[#misc-info--notes][Misc Info / Notes]]
+
 ** Course Info
 *** Syllabus
 *** Course Map
@@ -51,33 +77,16 @@ N/A
 strings -n 10 10300 > strings.out 
 strings -n 10 439C > 439C-strings.out
 #+END_SRC
-*** OWASP Model Template :TOC:
-- [[#ece-531-introduction-to-iot][ECE-531 Introduction to IoT]]
-  - [[#course-info][Course Info]]
-    - [[#syllabus][Syllabus]]
-    - [[#course-map][Course Map]]
-    - [[#schedule][Schedule]]
-  - [[#module-1][Module 1]]
-  - [[#module-2-software-analysis-and-tools][Module 2 Software Analysis and Tools]]
-    - [[#goals-install-all-necessary-dev-deploy--analysis-tool][GOALS: install all necessary dev, deploy, & analysis tool]]
-    - [[#install-ubuntu-2004-as-vm-in-vmware-workstation-pro-17-44][Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17]]
-    - [[#configure-devbox-with-following-tools-22][Configure devbox with following tools.]]
-    - [[#configure-deployment-box-vm-inside-vm-33][Configure deployment box (vm inside vm)]]
-    - [[#download--analyze-hs110-34][Download & Analyze HS110]]
-    - [[#comments][COMMENTS:]]
-        - [[#buildroot--be-careful-with-net-dev-net-user-nic-info-in-qemu-start-up-script][BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.]]
-        - [[#binwalk--needed-to-install-matplot-lib-for-entropy-png][BINWALK / needed to install matplot lib for entropy png.]]
-        - [[#dynamic-analysis--when-running-processes-inside-firmware-emulation-if-get-error-while-loading-make-sure-using-chroot][DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot']]
-    - [[#code-blocks][CODE BLOCKS:]]
-    - [[#assignment-nc220-firmware-analysis-use-owasp-model-00][Assignment: NC220 Firmware Analysis (use OWASP model)]]
-  - [[#module-3][Module 3]]
-  - [[#module-4][Module 4]]
-  - [[#module-5][Module 5]]
-  - [[#modu-le-6][Modu le 6]]
-  - [[#module-7][Module 7]]
-  - [[#module-8][Module 8]]
-  - [[#misc-info--notes][Misc Info / Notes]]
-
+*** OWASP Model Template
+     1. Information Gathering / Recon
+     2. Obtain Firmware
+     3. Analyzing Firmware
+     4. Extract Filesystem
+     5. Analyze F/S contents
+     6. Emulating firmware
+     7. Dynamic Analysis
+     8. Runtime Analysis
+     9. Binary Exploitation
 *** TODO Assignment: NC220 Firmware Analysis (use OWASP model) [0/0]
      1. Information Gathering / Recon
         1. Source: Provided via course material
