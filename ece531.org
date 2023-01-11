@@ -46,17 +46,81 @@ N/A
 ***** BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
 ***** BINWALK / needed to install matplot lib for entropy png.
 ***** DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
-*** TODO Assignment: NC220 Firmware Analysis [0/6]
-    - [ ] Download NC220, 3 versions
-    - [ ] Quick Inventory
-    - [ ] Binwalk
-    - [ ] Static Analysis
-    - [ ] Dynamic Analysis
-    - [ ] Summary of Findings
+*** OWASP Model Template
+     1. Information Gathering / Recon
+     2. Obtain Firmware
+     3. Analyzing Firmware
+     4. Extract Filesystem
+     5. Analyze F/S contents
+     6. Emulating firmware
+     7. Dynamic Analysis
+     8. Runtime Analysis
+     9. Binary Exploitation
+*** TODO Assignment: NC220 Firmware Analysis (use OWASP model) [0/0]
+     1. Information Gathering / Recon
+        1. Source: Provided via course material
+        2. Files:
+           1. NC220_v1.1.12_160321_a
+           2. NC220_v1.1.12_160321_b
+           3. NC220_v1.2.0_170516
+        3. Structure / single binary file + pdf of license
+        4. Misc:
+           1. NVD NIST: https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword=NC220
+              1. 160321_a CVE's (same for 160321_b)
+                 1. CVE-2020-13224
+                 2. CVE-2020-10231
+                 3. CVE-2020-11445
+              2. 170516 CVE's
+                 1. CVE-2020-13224
+                 2. CVE-2020-12109
+                 3. CVE-2020-12110
+                 4. CVE-2020-10231
+                 5. CVE-2020-11445
+     2. Obtain / Extract Firmware
+        - [ ] Run binwalk on each binary, output to separate 'binout' folders
+        - [ ] Inventory:
+          - binout_16_a
+            - cpu=mips, uboot=1.1.3, OS=linux, 
+            - 0x19E70 / 'xz' compressed data
+            - 0x1E6F85 / 'JFFS2' file system, little endian
+            - 0x1F160 / 'LZMA' compressed data (extracted)
+          - binout_16_b
+            - 0x1C7F61 / 'JFFS2' file system, little endian
+            - 0x13C / 'LZMA' compressed data (extracted)
+          - binout_17
+            - 0x1C7B7A / 'JFFS2' file system, little endian
+            - 0x170 / 'LZMA' compressed data (extracted)
+     3. Analyze Extracted Firmware
+        - [ ] v. 16_a
+          - [ ] strings.out results:
+            - root:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
+            - grep 'lib' strings_1E.out => (see attached, 14 lib files)
+          - [ ] tree / file struct results / see output file 'tree.out'
+            - note /wlan/MT7620_AP_2T2R-4L_V15.BIN
+              - MediaTek MT7620: wifi radio, 580MHz MIPS CPU, 2 UART's, yes GPIO
+            - telnetd directory present
+            - libc present
+        - [ ] v. 16_b
+          - [ ] strings results:
+            - Linux version 2.6.36+ (root@CentOS.libin) (gcc version 3.4.2) #291 Fri Mar 18 10:50:56 CST 2016
+            - root:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
+            - RaLink RT2860 NIC
+        - [ ] v. 17
+          - [ ] strings resutls:
+          - Linux version 2.6.36 (falcon@FalconsUbuntu) (gcc version 3.4.2) #167 Tue May 16 15:53:16 CST 2017
+          - 2.6.36 mod_unload MIPS32_R2 32BIT
+          - \hroot:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
+     4. Extract File System
+     5. Analyze F/S contents
+     6. Emulating Firmware
+     7. Dynamic Analysis
+     8. Runtime Analysis
+     9. Binary Exploitation
+
 ** Module 3
 ** Module 4
 ** Module 5
-** Module 6
+** Modu le 6
 ** Module 7
 ** Module 8
 ** Misc Info / Notes
