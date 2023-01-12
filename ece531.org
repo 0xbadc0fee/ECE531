@@ -153,40 +153,38 @@ sudo chroot . ./qemu-mipsel-static bin/busybox
 #+END_SRC
 - Sample Output...
 #+BEGIN_EXAMPLE
-Dynamic section at offset 0xe8 contains 24 entries:                                                                                │        test
-  Tag        Type                         Name/Value                                                                               │        test.c
- 0x00000001 (NEEDED)                     Shared library: [libcrypt.so.0]                                                           │
- 0x00000001 (NEEDED)                     Shared library: [libm.so.0]                                                               │no changes added to commit (use "git add" and/or "git commit -a")
- 0x00000001 (NEEDED)                     Shared library: [libc.so.0]                                                               │ sgc   main  ~  Documents  ECE531  git add ece531.org
- 0x0000000c (INIT)                       0x4057a4                                                                                  │ sgc   main  ~  Documents  ECE531  git commit -m "change from https to ssh"
- 0x0000000d (FINI)                       0x44fce8                                                                                  │[main 041c5cc] change from https to ssh
- 0x00000004 (HASH)                       0x4001d0                                                                                  │ 1 file changed, 4 insertions(+), 2 deletions(-)
- 0x00000005 (STRTAB)                     0x403c24                                                                                  │ sgc   main  ~  Documents  ECE531  git push origin main
- 0x00000006 (SYMTAB)                     0x401404                                                                                  │The authenticity of host 'github.com (192.30.255.112)' can't be established.
- 0x0000000a (STRSZ)                      7038 (bytes)                                                                              │ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
- 0x0000000b (SYMENT)                     16 (bytes)                                                                                │Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
- 0x70000016 (MIPS_RLD_MAP)               0x49b5b4                                                                                  │Warning: Permanently added 'github.com,192.30.255.112' (ECDSA) to the list of known hosts.
- 0x00000015 (DEBUG)                      0x0                                                                                       │To github.com:0xbadc0fee/ECE531.git
- 0x00000003 (PLTGOT)                     0x49b5c0                                                                                  │ ! [rejected]        main -> main (fetch first)
- 0x00000011 (REL)                        0x0                                                                                       │error: failed to push some refs to 'git@github.com:0xbadc0fee/ECE531.git'
- 0x00000012 (RELSZ)                      0 (bytes)                                                                                 │hint: Updates were rejected because the remote contains work that you do
- 0x00000013 (RELENT)                     8 (bytes)                                                                                 │hint: not have locally. This is usually caused by another repository pushing
- 0x70000001 (MIPS_RLD_VERSION)           1                                                                                         │hint: to the same ref. You may want to first integrate the remote changes
- 0x70000005 (MIPS_FLAGS)                 NOTPOT                                                                                    │hint: (e.g., 'git pull ...') before pushing again.
- 0x70000006 (MIPS_BASE_ADDRESS)          0x400000                                                                                  │hint: See the 'Note about fast-forwards' in 'git push --help' for details.
- 0x7000000a (MIPS_LOCAL_GOTNO)           91                                                                                        │ sgc   main  ~  Documents  ECE531  1  git fetch
- 0x70000011 (MIPS_SYMTABNO)              642                                                                                       │Warning: Permanently added the ECDSA host key for IP address '192.30.255.113' to the list of known hosts.
- 0x70000012 (MIPS_UNREFEXTNO)            29                                                                                        │remote: Enumerating objects: 37, done.
- 0x70000013 (MIPS_GOTSYM)                0xc                                                                                       │remote: Counting objects: 100% (37/37), done.
+Dynamic section at offset 0xe8 contains 24 entries:                       
+  Tag        Type                         Name/Value                      
+ 0x00000001 (NEEDED)                     Shared library: [libcrypt.so.0]  
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.0]      
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.0]      
+ 0x0000000c (INIT)                       0x4057a4                         
+ 0x0000000d (FINI)                       0x44fce8                          
+ 0x00000004 (HASH)                       0x4001d0                          
+ 0x00000005 (STRTAB)                     0x403c24                          
+ 0x00000006 (SYMTAB)                     0x401404                          
+ 0x0000000a (STRSZ)                      7038 (bytes)                       
+ 0x0000000b (SYMENT)                     16 (bytes)                         
+ 0x70000016 (MIPS_RLD_MAP)               0x49b5b4                           
+ 0x00000015 (DEBUG)                      0x0                                
+ 0x00000003 (PLTGOT)                     0x49b5c0                           
+ 0x00000011 (REL)                        0x0                                 
+ 0x00000012 (RELSZ)                      0 (bytes)                            
+ 0x00000013 (RELENT)                     8 (bytes)                            
+ 0x70000001 (MIPS_RLD_VERSION)           1                                    
+ 0x70000005 (MIPS_FLAGS)                 NOTPOT                                
+ 0x70000006 (MIPS_BASE_ADDRESS)          0x400000                         
+ 0x7000000a (MIPS_LOCAL_GOTNO)           91                               
+ 0x70000011 (MIPS_SYMTABNO)              642                            
+ 0x70000012 (MIPS_UNREFEXTNO)            29                          
+ 0x70000013 (MIPS_GOTSYM)                0xc                         
  0x00000000 (NULL)                       0x0 
 #+END_EXAMPLE
-     6. Emulating Firmware
-        - [ ] run tool qemu-user-static / user mode emulation / good for single binaries, etc
-        - [ ] 
-        - [ ] 
-     7. Dynamic Analysis
-     8. Runtime Analysis
-     9. Binary Exploitation
+     1. Emulating Firmware
+        - [X] run tool qemu-user-static / user mode emulation / good for single binaries, etc
+     2. Dynamic Analysis
+     3. Runtime Analysis
+     4. Binary Exploitation
 
 ** Module 3
 ** Module 4
