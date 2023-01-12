@@ -9,7 +9,7 @@
     - [[#install-ubuntu-2004-as-vm-in-vmware-workstation-pro-17-44][Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17]]
     - [[#configure-devbox-with-following-tools-22][Configure devbox with following tools.]]
     - [[#configure-deployment-box-vm-inside-vm-33][Configure deployment box (vm inside vm)]]
-    - [[#download--analyze-hs110-34][Download & Analyze HS110]]
+    - [[#download--analyze-hs110-44][Download & Analyze HS110]]
     - [[#comments][COMMENTS:]]
     - [[#code-blocks][CODE BLOCKS:]]
     - [[#owasp-model-template][OWASP Model Template]]
@@ -48,7 +48,7 @@ N/A
    - [X] Dolwnload QEMU
    - [X] Download buildroot
    - [X] select vagrant or direct install method
-*** TODO Download & Analyze HS110 [3/4]
+*** TODO Download & Analyze HS110 [4/4]
    - [X] Download firmware
    - [X] Run binwalk on binary
    - [X] Review output of binwalk [5/5]
@@ -57,18 +57,18 @@ N/A
      - [X] run '$ strings -n 10 439C > 439C-strings.out'
      - [X] explore f/s i.e. 'squashfs-root:$ tree bin' & 'etc:$ tree .'
      - [X] hone in on start up ps's i.e. shd 'usr/bin:$ tree .'
-   - [-] Analyze applications found in the firmware
+   - [X] Analyze applications found in the firmware
      - [X] Quick Inventory
-     - [ ] Static Analysis
-     - [-] Dynamic Analysis (chroot req'd when dyn libraries called by applications, see below)
+     - [X] Static Analysis
+     - [X] Dynamic Analysis (chroot req'd when dyn libraries called by applications, see below)
        - [X] run in emulator, QEMU.  copy qemu-*-static into the binwalk output directory you're working in.  Add ' -h' flag...
-       - [ ] list libraries called by application (i.e. SHD) '$ mips-linux-gnu-readelf -d user/bin/shd', '-d'= dump dyn dependencies
-       - [ ] list location of libraries above.. i.e. '$ ls -al lib' (shows preloaded libraries, assume will be called by app's)
-     - [ ] Tools: GDB, LLDB, binutils, DTrace, Strace, 
+       - [X] list libraries called by application (i.e. SHD) '$ mips-linux-gnu-readelf -d user/bin/shd', '-d'= dump dyn dependencies
+       - [X] list location of libraries above.. i.e. '$ ls -al lib' (shows preloaded libraries, assume will be called by app's)
+     - [X] Tools: GDB, LLDB, binutils, DTrace, Strace, 
 *** COMMENTS:
-    BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
-    BINWALK / needed to install matplot lib for entropy png.
-    DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
+    - BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
+    - BINWALK / needed to install matplot lib for entropy png.
+    - DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
 *** CODE BLOCKS:
 #+BEGIN_SRC shell
 strings -n 10 10300 > strings.out 
@@ -77,7 +77,7 @@ strings -n 10 439C > 439C-strings.out
 *** OWASP Model Template
      1. Information Gathering / Recon
      2. Obtain Firmware
-     3. Analyzing Firmware
+     3. Anayzing Firmware
      4. Extract Filesystem
      5. Analyze F/S contents
      6. Emulating firmware
@@ -105,8 +105,8 @@ strings -n 10 439C > 439C-strings.out
                  4. CVE-2020-10231
                  5. CVE-2020-11445
      2. Obtain / Extract Firmware
-        - [ ] Run binwalk on each binary, output to separate 'binout' folders
-        - [ ] Inventory:
+        - [X] Run binwalk on each binary, output to separate 'binout' folders
+        - [X] Inventory:
           - binout_16_a
             - cpu=mips, uboot=1.1.3, OS=linux, 
             - 0x19E70 / 'xz' compressed data
@@ -119,28 +119,42 @@ strings -n 10 439C > 439C-strings.out
             - 0x1C7B7A / 'JFFS2' file system, little endian
             - 0x170 / 'LZMA' compressed data (extracted)
      3. Analyze Extracted Firmware
-        - [ ] v. 16_a
-          - [ ] strings.out results:
+        - [X] v. 16_a
+          - [X] strings.out results:
             - root:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
             - grep 'lib' strings_1E.out => (see attached, 14 lib files)
-          - [ ] tree / file struct results / see output file 'tree.out'
+          - [X] tree / file struct results / see output file 'tree.out'
             - note /wlan/MT7620_AP_2T2R-4L_V15.BIN
               - MediaTek MT7620: wifi radio, 580MHz MIPS CPU, 2 UART's, yes GPIO
             - telnetd directory present
             - libc present
-        - [ ] v. 16_b
-          - [ ] strings results:
+        - [X] v. 16_b
+          - [X] strings results:
             - Linux version 2.6.36+ (root@CentOS.libin) (gcc version 3.4.2) #291 Fri Mar 18 10:50:56 CST 2016
             - root:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
             - RaLink RT2860 NIC
-        - [ ] v. 17
-          - [ ] strings resutls:
+        - [X] v. 17
+          - [X] strings resutls:
           - Linux version 2.6.36 (falcon@FalconsUbuntu) (gcc version 3.4.2) #167 Tue May 16 15:53:16 CST 2017
           - 2.6.36 mod_unload MIPS32_R2 32BIT
           - \hroot:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
      4. Extract File System
+        - COMPLETED IN SECTION 3
      5. Analyze F/S contents
+        1. static run / busybox
+#+BEGIN_SRC shell
+# inside cpio-root...  
+file bin/busybox
+# showed lsb (least sig bit) = little endian, use *-mipsel-*, need to copy into firmwwar dir
+which qemu-mipsel-static
+cp /usr/bin/qemu-mipsel-static .
+sudo chroot . ./qemu-mipsel-static bin/busybox
+# capture output...
+#+END_SRC
      6. Emulating Firmware
+        - [ ] run tool qemu-user-static / user mode emulation / good for single binaries, etc
+        - [ ] 
+        - [ ] 
      7. Dynamic Analysis
      8. Runtime Analysis
      9. Binary Exploitation
