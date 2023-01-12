@@ -1,4 +1,27 @@
-* ECE-531 Introduction to IoT
+* ECE-531 Introduction to IoT :TOC:
+  - [[#course-info][Course Info]]
+    - [[#syllabus][Syllabus]]
+    - [[#course-map][Course Map]]
+    - [[#schedule][Schedule]]
+  - [[#module-1][Module 1]]
+  - [[#module-2-software-analysis-and-tools][Module 2 Software Analysis and Tools]]
+    - [[#goals-install-all-necessary-dev-deploy--analysis-tool][GOALS: install all necessary dev, deploy, & analysis tool]]
+    - [[#install-ubuntu-2004-as-vm-in-vmware-workstation-pro-17-44][Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17]]
+    - [[#configure-devbox-with-following-tools-22][Configure devbox with following tools.]]
+    - [[#configure-deployment-box-vm-inside-vm-33][Configure deployment box (vm inside vm)]]
+    - [[#download--analyze-hs110-44][Download & Analyze HS110]]
+    - [[#comments][COMMENTS:]]
+    - [[#code-blocks][CODE BLOCKS:]]
+    - [[#owasp-model-template][OWASP Model Template]]
+    - [[#assignment-nc220-firmware-analysis-use-owasp-model-00][Assignment: NC220 Firmware Analysis (use OWASP model)]]
+  - [[#module-3][Module 3]]
+  - [[#module-4][Module 4]]
+  - [[#module-5][Module 5]]
+  - [[#modu-le-6][Modu le 6]]
+  - [[#module-7][Module 7]]
+  - [[#module-8][Module 8]]
+  - [[#misc-info--notes][Misc Info / Notes]]
+
 ** Course Info
 *** Syllabus
 *** Course Map
@@ -12,25 +35,169 @@ N/A
    - [X] Provision hd with 50-100 gb
    - [X] Install as new VM
    - [X] Install VMWware Tools for file transfer
+<<<<<<< HEAD
 *** TODO Configure devbox with following tools. [1/2]
    - [X] BASIC TOOLS: [4/5]
      - [X] ssh
      - [X] net-tools
      - [X] vim
+=======
+*** TODO Configure devbox with following tools. [2/2]
+   - [X] BASIC TOOLS: [5/5]
+     - [X] ssh
+>>>>>>> a51d0ccf53307037aec01d81d240e404eb70e6e1
      - [X] tmux
      - [X] powerline
      - [X] chrome
      - [X] git tools
    - [X] ADVANCED TOOLS: [1/1]
      - [X] VMware Workstation (inside ubuntu)
-*** TODO Configure deployment box (vm inside vm) [1/3]
-   - [ ] Dolwnload QEMU
-   - [ ] Download buildroot
+*** TODO Configure deployment box (vm inside vm) [3/3]
+   - [X] Dolwnload QEMU
+   - [X] Download buildroot
    - [X] select vagrant or direct install method
+*** TODO Download & Analyze HS110 [4/4]
+   - [X] Download firmware
+   - [X] Run binwalk on binary
+   - [X] Review output of binwalk [5/5]
+     - [X] run and save entropy graph
+     - [X] run '$ strings -n 10 10300 > strings.out'
+     - [X] run '$ strings -n 10 439C > 439C-strings.out'
+     - [X] explore f/s i.e. 'squashfs-root:$ tree bin' & 'etc:$ tree .'
+     - [X] hone in on start up ps's i.e. shd 'usr/bin:$ tree .'
+   - [X] Analyze applications found in the firmware
+     - [X] Quick Inventory
+     - [X] Static Analysis
+     - [X] Dynamic Analysis (chroot req'd when dyn libraries called by applications, see below)
+       - [X] run in emulator, QEMU.  copy qemu-*-static into the binwalk output directory you're working in.  Add ' -h' flag...
+       - [X] list libraries called by application (i.e. SHD) '$ mips-linux-gnu-readelf -d user/bin/shd', '-d'= dump dyn dependencies
+       - [X] list location of libraries above.. i.e. '$ ls -al lib' (shows preloaded libraries, assume will be called by app's)
+     - [X] Tools: GDB, LLDB, binutils, DTrace, Strace, 
+*** COMMENTS:
+    - BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
+    - BINWALK / needed to install matplot lib for entropy png.
+    - DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
+*** CODE BLOCKS:
+#+BEGIN_SRC shell
+strings -n 10 10300 > strings.out 
+strings -n 10 439C > 439C-strings.out
+#+END_SRC
+*** OWASP Model Template
+     1. Information Gathering / Recon
+     2. Obtain Firmware
+     3. Anayzing Firmware
+     4. Extract Filesystem
+     5. Analyze F/S contents
+     6. Emulating firmware
+     7. Dynamic Analysis
+     8. Runtime Analysis
+     9. Binary Exploitation
+*** TODO Assignment: NC220 Firmware Analysis (use OWASP model) [0/0]
+     1. Information Gathering / Recon
+        1. Source: Provided via course material
+        2. Files:
+           1. NC220_v1.1.12_160321_a
+           2. NC220_v1.1.12_160321_b
+           3. NC220_v1.2.0_170516
+        3. Structure / single binary file + pdf of license
+        4. Misc:
+           1. NVD NIST: https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&keyword=NC220
+              1. 160321_a CVE's (same for 160321_b)
+                 1. CVE-2020-13224
+                 2. CVE-2020-10231
+                 3. CVE-2020-11445
+              2. 170516 CVE's
+                 1. CVE-2020-13224
+                 2. CVE-2020-12109
+                 3. CVE-2020-12110
+                 4. CVE-2020-10231
+                 5. CVE-2020-11445
+     2. Obtain / Extract Firmware
+        - [X] Run binwalk on each binary, output to separate 'binout' folders
+        - [X] Inventory:
+          - binout_16_a
+            - cpu=mips, uboot=1.1.3, OS=linux, 
+            - 0x19E70 / 'xz' compressed data
+            - 0x1E6F85 / 'JFFS2' file system, little endian
+            - 0x1F160 / 'LZMA' compressed data (extracted)
+          - binout_16_b
+            - 0x1C7F61 / 'JFFS2' file system, little endian
+            - 0x13C / 'LZMA' compressed data (extracted)
+          - binout_17
+            - 0x1C7B7A / 'JFFS2' file system, little endian
+            - 0x170 / 'LZMA' compressed data (extracted)
+     3. Analyze Extracted Firmware
+        - [X] v. 16_a
+          - [X] strings.out results:
+            - root:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
+            - grep 'lib' strings_1E.out => (see attached, 14 lib files)
+          - [X] tree / file struct results / see output file 'tree.out'
+            - note /wlan/MT7620_AP_2T2R-4L_V15.BIN
+              - MediaTek MT7620: wifi radio, 580MHz MIPS CPU, 2 UART's, yes GPIO
+            - telnetd directory present
+            - libc present
+        - [X] v. 16_b
+          - [X] strings results:
+            - Linux version 2.6.36+ (root@CentOS.libin) (gcc version 3.4.2) #291 Fri Mar 18 10:50:56 CST 2016
+            - root:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
+            - RaLink RT2860 NIC
+        - [X] v. 17
+          - [X] strings resutls:
+          - Linux version 2.6.36 (falcon@FalconsUbuntu) (gcc version 3.4.2) #167 Tue May 16 15:53:16 CST 2017
+          - 2.6.36 mod_unload MIPS32_R2 32BIT
+          - \hroot:$1$gt7/dy0B$6hipR95uckYG1cQPXJB.H.:0:0:Linux User,,,:/home/root:/bin/sh
+     4. Extract File System
+        - COMPLETED IN SECTION 3
+     5. Analyze F/S contents
+        1. static run / busybox
+#+BEGIN_SRC shell
+# inside cpio-root...  
+file bin/busybox
+# showed lsb (least sig bit) = little endian, use *-mipsel-*, need to copy into firmwwar dir
+which qemu-mipsel-static
+cp /usr/bin/qemu-mipsel-static .
+sudo chroot . ./qemu-mipsel-static bin/busybox
+# capture output...
+#+END_SRC
+- Sample Output...
+#+BEGIN_EXAMPLE
+Dynamic section at offset 0xe8 contains 24 entries:                       
+  Tag        Type                         Name/Value                      
+ 0x00000001 (NEEDED)                     Shared library: [libcrypt.so.0]  
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.0]      
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.0]      
+ 0x0000000c (INIT)                       0x4057a4                         
+ 0x0000000d (FINI)                       0x44fce8                          
+ 0x00000004 (HASH)                       0x4001d0                          
+ 0x00000005 (STRTAB)                     0x403c24                          
+ 0x00000006 (SYMTAB)                     0x401404                          
+ 0x0000000a (STRSZ)                      7038 (bytes)                       
+ 0x0000000b (SYMENT)                     16 (bytes)                         
+ 0x70000016 (MIPS_RLD_MAP)               0x49b5b4                           
+ 0x00000015 (DEBUG)                      0x0                                
+ 0x00000003 (PLTGOT)                     0x49b5c0                           
+ 0x00000011 (REL)                        0x0                                 
+ 0x00000012 (RELSZ)                      0 (bytes)                            
+ 0x00000013 (RELENT)                     8 (bytes)                            
+ 0x70000001 (MIPS_RLD_VERSION)           1                                    
+ 0x70000005 (MIPS_FLAGS)                 NOTPOT                                
+ 0x70000006 (MIPS_BASE_ADDRESS)          0x400000                         
+ 0x7000000a (MIPS_LOCAL_GOTNO)           91                               
+ 0x70000011 (MIPS_SYMTABNO)              642                            
+ 0x70000012 (MIPS_UNREFEXTNO)            29                          
+ 0x70000013 (MIPS_GOTSYM)                0xc                         
+ 0x00000000 (NULL)                       0x0 
+#+END_EXAMPLE
+     1. Emulating Firmware
+        - [X] run tool qemu-user-static / user mode emulation / good for single binaries, etc
+     2. Dynamic Analysis
+     3. Runtime Analysis
+     4. Binary Exploitation
+
 ** Module 3
 ** Module 4
 ** Module 5
-** Module 6
+** Modu le 6
 ** Module 7
 ** Module 8
 ** Misc Info / Notes
