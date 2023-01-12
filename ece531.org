@@ -13,8 +13,10 @@ N/A
    - [X] Install as new VM
    - [X] Install VMWware Tools for file transfer
 *** TODO Configure devbox with following tools. [1/2]
-   - [-] BASIC TOOLS: [4/5]
-     - [ ] ssh
+   - [X] BASIC TOOLS: [4/5]
+     - [X] ssh
+     - [X] net-tools
+     - [X] vim
      - [X] tmux
      - [X] powerline
      - [X] chrome
