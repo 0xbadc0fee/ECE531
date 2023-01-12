@@ -7,7 +7,7 @@
   - [[#module-2-software-analysis-and-tools][Module 2 Software Analysis and Tools]]
     - [[#goals-install-all-necessary-dev-deploy--analysis-tool][GOALS: install all necessary dev, deploy, & analysis tool]]
     - [[#install-ubuntu-2004-as-vm-in-vmware-workstation-pro-17-44][Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17]]
-    - [[#configure-devbox-with-following-tools-12][Configure devbox with following tools.]]
+    - [[#configure-devbox-with-following-tools-11][Configure devbox with following tools.]]
     - [[#configure-devbox-with-following-tools-22][Configure devbox with following tools.]]
     - [[#configure-deployment-box-vm-inside-vm-33][Configure deployment box (vm inside vm)]]
     - [[#download--analyze-hs110-44][Download & Analyze HS110]]
@@ -36,8 +36,8 @@ N/A
    - [X] Provision hd with 50-100 gb
    - [X] Install as new VM
    - [X] Install VMWware Tools for file transfer
-*** TODO Configure devbox with following tools. [1/2]
-   - [X] BASIC TOOLS: [4/5]
+*** TODO Configure devbox with following tools. [1/1]
+   - [X] BASIC TOOLS: [3/3]
      - [X] ssh
      - [X] net-tools
      - [X] vim
@@ -72,15 +72,18 @@ N/A
        - [X] list location of libraries above.. i.e. '$ ls -al lib' (shows preloaded libraries, assume will be called by app's)
      - [X] Tools: GDB, LLDB, binutils, DTrace, Strace, 
 *** COMMENTS:
+#+BEGIN_EXAMPLE
     - BUILDROOT / be careful with net dev, net user, nic info in qemu start up script.
     - BINWALK / needed to install matplot lib for entropy png.
     - DYNAMIC ANALYSIS / when running processes inside firmware emulation, if get 'Error while loading', make sure using 'chroot'
+#+END_EXAMPLE
 *** CODE BLOCKS:
 #+BEGIN_SRC shell
 strings -n 10 10300 > strings.out 
 strings -n 10 439C > 439C-strings.out
 #+END_SRC
 *** OWASP Model Template
+#+BEGIN_EXAMPLE
      1. Information Gathering / Recon
      2. Obtain Firmware
      3. Anayzing Firmware
@@ -90,6 +93,7 @@ strings -n 10 439C > 439C-strings.out
      7. Dynamic Analysis
      8. Runtime Analysis
      9. Binary Exploitation
+#+END_EXAMPLE
 *** TODO Assignment: NC220 Firmware Analysis (use OWASP model) [0/0]
      1. Information Gathering / Recon
         1. Source: Provided via course material
