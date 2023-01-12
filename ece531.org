@@ -7,6 +7,7 @@
   - [[#module-2-software-analysis-and-tools][Module 2 Software Analysis and Tools]]
     - [[#goals-install-all-necessary-dev-deploy--analysis-tool][GOALS: install all necessary dev, deploy, & analysis tool]]
     - [[#install-ubuntu-2004-as-vm-in-vmware-workstation-pro-17-44][Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17]]
+    - [[#configure-devbox-with-following-tools-12][Configure devbox with following tools.]]
     - [[#configure-devbox-with-following-tools-22][Configure devbox with following tools.]]
     - [[#configure-deployment-box-vm-inside-vm-33][Configure deployment box (vm inside vm)]]
     - [[#download--analyze-hs110-44][Download & Analyze HS110]]
@@ -35,17 +36,14 @@ N/A
    - [X] Provision hd with 50-100 gb
    - [X] Install as new VM
    - [X] Install VMWware Tools for file transfer
-<<<<<<< HEAD
 *** TODO Configure devbox with following tools. [1/2]
    - [X] BASIC TOOLS: [4/5]
      - [X] ssh
      - [X] net-tools
      - [X] vim
-=======
 *** TODO Configure devbox with following tools. [2/2]
    - [X] BASIC TOOLS: [5/5]
      - [X] ssh
->>>>>>> a51d0ccf53307037aec01d81d240e404eb70e6e1
      - [X] tmux
      - [X] powerline
      - [X] chrome
