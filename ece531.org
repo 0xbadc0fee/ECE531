@@ -28,6 +28,8 @@
         - [[#networking-support-and-buildroot--iot_3_2_1mp4][Networking Support and Buildroot / IoT_3_2_1.mp4]]
       - [[#networking][Networking]]
       - [[#linking--loading][Linking & Loading]]
+      - [[#misc--refs--urls][MISC / REFs / URLs]]
+        - [[#sample-projects][Sample Projects:]]
   - [[#module-4][Module 4]]
   - [[#module-5][Module 5]]
   - [[#modu-le-6][Modu le 6]]
@@ -243,7 +245,7 @@ Dynamic section at offset 0xe8 contains 24 entries:
         2. Functions defined in single file? or Each module in single file?
         3. Ea file has associated test?
         4. Application have discrete libraries, 'main' use minimized?
-        5. Automated tests, nightly, against repository?
+        5. Automated tests, ni ghtly, against repository?
         6. Automated nightly builds?
         7. etc.
 ***** Attack Surfaces / IoT_3_1_4.mp4
@@ -260,9 +262,25 @@ Dynamic section at offset 0xe8 contains 24 entries:
       - Hardening
       - Keywords: well-formed environment variables, buffer lengths, well-formatted submitted data, malformed argument attack
 ***** Networking Support and Buildroot / IoT_3_2_1.mp4
-      - 
+      - Buildroot Image Modifications:
+#+BEGIN_EXAMPLE
+#By default buildroot tracks one build, if want a separate, save 'out of tree'
+1. $> make nconfig #Make edits / changes / save
+2. $> make
+3. run the start script
+4. log in as root
+5. $> adduser -h /<home_dir> -s /bin/sh <username>
+6. modify /etc/shadow for new account, make :10933: change
+7. test login with user
+#+END_EXAMPLE
 **** Networking
 **** Linking & Loading
+**** MISC / REFs / URLs
+***** Sample Projects:
+      - https://randomnerdtutorials.com/esp32-esp8266-thermostat-web-server/
+      - https://repositorio.uci.cu/jspui/bitstream/123456789/10139/1/Design%20Patterns%20for%20Embedded%20Systems%20in%20C_%20An%20Embedded%20Software%20Engineering%20Toolkit%20%28%20PDFDrive%20%29.pdf
+      - https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf
+      - 
 ** Module 4
 ** Module 5
 ** Modu le 6
