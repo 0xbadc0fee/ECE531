@@ -11,12 +11,6 @@ git commit -m "comment"
 git push origin master
 git help
 
-# temp git pwd
-M2h7Pd5ozuNk
-
-# new token 12/9/2022
-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
-
 #grep files in current folder for "//LAB1_MODS" comments
 grep -rnw . -e '//LAB1_MODS'
 
