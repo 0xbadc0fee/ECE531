@@ -33,7 +33,7 @@
           - [[#protocols-slirp-vs-tap][Protocols, SLIRP vs TAP]]
           - [[#run-simplehttpserver-on-host-22][Run SimpleHTTPServer on HOST]]
         - [[#looking-over-libcurlso--iot_3_2_3mp4][Looking Over Libcurl.so / IoT_3_2_3.mp4]]
-          - [[#][]]
+            - [[#workflow][WORKFLOW]]
       - [[#networking][Networking]]
       - [[#linking--loading][Linking & Loading]]
       - [[#misc--refs--urls][MISC / REFs / URLs]]
@@ -295,7 +295,15 @@ Dynamic section at offset 0xe8 contains 24 entries:
        - [X] (from host) $ sudo python2 -m SimpleHTTPServer 80 (using python2 since host has both 2/3)
        - [X] (from qemu) $ curl -v 192.168.45.128 (confirmed IP of host first)
 ***** Looking Over Libcurl.so / IoT_3_2_3.mp4
-****** 
+******* WORKFLOW
+#+BEGIN_EXAMPLE
+      - [ ] Need to 'capture' libcurl.so from running system [0/5]
+        - [ ] Copy it / host$ scp -P 2222 localhost:/usr/lib/libcurl.so
+        - [ ] Read it / host$ arm-linux-gnueabi-readelf -a libcurl.so
+        - [ ] Dump it / host$ arm-linux-gnueabi-objdump -d libcurl.so > libcurl.dump
+        - [ ] String it / host$ arm-linux-gnueabi-strings -n 5 libcurl.so > strings.out
+        - [ ] Search it / host$ cat strings.out | grep curl > curl-strings.out
+#+END_EXAMPLE
 **** Networking
 **** Linking & Loading
 **** MISC / REFs / URLs
