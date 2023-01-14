@@ -33,7 +33,13 @@
           - [[#protocols-slirp-vs-tap][Protocols, SLIRP vs TAP]]
           - [[#run-simplehttpserver-on-host-22][Run SimpleHTTPServer on HOST]]
         - [[#looking-over-libcurlso--iot_3_2_3mp4][Looking Over Libcurl.so / IoT_3_2_3.mp4]]
-            - [[#workflow][WORKFLOW]]
+          - [[#workflow---scan][WORKFLOW - SCAN]]
+          - [[#workflow---record][WORKFLOW - RECORD]]
+          - [[#ssl-versions][SSL Versions]]
+          - [[#encrypted-algorithms][encrypted algorithms]]
+          - [[#urls--websites][url's / websites]]
+        - [[#a-libcurl-example---setting-up--iot_3_2_4mp4][A Libcurl Example - Setting Up / Iot_3_2_4.mp4]]
+        - [[#a-libcur-example---code--iot_3_2_5mp4][A Libcur Example - Code / IoT_3_2_5.mp4]]
       - [[#networking][Networking]]
       - [[#linking--loading][Linking & Loading]]
       - [[#misc--refs--urls][MISC / REFs / URLs]]
@@ -295,15 +301,37 @@ Dynamic section at offset 0xe8 contains 24 entries:
        - [X] (from host) $ sudo python2 -m SimpleHTTPServer 80 (using python2 since host has both 2/3)
        - [X] (from qemu) $ curl -v 192.168.45.128 (confirmed IP of host first)
 ***** Looking Over Libcurl.so / IoT_3_2_3.mp4
-******* WORKFLOW
+
 #+BEGIN_EXAMPLE
-      - [ ] Need to 'capture' libcurl.so from running system [0/5]
-        - [ ] Copy it / host$ scp -P 2222 localhost:/usr/lib/libcurl.so
-        - [ ] Read it / host$ arm-linux-gnueabi-readelf -a libcurl.so
-        - [ ] Dump it / host$ arm-linux-gnueabi-objdump -d libcurl.so > libcurl.dump
-        - [ ] String it / host$ arm-linux-gnueabi-strings -n 5 libcurl.so > strings.out
-        - [ ] Search it / host$ cat strings.out | grep curl > curl-strings.out
+****** WORKFLOW - SCAN
+- [X] Need to 'capture' libcurl.so from running system
+- [X] Copy it / host$ scp -P 2222 localhost:/usr/lib/libcurl.so
+- [X] Read it / host$ arm-linux-gnueabi-readelf -a libcurl.so
+- [X] Dump it / host$ arm-linux-gnueabi-objdump -d libcurl.so > libcurl.dump
+- [X] String it / host$ arm-linux-gnueabi-strings -n 5 libcurl.so > strings.out
+- [X] Search it / host$ cat strings.out | grep curl > curl-strings.out
 #+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+****** WORKFLOW - RECORD
+     - [X] CPU type: ARM?, MIPS?, etc
+     - [X] Endian-ness: litte ?, big ?
+     - [X] Notable Libraries?
+     - [X] Notable functions (imported and exported)
+     - [X] Other Metadata...
+****** SSL Versions
+****** encrypted algorithms
+****** url's / websites
+#+END_EXAMPLE
+
+***** A Libcurl Example - Setting Up / Iot_3_2_4.mp4
+      - [X] Set up empty git repo
+      - [X] make empty files; .gitignore, makefile, requestor.c
+      - [X] push inital commits to remote
+      - [X] edit makefile to match from slides (remember TABS != SPACES in makefile)
+      - [X] save and commit first edits
+***** A Libcur Example - Code / IoT_3_2_5.mp4
+      - NOTE: DON'T BE FOOLED BY VIM / MAKEFILE, ERASE FALSE 'TABS' AND CONFIRM KBD 'TABS'!!!
 **** Networking
 **** Linking & Loading
 **** MISC / REFs / URLs
