@@ -30,6 +30,7 @@
       - [[#linking--loading][Linking & Loading]]
       - [[#misc--refs--urls][MISC / REFs / URLs]]
         - [[#sample-projects][Sample Projects:]]
+    - [[#homework][Homework]]
   - [[#module-4][Module 4]]
   - [[#module-5][Module 5]]
   - [[#modu-le-6][Modu le 6]]
@@ -211,7 +212,6 @@ Dynamic section at offset 0xe8 contains 24 entries:
      4. Binary Exploitation
 
 ** Module 3
-
 *** GOALS:
 **** A
      - Devolop and analyze an attack surface of an IoT System
@@ -281,6 +281,66 @@ Dynamic section at offset 0xe8 contains 24 entries:
       - https://repositorio.uci.cu/jspui/bitstream/123456789/10139/1/Design%20Patterns%20for%20Embedded%20Systems%20in%20C_%20An%20Embedded%20Software%20Engineering%20Toolkit%20%28%20PDFDrive%20%29.pdf
       - https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf
       - 
+*** Homework
+- [-] cURL client [1/4]
+  - [X] Component Tests [2/2]
+    - [X] Test getopt.h
+    - [X] Test curl/curl.h
+  - [ ] Framework [0/9]
+    - [ ] INCLUDES / LIBRARIES
+      - unistd.h
+      - stdio.h
+      - stdlib.h
+      - getopt.h
+      - string.h
+    - [ ] CONSTANTS
+      - OK 0
+      - INIT_ERR 1
+      - REQ_ERR 2
+    - [ ] VARIABLES
+      - [ ] modes / use for mutually exclusive option filter
+    - [ ] FUNCTIONS
+      - void curl_get
+      - void curl_post
+      - void curl_put
+      - void curl_delete
+      - void hw_help
+      - void hw_usage
+      - void hw_version
+    - [ ] USER ARGUMENTS
+      - arguments.get
+      - arguments.post
+      - arguments.put
+      - arguments.delete
+      - arguments.help
+      - arguments.version
+      - arguments.url
+      - arguments.data
+    - [ ] CASES - NOMINAL
+      - exclusive get
+      - exclusive post
+      - exclusive put
+      - exclusive delete
+    - [ ] CASES - EDGE / FAIL
+      - error, too few args
+      - error, too many args
+      - error, no url
+      - error, unrecognized url (malformed)
+    - [ ] RESPONSES
+    - [ ] MAIN
+  - [ ] TESTING [0/2]
+    - [ ] x86 TEST [0/3]
+      - [ ] COMPILE
+      - [ ] TEST PROPER USE
+      - [ ] TEST IMPROPER USE
+    - [ ] ARM/MIPS TEST [0/3]
+      - [ ] COMPILE
+      - [ ] TEST PROPER USE
+      - [ ] TEST IMPROPER USE
+  - [ ] DEPLOY [0/3]
+    - [ ] FINALIZE COMMENTS / EDITS
+    - [ ] SANITIZE, REMOVE ANY DEBUG DATA
+    - [ ] FINAL COMMITS / VERSIONING / VCS
 ** Module 4
 ** Module 5
 ** Modu le 6
