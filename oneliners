@@ -44,3 +44,16 @@ w — Save and continue editing.
 wq or ZZ — Save and quit/exit vi.
 q! — Quit vi and do not save changes.
 num — Display the current line’s line number.
+
+
+#MOD 3 Commands
+scp -P 2222 hwarm sgc@localhost:~/
+python2 -m SimpleHTTPServer
+alias amake="make -f makefile-arm"
+#change ARM in makefile compilers...
+#was...
+arm-linux-gnueabi-gcc
+#now...
+arm-linux-gcc
+
+
