@@ -429,6 +429,9 @@ Dynamic section at offset 0xe8 contains 24 entries:
  9. run from guest, pointed to host, test use cases.  DONE
  #+END_EXAMPLE
 **** DEBUGGING: QEMU seg fault on POST, PUT, DELET (GET == OK)
+:IMPORTANT: Add code at bottom of hw.c to capture _*NON-OPTION ARGUMENTS*_ and
+pass them to _*message pointer*_ !!!!
+:IMPORTANT: Only after adding and testing _message pointer_ , attempt the debugging below!!
 ***** TODO Trace Seg Fault Error [0/4]
       - [ ] Capture response
       - [ ] Add line number exit(1) in code, Rerun, work backwards up the code
