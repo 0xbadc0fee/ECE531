@@ -48,7 +48,11 @@
     - [[#footnotes][FOOTNOTES:]]
       - [[#testing-code-changes][Testing Code Changes:]]
         - [[#workflow][WORKFLOW]]
-      - [[#more-notes][More Notes...]]
+      - [[#debugging-qemu-seg-fault-on-post-put-delet-get--ok][DEBUGGING: QEMU seg fault on POST, PUT, DELET (GET == OK)]]
+        - [[#trace-seg-fault-error-04][Trace Seg Fault Error]]
+        - [[#watch-remaining-lectures-for-mod-3][Watch remaining lectures for MOD 3]]
+        - [[#submit-assignment--code-02][Submit Assignment / Code]]
+      - [[#][.]]
   - [[#module-4][Module 4]]
   - [[#module-5][Module 5]]
   - [[#module-6][Module 6]]
@@ -419,15 +423,26 @@ Dynamic section at offset 0xe8 contains 24 entries:
  3. test changes in x86
  4. run the 'amake' alias or 'make -f makefile-arm' for ARM build
  5. start qemu guest ([user@host ~]$ ./test-qemu.sh)
- 6. confirm network connection between host and guest
+ 6. confirm  network connection between host and guest
  7. start python http server on host ([user@host ~]$ python2 -m SimpleHTTPServer
  8. copy arm compiled binary to guest ([user@host ~]$ scp -P 2222 my-file sgc@localhost:~/)
  9. run from guest, pointed to host, test use cases.  DONE
  #+END_EXAMPLE
-**** More Notes... 
+**** DEBUGGING: QEMU seg fault on POST, PUT, DELET (GET == OK)
+***** TODO Trace Seg Fault Error [0/4]
+      - [ ] Capture response
+      - [ ] Add line number exit(1) in code, Rerun, work backwards up the code
+      - [ ] Compile and test classmates code, test in QEMU environment, look for seg faults
+      - [ ] Document fix once found.
+***** TODO Watch remaining lectures for MOD 3
+***** TODO Submit Assignment / Code [0/2]
+      - [ ] ?? Need a oneliner for make file?
+      - [ ] submit through canvas.
+**** .
 ** Module 4
 ** Module 5
 ** Module 6
 ** Module 7
 ** Module 8
 ** Misc Info / Notes
+   
