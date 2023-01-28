@@ -60,6 +60,11 @@
     - [[#kernels--booting--video-iot_4_1_3][Kernels & Booting / video IoT_4_1_3]]
       - [[#starting-up-daemons][Starting up Daemons...]]
     - [[#securing-application][Securing Application]]
+    - [[#example-startup-script--video-iot_4_1_5][Example Startup Script / video IoT_4_1_5]]
+      - [[#script-format][Script format...]]
+      - [[#test-empty-script-ie-sample_framed][Test empty script (i.e. sample_framed)]]
+      - [[#fill-out-after-having-tested][FIll out after having tested...]]
+        - [[#terminal-commands-to-move-to-qemu][terminal commands to move to qemu]]
   - [[#module-5][Module 5]]
   - [[#module-6][Module 6]]
   - [[#module-7][Module 7]]
@@ -485,7 +490,7 @@ Dynamic section at offset 0xe8 contains 24 entries:
  - FORKING:
    - avoiding locking up 'spawning process' forking creates copy of process in another process.
    - parent process gets PID, child gets 0; err is negative
-#+begin_src 
+#+begin_src c
 PID_T PIT = FORK();
 IF (PID > 0 ) EXIT(0);
 IF (PID < 0) EXIT(1);
@@ -501,7 +506,7 @@ IF (PID < 0) EXIT(1);
    7. Session ID check, if it's not what we want (is less than 0) exit w / error.
    6. 
 
- #+begin_src LOGGING
+ #+begin_src c
 if(setsid() < -1){
   syslog(LOG_ERR, ERROR_FORMAT, strerror(errno));
   return ERR_SETSID;
@@ -511,7 +516,7 @@ if(setsid() < -1){
    1. Close file descriptors manually (since no console)
    2. 
 
-   #+begin_src DESCRIPTORS
+   #+begin_src c
 close(STDIN_FILENO);
 close(STDOUT_FILENO);
 close(STDEER_FILENO);
@@ -531,9 +536,39 @@ close(STDEER_FILENO);
      3. SYSTEMD: used in most current service manager
         1. problem w/ systemd; complex, violates unix design philosophy, but widely used.
 *** Securing Application
+    keywords: init, inittab, rcS, rcK, 'S'+'NN' prefix indicates start order i.e. S01, S50, S40
+*** Example Startup Script / video IoT_4_1_5
+**** Script format...
+
+     #+begin_src sh
+     #!/bin/sh
+     <stuff that always happens>
+     <start function>
+     <case handling args>
+     <stop function>
+     exit $?
+     #+end_src
+
+**** Test empty script (i.e. sample_framed)
+     i.e. ./sample_framed {start | stop | restart}
+
+**** FIll out after having tested...
+     using sample daemon
+
+***** terminal commands to move to qemu
+
+      #+begin_src sh
+      @host> scp -P 2222 sampled sgc@localhost:~/
+      @qemu> mv sampled /usr/sbin
+      ## move a start script into the qemu guest
+      mv <myscript> /etc/init.d
+      ## call S80sampled (want all other services to start first... i.e. S80...)
+      ## reboot, login, check out /var/log/messages
+      #+end_src
 ** Module 5
 ** Module 6
 ** Module 7
 ** Module 8
 ** Misc Info / Notes
    
+ 
