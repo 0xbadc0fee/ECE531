@@ -50,6 +50,12 @@
         - [[#workflow][WORKFLOW]]
       - [[#more-notes][More Notes...]]
   - [[#module-4][Module 4]]
+    - [[#daemon-processes--video-iot_4_1_1][Daemon Processes / video IoT_4_1_1]]
+      - [[#notes][Notes:]]
+    - [[#filesystems--video-iot_4_1_2][Filesystems / video Iot_4_1_2]]
+    - [[#kernels--booting--video-iot_4_1_3][Kernels & Booting / video IoT_4_1_3]]
+      - [[#starting-up-daemons][Starting up Daemons...]]
+    - [[#securing-application][Securing Application]]
   - [[#module-5][Module 5]]
   - [[#module-6][Module 6]]
   - [[#module-7][Module 7]]
@@ -345,11 +351,11 @@ Dynamic section at offset 0xe8 contains 24 entries:
       - https://ptolemy.berkeley.edu/books/leeseshia/releases/LeeSeshia_DigitalV2_2.pdf
       - 
 *** Homework
-- [-] cURL client [1/4]
+- [X] cURL client [4/4]
   - [X] Component Tests [2/2]
     - [X] Test getopt.h
     - [X] Test curl/curl.h
-  - [-] Framework [5/8]
+  - [X] Framework [8/8]
     - [X] INCLUDES / LIBRARIES
       - unistd.h
       - stdio.h
@@ -380,36 +386,36 @@ Dynamic section at offset 0xe8 contains 24 entries:
       - arguments.version
       - arguments.url
       - arguments.data
-    - [ ] MAIN // VARIABLES [0/5]
-      - [ ] State Flags: INT gflag, oflag, pflag, dflag
-      - [ ] Curl args: int c, char *message, char *url, CURL *curl, CURLCode res
-      - [ ] getopt struct: -g --get, -o --post, -p --put, -d --delete, 
-      - [ ] make mutually exclusive, can only choose one of -g || -o || -p || -d
-      - [ ] capture 'non-argument' options for *message
-    - [ ] CASES - EDGE / FAIL [0/4]
-      - [ ] error, too few args
-      - [ ] error, too many args
-      - [ ] error, no url
-      - [ ] error, malformed url
-    - [-] RESPONSES [1/5] 
+    - [X] MAIN // VARIABLES [5/5]
+      - [X] State Flags: INT gflag, oflag, pflag, dflag
+      - [X] Curl args: int c, char *message, char *url, CURL *curl, CURLCode res
+      - [X] getopt struct: -g --get, -o --post, -p --put, -d --delete, 
+      - [X] make mutually exclusive, can only choose one of -g || -o || -p || -d
+      - [X] capture 'non-argument' options for *message
+    - [X] CASES - EDGE / FAIL [4/4]
+      - [X] error, too few args
+      - [X] error, too many args
+      - [X] error, no url
+      - [X] error, malformed url
+    - [X] RESPONSES [5/5] 
       - [X] capture curl codes
-      - [ ] print strerror / errno.h messages
-      - [ ] USAGE message
-      - [ ] VERSION message
-      - [ ] HELP message
-  - [-] TESTING [0/2]
-    - [-] x86 TEST [2/3]
+      - [X] print strerror / errno.h messages
+      - [X] USAGE message
+      - [X] VERSION message
+      - [X] HELP message
+  - [X] TESTING [2/2]
+    - [X] x86 TEST [3/3]
       - [X] COMPILE
       - [X] TEST PROPER USE
-      - [ ] TEST IMPROPER USE
-    - [-] ARM/MIPS TEST [2/3]
+      - [X] TEST IMPROPER USE
+    - [X] ARM/MIPS TEST [3/3]
       - [X] COMPILE
       - [X] TEST PROPER USE
-      - [ ] TEST IMPROPER USE
-  - [ ] DEPLOY [0/3]
-    - [ ] FINALIZE COMMENTS / EDITS
-    - [ ] SANITIZE, REMOVE ANY DEBUG DATA
-    - [ ] FINAL COMMITS / VERSIONING / VCS
+      - [X] TEST IMPROPER USE
+  - [X] DEPLOY [3/3]
+    - [X] FINALIZE COMMENTS / EDITS
+    - [X] SANITIZE, REMOVE ANY DEBUG DATA
+    - [X] FINAL COMMITS / VERSIONING / VCS
 *** FOOTNOTES:
 **** Testing Code Changes:
 #+BEGIN_EXAMPLE
@@ -426,6 +432,86 @@ Dynamic section at offset 0xe8 contains 24 entries:
  #+END_EXAMPLE
 **** More Notes... 
 ** Module 4
+*** Daemon Processes / video IoT_4_1_1
+**** Notes:
+ - Forking processes
+ - default file permissions, groups, acl's, etc
+ - Linux must know to start up your daemon
+ - Languages: Python, Ruby, Perl, Bash, we will use C
+ - Bash
+   - Better suppor than c
+   - really the only supported way to config linux startup
+ - C
+   - Native linux unix support
+   - Powerful
+*** Filesystems / video Iot_4_1_2
+ - YES: kernel access, OS versions, networking, sys logging, filesystems
+ - NO: console, users, home directories, user interactivity
+ - without a console, STDIN.. STDOUT... STDERRR don't really mean anything
+   Have to make use of 'close(STDIN_FILENO);' etc, 'close..' part of C api.
+ - SIGNAL MANAGEMENT:
+   - users send C-c, C-z, etc, Daemons do not, but we still need to send the under
+     lying 'signals'
+   - signal(SIGKILL, _signal_handler);
+   - signal(SIGTERM, _signal_handler);
+   - signal(SIGHUP, _signal_handler);
+ - SYSLOG:
+   - alternative to console stderr, stdout.  system wide logger, can use with daemons.
+ - CHDIR:
+   - since no home or working directory, will be using chdir to set directories
+ - PERMISSIONS:
+   - Everything manual, nothing automated, will have to set everyting.
+ - SESSIONS:
+   - sessions have process groups, process groups have processes...
+ - FORKING:
+   - avoiding locking up 'spawning process' forking creates copy of process in another process.
+   - parent process gets PID, child gets 0; err is negative
+#+begin_src 
+PID_T PIT = FORK();
+IF (PID > 0 ) EXIT(0);
+IF (PID < 0) EXIT(1);
+#+end_src
+ - WORKFLOW: (always end process name with a 'd')
+   1. Set up main
+   2. Setup log, syslog
+   3. 'Fork' a process...
+   4. Error check, if failed, will have returned '0', use IF (PID > 0)...
+   5. If greater than zero, we are in the parent process of a child process
+      , what we want is to exit the parent process and get down into the child process...
+      once in the child process we can continue on and do whatever we'd like
+   7. Session ID check, if it's not what we want (is less than 0) exit w / error.
+   6. 
+
+ #+begin_src LOGGING
+if(setsid() < -1){
+  syslog(LOG_ERR, ERROR_FORMAT, strerror(errno));
+  return ERR_SETSID;
+}
+ #+end_src
+
+   1. Close file descriptors manually (since no console)
+   2. 
+
+   #+begin_src DESCRIPTORS
+close(STDIN_FILENO);
+close(STDOUT_FILENO);
+close(STDEER_FILENO);
+   #+end_src
+  1. UMASK
+     1. umask(S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH); 
+  2. SIGNAL HANDLER
+     1. signal(SIGTERM, _signal_handler); //underscore prefix denotes static method defined at compile time
+        signal(SIGHUP, _signal_handler);
+  3. can now call DO_WORK...
+     1. _do_work();
+*** Kernels & Booting / video IoT_4_1_3
+    Configuring OS for Daemons
+**** Starting up Daemons...
+     1. INIT: oldest, initially unix system v
+     2. UPSTART: usedin Debian and Red Had distros
+     3. SYSTEMD: used in most current service manager
+        1. problem w/ systemd; complex, violates unix design philosophy, but widely used.
+*** Securing Application
 ** Module 5
 ** Module 6
 ** Module 7
