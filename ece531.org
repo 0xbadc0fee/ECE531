@@ -52,7 +52,6 @@
         - [[#trace-seg-fault-error-04][Trace Seg Fault Error]]
         - [[#watch-remaining-lectures-for-mod-3][Watch remaining lectures for MOD 3]]
         - [[#submit-assignment--code-02][Submit Assignment / Code]]
-      - [[#][.]]
   - [[#module-4][Module 4]]
     - [[#daemon-processes--video-iot_4_1_1][Daemon Processes / video IoT_4_1_1]]
       - [[#notes][Notes:]]
@@ -77,6 +76,7 @@
 *** Schedule
 ** Module 1
 N/A
+------
 ** Module 2 Software Analysis and Tools
 *** GOALS: install all necessary dev, deploy, & analysis tool
 *** TODO Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17 [4/4]
@@ -244,6 +244,7 @@ Dynamic section at offset 0xe8 contains 24 entries:
      3. Runtime Analysis
      4. Binary Exploitation
 
+------
 ** Module 3
 *** GOALS:
 **** A
@@ -454,7 +455,7 @@ Dynamic section at offset 0xe8 contains 24 entries:
 ***** TODO Submit Assignment / Code [0/2]
       - [ ] ?? Need a oneliner for make file?
       - [ ] submit through canvas.
-**** .
+------
 ** Module 4
 *** Daemon Processes / video IoT_4_1_1
 **** Notes:
@@ -565,6 +566,8 @@ close(STDEER_FILENO);
       ## call S80sampled (want all other services to start first... i.e. S80...)
       ## reboot, login, check out /var/log/messages
       #+end_src
+
+-------
 ** Module 5
 ** Module 6
 ** Module 7
