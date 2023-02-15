@@ -13,6 +13,8 @@
 * \___|\___/|_| \___|\___|
 *
 ************************/
+//remove this message after running github codeql
+
 
 #include <unistd.h>
 #include <stdio.h>
