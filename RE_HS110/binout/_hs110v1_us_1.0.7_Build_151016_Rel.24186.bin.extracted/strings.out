@@ -1,0 +1,5345 @@
+initcall_debug
+Linux version 2.6.31--LSDK-9.2.0_U11.14 (yt@yangtao.localdomain) (gcc version 4.3.3 (GCC) ) #10 Tue Sep 8 15:36:13 HKT 2015
+%s version %s (yt@yangtao.localdomain) (gcc version 4.3.3 (GCC) ) %s
+plat_time_init
+ar7240_serial_setup
+ar7240_spi_flash_read_page
+ar7240wdt_init
+pause_on_oops
+Od<2>BUG: recent printk recursion!
+printk.time
+orderly_poweroff
+sys_init_module
+2.6.31--LSDK-9.2.0_U11.14 mod_unload MIPS32_R2 32BIT 
+spurious.irqfixup
+spurious.noirqdebug
+rcuclassic.qlowmark
+rcuclassic.qhimark
+rcuclassic.blimit
+alloc_bootmem_core
+mark_bootmem_node
+free_all_bootmem_core
+init_bootmem_core
+kmem_cache_destroy
+kmem_cache_create
+dentry_open
+do_coredump
+simple_fill_super
+drop_caches_sysctl_handler
+grow_buffers
+remove_proc_entry
+read_block_bitmap
+ext2_valid_block_bitmap
+ext2_try_to_allocate_with_rsv
+ext2_free_blocks
+ext2_rsv_window_add
+ext2_readdir
+ext2_check_page
+ext2_empty_dir
+ext2_delete_entry
+ext2_add_link
+ext2_find_entry
+ext2_lookup
+ext2_fill_super
+ext2_remount
+ext2_update_dynamic_rev
+fat_bmap_cluster
+fat_get_cluster
+fat_free_clusters
+vfat_rename
+do_msdos_rename
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+%$%a%b%V%U%c%Q%W%]%\%[%
+%<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+=j&&LZ66lA??~
+&&Lj66lZ??~A
+&Lj&6lZ6?~A?
+Lj&&lZ66~A??
+xxJo%%\r..8$
+peek_old_byte
+elv_insert
+blk_update_request
+req_bio_endio
+blk_peek_request
+blk_rq_check_limits
+blk_queue_start_tag
+blk_queue_end_tag
+init_tag_map
+blk_queue_ordered
+blk_queue_segment_boundary
+blk_queue_max_segment_size
+blk_queue_max_hw_segments
+blk_queue_max_phys_segments
+blk_queue_max_sectors
+kobject_create_and_add
+__ratelimit
+80123456789ABCDEF
+0123456789abcdef
+pqrstuvwxyzabcde
+hornet_serial.nr_uarts
+hornet_serial.share_irqs
+sysdev_driver_register
+bus_add_driver
+driver_bound
+class_find_device
+class_for_each_device
+brd.max_part
+brd.rd_size
+`scsi_mod.scsi_logging_level
+b|scsi_kmap_atomic_sg
+scsi_request_fn
+scsi_kill_request
+scsi_alloc_target
+scsi_alloc_sdev
+scsi_prep_async_scan
+scsi_finish_async_scan
+scsi_report_lun_scan
+scsi_mod.inq_timeout
+scsi_mod.max_report_luns
+scsi_mod.scan
+ &|scsi_mod.max_luns
+scsi_dev_info_list_add_str
+scsi_dev_info_list_add_keyed
+                
+scsi_strcpy_devinfo
+scsi_mod.default_dev_flags
+scsi_mod.dev_flags
+scsi_proc_host_add
+scsi_proc_hostdir_add
+usb_reset_and_verify_device
+hub_port_status
+hub_hub_status
+usb_disconnect
+usbcore.use_both_schemes
+usbcore.old_scheme_first
+usbcore.initial_descriptor_timeout
+usbcore.blinkenlights
+usb_submit_urb
+usb_disable_device
+usb_sg_cancel
+usb_sg_wait
+sg_complete
+usb_probe_interface
+usb_probe_device
+usbdev_ioctl
+usbcore.usbfs_snoop
+usbfs_fill_super
+8tw_sock_%s
+request_sock_%s
+default_device_exit
+inet_csk BUG: unknown timer value
+udplite4_register
+inet_sk_reselect_saddr
+tcp_cubic.hystart_low_window
+tcp_cubic.hystart_detect
+tcp_cubic.hystart
+tcp_cubic.tcp_friendliness
+tcp_cubic.bic_scale
+tcp_cubic.initial_ssthresh
+tcp_cubic.beta
+tcp_cubic.fast_convergence
+af_unix_init
+802.1Q VLAN Support
+Ben Greear <greearb@candelatech.com>
+David S. Miller <davem@redhat.com>
+%30s %12lu
+vlan_proc_init
+:tail	Tlru_
+sqrt	tkobj_
+d	Tnla_app)
+NOTATTACHED
+ketSize	~b
+ g_avoJ	T]
+TUASM_i_LA_
+TUASM_i_LA
+<4>Malformed early option '%s'
+calling  %pF @ %i
+initcall %pF returned %d after %Ld usecs
+error code %d 
+preemption imbalance 
+disabled interrupts 
+initcall %pF returned with %s
+early options
+/dev/console
+<4>Warning: unable to open an initial console.
+<4>Failed to execute %s
+<4>Failed to execute %s.  Attempting defaults...
+/sbin/init
+No init found.  Try passing init= option to kernel.
+<4>Parameter %s is obsolete, ignored
+<3>Unknown boot option `%s': ignoring
+Too many boot env vars at `%s'
+Too many boot init vars at `%s'
+<5>Kernel command line: %s
+Booting kernel
+<4>start_kernel(): bug: interrupts were enabled *very* early, fixing it
+<2>start_kernel(): bug: interrupts were enabled early
+TERM=linux
+<5>VFS: Insert %s and press ENTER
+VFS: Mounted root (%s filesystem)%s on device %u:%u.
+VFS: Cannot open root device "%s" or %s
+Please append a correct "root=" boot option; here are the available partitions:
+VFS: Unable to mount root fs on %s
+List of all partitions:
+No filesystem could mount root, tried: 
+<6>Waiting %dsec before mounting root device...
+<6>Waiting for root device %s...
+<3>RAMDISK: error while reading compressed data
+<3>RAMDISK: EOF while reading compressed data
+<3>RAMDISK: incomplete write (%d != %d)
+<5>RAMDISK: %s image found at block %d
+<0>RAMDISK: %s decompressor not configured!
+<5>RAMDISK: romfs filesystem found at block %d
+<5>RAMDISK: cramfs filesystem found at block %d
+<5>RAMDISK: squashfs filesystem found at block %d
+<5>RAMDISK: Minix filesystem found at block %d
+<5>RAMDISK: ext2 filesystem found at block %d
+<5>RAMDISK: Couldn't find valid RAM disk image starting at %d.
+RAMDISK: image too big! (%dKiB/%ldKiB)
+/initrd.image
+<3>RAMDISK: could not determine device size
+<3>RAMDISK: could not allocate buffer
+<5>RAMDISK: Loading %dKiB [%ld disk%s] into ram disk... 
+done disk #%d.
+Error closing the disk.
+Error opening disk.
+Loading disk #%d... 
+root floppy disk to be loaded into RAM disk
+<4>Failed to create a rootfs
+<6>Calibrating delay loop (skipped) preset value.. 
+<6>Calibrating delay loop (skipped), value calculated using timer frequency.. 
+<6>Calibrating delay loop... 
+<c>%lu.%02lu BogoMIPS (lpj=%lu)
+flash_size passed from bootloader = %d
+arg %d: %s
+ar7240: simple_config callback..sc %d, irq %d, ignorepb %d, jiffies %lu
+ar7240: calling simple_config callback.. push dur in sec %d
+Already have a proc entry for /proc/simple_config!
+simple_config
+push_button
+simple_config_led
+Already have a proc entry for /proc/smart_home
+smart_home
+switch_ctrl_in
+<3>unable to request IRQ for switch_ctrl_in GPIO (error %d)
+tricolor_red
+tricolor_green
+switch_led
+switch_ctrl_out
+ar7240: factory configuration restored..
+!&!&!&!& ERROR: Unknown callback name %s
+@@@@ Failed SC Callback Registration for %s
+AR7240 GPIO
+AR7240 MISC
+Atheros AR9330 (Hornet)
+AR7240_GPIOC
+Failed to register GPIOC
+AR7240 GPIOC major %d
+ar7240 data bus error: cause %#x
+%s: plat time init done
+** You can safely turn off the power
+event0 %d event1 %d
+%d secs (%#x) event0:%#x event1:%#x
+Booting AR9330(Hornet)...
+<3>early_serial_setup failed
+%s: early_serial_setup done..
+### %s not implemented 
+===== ar7240_platform_init: %d
+serial8250
+ar7240-ehci
+%s: Registering WDT 
+<6>CPU revision is: %08x (%s)
+<6>FPU revision is: %08x
+Wait instruction disabled.
+NEC VR4111
+NEC VR4121
+NEC VR4122
+NEC VR4181A
+NEC VR4131
+NEC VR4133
+<6>Unexpected CPU of NEC VR4100 series
+NEC Vr41xx
+ICT Loongson-2
+MIPS 1004Kc
+SiByte SB1
+SiByte SB1A
+Broadcom BCM3302
+Broadcom BCM4710
+Sandcraft SR71000
+Philips PR4450
+Cavium Octeon
+<6>Unknown Octeon chip!
+%s: unaligned epc - sending SIGBUS.
+%s: DSP branch but not DSP ASE - sending SIGBUS.
+           
+CPU%d       
+unexpected IRQ # %d
+Can't analyze schedule() prologue at %p
+<6> memory: %0*Lx @ %0*Lx 
+<c>(usable)
+<c>(ROM data)
+<c>(reserved)
+<c>type %lu
+<4>Trying to add an invalid memory region, skipped
+<3>Ooops! Too many entries in the memory map!
+<6>Determined physical RAM map:
+<6>User-defined physical RAM map:
+Incorrect memory mapping !!!
+<6>Wasting %lu bytes for tracking %lu unused pages
+System RAM
+Kernel code
+Kernel data
+<2>How did I get here?
+<4>topology_init: register_cpu %d failed (%d)
+<6>Disabling ulri
+ (Bad address in epc)
+Cache error exception:
+cp0_errorepc == %0*lx
+c0_cacheerr == %08x
+Decoded c0_cacheerr: %s cache fault in %s reference.
+Error bits: %s%s%s%s%s%s%s
+IDX: 0x%08x
+DErrAddr0: 0x%0*lx
+DErrAddr1: 0x%0*lx
+Can't handle the cache error!
+<6>Writing ErrCtl register=%08lx
+<6>Readback ErrCtl register=%08lx
+<6>Cache parity protection %sabled
+<6>L2 cache parity protection %sabled
+<6>Enable cache parity protection for MIPS 20KC/25KF CPUs.
+<7>SDBBP EJTAG debug exception - not handled yet, just ignored!
+<7>c0_depc = %0*lx, DEBUG = %08x
+Unexpected DSP exception
+Hi    : %0*lx
+Lo    : %0*lx
+epc   : %0*lx %pS
+ra    : %0*lx %pS
+Status: %08x    
+SUPERVISOR 
+Cause : %08x
+BadVA : %0*lx
+PrId  : %08x (%s)
+Caught unexpected vectored interrupt.
+Caught reserved exception %ld - should not happen.
+Index   : %0x
+Pagemask: %0x
+EntryHi : %0*lx
+EntryLo0: %0*lx
+EntryLo1: %0*lx
+Caught Machine Check exception - %scaused by multiple matching entries in the TLB.
+Call Trace:
+ (Bad stack address)
+[<%p>] %pS
+Call Trace:
+Process %s (pid: %d, threadinfo=%p, task=%p, tls=%0*lx)
+*HwTLS: %0*lx
+Fatal exception in interrupt
+<0>Fatal exception: panic in 5 seconds
+Fatal exception
+NMI taken!!!!
+<7>Thread Underflow
+<7>Thread Overflow
+<7>Invalid YIELD Qualifier
+<7>Gating Storage Exception
+<7>YIELD Scheduler Exception
+<7>Gating Storage Schedulier Exception
+<7>*** UNKNOWN THREAD EXCEPTION %d ***
+MIPS MT Thread exception in kernel
+do_cpu invoked from kernel context!
+Reserved instruction in kernel code
+%s instruction in kernel code
+Kernel bug detected
+Math emu break/trap
+FP exception
+FP exception in kernel code
+Integer overflow
+Instruction
+<1>%s bus error, epc == %0*lx, ra == %0*lx
+Unhandled kernel unaligned access
+Unhandled kernel unaligned access or invalid instruction
+Kernel unaligned instruction access
+__dbe_table
+<4>%s: Unknown symbol %s
+<3>module %s: dangerous R_MIPS_26 RELArelocation
+<3>module %s: relocation overflow
+<3>module %s: dangerous R_MIPS_26 REL relocation
+<3>module %s: dangerous R_MIPS_LO16 REL relocation
+<3>vp=%p wrote=%08x got=%08x
+<6>%s%d: PA=%08x,Size=%08x%s
+system type		: %s
+processor		: %ld
+  FPU V%d.%d
+cpu model		: %%s V%%d.%%d%s
+BogoMIPS		: %u.%02u
+wait instruction	: %s
+microsecond timers	: %s
+tlb_entries		: %d
+extra interrupt vector	: %s
+hardware watchpoint	: %s
+count: %d, address/irw mask: [
+ smartmips
+ASEs implemented	:%s%s%s%s%s%s
+shadow register sets	: %d
+core			: %d
+not available
+VCE%%c exceptions		: %s
+<1>CPU %d Unable to handle kernel paging request at virtual address %0*lx, epc == %0*lx, ra == %0*lx
+<6>Freeing %s: %ldk freed
+unused kernel memory
+Oh boy, that early out of memory?
+<6>Memory: %luk/%luk available (%ldk kernel code, %ldk reserved, %ldk data, %ldk init, %ldk highmem)
+No TLB refill handler yet (CPU type: %d)
+TLB refill handler space exceeded
+TLB load handler fastpath space exceeded
+TLB store handler fastpath space exceeded
+TLB modify handler fastpath space exceeded
+No R6000 TLB refill handler yet
+No R8000 TLB refill handler yet
+<4>Micro-assembler field overflow
+<4>Invalid micro-assembler branch target
+Unsupported Micro-assembler relocation %d
+Unsupported Micro-assembler instruction %d
+<3>iounmap: bad address %p
+remap_area_pte: page already exists
+Don't know how to probe P-caches on this cpu.
+Improper R4000SC processor configuration detected
+Primary instruction cache %ldkB, %s, %s, linesize %d bytes.
+no aliases
+cache aliases
+Primary data cache %ldkB, %s, %s, %s, linesize %d bytes
+Dunno how to handle MIPS32 / MIPS64 second level cache
+Unified secondary cache %ldkB %s, linesize %d bytes.
+direct mapped
+<4>No TLB space left for add_temporary_entry
+No TLB present
+Restricting TLB to %d entries
+Ignoring invalid argument ntlb=%d
+%cInfinity
+Illegal/Unknown IEEE754 value class
+<%08x,%08x>
+<7>floating point exception in "%s", type=%s
+Algorithmics/MIPS FPU Emulator v1.5
+<3>bad: scheduling from the idle thread!
+<6>%-13.13s %c
+<c> running  
+<c> %08lx 
+<c>%5lu %5d %6d 0x%08lx
+<6>  task                PC stack   pid father
+kernel/sched_rt.c
+<3>BUG: scheduling while atomic: %s/%d/0x%08x
+task_struct
+sighand_cache
+signal_cache
+files_cache
+vm_area_struct
+&mm->mmap_sem
+include/linux/security.h
+<6>fork(): process `%s' used deprecated clone flags 0x%lx
+kernel/fork.c
+%d-%d	%-16s	[%s]
+execdomains
+personality-%ld
+<4>---[ end trace %016llx ]---
+<4>Disabling lock debugging due to kernel taint
+<4>------------[ cut here ]------------
+<4>WARNING: at %s:%d %pS()
+Not tainted
+<0>Kernel panic - not syncing: %s
+<0>Rebooting in %d seconds..
+[%5lu.%06lu] 
+<4>log_buf_len: allocation failed
+<5>log_buf_len: %d
+<6>debug: ignoring loglevel setting.
+<6>turn off boot console %s%d
+<6>console handover: boot [%s%d] -> real [%s%d]
+<6>console [%s%d] enabled
+Suspending console(s) (use no_console_suspend to debug)
+kernel/exit.c
+Aiee, killing interrupt handler!
+Attempted to kill the idle task!
+<1>Fixing recursive fault but reboot is needed!
+<6>note: %s[%d] exited with preempt_count %d
+Attempted to kill init!
+ksoftirqd/%d
+ksoftirqd for %i failed
+Attempt to kill tasklet from interrupt
+kernel/softirq.c
+<3>huh, entered softirq %td %s %pwith preempt_count %08x, exited with %08x?
+%*s%0*llx-%0*llx : %s
+<4>resource map sanity check conflict: 0x%llx 0x%llx 0x%llx 0x%llx %s
+Expanded resource %s due to conflict with %s
+<4>Trying to free nonexistent resource <%016llx-%016llx>
+kernel/resource.c
+check-region
+<6>warning: process `%s' used the deprecated sysctl system call with 
+kernel/sysctl.c
+sched_rt_period_us
+sched_rt_runtime_us
+sched_compat_yield
+core_uses_pid
+core_pattern
+print-fatal-signals
+ctrl-alt-del
+modules_disabled
+threads-max
+overflowuid
+overflowgid
+panic_on_oops
+printk_ratelimit
+printk_ratelimit_burst
+ngroups_max
+randomize_va_space
+poweroff_cmd
+overcommit_memory
+panic_on_oom
+oom_kill_allocating_task
+oom_dump_tasks
+overcommit_ratio
+page-cluster
+dirty_background_ratio
+dirty_background_bytes
+dirty_ratio
+dirty_bytes
+dirty_writeback_centisecs
+dirty_expire_centisecs
+nr_pdflush_threads
+swappiness
+lowmem_reserve_ratio
+drop_caches
+min_free_kbytes
+percpu_pagelist_fraction
+max_map_count
+laptop_mode
+block_dump
+vfs_cache_pressure
+mmap_min_addr
+scan_unevictable_pages
+inode-state
+dentry-state
+suid_dumpable
+<2>capable() called with invalid cap=%u
+<6>warning: `%s' uses 32-bit capabilities (legacy support in use)
+<6>warning: `%s' uses deprecated v2 capabilities in a way that may be insecure.
+kernel/timer.c
+<3>huh, entered %p with preempt_count %08x, exited with %08x?
+<3>schedule_timeout: wrong timeout value %lx
+%s/%d: potentially unexpected fatal signal %d.
+<0>Power down.
+<4>%s failed to allocate memory for "%s"
+<4>Failed to start orderly shutdown: forcing the issue
+<0>System halted.
+<0>Restarting system.
+<0>Restarting system with command '%s'.
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+<3>request_module: runaway loop modprobe %s
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+kernel/workqueue.c
+<3>BUG: workqueue leaked lock or atomic: %s/0x%08x/%d
+<3>    last function: 
+PID hash table entries: %d (order: %d, %Zd bytes)
+Could not alloc pidhash!
+kernel/rcupdate.c
+<4>parse_args(): option '%s' enabled irq's!
+<3>%s: Unknown parameter `%s'
+<3>%s: `%s' too large for parameter `%s'
+<3>%s: `%s' invalid for parameter `%s'
+<3>%s: missing param set value
+<3>%s: string doesn't fit in %u chars.
+<3>%s: expects arguments
+<3>%s: can only take %i arguments
+<3>%s: needs at least %i arguments
+<3>%s: string parameter expected
+<3>%s: string parameter too long
+POSIX clock register failed for clock_id %d
+posix_timers_cache
+<6>RT Watchdog Timeout: %s[%d]
+kernel/hrtimer.c
+kernel/srcu.c
+&sp->mutex
+&nh->mutex
+<3>pm_qos_param: cpu_dma_latency setup failed
+<3>pm_qos_param: network_latency setup failed
+<3>pm_qos_param: network_throughput setup failed
+process_%d
+cpu_dma_latency
+network_latency
+network_throughput
+&p->cred_guard_mutex
+CRED: put_cred_rcu() sees %p with usage %d
+kernel/async.c
+calling  %lli_%pF @ %i
+initcall %lli_%pF returned 0 after %lld usecs
+async_waiting @ %i
+async_continuing @ %i after %lli usec
+kernel/time/timekeeping.c
+timekeeping
+<5>Clock: inserting leap second 23:59:60 UTC
+<5>Clock: deleting leap second 23:59:59 UTC
+Warning: clock=pmtmr is deprecated. Use clocksource=acpi_pm.
+Warning! clock= boot option is deprecated. Use clocksource=xyz
+Timer List Version: v0.4
+HRTIMER_MAX_CLOCK_BASES: %d
+now at %Ld nsecs
+ clock %d:
+  .base:       %p
+  .index:      %d
+  .resolution: %Lu nsecs
+  .get_time:   
+active timers:
+ # expires at %Lu-%Lu nsecs [in %Ld to %Ld nsecs]
+Tick Device: mode:     %d
+Per CPU device: %d
+Clock Event Device: 
+ max_delta_ns:   %lu
+ min_delta_ns:   %lu
+ mult:           %lu
+ shift:          %d
+ mode:           %d
+ next_event:     %Ld nsecs
+ set_next_event: 
+ set_mode:       
+ event_handler:  
+timer_list
+kernel/time/clockevents.c
+kernel/up.c
+[permanent],
+<d>Modules linked in:
+ [last unloaded: %s]
+<4>Symbol %s is being used by a non-GPL module, which will not be allowed in the future
+<4>Please see the file Documentation/feature-removal-schedule.txt in the kernel source tree for more details.
+%s: gave up waiting for init of module %s.
+%s: out of memory loading
+.gnu.linkonce.this_module
+<4>%s: module has no symbols (stripped?)
+__versions
+<3>%s: version magic '%s' should be '%s'
+<4>%s: module is from the staging directory, the quality is unknown, you have been warned.
+unspecified
+GPL and additional rights
+Dual BSD/GPL
+Dual MIT/GPL
+Dual MPL/GPL
+<4>%s: module license '%s' taints kernel.
+ndiswrapper
+driverloader
+%s: please compile with -fno-common
+__ksymtab_gpl
+__kcrctab_gpl
+__ksymtab_gpl_future
+__kcrctab_gpl_future
+<3>%s: exports duplicate symbol %s (owned by %s)
+<4>%s: Ignoring obsolete parameters
+<3>Module len %lu truncated
+<4>No module found in object
+__ex_table
+<4>%s: '%s'->init suspiciously returned %d, it should follow 0/-E convention
+%s: loading module anyway...
+srcversion
+%0*lx %c %s	[%s]
+%0*lx %c %s
++%#lx/%#lx [%s]
++%#lx/%#lx
+irq %d, desc: %p, depth: %d, count: %d, unhandled: %d
+->handle_irq():  %p, 
+->chip(): %p, 
+->action(): %p
+->action->handler(): %p, 
+IRQ_INPROGRESS
+IRQ_DISABLED
+IRQ_PENDING
+IRQ_REPLAY
+IRQ_AUTODETECT
+IRQ_WAITING
+IRQ_MASKED
+IRQ_NOPROBE
+IRQ_NOREQUEST
+IRQ_NOAUTOEN
+<4>IRQ %d device %s returned IRQ_WAKE_THREAD but no thread function available.
+<6>NR_IRQS:%d
+<3>setting trigger mode %d for irq %u failed (%pF)
+<3>exiting task "%s" (%d) is an active IRQ thread (irq %d)
+kernel/irq/manage.c
+Unbalanced IRQ %d wake disable
+<4>Unbalanced enable for IRQ %d
+<4>IRQ %d uses trigger mode %d; requested %d
+<4>IRQ %d/%s: IRQF_DISABLED is not guaranteed on shared IRQs
+Trying to free IRQ %d from IRQ context!
+Trying to free already-free IRQ %d
+<4>Misrouted IRQ fixup support enabled.
+<4>This may impact system performance.
+<4>Misrouted IRQ fixup and polling support enabled
+<4>This may significantly impact system performance
+<6>IRQ lockup detection disabled
+<3>irq event %d: bogus return value %x
+<3>irq %d: nobody cared (try booting with the "irqpoll" option)
+<3>handlers:
+<0>Disabling IRQ #%d
+<3>Trying to mark IRQ%d probeable
+<3>Trying to mark IRQ%d non-probeable
+<3>Trying to install type control for IRQ%d
+<4>Trying to install %sinterrupt handler for IRQ%d
+<3>Trying to install chip data for IRQ%d
+<3>BUG: bad set_irq_chip_data(IRQ#%d)
+<3>Trying to install msi data for IRQ%d
+<3>Trying to install controller data for IRQ%d
+<3>Trying to set irq type for IRQ%d
+kernel/irq/chip.c
+<3>Trying to install chip for IRQ%d
+<3>Trying to initialize invalid IRQ%d
+<3>Trying to cleanup invalid IRQ%d
+<3>Destroying IRQ%d without calling free_irq
+kernel/irq/devres.c
+unhandled %u
+last_unhandled %u ms
+domainname
+mm/bootmem.c
+<6>bootmem::%s nid=%td start=%lx end=%lx
+<6>bootmem::%s nid=%td start=%lx end=%lx flags=%x
+<6>bootmem::%s silent double reserve of PFN %lx
+<6>bootmem::%s nid=%td start=%lx end=%lx reserve=%d flags=%x
+<6>bootmem::%s nid=%td size=%lx [%lu pages] align=%lx goal=%lx limit=%lx
+<6>bootmem::%s nid=%td start=%lx map=%lx end=%lx mapsize=%lx
+<1>bootmem alloc of %lu bytes failed!
+Out of memory
+<6>bootmem::%s nid=%td start=%lx end=%lx aligned=%d
+<6>bootmem::%s nid=%td released=%lx
+mm/oom_kill.c
+<4>tried to kill init!
+<4>tried to kill an mm-less task!
+<3>Killed process %d (%s)
+<4>%s invoked oom-killer: gfp_mask=0x%x, order=%d, oomkilladj=%d
+<6>[ pid ]   uid  tgid total_vm      rss cpu oom_adj name
+<6>[%5d] %5d %5d %8lu %8lu %3d     %3d %s
+<3>%s: kill process %d (%s) score %li or a child
+Out of memory (oom_kill_allocating_task)
+Out of memory and no killable processes...
+out of memory. Compulsory panic_on_oom is selected.
+out of memory. panic_on_oom is selected
+out of memory from page fault. panic_on_oom is selected.
+mm/page_alloc.c
+<4>Could not find start_pfn for node %d
+<2>More than %d memory regions, truncating
+%s per-cpu:
+CPU %4d: hi:%5d, btch:%4d usd:%4d
+Active_anon:%lu active_file:%lu inactive_anon:%lu
+ inactive_file:%lu unevictable:%lu dirty:%lu writeback:%lu unstable:%lu
+ free:%lu slab:%lu mapped:%lu pagetables:%lu bounce:%lu
+%s free:%lukB min:%lukB low:%lukB high:%lukB active_anon:%lukB inactive_anon:%lukB active_file:%lukB inactive_file:%lukB unevictable:%lukB present:%lukB pages_scanned:%lu all_unreclaimable? %s
+lowmem_reserve[]:
+%lu*%lukB 
+%ld total pagecache pages
+<7>remove_active_range (%d, %lu, %lu)
+<7>On node %d totalpages: %lu
+<7>free_area_init_node: node %d, pgdat %08lx, node_mem_map %08lx
+<7>  %s zone: %lu pages used for memmap
+<4>  %s zone: %lu pages exceeds realsize %lu
+<7>  %s zone: %lu pages reserved
+<7>  %s zone: %lu pages, LIFO batch:%lu
+Zone PFN ranges:
+  %-8s %0#10lx -> %0#10lx
+Movable zone start PFN for each node
+  Node %d: %lu
+early_node_map[%d] active PFN ranges
+  %3d: %0#10lx -> %0#10lx
+Built %i zonelists in %s order, mobility grouping %s.  Total pages: %ld
+<1>BUG: Bad page state: %lu messages suppressed
+<1>BUG: Bad page state in process %s  pfn:%05lx
+<1>page:%p flags:%p count:%d mapcount:%d mapping:%p index:%lx
+include/linux/gfp.h
+<4>%s: page allocation failure. order:%d, mode:0x%x
+<6>%s hash table entries: %d (order: %d, %lu bytes)
+Failed to allocate %s hash table
+mm/page-writeback.c
+pdflush: bogus wakeup
+Failed to start kswapd on node %d
+%s: orphaned page
+<3>shrink_slab: %pF negative objects to delete nr=%ld
+Node %d, zone %8s
+  pages free     %lu
+        min      %lu
+        low      %lu
+        high     %lu
+        scanned  %lu
+        spanned  %lu
+        present  %lu
+    %-12s %lu
+        protection: (%lu
+  pagesets
+    cpu: %i
+              count: %i
+              high:  %i
+              batch: %i
+  all_unreclaimable: %u
+  prev_priority:     %i
+  start_pfn:         %lu
+  inactive_ratio:    %u
+Node %4d, zone %8s, type %12s 
+Page block order: %d
+Pages per block:  %lu
+Free pages count per migrate type at order
+Number of blocks type 
+Reclaimable
+Node %d, zone %8s 
+pagetypeinfo
+nr_free_pages
+nr_inactive_anon
+nr_active_anon
+nr_inactive_file
+nr_active_file
+nr_unevictable
+nr_anon_pages
+nr_file_pages
+nr_writeback
+nr_slab_reclaimable
+nr_slab_unreclaimable
+nr_page_table_pages
+nr_unstable
+nr_vmscan_write
+nr_writeback_temp
+pgalloc_normal
+pgalloc_movable
+pgactivate
+pgdeactivate
+pgmajfault
+pgrefill_normal
+pgrefill_movable
+pgsteal_normal
+pgsteal_movable
+pgscan_kswapd_normal
+pgscan_kswapd_movable
+pgscan_direct_normal
+pgscan_direct_movable
+pginodesteal
+slabs_scanned
+kswapd_steal
+kswapd_inodesteal
+pageoutrun
+allocstall
+unevictable_pgs_culled
+unevictable_pgs_scanned
+unevictable_pgs_rescued
+unevictable_pgs_mlocked
+unevictable_pgs_munlocked
+unevictable_pgs_cleared
+unevictable_pgs_stranded
+unevictable_pgs_mlockfreed
+read_ahead_kb
+%s:%d: bad pgd %08lx.
+mm/memory.c
+%s%s[%lx+%lx]
+<1>BUG: Bad page map: %lu messages suppressed
+<1>BUG: Bad page map in process %s  pte:%08llx pmd:%08llx
+<1>addr:%p vm_flags:%08lx anon_vma:%p mapping:%p index:%lx
+<1>vma->vm_ops->fault: %s
+<1>vma->vm_file->f_op->mmap: %s
+mm/mincore.c
+mm/mlock.c
+0x%p-0x%p %7ld
+vmallocinfo
+mm/vmalloc.c
+<4>vmap allocation for size %lu failed: use vmalloc=<size> to increase size.
+<3>Trying to vfree() bad address (%p)
+<3>Trying to vfree() nonexistent vm area (%p)
+<3>%s %s: dma_pool_free %s, %p/%lx (bad dma)
+<3>dma_pool_free %s, %p/%lx (bad dma)
+poolinfo - 0.1
+%-16s %4u %4Zu %4Zu %2u
+<3>%s %s: dma_pool_destroy %s, %p busy
+<3>dma_pool_destroy %s, %p busy
+mm/dmapool.c
+slabs_full accounting error
+slabs_partial inuse accounting error
+slabs_partial/inuse accounting error
+slabs_free/inuse accounting error
+free_objects accounting error
+<3>slab: cache %s error: %s
+%-17s %6lu %6lu %6u %4u %4d
+ : tunables %4u %4u %4u
+ : slabdata %6lu %6lu %6lu
+slabinfo - version: 2.1
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab>
+ : tunables <limit> <batchcount> <sharedfactor>
+ : slabdata <active_slabs> <num_slabs> <sharedavail>
+<3>enable_cpucache failed for %s, error %d.
+<3>slab error in %s(): cache `%s': %s
+Can't free all objects
+<3>%s: Early error in slab %s
+<3>SLAB: cache with size %d has lost its name
+<3>kmem_cache_create: duplicate cache %s
+<3>kmem_cache_create: couldn't create cache %s.
+kmem_cache_create(): failed to create slab `%s'
+kmem_cache
+size-32(DMA)
+size-64(DMA)
+size-96(DMA)
+size-128(DMA)
+size-192(DMA)
+size-256(DMA)
+size-512(DMA)
+size-1024(DMA)
+size-2048(DMA)
+size-4096(DMA)
+size-8192(DMA)
+size-16384
+size-16384(DMA)
+size-32768
+size-32768(DMA)
+size-65536
+size-65536(DMA)
+size-131072
+size-131072(DMA)
+size-262144
+size-262144(DMA)
+size-524288
+size-524288(DMA)
+size-1048576
+size-1048576(DMA)
+size-2097152
+size-2097152(DMA)
+size-4194304
+size-4194304(DMA)
+<3>VFS: Close: file count is 0
+<4>%s called with NULL vfsmount
+fs/file_table.c
+<6>VFS: file-max limit %d reached
+Emergency Remount complete
+&s->s_umount
+&s->s_lock
+&s->s_vfs_rename_mutex
+&s->s_dquot.dqio_mutex
+&s->s_dquot.dqonoff_mutex
+&s->s_dquot.dqptr_sem
+VFS: Busy inodes after unmount of %s. Self-destruct in 5 seconds.  Have a nice day...
+char-major-%d-%d
+char-major-%d
+<4>%s failed to allocate memory
+<5>Recursive core dump detected, aborting
+<6>Core dump to %s pipe failed
+binfmt-%04x
+pipe:[%lu]
+fs/namei.c
+fasync_cache
+<3>kill_fasync: bad magic number in fasync_struct!
+names_cache
+Dentry cache
+fs/dcache.c
+ (deleted)
+<4>VFS: moving negative dcache entry
+<3>BUG: Dentry %p{i=%lx,n=%s} still in use (%d) [unmount of %s %s]
+<7>init_special_inode: bogus i_mode (%o)
+Inode-cache
+fs/inode.c
+&inode->i_mutex
+&inode->i_alloc_sem
+<4>alloc_fd: slot %d not NULL!
+filesystems
+ mounted on 
+with fstype 
+%i %i %u:%u 
+ shared:%i
+ master:%i
+ propagate_from:%i
+ unbindable
+&namespace_sem
+Failed to allocate mount hash table
+Mount-cache hash table entries: %lu
+<4>%s: kobj create error
+Can't create rootfs
+Can't allocate initial namespace
+fs/namespace.c
+,nodiratime
+,strictatime
+&attr->mutex
+<4>%s: %s passed in a files arraywith an index of 1!
+fs/fs-writeback.c
+<7>%s(%d): dirtied inode %lu (%s) on %s
+**** %s: all done timer added ...**** 
+fs/splice.c
+Emergency Sync complete
+buffer_head
+<6>warning: process `%s' used the obsolete bdflush system call
+<6>Fix your initscripts?
+fs/buffer.c
+<3>Buffer I/O error on device %s, logical block %Lu
+__find_get_block_slow() failed. block=%llu, b_blocknr=%llu
+b_state=0x%08lx, b_size=%zu
+device blocksize: %d
+<3>VFS: brelse: Trying to free free buffer
+<3>getblk(): invalid block size %d requested
+<3>logical block size: %d
+<3>%s: requested out-of-range block %llu for device %s
+<4>Emergency Thaw on %s
+<4>Emergency Thaw complete
+<4>lost page write due to I/O error on %s
+<3>bio: unable to find slab!
+bio: create slab <%s> at %d
+bio: can't allocate bios
+bio: can't create split pool
+biovec-128
+biovec-256
+<4>VFS: busy inodes on changed media or resized disk %s
+<6>%s: detected capacity change from %lld to %lld
+bdev_cache
+Cannot register bdev pseudo-fs
+Cannot create bdev pseudo-fs
+&bdev->bd_mutex
+&bdev->bd_fsfreeze_mutex
+<3>VFS:Filesystem thaw failed
+<3>VFS:Filesystem freeze failed
+VmPeak:	%8lu kB
+VmSize:	%8lu kB
+VmLck:	%8lu kB
+VmHWM:	%8lu kB
+VmRSS:	%8lu kB
+VmData:	%8lu kB
+VmStk:	%8lu kB
+VmExe:	%8lu kB
+VmLib:	%8lu kB
+VmPTE:	%8lu kB
+%08lx-%08lx %c%c%c%c %08llx %02x:%02x %lu %n
+proc_inode_cache
+de_put: entry %s already free!
+proc_read_super: get root inode failed
+self/mounts
+%-25s %-20s %-20s %-10s
+Soft Limit
+Hard Limit
+%-25s %-20s 
+%-25s %-20lu 
+flags:	0%o
+personality
+mountstats
+Max cpu time
+Max file size
+Max data size
+Max stack size
+Max core file size
+Max open files
+Max address space
+Max resident set
+Max processes
+Max locked memory
+Max file locks
+Max pending signals
+Max msgqueue size
+Max nice priority
+Max realtime priority
+Max realtime timeout
+fs/proc/generic.c
+<4>%s: removing non-empty directory '%s/%s', leaking at least '%s'
+<3>proc_file_read: Apparent buffer overflow!
+<4>proc_file_read: Read count exceeded
+<4>proc_dir_entry '%s/%s' already registered
+%d %d %d %d %d %d %d
+%d (%s) %c %d %d %d %d %d %u %lu %lu %lu %lu %lu %lu %ld %ld %ld %ld %d 0 %llu %lu %ld %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %lu %d %d %u %u %llu %lu %ld
+TracerPid:	%d
+Uid:	%d	%d	%d	%d
+Gid:	%d	%d	%d	%d
+FDSize:	%d
+Threads:	%d
+SigQ:	%lu/%lu
+voluntary_ctxt_switches:	%lu
+nonvoluntary_ctxt_switches:	%lu
+R (running)
+S (sleeping)
+D (disk sleep)
+T (stopped)
+T (tracing stop)
+Z (zombie)
+/dev/%-8s 
+%3d %d-%d 
+pty:master
+type:%d.%d
+%-20s /dev/%-8s 
+system:/dev/tty
+system:console
+tty/driver
+tty/ldiscs
+tty/drivers
+Character devices:
+Block devices:
+interrupts
+%lu.%02lu %lu.%02lu %lu.%02lu %ld/%d %d
+MemTotal:       %8lu kB
+MemFree:        %8lu kB
+Buffers:        %8lu kB
+Cached:         %8lu kB
+SwapCached:     %8lu kB
+Active:         %8lu kB
+Inactive:       %8lu kB
+Active(anon):   %8lu kB
+Inactive(anon): %8lu kB
+Active(file):   %8lu kB
+Inactive(file): %8lu kB
+Unevictable:    %8lu kB
+Mlocked:        %8lu kB
+SwapTotal:      %8lu kB
+SwapFree:       %8lu kB
+Dirty:          %8lu kB
+Writeback:      %8lu kB
+AnonPages:      %8lu kB
+Mapped:         %8lu kB
+Slab:           %8lu kB
+SReclaimable:   %8lu kB
+SUnreclaim:     %8lu kB
+PageTables:     %8lu kB
+NFS_Unstable:   %8lu kB
+Bounce:         %8lu kB
+WritebackTmp:   %8lu kB
+CommitLimit:    %8lu kB
+Committed_AS:   %8lu kB
+VmallocTotal:   %8lu kB
+VmallocUsed:    %8lu kB
+VmallocChunk:   %8lu kB
+cpu  %llu %llu %llu %llu %llu %llu %llu %llu %llu
+cpu%d %llu %llu %llu %llu %llu %llu %llu %llu %llu
+processes %lu
+procs_running %lu
+procs_blocked %lu
+softirq %llu
+%lu.%02lu %lu.%02lu
+                
+fs/proc/proc_sysctl.c
+%8lu %8lu %8llu %8u %8lu %8lu %8llu %8u %8u %8u %8u
+unknown-block(%u,%u)
+ unknown partition table
+ unable to read partition table
+<4>%s: p%d ignored, start %llu is behind the end of the disk
+<4>%s: p%d size %llu exceeds device capacity, 
+<c>enabling native capacity
+<c>limited to end of disk
+<3> %s: p%d could not be added: %ld
+whole_disk
+alignment_offset
+,mode=%03o
+<3>devpts: called with bogus options
+<3>devpts: get root dentry failed
+ext2_get_group_desc
+block_group >= groups_count - block_group = %d, groups_count = %lu
+Group descriptor not loaded - block_group = %d, group_desc = %lu, desc = %lu
+Block Allocation Reservation Windows Map (%s):
+reservation window 0x%p start: %lu, end: %lu
+Bad reservation %p (start >= end)
+Bad reservation %p (prev->end >= start)
+Restarting reservation walk in verbose mode
+Window map complete.
+Cannot read block bitmap - block_group = %d, block_bitmap = %u
+Invalid block bitmap - block_group = %d, block = %lu
+ext2_free_blocks
+Freeing blocks not in datazone - block = %lu, count = %lu
+Freeing blocks in system zones - Block = %lu, count = %lu
+bit already cleared for block %lu
+ext2_new_blocks: nonexistent device
+ext2_new_blocks
+Allocating block in system zone - blocks from %lu, length %lu
+block(%lu) >= blocks count(%d) - block_group = %d, es == %p 
+unaligned directory entry
+rec_len is too small for name_len
+directory entry across blocks
+inode out of bounds
+size of directory #%lu is not a multiple of chunk size
+rec_len is smaller than minimal
+bad entry in directory #%lu: : %s - offset=%lu, inode=%lu, rec_len=%d, name_len=%d
+ext2_check_page
+entry in directory #%lu spans the page boundaryoffset=%lu, inode=%lu
+bad page in #%lu
+zero-length directory entry
+kaddr=%p, de=%p
+dir %lu size %lld exceeds block count %llu
+read_inode_bitmap
+Cannot read inode bitmap - block_group = %lu, inode_bitmap = %u
+ext2_new_inode
+reserved inode or inode > inodes count - block_group = %d,inode=%lu
+ext2_free_inode
+reserved or nonexistent inode %lu
+bit already cleared for inode %lu
+ext2_release_inode
+can't get descriptor for group %d
+ext2_get_inode
+bad inode number: %lu
+unable to read inode block - inode=%lu, block=%lu
+IO error syncing ext2 inode [%s:%08lx]
+ext2_block_to_path
+block > big
+ext2_free_branches
+Read failure, inode=%ld, block=%ld
+deleted inode referenced: %lu
+,resuid=%u
+,resgid=%u
+,errors=remount-ro
+,errors=continue
+,errors=panic
+,noreservation
+EXT2-fs warning: revision level too high, forcing read-only mode
+EXT2-fs warning: mounting unchecked fs, running e2fsck is recommended
+EXT2-fs warning: mounting fs with errors, running e2fsck is recommended
+EXT2-fs warning: maximal mount count reached, running e2fsck is recommended
+EXT2-fs warning: checktime reached, running e2fsck is recommended
+[EXT II FS %s, %s, bs=%lu, fs=%lu, gc=%lu, bpg=%lu, ipg=%lu, mo=%04lx]
+EXT2 (no)user_xattr options not supported
+EXT2 (no)acl options not supported
+EXT2 xip option not supported
+<3>EXT2-fs: quota operations not supported.
+reservations ON
+reservations OFF
+&ei->truncate_mutex
+ext2_inode_cache
+<4>EXT2-fs warning (device %s): %s: 
+refusing change of xip flag with busy inodes while remounting
+EXT2-fs: %s: couldn't remount RDWR because of unsupported optional features (%x).
+updating to rev %d because of new feature flag, running e2fsck is recommended
+<2>EXT2-fs error (device %s): %s: 
+EXT2-fs panic from previous error
+Remounting filesystem read-only
+EXT2-fs: Invalid sb specification: %s
+EXT2-fs: unable to set blocksize
+EXT2-fs: unable to read superblock
+EXT2-fs warning: feature flags set on rev 0 fs, running e2fsck is recommended
+EXT2-fs: %s: couldn't mount because of unsupported optional features (%x).
+EXT2-fs: %s: couldn't mount RDWR because of unsupported optional features (%x).
+<3>EXT2-fs: blocksize too small for device.
+EXT2-fs: Couldn't read superblock on 2nd try.
+EXT2-fs: Magic mismatch, very weird !
+EXT2-fs: unsupported inode size: %d
+VFS: Unsupported blocksize on dev %s.
+EXT2-fs: fragsize %lu != blocksize %lu (not supported yet)
+EXT2-fs: #blocks per group too big: %lu
+EXT2-fs: #fragments per group too big: %lu
+EXT2-fs: #inodes per group too big: %lu
+EXT2-fs: not enough memory
+EXT2-fs: unable to read group descriptors
+ext2_check_descriptors
+Block bitmap for group %d not in group (block %lu)!
+Inode bitmap for group %d not in group (block %lu)!
+Inode table for group %d not in group (block %lu)!
+EXT2-fs: group descriptors corrupted!
+<3>EXT2-fs: corrupt root inode, run e2fsck
+<3>EXT2-fs: get root inode failed
+mounting ext3 filesystem as ext2
+VFS: Can't find an ext2 filesystem on dev %s.
+sysvgroups
+errors=continue
+errors=panic
+errors=remount-ro
+check=none
+user_xattr
+nouser_xattr
+reservation
+noreservation
+<3>SQUASHFS error: crypto_decompress_init returned %d, srclength %d
+<3>SQUASHFS error: crypto_decompress_update returned %d, data probably corrupt
+<3>SQUASHFS error: crypto_decompress_final returned %d, data probably corrupt
+<3>SQUASHFS error: squashfs_read_data failed to read block 0x%llx
+<3>SQUASHFS error: Failed to allocate %s cache
+<3>SQUASHFS error: Failed to allocate %s cache entry
+<3>SQUASHFS error: Failed to allocate %s buffer
+<3>SQUASHFS error: Unable to read %s cache entry [%llx]
+<3>SQUASHFS error: Failed to allocate squashfs_dir_entry
+<3>SQUASHFS error: Unable to read directory block [%llx:%x]
+<3>SQUASHFS error: Failed to allocate inode lookup table
+<3>SQUASHFS error: unable to read inode lookup table
+<3>SQUASHFS error: read_indexes: Failed to allocate block_list
+<3>SQUASHFS error: read_indexes: reading block [%llx:%x]
+<3>SQUASHFS error: Failed to allocate meta_index
+<3>SQUASHFS error: Unable to read page, block %llx, size %x
+<3>SQUASHFS error: Failed to allocate fragment index table
+<3>SQUASHFS error: unable to read fragment index table
+<3>SQUASHFS error: Failed to allocate id index table
+<3>SQUASHFS error: unable to read id index table
+<3>SQUASHFS error: Unknown inode type %d in squashfs_iget!
+<3>SQUASHFS error: Unable to read inode 0x%llx
+<3>SQUASHFS error: Failed to allocate squashfs_dir_index
+<3>SQUASHFS error: Failed to allocate squashfs_sb_info
+<3>SQUASHFS error: Failed to allocate squashfs_super_block
+&msblk->read_data_mutex
+&msblk->meta_index_mutex
+<3>SQUASHFS error: unable to read squashfs_super_block
+<3>SQUASHFS error: Can't find a SQUASHFS superblock on %s
+<3>SQUASHFS error: Major/Minor mismatch, older Squashfs %d.%d filesystems are unsupported
+<3>SQUASHFS error: Major/Minor mismatch, trying to mount newer %d.%d filesystem
+<3>SQUASHFS error: Please update your kernel
+<3>SQUASHFS error: Failed to load lzma crypto module
+<3>SQUASHFS error: Failed to set up decompression parameters
+<3>SQUASHFS error: Xattrs in filesystem, these will be ignored
+<3>SQUASHFS error: Page size > filesystem block size (%d).  This is currently not supported!
+<3>SQUASHFS error: Failed to allocate read_page block
+<3>SQUASHFS error: Root inode create failed
+squashfs_inode_cache
+<6>squashfs: version 4.0 (2009/01/31) Phillip Lougher
+<3>SQUASHFS error: Unable to read symlink [%llx:%x]
+%s: detected the cluster chain loop (i_pos %lld)
+%s: invalid cluster chain (i_pos %lld)
+%s: request beyond EOF (i_pos %lld)
+<3>FAT: Directory bread(block %llu) failed
+..         
+<4>FAT: filename was truncated while converting.
+.          
+<3>FAT: Corrupted directory (i_pos %lld)
+Odd directory size
+<4>FAT: Couldn't remove the long name slots
+invalid access to FAT (entry 0x%08x)
+%s: deleting FAT entry beyond EOF
+&sbi->fat_lock
+fs/fat/fatent.c
+<3>FAT: FAT read failed (blocknr %llu)
+fat_inode_cache
+,fmask=%04o
+,dmask=%04o
+,allow_utime=%04o
+,codepage=%s
+,iocharset=%s
+,shortname=win95
+,shortname=winnt
+,shortname=mixed
+,shortname=unknown
+,sys_immutable
+,dotsOK=yes
+,uni_xlate
+,nonumtail
+<3>FAT: unable to read inode block for updating (i_pos %lld)
+<6>FAT: "%s" option is obsolete, not supported now
+<3>FAT: Unrecognized mount option "%s" or missing value
+<3>FAT: utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+<3>FAT: unable to read boot sector
+<3>FAT: bogus number of reserved sectors
+<3>FAT: bogus number of FAT structure
+<3>FAT: invalid media value (0x%02x)
+<3>FAT: bogus logical sector size %u
+<3>FAT: bogus sectors per cluster %u
+<3>FAT: logical sector size too small for device (logical sector size = %u)
+<3>FAT: unable to set blocksize %u
+<3>FAT: unable to read boot sector (logical sector size = %lu)
+<3>FAT: bread failed, FSINFO block (sector = %lu)
+<4>FAT: Invalid FSINFO signature: 0x%08x, 0x%08x (sector = %lu)
+<3>FAT: bogus directroy-entries per block (%u)
+<3>FAT: count of clusters too big (%u)
+<3>FAT: codepage %s not found
+<3>FAT: IO charset %s not found
+<3>FAT: get root inode failed
+<6>VFS: Can't find a valid FAT filesystem on dev %s.
+corrupted file size (i_pos %lld, %lld)
+check=relaxed
+check=strict
+check=normal
+allow_utime=%o
+codepage=%u
+sys_immutable
+conv=binary
+blocksize=%u
+cvf_format=%20s
+cvf_options=%100s
+iocharset=%s
+shortname=lower
+shortname=win95
+shortname=winnt
+shortname=mixed
+utf8=false
+uni_xlate=0
+uni_xlate=no
+uni_xlate=false
+uni_xlate=1
+uni_xlate=yes
+uni_xlate=true
+nonumtail=0
+nonumtail=no
+nonumtail=false
+nonumtail=1
+nonumtail=yes
+nonumtail=true
+dotsOK=yes
+<3>FAT: bread failed in fat_clusters_flush
+<3>FAT: Invalid FSINFO signature: 0x%08x, 0x%08x (sector = %lu)
+<3>FAT: Filesystem error (dev %s)
+    FAT fs panic from previous error
+<3>    File system has been set read-only
+clusters badly computed (%d != %llu)
+%s: Filesystem corrupted (i_pos %lld)
+&ids->rw_mutex
+%10d %10d  %4o  %10lu %10lu %5u %5u %5u %5u %5u %5u %10lu %10lu %10lu
+<6>msgmni has been set to %d
+sysvipc/msg
+       key      msqid perms      cbytes       qnum lspid lrpid   uid   gid  cuid  cgid      stime      rtime      ctime
+%10d %10d  %4o %10lu %5u %5u %5u %5u %10lu %10lu
+sysvipc/sem
+       key      semid perms      nsems   uid   gid  cuid  cgid      otime      ctime
+%10d %10d  %4o %10lu %5u %5u  %5lu %5u %5u %5u %5u %10lu %10lu %10lu
+sysvipc/shm
+       key      shmid perms       size  cpid  lpid nattch   uid   gid  cuid  cgid      atime      dtime      ctime
+auto_msgmni
+security.capability
+crypto/digest.c
+<3>alg: Unexpected test result for %s: %d
+crypto/algapi.c
+name         : %s
+driver       : %s
+module       : %s
+priority     : %d
+refcnt       : %d
+selftest     : %s
+type         : larval
+flags        : 0x%x
+type         : cipher
+blocksize    : %u
+min keysize  : %u
+max keysize  : %u
+type         : digest
+digestsize   : %u
+type         : compression
+type         : unknown
+type         : pcomp
+&ctx->mutex
+<3>unlzma/%s: no buffer
+<3>unlzma/%s: position %d out of range
+anticipatory
+<3>%s: forced dispatching is broken (nr_sorted=%u), please report this
+as-iosched
+%s-iosched
+ (default)
+<6>io scheduler %s registered%s
+&eq->sysfs_lock
+<3>I/O scheduler %s not found
+<3>Default I/O scheduler not found. Using noop.
+<3>%s: bad insertion point %d
+<3>elevator: type %s not found
+<3>elevator: switch to %s failed
+Failed to create kblockd
+blkdev_requests
+blkdev_queue
+<6>%s: dev %s: type=%x, flags=%x
+<6>  sector %llu, nr/cnr %u/%u
+<6>  bio %p, biotail %p, buffer %p, len %u
+<6>  cdb: 
+<3>%s: over max size limit.
+<3>%s: over max segments limit.
+<3>%s: want %u bytes done, %u left
+<3>end_request: I/O error, dev %s, sector %llu
+__end_that
+<3>%s: bio idx %d >= vcnt %d
+<3>blk: request botched
+<6>attempt to access beyond end of device
+<6>%s: rw=%ld, want=%Lu, limit=%Lu
+<3>generic_make_request: Trying to access nonexistent block-device %s (%Lu)
+<3>bio too big device %s (%u > %u)
+<7>%s(%d): %s block %Lu on %s
+block/blk-core.c
+<3>%s: bad return=%d
+&q->sysfs_lock
+<3>%s: request %p for device [%s] already tagged %d
+<3>%s: tag %d is missing
+<3>%s: attempt to clear non-busy tag (%d)
+<3>%s: adjusted depth to %d
+block/blk-sysfs.c
+nr_requests
+max_hw_sectors_kb
+max_sectors_kb
+hw_sector_size
+logical_block_size
+physical_block_size
+minimum_io_size
+optimal_io_size
+rotational
+rq_affinity
+block/blk-barrier.c
+<3>%s: prepare_flush_fn required
+<3>blk_queue_ordered: bad value %d
+<6>%s: set to minimum %lx
+<6>%s: set to minimum %d
+<5>%s: Warning: Device %s is misaligned
+block/blk-settings.c
+blkdev_ioc
+block/blk-exec.c
+<3>block: bad eh return: %d
+block-major-%d-%d
+block-major-%d
+major minor  #blocks  name
+partitions
+block/genhd.c
+register_blkdev: failed to get major for %s
+register_blkdev: cannot get major %d for %s
+%4d  %7d %10llu %s
+%4d %7d %s %lu %lu %llu %u %lu %lu %llu %u %u %u %u
+%s%s %10llu %s
+ driver: %s
+ (driver?)
+capability
+<4>program %s is using a deprecated SCSI ioctl, please convert it to SG_IO
+idr_layer_cache
+<4>idr_remove called for id=%d which is not allocated.
+<4>ida_remove called for id=%d which is not allocated.
+must have a ktype to be initialized properly!
+<3>kobject (%p): tried to init an initialized object, something is seriously wrong.
+invalid kobject pointer!
+<3>kobject (%p): %s
+lib/kobject.c
+<4>kobject: '%s' (%p): is not initialized, yet kobject_put() is being called.
+kobject: (%p): attempted to be registered with empty name!
+DEVPATH_OLD=%s
+<3>kobject: can not set name properly!
+<3>kobject '%s' (%p): tried to add an uninitialized object, something is seriously wrong.
+<4>%s: kobject_add error: %d
+lib/kref.c
+&pd->mutex
+radix_tree_node
+<4>%s: %d callbacks suppressed
+<6>Mem-Info:
+<6>%lu pages RAM
+<6>%lu pages reserved
+<6>%lu pages shared
+<6>%lu pages non-shared
+lib/vsprintf.c
+%s%16.16llx
+%s%s%*p: %s
+%s%s%.8x: %s
+lib/scatterlist.c
+lib/devres.c
+<4>netlink: %d bytes leftover after parsing attributes.
+Index: %2d pgmask=%s 
+va=%0*lx asid=%02lx
+	[pa=%0*llx c=%d d=%d v=%d g=%d] 
+[pa=%0*llx c=%d d=%d v=%d g=%d]
+unable to get major %d for memory devs
+%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x
+entropy_avail
+read_wakeup_threshold
+write_wakeup_threshold
+nonblocking
+Couldn't register /dev/tty driver
+Couldn't register /dev/console driver
+<4>Warning: dev (%s) tty->count(%d) != #fd's(%d) in %s
+<4>null TTY for (%d:%d) in %s
+<4>bad magic number for tty struct (%d:%d) in %s
+tty_fasync
+<7>tty not NULL!!
+drivers/char/tty_io.c
+<3>Attempt to register invalid tty line number  (%d).
+&tty->termios_mutex
+&tty->ldisc_mutex
+&tty->atomic_read_lock
+&tty->atomic_write_lock
+&tty->output_lock
+&tty->echo_lock
+do_tty_hangup
+<5>SAK: killed process %d (%s): task_session(p)==tty->session
+<5>SAK: killed process %d (%s): fd#%d opened to the tty
+tty_release_dev
+<7>tty_release_dev: bad idx when trying to free (%s)
+<7>tty_release_dev: driver.table[%d] not tty for (%s)
+<7>tty_release_dev: driver.termios[%d] not termios for (%s)
+<7>tty_release_dev: other->table[%d] not o_tty for (%s)
+<7>tty_release_dev: other->termios[%d] not o_termios for (%s)
+<7>tty_release_dev: bad pty pointers
+<4>tty_release_dev: %s: read/write wait queue active!
+<4>tty_release_dev: bad pty slave count (%d) for %s
+<4>tty_release_dev: bad tty->count (%d) for %s
+<3>tty driver %s lacks a write_room method.
+<4>tty_check_change: tty->pgrp == NULL!
+<6>tty_init_dev: ldisc open failed, clearing slot %d
+<3>n_tty_read: no tty->pgrp!
+<4>%s: %d input overrun(s)
+<3>%s: unknown flag %d
+<4>Warning?!? termios_locked is NULL.
+<4>Use of setserial/setrocket to set SPD_* flags is deprecated
+drivers/char/tty_ldisc.c
+tty-ldisc-%d
+n_tty: init_tty
+n_tty: get
+Couldn't open N_TTY ldisc for %s --- error %d.
+drivers/char/tty_buffer.c
+<4>tty_port_close_start: tty->count = 1 port count = %d.
+<4>tty_port_close_start: count = %d
+&port->mutex
+Couldn't allocate Unix98 ptm driver
+Couldn't allocate Unix98 pts driver
+pty_master
+Couldn't register Unix98 ptm driver
+Couldn't register Unix98 pts driver
+Couldn't register /dev/ptmx driver
+drivers/char/pty.c
+unable to get major %d for misc devices
+<1>Removing wrong port: %p != %p
+I/O 0x%lx offset 0x%x
+MMIO 0x%llx
+<6>%s%s%s%d at %s (irq = %d) is a %s
+<3>Cannot register tty device on line %d
+serinfo:1.0 driver%s%s revision:%s
+%d: uart:%s %s%08llX irq:%d
+ tx:%d rx:%d
+drivers/serial/serial_core.c
+<5>%s sets custom speed on %s. This is deprecated.
+<3>uart_close: bad serial port count; tty->count is 1, state->count is %d
+<3>uart_close: bad serial port count for %s: %d
+&state->mutex
+<3>%s%s%s%d: Unable to drain transmitter
+serial-rsa
+<4>ttyS%d: detected caps %08x should be %08x
+<3>serial8250: too much work for irq%d
+<6>Serial: 8250/16550 driver, %d ports, IRQ sharing %sabled
+<3>%s %s: unable to register port at index %d (IO%lx MEM%lx IRQ%d): %d
+16C950/954
+dev_attr_show: %s returned bad count
+drivers/base/core.c
+<3>Device '%s' does not have a release() function, it is broken and must be fixed.
+<3>%s %s: uevent: unsupported action-string; this will be ignored in a future kernel version
+drivers/base/sys.c
+Interrupts enabled after %pF
+Interrupts enabled while resuming system devices
+Interrupts enabled while suspending system devices
+<3>Class suspend failed for %s
+<3>Class driver suspend failed for %s
+<4>sysdev: invalid class passed to sysdev_driver_register!
+<4>sysdev: class %s: driver (%p) has already been registered to a class, something is wrong, but will forge on!
+<3>%s: invalid device class
+<3>%s: uevent attr (%s) failed
+<3>%s: driver_add_attrs(%s) failed
+&(&priv->bus_notifier)->rwsem
+drivers/base/bus.c
+<4>%s: device %s already bound
+drivers/base/dd.c
+<4>%s: probe of %s failed with error %d
+drivers/base/driver.c
+Unexpected driver unregister!
+<4>Driver '%s' needs updating - please use bus_type methods
+<3>Error: Driver '%s' is already registered, aborting...
+drivers/base/class.c
+%s called for class '%s' before it was initialized
+struct class mutex
+platform:%s
+<4>%s: unable to parse %s parameter
+<4>%s: unable to probe %s early.
+<3>%s: failed to claim resource %d
+kernel_max
+drivers/base/devres.c
+<3>%s %s: failed to allocate class container
+drivers/base/dma-mapping.c
+<6>brd: module loaded
+Well-known LUN   
+No Device        
+Unknown          
+<5>SCSI subsystem initialized
+<3>SCSI subsystem failed to initialize, error = %d
+<4>%s %s: scsi_adjust_queue_depth, bad queue type, disabled
+scsi_cmd_cache(DMA)
+scsi_sense_cache(DMA)
+scsi_cmd_cache
+scsi_sense_cache
+Direct-Access    
+Sequential-Access
+Printer          
+Processor        
+WORM             
+CD-ROM           
+Scanner          
+Optical Device   
+Medium Changer   
+Communications   
+ASC IT8          
+RAID             
+Enclosure        
+Direct-Access-RBC
+Optical card     
+Bridge controller
+Object storage   
+Automation/Drive 
+<3>ERROR: Scsi host '%s' attempted to flush scsi-work, when no workqueue created.
+<3>ERROR: Scsi host '%s' attempted to queue scsi-work, when no workqueue created.
+&shost->scan_mutex
+scsi_eh_%d
+<4>scsi_register() called on new-style template for driver %s
+<6>scsi%d : %s
+<3>%s: can_queue = 0 no longer supported
+scsi_wq_%d
+<6>ioctl_internal_command: ILLEGAL REQUEST asc=0x%x ascq=0x%x
+<6>%s %s: ioctl_internal_command return code = %x
+Result: hostbyte=0x%02x driverbyte=0x%02x
+<6>%s %s: [%s] 
+<6>%s %s: 
+Sense Key : 0x%x 
+[deferred] 
+[current] 
+[descriptor]
+short opcode=0x%x command, len=%d ext_len=%d
+cdb[0]=0x%x, sa=0x%x
+, in_cdb_len=%d, ext_len=%d
+cdb[0]=0x%x
+cdb[0]=0x%x (vendor)
+<6>%s %s: [%s] CDB: 
+<6>%s %s: CDB: 
+<<vendor>> ASC=0x%x ASCQ=0x%x
+ASC=0x%x <<vendor>> ASCQ=0x%x
+ASC=0x%x ASCQ=0x%x
+<6>%s %s: [%s] %s: 
+<6>%s %s: %s: 
+Unrecognized sense data (in hex):
+<6>        
+Info fld=0x%x
+Descriptor sense data with sense descriptors (in hex):
+<6>%s %s: reservation conflict
+<6>%s %s: Device offlined - not ready after error recovery
+drivers/scsi/scsi_lib.c
+<3>%s: Bytes in sg: %zu, requested offset %zu, elements %d
+<3>%s %s: rejecting I/O to offline device
+<3>%s %s: rejecting I/O to dead device
+<3>%s %s: event %d eaten due to OOM
+scsi_data_buffer
+<3>SCSI: can't init scsi sdb cache
+<3>SCSI: can't init sg slab %s
+<3>SCSI: can't init sg mempool %s
+<2>impossible request in %s.
+scsi: killing requests for dead queue
+<2>impossible request in %s.
+please mail a stack trace to linux-scsi@vger.kernel.org
+Unhandled sense code
+Media Changed
+Host Data Integrity Failure
+Target Data Integrity Failure
+Device not ready
+<6>%s %s: [%s] %s
+<6>%s %s: %s
+Unhandled error code
+<3>%s %s: timing out command, waited %lus
+sgpool-128
+<3>%s: allocation failure
+target%d:%d:%d
+<3>%s %s: target allocation failed, error %d
+<3>%s: Allocation failure during SCSI scanning, some SCSI devices might not be configured
+<6>scsi: waiting for bus probes to complete ...
+<6>scsi scan: %d byte inquiry failed.  Consider BLIST_INQUIRY_36 for this device
+<6>scsi scan: INQUIRY result too short (%d), using 36
+<6>scsi: unknown device type %d
+<5>%s %s: %s %.8s %.16s %.4s PQ: %d ANSI: %d%s
+<3>%s %s: in wrong state %s to complete scan
+<3>%s %s: failed to configure device
+<5>scsi: unlocking floptical drive
+host %d channel %d id %d
+<4>scsi: On %s only %d (max_scsi_report_luns) of %d luns reported, try increasing max_scsi_report_luns.
+<4>scsi: %s lun 0x
+ has a LUN larger than currently supported.
+<4>scsi: %s lun%d has a LUN larger than allowed by the host adapter
+<3>%s %s: Unexpected response from lun %d while scanning, scan aborted
+%s called twice for host %d
+scsi_scan_%d
+scsi_target
+nullnullnullnull
+scsi:t-0x%02x
+%10s %10s %10s %c
+%d:%d:%d:%d
+<3>%s %s: target device_add failed, error %d
+<6>error 1
+<6>error 2
+scsi_device
+created-blocked
+cancel/recovery
+deleted/recovery
+queue_depth
+queue_type
+cmd_per_lun
+sg_tablesize
+unchecked_isa_dma
+supported_mode
+active_mode
+prot_capabilities
+prot_guard_type
+device_blocked
+scsi_level
+iocounterbits
+iorequest_cnt
+iodone_cnt
+evt_media_change
+'%.8s' '%.16s' 0x%x
+scsi/device_info
+<4>%s: %s string '%s' is too long
+<3>%s: no memory
+<3>%s: bad dev info string '%s' '%s' '%s'
+IMAGERY 2400SP
+CD-ROM CDS-431
+CD-ROM CDS-535
+RENO CD-ROMX2A
+ScanMakerIII
+CD-ROM DRIVE:841
+CD-ROM CDU-541
+CD-ROM CDU-55S
+CD-ROM CDU-561
+CD-ROM CDU-8012
+MT-2ST/45S2-27
+ScanMaker II
+CD-R CR-2201CS
+FIREBALL ST4.3S
+Adaptec 5400S
+USB 2 HS-CF
+USB Storage-SMC
+ARRAY CONTROLLER
+LOGICAL VOLUME
+MSA1000 VOLUME
+SAN DataDirector
+PV660F   PSEUDO
+PSEUDO DEVICE .
+MD21/S2     ESDI
+CentricStor
+USB SD Reader
+DISK-SUBSYSTEM
+NetRAID-4M
+ProFibre 4000R
+Io20S         *F
+Floptical   F*8I
+iFP Mass Driver
+Flash XL  MMC/SD
+Fastness Crypto
+PD-1 ODX654P
+CD-ROM DRM-600
+CD-ROM DRM-602X
+CD-ROM DRM-604X
+CD-ROM DRM-624X
+ImageMate CF-SD1
+Universal Xport
+CD-ROM CDU-8001
+SMARTMEDIA/XD
+Model 2600
+Model 3200
+Model 1300
+00JB-00FUA0
+RocketStor 500S
+RocketStor 2000
+logging_level
+Attached devices:
+Host: scsi%d Channel: %02d Id: %02d Lun: %02d
+  Vendor: 
+  Type:   %s 
+               ANSI  SCSI revision: %02x
+scsi add-single-device
+scsi remove-single-device
+<3>%s: Failed to register host %d in%s
+<3>%s: proc_mkdir failed for %s
+<3>%s %s: [%s] formatted with DIF Type 2 protection which is currently unsupported. Disabling disk!
+<3>%s %s: formatted with DIF Type 2 protection which is currently unsupported. Disabling disk!
+<3>%s %s: [%s] formatted with unknown protection type %d. Disabling disk!
+<3>%s %s: formatted with unknown protection type %d. Disabling disk!
+<4>%s %s: [%s] getting Control mode page failed, assume no ATO
+<4>%s %s: getting Control mode page failed, assume no ATO
+<3>%s %s: [%s] ATO Got wrong page
+<3>%s %s: ATO Got wrong page
+<4>%s %s: [%s] START_STOP FAILED
+<4>%s %s: START_STOP FAILED
+<5>%s %s: [%s] Starting disk
+<5>%s %s: Starting disk
+<5>%s %s: [%s] Synchronizing SCSI cache
+<5>%s %s: Synchronizing SCSI cache
+<5>%s %s: [%s] Stopping disk
+<5>%s %s: Stopping disk
+<5>%s %s: [%s] Sense not available.
+<5>%s %s: Sense not available.
+<5>%s %s: [%s] READ CAPACITY failed
+<5>%s %s: READ CAPACITY failed
+<5>%s %s: [%s] READ CAPACITY(16) failed
+<5>%s %s: READ CAPACITY(16) failed
+<5>%s %s: [%s] physical block alignment offset: %u
+<5>%s %s: physical block alignment offset: %u
+<4>%s %s: [%s] sd_revalidate_disk: Memory allocation failure.
+<4>%s %s: sd_revalidate_disk: Memory allocation failure.
+<5>%s %s: [%s] Unit Not Ready
+<5>%s %s: Unit Not Ready
+<5>%s %s: [%s] Spinning up disk...
+<5>%s %s: Spinning up disk...
+<5>%s %s: [%s] Very big device. Trying to use READ CAPACITY(16).
+<5>%s %s: Very big device. Trying to use READ CAPACITY(16).
+<5>%s %s: [%s] Using 0xffffffff as device size
+<5>%s %s: Using 0xffffffff as device size
+<6>%s %s: [%s] Adjusting the sector count from its reported value: %llu
+<6>%s %s: Adjusting the sector count from its reported value: %llu
+<5>%s %s: [%s] Sector size 0 reported, assuming 512.
+<5>%s %s: Sector size 0 reported, assuming 512.
+<5>%s %s: [%s] Unsupported sector size %d.
+<5>%s %s: Unsupported sector size %d.
+<5>%s %s: [%s] %llu %d-byte logical blocks: (%s/%s)
+<5>%s %s: %llu %d-byte logical blocks: (%s/%s)
+<5>%s %s: [%s] %u-byte physical blocks
+<5>%s %s: %u-byte physical blocks
+<5>%s %s: [%s] Assuming Write Enabled
+<5>%s %s: Assuming Write Enabled
+<4>%s %s: [%s] Test WP failed, assume Write Enabled
+<4>%s %s: Test WP failed, assume Write Enabled
+<5>%s %s: [%s] Write Protect is %s
+<5>%s %s: Write Protect is %s
+<7>%s %s: [%s] Mode Sense: %02x %02x %02x %02x
+<7>%s %s: Mode Sense: %02x %02x %02x %02x
+<3>%s %s: [%s] Missing header in MODE_SENSE response
+<3>%s %s: Missing header in MODE_SENSE response
+<3>%s %s: [%s] Malformed MODE SENSE response
+<3>%s %s: Malformed MODE SENSE response
+<3>%s %s: [%s] Got wrong page
+<3>%s %s: Got wrong page
+<5>%s %s: [%s] Uses READ/WRITE(6), disabling FUA
+<5>%s %s: Uses READ/WRITE(6), disabling FUA
+doesn't support DPO or FUA
+supports DPO and FUA
+<5>%s %s: [%s] Write cache: %s, read cache: %s, %s
+<5>%s %s: Write cache: %s, read cache: %s, %s
+<5>%s %s: [%s] Cache data unavailable
+<5>%s %s: Cache data unavailable
+<3>%s %s: [%s] Asking for cache data failed
+<3>%s %s: Asking for cache data failed
+<3>%s %s: [%s] Assuming drive cache: write through
+<3>%s %s: Assuming drive cache: write through
+not responding...
+removable 
+<5>%s %s: [%s] Attached SCSI %sdisk
+<5>%s %s: Attached SCSI %sdisk
+<3>%s %s: [%s] Bad block number requested
+<3>%s %s: Bad block number requested
+<3>%s %s: [%s] Unknown command %x
+<3>%s %s: Unknown command %x
+<3>%s %s: [%s] FUA write on READ/WRITE(6) drive
+<3>%s %s: FUA write on READ/WRITE(6) drive
+write through
+write back
+write back, no read (daft)
+cache_type
+allow_restart
+manage_start_stop
+protection_type
+app_tag_own
+<6>%s: link down
+<6>%s: link up, %sMbps, %s-duplex, lpa 0x%04X
+loopback: Failed to register netdevice: %d
+<3>Error registering mtd class: %d
+dev:    size   erasesize  name
+mtd%d: %8.8llx %8.8x "%s"
+<5>Removing MTD device #%d (%s) with use count %d
+<4>%s: unlock failed, writes may not work
+subpagesize
+numeraseregions
+<5>MTD: MTD device with name "%s" not found.
+<5>MTD: Attempt to mount non-MTD device "%s"
+<5>%s partition parsing not available
+<5>%d %s partitions found on MTD device %s
+<5>Creating %d MTD partitions on "%s":
+<3>memory allocation error while creating partitions for "%s"
+<5>Moving partition %d: 0x%012llx -> 0x%012llx
+<5>0x%012llx-0x%012llx : "%s"
+<3>mtd: partition "%s" is out of reach -- disabled
+<4>mtd: partition "%s" extends beyond the end of device "%s" -- size truncated to %#llx
+<4>mtd: partition "%s" doesn't start on an erase block boundary -- force read-only
+<4>mtd: partition "%s" doesn't end on an erase block -- force read-only
+<3>mtd: partition size too small (%lx)
+<3>mtd: no closing %c found in partition name
+<3>mtd: no partitions allowed after a fill-up partition
+<3>mtd: out of memory
+Partition_%03d
+<3>mtd: no mtd-id
+<3>mtd: bad character after partition (%c)
+<4>mtd: %s: partitioning exceeds flash size, truncating
+cmdlinepart
+<5>Can't allocate major number %d for Memory Technology Devices.
+<4>Unable to register %s block device on major %d: %d
+<5>Unknown request %u
+&new->lock
+&mtdblks_lock
+&mtdblk->cache_mutex
+<4>mtdblock: erase of region [0x%lx, 0x%x] on "%s" failed
+Cant allocate mtd stuff
+ar7240-nor0
+No partitions found on flash bank %d
+<3>%s: bogus descriptor, type %d length %d
+<6>%s: USB support disabled
+bus/usb/%03d/%03d
+<7>%s %s: check for vendor %04x, product %04x ...
+<7>%s %s: matched this device!
+usb_device
+<6>%s %s: %s: %s
+<7>%s %s: port %d indicator %s status %d
+<3>%s %s: cannot disable port %d (err = %d)
+<3>%s %s: clear tt %d (%04x) error %d
+<7>%s %s: enabling power on all ports
+<7>%s %s: trying to enable port power on non-switchable hub
+<3>%s %s: %s failed (err = %d)
+<3>%s %s: can't save CLEAR_TT_BUFFER state
+<3>%s %s: cannot reset port %d (err = %d)
+<7>%s %s: port %d not reset yet, waiting %dms
+<7>%s %s: port_wait_reset: err = %d
+<7>%s %s: port %d not enabled, trying reset again...
+<3>%s %s: Cannot enable port %i.  Maybe the USB cable is bad?
+<7>%s %s: port %d: status %04x change %04x
+<3>%s %s: activate --> %d
+<7>%s %s: transfer --> %d
+<3>%s %s: resubmit --> %d
+<3>%s: can't register hub driver
+<3>%s: can't start khubd
+<7>%s %s: xHCI reset of configured device not supported yet.
+<7>%s %s: device reset changed speed!
+<6>%s %s: %s %s speed %sUSB device using %s and address %d
+<3>%s %s: device descriptor read/64, error %d
+<3>%s %s: device not accepting address %d, error %d
+<6>%s %s: %s SuperSpeed USB device using %s and address %d
+<3>%s %s: device descriptor read/8, error %d
+<3>%s %s: ep0 maxpacket = %d
+<7>%s %s: ep0 maxpacket = %d
+<3>%s %s: device descriptor read/all, error %d
+<7>%s %s: device reset not allowed in state %d
+<7>%s %s: %s for root hub!
+<3>%s %s: no mem to re-read configs after reset
+<7>%s %s: config index %d, error %d
+<7>%s %s: config index %d changed (#%d)
+<7>%s %s: serial string error %d
+<7>%s %s: serial string changed
+<6>%s %s: device firmware changed
+<3>%s %s: can't restore configuration #%d (error=%d)
+<3>%s %s: failed to restore interface %d altsetting %d (error=%d)
+<7>%s %s: logical disconnect on port %d
+n/a (unauthorized)
+<3>%s %s: can't read configurations, error %d
+<3>%s %s: can't re-read device descriptor for authorization: %d
+<3>%s %s: can't set config #%d, error %d
+<6>%s %s: authorized to connect
+<7>%s %s: udev %d, busnum %d, minor = %d
+<6>%s %s: New USB device found, idVendor=%04x, idProduct=%04x
+<6>%s %s: New USB device strings: Mfr=%d, Product=%d, SerialNumber=%d
+Manufacturer
+SerialNumber
+<3>%s %s: can't device_add, error %d
+<7>%s nodev
+<6>%s %s: USB disconnect, address %d
+<7>%s %s: unregistering device
+<3>%s %s: Unsupported bus topology: hub nested too deep
+<3>%s %s: bad descriptor, ignoring hub
+<6>%s %s: USB hub found
+<7>%s %s: couldn't kmalloc hub struct
+can't kmalloc hub status buffer
+&hub->status_mutex
+can't kmalloc hub descriptor
+can't read hub descriptor
+hub has too many ports!
+<6>%s %s: %d port%s detected
+<7>%s %s: compound device; port removable status: %s
+<7>%s %s: standalone hub
+<7>%s %s: ganged power switching
+<7>%s %s: individual port power switching
+<7>%s %s: no power switching (usb 1.0)
+<7>%s %s: global over-current protection
+<7>%s %s: individual port over-current protection
+<7>%s %s: no over-current protection
+<7>%s %s: Single TT
+<7>%s %s: TT per port
+<3>%s %s: Using single TT (err %d)
+<7>%s %s: Unrecognized hub protocol %d
+<7>%s %s: TT requires at most %d FS bit times (%d ns)
+<7>%s %s: Port indicators are supported
+<7>%s %s: power on to power good time: %dms
+can't get hub status
+<7>%s %s: hub controller current requirement: %dmA
+<4>%s %s: insufficient power available to use all downstream ports
+<7>%s %s: %umA bus power budget for each child
+lost (inactive)
+<7>%s %s: local power source is %s
+<7>%s %s: %sover-current condition exists
+include/linux/usb.h
+couldn't allocate interrupt urb
+can't allocate hub irq buffer
+<3>%s %s: config failed, %s (err %d)
+<7>%s %s: state %d ports %d chg %04x evt %04x
+<7>%s %s: resetting for error %d
+<7>%s %s: error resetting hub: %d
+<7>%s %s: port %d enable change, status %08x
+<3>%s %s: port %i disabled by hub (EMI?), re-enabling...
+<7>%s %s: resume on port %d, status %d
+<3>%s %s: over-current change on port %d
+<7>%s %s: reset change on port %d
+<7>%s %s: port %d, status %04x, change %04x, %s
+<7>%s %s: debounce: port %d: total %dms stable %dms status 0x%x
+<3>%s %s: connect-debounce failed, port %d disabled
+<3>%s %s: couldn't allocate port %d usb_device
+<7>%s %s: get status %d ?
+<3>%s %s: can't connect bus-powered hub to this port
+<6>%s %s: not running at top speed; connect to a high speed hub
+<4>%s %s: %dmA is over %umA budget for port %d!
+<4>%s %s: %dmA over power budget!
+<7>%s %s: %dmA power budget left
+<3>%s %s: unable to enumerate USB device on port %d
+<3>%s %s: get_hub_status failed
+<7>%s %s: power change
+<7>%s %s: overcurrent change
+<7>%s: khubd exiting
+<3>USB: monitor was not registered
+<7>Did not find alt setting 0 for intf %d
+<7>%s: bogus device speed!
+<4>%s %s: Unlink after no-IRQ?  Controller is probably using the wrong IRQ.
+<6>%s %s: USB bus %d deregistered
+<6>%s %s: remove, state %x
+<7>%s %s: roothub graceful disconnect
+<7>%s %s: hcd alloc failed
+USB Host Controller
+<3>%s %s: HC died; cleaning up
+<7>%s %s: shutdown urb %p ep%d%s%s
+<7>%s %s: hcd_unlink_urb %p fail %d
+<7>%s %s: pool alloc failed
+<3>%s: too many buses
+<6>%s %s: new USB bus registered, assigned bus number %d
+<3>%s %s: unable to allocate root hub
+<3>%s %s: can't setup
+<7>%s %s: supports USB remote wakeup
+<3>%s %s: request interrupt %d failed
+<6>%s %s: irq %d, %s 0x%08llx
+<6>%s %s: %s 0x%08llx
+<3>%s %s: startup error %d
+<7>%s %s: can't read %s device descriptor %d
+<3>%s %s: can't register root hub for %s, %d
+<7>%s %s: not queuing rh status urb
+<7>%s %s: root hub device address %d
+<7>%s %s: no endpoint features yet
+<7>%s %s: CTRL: TypeReq=0x%x val=0x%x idx=0x%x len=%d ==> %d
+<7>%s %s: bogus endpoint ep%d%s in %s (bad maxpacket %d)
+<3>%s %s: BOGUS urb flags, %x --> %x
+<3>alloc_urb: kmalloc failed
+<7>%s %s: %s nuking %s URBs
+<7>%s %s: unregistering interface %s
+<4>%s %s: %s, unlink --> %d
+<3>%s %s: dev %s ep%d%s scatterlist error %d/%d
+<3>%s %s: %s, unlink --> %d
+<7>%s %s: %s, submit --> %d
+<7>%s %s: %s timed out on ep%d%s len=%u/%u
+<7>%s %s: selecting invalid interface %d
+<4>%s %s: selecting invalid altsetting %d
+<7>%s %s: manual set_interface for iface %d, alt %d
+<3>%s %s: string descriptor 0 malformed (err = %d), defaulting to 0x%04x
+<3>%s %s: string descriptor 0 read error: %d
+<7>%s %s: default language 0x%04x
+<7>%s %s: wrong descriptor type %02x for string %d ("%s")
+<4>%s %s: config 0 descriptor??
+<3>%s %s: Out of memory
+<4>%s %s: new config #%d exceeds power limit by %dmA
+<3>%s %s: Interface #%d referenced by multiple IADs
+%d-%s:%d.%d
+<7>%s %s: adding %s (config #%d, interface %d)
+<3>%s %s: device_add(%s) --> %d
+usb_interface
+<7>%s %s: %s
+<6>%s: deregistering interface driver %s
+<6>%s: deregistering device driver %s
+<6>%s: registered new interface driver %s
+<3>%s: error %d registering interface 	driver %s
+<6>%s: registered new device driver %s
+<3>%s: error %d registering device 	driver %s
+<3>%s %s: Device is not authorized for usage
+<7>%s %s: %s - got id
+<7>%s %s: forced unbind
+<4>%s %s: rebind failed: %d
+<4>%s %s: too many configurations: %d, using maximum allowed: %d
+<3>%s %s: no configurations
+<3>%s %s: unable to read config index %d descriptor/%s: %d
+<3>%s %s: chopping to %d config(s)
+<3>%s %s: config index %d descriptor too short (expected %i, got %i)
+<3>%s %s: unable to read config index %d descriptor/%s
+<4>%s %s: config index %d descriptor too short (expected %i, got %i)
+<3>%s %s: invalid descriptor for config index %d: type = 0x%X, length = %d
+<4>%s %s: config %d has too many interfaces: %d, using maximum allowed: %d
+<4>%s %s: config %d descriptor has %d excess byte%s, ignoring
+<4>%s %s: config %d has an invalid descriptor of length %d, skipping remainder of the config
+<4>%s %s: config %d has an invalid interface descriptor of length %d, skipping
+<4>%s %s: config %d has an invalid interface number: %d but max is %d
+<4>%s %s: found more Interface Association Descriptors than allocated for in configuration %d
+<4>%s %s: config %d contains an unexpected descriptor of type 0x%X, skipping
+<4>%s %s: config %d has %d interface%s, different from the descriptor's value: %d
+<4>%s %s: config %d has no interfaces?
+<4>%s %s: config %d has no interface number %d
+<4>%s %s: too many alternate settings for config %d interface %d: %d, using maximum allowed: %d
+<7>%s %s: skipped %d descriptor%s after %s
+configuration
+<4>%s %s: Duplicate descriptor for config %d interface %d altsetting %d, skipping
+<4>%s %s: too many endpoints for config %d interface %d altsetting %d: %d, using maximum allowed: %d
+<4>%s %s: config %d interface %d altsetting %d has an invalid endpoint descriptor of length %d, skipping
+<4>%s %s: config %d interface %d altsetting %d has an invalid endpoint with address 0x%X, skipping
+<4>%s %s: config %d interface %d altsetting %d endpoint 0x%X has an invalid bInterval %d, changing to %d
+<4>%s %s: config %d interface %d altsetting %d endpoint 0x%X is Bulk; changing to Interrupt
+<4>%s %s: config %d interface %d altsetting %d bulk endpoint 0x%X has invalid maxpacket %d
+<4>%s %s: No SuperSpeed endpoint companion for config %d  interface %d altsetting %d ep %d: using minimum values
+SuperSpeed endpoint companion
+<4>%s %s: Control endpoint with bMaxBurst = %d in config %d interface %d altsetting %d ep %d: setting to zero
+<4>%s %s: Endpoint with bMaxBurst = %d in config %d interface %d altsetting %d ep %d: setting to 15
+<4>%s %s: %s endpoint with bmAttributes = %d in config %d interface %d altsetting %d ep %d: setting to zero
+<4>%s %s: Bulk endpoint with more than 65536 streams in config %d interface %d altsetting %d ep %d: setting to max
+<4>%s %s: Isoc endpoint has Mult of %d in config %d interface %d altsetting %d ep %d: setting to 3
+<4>%s %s: %s endpoint with wBytesPerInterval of %d in config %d interface %d altsetting %d ep %d: setting to %d
+<4>%s %s: config %d interface %d altsetting %d endpoint 0x%X has no SuperSpeed companion descriptor
+<4>%s %s: config %d interface %d altsetting %d has %d endpoint descriptor%s, different from the interface descriptor's value: %d
+<3>%s %s: out of memory
+<4>%s %s: config %d interface %d has no altsetting %d
+<7>%s: removing %d minor
+drivers/usb/core/file.c
+<7>%s: looking for a minor, starting at %d
+<3>class_create failed for usb devices
+<3>Unable to get major %d for usb devices
+usb:v%04Xp%04Xd%04Xdc%02Xdsc%02Xdp%02Xic%02Xisc%02Xip%02X
+manufacturer
+descriptors
+bNumInterfaces
+bConfigurationValue
+bmAttributes
+bDeviceClass
+bDeviceSubClass
+bDeviceProtocol
+bNumConfigurations
+bMaxPacketSize0
+authorized
+bInterfaceNumber
+bAlternateSetting
+bNumEndpoints
+bInterfaceClass
+bInterfaceSubClass
+bInterfaceProtocol
+supports_autosuspend
+iad_bFirstInterface
+iad_bInterfaceCount
+iad_bFunctionClass
+iad_bFunctionSubClass
+iad_bFunctionProtocol
+usb_endpoint
+bEndpointAddress
+wMaxPacketSize
+<6>%s %s: direction=%s
+<6>%s %s: userurb=%p
+<6>%s %s: transfer_buffer_length=%u
+<6>%s %s: actual_length=%u
+<6>%s %s: data: 
+<4>%s %s: interface number %u out of range
+<6>%s %s: opened by process %d: %s
+<4>%s %s: usbfs: process %d (%s) did not claim interface %u before use
+<6>%s %s: control urb: bRequest=%02x bRrequestType=%02x wValue=%04x wIndex=%04x wLength=%04x
+<6>%s %s: bulk urb
+<6>%s %s: iso urb
+<6>%s %s: interrupt urb
+<7>%s %s: usbfs: usb_submit_urb returned %d
+<6>%s %s: urb complete
+<6>%s %s: %s: CONTROL
+<6>%s %s: control read: bRequest=%02x bRrequestType=%02x wValue=%04x wIndex=%04x wLength=%04x
+<6>%s %s: control read: data 
+<6>%s %s: control write: bRequest=%02x bRrequestType=%02x wValue=%04x wIndex=%04x wLength=%04x
+<6>%s %s: control write: data: 
+<7>%s %s: usbfs: USBDEVFS_CONTROL failed cmd %s rqt %u rq %u len %u ret %d
+<6>%s %s: %s: BULK
+<6>%s %s: bulk read: len=0x%02x timeout=%04d
+<6>%s %s: bulk read: data 
+<6>%s %s: bulk write: len=0x%02x timeout=%04d
+<6>%s %s: bulk write: data: 
+<6>%s %s: %s: RESETEP
+<6>%s %s: %s: RESET
+<6>%s %s: %s: CLEAR_HALT
+<6>%s %s: %s: GETDRIVER
+<6>%s %s: %s: CONNECTINFO
+<6>%s %s: %s: SETINTERFACE
+<6>%s %s: %s: SETCONFIGURATION
+<4>%s %s: usbfs: interface %d claimed by %s while '%s' sets config #%d
+<6>%s %s: %s: SUBMITURB
+<6>%s %s: %s: DISCARDURB
+<6>%s %s: %s: REAPURB
+<6>%s %s: %s: REAPURBDELAY
+<6>%s %s: %s: DISCSIGNAL
+<6>%s %s: %s: CLAIMINTERFACE
+<6>%s %s: %s: RELEASEINTERFACE
+<6>%s %s: %s: IOCTL
+<7>%s %s: disconnect by usbfs
+usbdev%d.%d
+<3>Unable to register minors for usb_device
+<3>Unable to get usb_device major %d
+<3>Unable to register usb_device class
+<6>%s %s: rejected %d configuration%s due to insufficient available bus power
+<6>%s %s: configuration #%d chosen from %d choice%s
+<4>%s %s: no configuration chosen from %d choice%s
+<7>%s %s: USB quirks for this device: %x
+(null Cfg. desc.)
+(truncated)
+T:  Bus=%2.2d Lev=%2.2d Prnt=%2.2d Port=%2.2d Cnt=%2.2d Dev#=%3d Spd=%3s MxCh=%2d
+B:  Alloc=%3d/%3d us (%2d%%), #Int=%3d, #Iso=%3d
+D:  Ver=%2x.%02x Cls=%02x(%-5s) Sub=%02x Prot=%02x MxPS=%2d #Cfgs=%3d
+P:  Vendor=%04x ProdID=%04x Rev=%2x.%02x
+S:  Manufacturer=%.100s
+S:  Product=%.100s
+S:  SerialNumber=%.100s
+C:%c #Ifs=%2d Cfg#=%2d Atr=%02x MxPwr=%3dmA
+A:  FirstIf#=%2d IfCount=%2d Cls=%02x(%-5s) Sub=%02x Prot=%02x
+I:%c If#=%2d Alt=%2d #EPs=%2d Cls=%02x(%-5s) Sub=%02x Prot=%02x Driver=%s
+E:  Ad=%02x(%c) Atr=%02x(%-4s) MxPS=%4d Ivl=%d%cs
+,devuid=%u
+,devgid=%u
+,devmode=%o
+,busuid=%u
+,busgid=%u
+,busmode=%o
+,listuid=%u
+,listgid=%u
+,listmode=%o
+<3>usbfs: unrecognised mount option "%s" or missing value
+<4>usbfs: mount parameter error.
+<4>usbfs: Unknown node %s mode %x found on remount!
+<7>%s: %s: could not get inode!
+drivers/usb/core/inode.c
+<7>%s: %s: could not get root dentry!
+<7>%s: creating file '%s'
+<7>%s: Ah! can not find a parent!
+<3>Error creating usbfs device entry
+<3>Unable to get usbfs mount
+<3>Unable to create devices usbfs file
+<3>Error creating usbfs bus entry
+devmode=%o
+busmode=%o
+listuid=%u
+listgid=%u
+listmode=%o
+<5>usbmon: unable to register with the core
+<3>usbmon: Outstanding opens (%d) on usb%d, leaking...
+nreaders %d events %u text_lost %u
+<5>usbmon: debugfs is not available
+ s %02x %02x %04x %04x %04x
+ %c __ __ ____ ____ ____
+%lx %u %c %c%c:%d:%03u:%u
+ %d:%d:%d:%d
+%lx %u %c %c%c:%03u:%02u
+<3>usbmon: consistency error on close
+&rp->printf_lock
+mon_text_%p
+<3>usbmon: consistency error on open
+&rp->fetch_lock
+sock_inode_cache
+sockets: used %d
+<2>protocol %d >= NPROTO(%d)
+<6>NET: Registered protocol family %d
+<6>NET: Unregistered protocol family %d
+socket:[%lu]
+<3>sock_release: fasync list not empty!
+<7>sock_close: NULL inode
+<6>%s uses obsolete (PF_INET,SOCK_PACKET)
+<4>socket: no more sockets
+%-9s %-4s %-8s %-6s %-5s %-7s %-4s %-10s %s
+cl co di ac io in de sh ss gs se re sp bi br ha uh gp em
+%-9s %4u %6d  %6d   %-3s %6u   %-3s  %-10s %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c %2c
+<2>%s: Can't create sock SLAB cache!
+<2>%s: Can't create request sock SLAB cache!
+<3>PROTO_INUSE_NR exhausted
+<7>%s: optmem leakage (%d bytes) detected.
+<4>process `%s' is using obsolete %s SO_BSDCOMPAT
+getsockopt
+<6>sock_set_timeout: `%s' (pid %d) tries to set negative timeout
+setsockopt
+net/core/request_sock.c
+<4>%s: received packets cannot be forwarded while LRO is enabled
+<0>skb_under_panic: text:%p len:%d put:%d head:%p data:%p tail:%#lx end:%#lx dev:%s
+<0>skb_over_panic: text:%p len:%d put:%d head:%p data:%p tail:%#lx end:%#lx dev:%s
+<4>bad partial csum: csum=%u/%u len=%u
+include/linux/skbuff.h
+net/core/skbuff.c
+skbuff_head_cache
+skbuff_fclone_cache
+net/core/datagram.c
+net/core/stream.c
+<3>RTNL: assertion failed at %s (%d)
+net/core/gen_estimator.c
+Could not allocate generic netns
+Could not setup the initial network namespace
+wmem_default
+rmem_default
+dev_weight
+netdev_max_backlog
+message_cost
+message_burst
+optmem_max
+netdev_budget
+<5>%s: Dropping NETIF_F_SG since no checksum feature.
+<5>%s: Dropping NETIF_F_TSO since no SG feature.
+<3>%s: Dropping NETIF_F_UFO since no NETIF_F_HW_CSUM feature.
+<3>%s: Dropping NETIF_F_UFO since no NETIF_F_SG feature.
+softnet_stat
+Type Device      Function
+%08x %08x %08x %08x %08x %08x %08x %08x %08x
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+%6s:%8lu %7lu %4lu %4lu %4lu %5lu %10lu %9lu %8lu %7lu %4lu %4lu %4lu %5lu %7lu %10lu
+net/core/dev.c
+<4>%s: promiscuity touches roof, set promiscuity failed, promiscuity feature of device might be broken.
+<6>device %s %s promiscuous mode
+<0>%s: failed to move %s to init_net: %d
+<4>%s: allmulti touches roof, set allmulti failed, allmulti feature of device might be broken.
+<4>dev_remove_pack: %p not found.
+<3>%s: hw csum failure.
+%s: caps=(0x%lx, 0x%lx) len=%d data_len=%d ip_summed=%d
+<2>protocol %04x is buggy, dev %s
+<2>Virtual device %s asks to queue packet!
+<2>Dead loop on virtual device %s, fix it urgently!
+<3>network todo '%s' but state %d
+<0>unregister_netdevice: waiting for %s to become free. Usage count = %d
+<7>unregister_netdevice: device %s/%p never was registered
+__dev_addr_discard: address leakage! da_users=%d
+<3>%s: name change rollback failed: %d.
+<3>alloc_netdev: Unable to allocate device.
+<3>alloc_netdev: Unable to allocate tx qdiscs.
+<5>%s: mixed HW and IP checksum settings.
+<5>%s: mixed no checksumming and other settings.
+net/core/ethtool.c
+%-4d %-15s %-5d %-5d 
+net/core/dst.c
+net/core/neighbour.c
+entries  allocs destroys hash_grows  lookups hits  res_failed  rcv_probes_mcast rcv_probes_ucast  periodic_gc_runs forced_gc_runs unresolved_discards
+%08x  %08lx %08lx %08lx  %08lx %08lx  %08lx  %08lx %08lx  %08lx %08lx %08lx
+NEIGH: BUG, double timer add, state is %x
+neigh_resolve_output: dst=%p neigh=%p
+neigh_parms_release: not found
+cannot create neighbour cache statistics
+cannot create neighbour proc dir entry
+cannot allocate neighbour cache hashes
+<3>NEIGH: Registering multiple tables for family %d
+<4>Destroying alive neighbour %p
+<4>Impossible event.
+<2>neighbour leakage
+<4>neigh: timer & !nud_in_timer
+mcast_solicit
+ucast_solicit
+app_solicit
+retrans_time
+base_reachable_time
+delay_first_probe_time
+gc_stale_time
+unres_qlen
+proxy_qlen
+anycast_delay
+proxy_delay
+retrans_time_ms
+base_reachable_time_ms
+gc_interval
+gc_thresh1
+gc_thresh2
+gc_thresh3
+Unable to register rtnetlink message handler, protocol = %d, message type = %d
+rtnetlink_init: cannot allocate rta_buf
+rtnetlink_init: cannot initialize rtnetlink
+<4>A link change request failed with some changes comitted already. Interface %s may have been left with an inconsistent configuration, please check.
+net/core/rtnetlink.c
+rtnl-link-%s
+net/core/filter.c
+net/llc/llc_core.c
+<4>device type not supported: %d
+<7>%s: unable to resolve type %X addresses.
+net/sched/sch_generic.c
+<6>NETDEV WATCHDOG: %s (%s): transmit queue %u timed out
+<6>%s: activation failed
+<4>Dead loop on netdevice %s, fix it urgently!
+<4>BUG %s code %d qlen %d
+sk       Eth Pid    Groups   Rmem     Wmem     Dump     Locks     Drops
+%p %-3d %-6d %08x %-8d %-8d %p %-8d %-8d
+nlk->cb_mutex
+net-pf-%d-proto-%d
+include/net/sock.h
+<3>Freeing alive netlink socket %p
+net/netlink/af_netlink.c
+netlink_init: Cannot allocate nl_table
+GENL: Cannot initialize generic netlink
+GENL: Cannot register controller: %d
+<4>dst cache overflow
+ip_dst_cache
+IP route cache
+<3>Unable to setup rt_secret_timer
+<3>Unable to create route proc files
+entries  in_hit in_slow_tot in_slow_mc in_no_route in_brd in_martian_dst in_martian_src  out_hit out_slow_tot out_slow_mc  gc_total gc_ignored gc_goal_miss gc_dst_overflow in_hlist_search out_hlist_search
+%08x  %08x %08x %08x %08x %08x %08x %08x  %08x %08x %08x %08x %08x %08x %08x %08x %08x 
+Iface	Destination	Gateway 	Flags		RefCnt	Use	Metric	Source		MTU	Window	IRTT	TOS	HHRef	HHUptod	SpecDst
+%s	%08lX	%08lX	%8X	%d	%u	%d	%08lX	%d	%u	%u	%02X	%d	%1d	%08X%n
+<7>ip_rt_bug: %pI4 -> %pI4, %s
+<4>Neighbour table failure & not caching routes.
+<4>%s: %d rebuilds is over limit, route caching disabled
+<4>Route hash chain too long!
+<4>Adjust your secret_interval!
+<4>Neighbour table overflow.
+<2>Bug in ip_route_input_slow(). Please, report
+<7>rt_bind_peer(0) @%p
+gc_min_interval
+gc_min_interval_ms
+gc_timeout
+redirect_load
+redirect_number
+redirect_silence
+error_cost
+error_burst
+gc_elasticity
+mtu_expires
+min_adv_mss
+secret_interval
+inet_peer_cache
+<6>source route option %pI4 -> %pI4
+<3>ip_frag_create: no memory left !
+net/ipv4/ip_fragment.c
+<3>IP: queue_glue: no memory for gluing queue %p
+<6>Oversized IP packet from %pI4.
+ipfrag_high_thresh
+ipfrag_low_thresh
+ipfrag_time
+ipfrag_secret_interval
+ipfrag_max_dist
+<2>ip_forward(): Argh! Destination lost!
+<6>IP: frag: no memory for new fragment!
+<7>ip_finish_output2: No header cache and no neighbour!
+net/ipv4/ip_output.c
+net/ipv4/inet_hashtables.c
+net/ipv4/inet_timewait_sock.c
+net/ipv4/inet_connection_sock.c
+include/net/request_sock.h
+tcp_bind_bucket
+TCP established
+<6>TCP: Hash tables configured (established %d bind %d)
+net/ipv4/tcp.c
+<6>TCP: too many of orphaned sockets
+<6>recvmsg bug: copied %X seq %X
+<7>TCP(%s:%d): Application bug, race in MSG_PEEK.
+net/ipv4/tcp_input.c
+<3>%s: Impossible, sk->sk_state=%d
+<7>prune_queue: c=%x
+<7>ofo packet was already received 
+<7>ofo requeuing : rcv_next %X seq %X - %X
+<7>partial packet: rcv_next %X seq %X - %X
+<7>out of order segment: rcv_next %X seq %X - %X
+<7>Leak l=%u %d
+<7>Leak s=%u %d
+<7>Leak r=%u %d
+<7>Ack %u after %u:%u
+<7>Ack %u before %u:%u
+<6>tcp_parse_options: Illegal window scaling value %d >14 received.
+<7>tcp_send_synack: wrong queue state
+net/ipv4/tcp_output.c
+<7>retrans_out leaked.
+<6>Out of socket memory
+net/ipv4/tcp_timer.c
+<7>TCP: Peer %pI4:%u/%u unexpectedly shrunk window %u:%u (repaired)
+Failed to create the TCP control socket.
+  sl  local_address rem_address   st tx_queue rx_queue tr tm->when retrnsmt   uid  timeout inode
+%4d: %08X:%04X %08X:%04X %02X %08X:%08X %02X:%08lX %08X %5d %8d %lu %d %p %lu %lu %u %u %d%n
+%4d: %08X:%04X %08X:%04X %02X %08X:%08X %02X:%08lX %08X %5d %8d %u %d %p%n
+%4d: %08X:%04X %08X:%04X %02X %08X:%08X %02X:%08lX %08X %5d %8d %d %d %p%n
+<7>TCP: drop open request from %pI4/%u
+net/ipv4/tcp_ipv4.c
+<6>TCP: time wait bucket table overflow
+net/ipv4/tcp_cong.c
+<3>TCP %s does not implement required ops
+<5>TCP %s already registered
+<6>TCP %s registered
+<6>%s forgot to set AF_INET in raw sendmsg. Fix it!
+  sl  local_address rem_address   st tx_queue rx_queue tr tm->when retrnsmt   uid  timeout inode ref pointer drops
+%4d: %08X:%04X %08X:%04X %02X %08X:%08X %02X:%08lX %08X %5d %8d %lu %d %p %d
+  sl  local_address rem_address   st tx_queue rx_queue tr tm->when retrnsmt   uid  timeout inode ref pointer drops
+%4d: %08X:%04X %08X:%04X %02X %08X:%08X %02X:%08lX %08X %5d %8d %lu %d %p %d%n
+<4>UDPLITE: partial coverage %d while full coverage %d requested
+<4>UDPLITE: coverage %d too small, need min %d
+<7>UDPLITE: zeroed checksum field
+<7>UDPLITE: bad csum coverage %d/%d
+<7>UDP%s: short packet: From %pI4:%u %d/%d to %pI4:%u
+<7>UDP%s: bad checksum. From %pI4:%u to %pI4:%u ulen %d
+<7>udp cork app bug 2
+<7>udp cork app bug 3
+<3>%s: Cannot register /proc!
+<2>%s: Cannot add UDP-Lite protocol.
+IP address       HW type     Flags       HW address            Mask     Device
+%-16s 0x%-10x0x%-10x%s     *        %s
+00:00:00:00:00:00
+<7>trying to ucast probe in NUD_INVALID
+<7>arp_find is called with dst==NULL
+<7>ARP: arp called for own IP address
+<6>Wrong address mask %pI4 from %s/%pI4
+<6>ICMP: %pI4: fragmentation needed and DF set.
+<6>ICMP: %pI4: Source Route Failed.
+<4>%pI4 sent an invalid ICMP type %u, code %u error to a broadcast: %pI4 on %s
+net/ipv4/devinet.c
+Freeing alive in_device %p
+<7>inetdev_event: bug
+forwarding
+mc_forwarding
+accept_redirects
+secure_redirects
+shared_media
+send_redirects
+accept_source_route
+bootp_relay
+log_martians
+arp_filter
+arp_announce
+arp_ignore
+arp_accept
+arp_notify
+disable_xfrm
+disable_policy
+force_igmp_version
+promote_secondaries
+ip_forward
+net/ipv4/af_inet.c
+<6>%s(): shifting inet->saddr from %pI4 to %pI4
+<3>Attempt to override permanent protocol %d.
+<3>Ignoring attempt to register invalid socket type %d.
+<2>inet_init: Cannot add ICMP protocol
+<2>inet_init: Cannot add UDP protocol
+<2>inet_init: Cannot add TCP protocol
+Failed to create the ICMP control socket.
+<2>inet_init: Cannot init ipv4 mibs
+<3>Attempt to unregister permanent protocol %d.
+net-pf-%d-proto-%d-type-%d
+Attempt to release TCP socket in state %d %p
+Attempt to release alive inet socket %p
+%3s %6s %10s %10s %6s %6s
+%3d %6.6s 0x%08x 0x%08x %6lu %6lu
+Idx	Device    : Count Querier	Group    Users Timer	Reporter
+%d	%-10s: %5d %7s
+				%08X %5d %d:%08lX		%d
+net/ipv4/igmp.c
+<4>fib_add_ifaddr: bug: prim == NULL
+<4>fib_del_ifaddr: bug: prim == NULL
+<4>fib_semantic_match bad type %#x
+<4>Freeing alive fib_info %p
+net/ipv4/fib_semantics.c
+net/ipv4/inet_fragment.c
+tcp_timestamps
+tcp_window_scaling
+tcp_retrans_collapse
+ip_default_ttl
+ip_no_pmtu_disc
+ip_nonlocal_bind
+tcp_syn_retries
+tcp_synack_retries
+tcp_max_orphans
+tcp_max_tw_buckets
+ip_dynaddr
+tcp_keepalive_time
+tcp_keepalive_probes
+tcp_keepalive_intvl
+tcp_retries1
+tcp_retries2
+tcp_fin_timeout
+tcp_tw_recycle
+tcp_abort_on_overflow
+tcp_stdurg
+tcp_rfc1337
+tcp_max_syn_backlog
+ip_local_port_range
+igmp_max_msf
+inet_peer_threshold
+inet_peer_minttl
+inet_peer_maxttl
+inet_peer_gc_mintime
+inet_peer_gc_maxtime
+tcp_orphan_retries
+tcp_reordering
+tcp_app_win
+tcp_adv_win_scale
+tcp_tw_reuse
+tcp_frto_response
+tcp_low_latency
+tcp_no_metrics_save
+tcp_moderate_rcvbuf
+tcp_tso_win_divisor
+tcp_congestion_control
+tcp_mtu_probing
+tcp_base_mss
+tcp_workaround_signed_windows
+tcp_slow_start_after_idle
+tcp_available_congestion_control
+tcp_allowed_congestion_control
+tcp_max_ssthresh
+udp_rmem_min
+udp_wmem_min
+icmp_echo_ignore_all
+icmp_echo_ignore_broadcasts
+icmp_ignore_bogus_error_responses
+icmp_errors_use_inbound_ifaddr
+icmp_ratelimit
+icmp_ratemask
+rt_cache_rebuild_count
+Iface	Destination	Gateway 	Flags	RefCnt	Use	Metric	Mask		MTU	Window	IRTT
+%s	%08X	%08X	%04X	%d	%u	%d	%08X	%d	%u	%u%n
+*	%08X	%08X	%04X	%d	%u	%d	%08X	%d	%u	%u%n
+<2>route.c: bad divisor %d!
+ip_fib_hash
+ip_fib_alias
+Ip: Forwarding DefaultTTL
+Icmp: InMsgs InErrors
+ OutMsgs OutErrors
+Icmp: %lu %lu
+TCP: inuse %d orphan %d tw %d alloc %d mem %d
+UDP: inuse %d mem %d
+UDPLITE: inuse %d
+RAW: inuse %d
+FRAG: inuse %d memory %d
+InReceives
+InHdrErrors
+InAddrErrors
+ForwDatagrams
+InUnknownProtos
+InDiscards
+InDelivers
+OutRequests
+OutDiscards
+OutNoRoutes
+ReasmTimeout
+ReasmReqds
+ReasmFails
+FragCreates
+RtoAlgorithm
+ActiveOpens
+PassiveOpens
+AttemptFails
+EstabResets
+RetransSegs
+InDatagrams
+OutDatagrams
+RcvbufErrors
+SndbufErrors
+DestUnreachs
+SrcQuenchs
+Timestamps
+TimestampReps
+AddrMaskReps
+SyncookiesSent
+SyncookiesRecv
+SyncookiesFailed
+EmbryonicRsts
+PruneCalled
+OutOfWindowIcmps
+LockDroppedIcmps
+TWRecycled
+PAWSPassive
+PAWSActive
+DelayedACKs
+DelayedACKLocked
+DelayedACKLost
+ListenOverflows
+ListenDrops
+TCPPrequeued
+TCPDirectCopyFromBacklog
+TCPDirectCopyFromPrequeue
+TCPPrequeueDropped
+TCPHPHitsToUser
+TCPPureAcks
+TCPRenoRecovery
+TCPSackRecovery
+TCPSACKReneging
+TCPFACKReorder
+TCPSACKReorder
+TCPRenoReorder
+TCPTSReorder
+TCPFullUndo
+TCPPartialUndo
+TCPDSACKUndo
+TCPLossUndo
+TCPLostRetransmit
+TCPRenoFailures
+TCPSackFailures
+TCPLossFailures
+TCPFastRetrans
+TCPForwardRetrans
+TCPSlowStartRetrans
+TCPTimeouts
+TCPRenoRecoveryFail
+TCPSackRecoveryFail
+TCPSchedulerFailed
+TCPRcvCollapsed
+TCPDSACKOldSent
+TCPDSACKOfoSent
+TCPDSACKRecv
+TCPDSACKOfoRecv
+TCPAbortOnSyn
+TCPAbortOnData
+TCPAbortOnClose
+TCPAbortOnMemory
+TCPAbortOnTimeout
+TCPAbortOnLinger
+TCPAbortFailed
+TCPMemoryPressures
+TCPSACKDiscard
+TCPDSACKIgnoredOld
+TCPDSACKIgnoredNoUndo
+TCPSpuriousRTOs
+TCPMD5NotFound
+TCPMD5Unexpected
+TCPSackShifted
+TCPSackMerged
+TCPSackShiftFallback
+InNoRoutes
+InTruncatedPkts
+InMcastPkts
+OutMcastPkts
+InBcastPkts
+OutBcastPkts
+InMcastOctets
+OutMcastOctets
+InBcastOctets
+OutBcastOctets
+<2>%s: Cannot create unix_sock SLAB cache!
+Num       RefCount Protocol Flags    Type St Inode Path
+%p: %08X %08X %08X %04X %02X %5lu
+net/unix/af_unix.c
+&u->readlock
+<6>Attempt to release alive unix socket: %p
+max_dgram_qlen
+sk       RefCnt Type Proto  Iface R Rmem   User   Inode
+%p %-6d %-4d %04x   %-5d %1d %-6u %-6u %-6lu
+&po->pg_vec_lock
+net/packet/af_packet.c
+Attempt to release alive packet socket: %p
+<3>bridge: can't register sap for STP
+<4>%s: received packet with own address as source address
+<4>%s adding interface with same address as a received packet
+bridge_fdb_cache
+net/bridge/br_if.c
+<6>%s: port %d(%s) entering %s state
+sending tcn bpdu
+propagating
+<6>%s: topology change detected, %s
+<6>%s: received tcn bpdu on port %i(%s)
+%.2x%.2x.%.2x%.2x%.2x%.2x%.2x%.2x
+net/bridge/br_stp_if.c
+/sbin/bridge-stp
+<6>%s: userspace STP started
+<6>%s: starting userspace STP failed, starting kernel STP
+<6>%s: userspace STP stopped, return code %d
+<6>%s: port %i(%s) entering %s state
+<6>%s: neighbor %.2x%.2x.%.2x:%.2x:%.2x:%.2x:%.2x:%.2x lost on port %d(%s)
+net/bridge/br_netlink.c
+<6>8021q: VLANs not supported on %s
+<6>8021q: device %s has buggy VLAN hw accel
+<6>8021q: Device %s has buggy VLAN hw accel
+<6>%s v%s %s
+<6>All bugs added by %s
+net/8021q/vlan.c
+<4>8021q: failed to change proc name for %s
+<4>8021q: failed to add proc entry for %s
+net/8021q/vlan_dev.c
+%s  VID: %d	 REORDER_HDR: %i  dev->priv_flags: %hx
+total frames received
+total bytes received
+Broadcast/Multicast Rcvd
+total frames transmitted
+total bytes transmitted
+total headroom inc
+total encap on xmit
+Device: %s
+INGRESS priority mappings: 0:%u  1:%u  2:%u  3:%u  4:%u  5:%u  6:%u 7:%u
+ EGRESS priority mappings: 
+VLAN Dev name	 | VLAN ID
+Name-Type: %s
+%-15s| %d  | %s
+<3>%s: can't create entry in proc filesystem!
+VLAN_NAME_TYPE_PLUS_VID
+VLAN_NAME_TYPE_RAW_PLUS_VID
+VLAN_NAME_TYPE_PLUS_VID_NO_PAD
+VLAN_NAME_TYPE_RAW_PLUS_VID_NO_PAD
+<3>%s (WE) : Invalid/Unknown Wireless Event (0x%04X)
+<3>%s (WE) : Wireless Event too big (%d)
+<3>%s (WE) : Wireless Event too small (%d)
+net/wireless/wext.c
+Inter-| sta-|   Quality        |   Discarded packets               | Missed | WE
+ face | tus | link level noise |  nwid  crypt   frag  retry   misc | beacon | %d
+%6s: %04x  %3d%c  %3d%c  %3d%c  %6d %6d %6d %6d %6d   %6d
+net/sysctl_net.c
+lib/klist.c
+loops_per_jiffy
+reset_devices
+system_state
+init_uts_ns
+ap_ready_led_off
+ap_ready_led_on
+ap_usb_led_off
+ap_usb_led_on
+unregister_simple_config_callback
+register_simple_config_callback
+get_system_type
+get_wmac_mem_len
+get_wmac_base
+get_wmac_irq
+valid_wmac_num
+ar7240_ahb_freq
+ar7240_spi_flash_sector_erase
+ar7240_spi_flash_write_page
+ar7240_spi_flash_read_page
+ar7240_spi_raw_input_u32
+ar7240_spi_raw_input_u8
+ar7240_spi_raw_output_u32
+ar7240_spi_raw_output_u8
+ar7240_spi_up
+ar7240_spi_down
+ar7240_spi_init
+ar7240_i2c_raw_read_bytes_from_addr
+ar7240_i2c_raw_write_bytes_to_addr
+ar7240_gpio_float_high_test
+ar7240_gpio_drive_high
+ar7240_gpio_drive_low
+ar7240_gpio_enable_i2c_on_gpio_0_1
+ar7240_gpio_enable_spi_cs1_cs0
+ar7240_gpio_enable_stereo
+ar7240_gpio_enable_uart
+ar7240_gpio_enable_slic
+ar7240_gpio_up
+ar7240_gpio_down
+ar7240_gpio_init
+ar7240_slic_cntrl_wr
+ar7240_slic_cntrl_rd
+ar7240_slic_setup
+ar7240_slic_status_rd
+ar7240_slic_sample_pos_wr
+ar7240_slic_freq_div_wr
+ar7240_slic_1_slot_pos_wr
+ar7240_slic_0_slot_pos_wr
+ar7240_dma_config_buffer
+ar7240_dma_config_rd
+ar7240_dma_addr_rd
+ar7240_dma_update_wr
+ar7240_dma_config_wr
+ar7240_dma_addr_wr
+ar7240_reset
+ar7240_misc_get_irq_status
+ar7240_misc_get_irq_mask
+ar7240_misc_disable_irq
+ar7240_misc_enable_irq
+pm_power_off
+mips_io_port_base
+mips_machtype
+PCI_DMA_BUS_IS_PHYS
+shm_align_mask
+cp0_perfcount_irq
+dump_stack
+invalid_pte_table
+__csum_partial_copy_user
+csum_partial_copy_nocheck
+csum_partial
+__strnlen_user_asm
+__strnlen_user_nocheck_asm
+__strlen_user_asm
+__strlen_user_nocheck_asm
+__strncpy_from_user_asm
+__strncpy_from_user_nocheck_asm
+__copy_user_inatomic
+__copy_user
+kernel_thread
+_page_cachable_default
+__flush_anon_page
+__flush_dcache_page
+_dma_cache_wback_inv
+flush_data_cache_page
+local_flush_data_cache_page
+dma_cache_sync
+dma_is_consistent
+dma_supported
+dma_mapping_error
+dma_sync_sg_for_device
+dma_sync_sg_for_cpu
+dma_sync_single_range_for_device
+dma_sync_single_range_for_cpu
+dma_sync_single_for_device
+dma_sync_single_for_cpu
+dma_unmap_sg
+dma_map_page
+dma_map_sg
+dma_unmap_single
+dma_map_single
+dma_free_coherent
+dma_free_noncoherent
+dma_alloc_coherent
+dma_alloc_noncoherent
+empty_zero_page
+clear_page
+io_schedule
+cond_resched_softirq
+cond_resched_lock
+_cond_resched
+sched_setscheduler
+set_user_nice
+sleep_on_timeout
+interruptible_sleep_on_timeout
+interruptible_sleep_on
+completion_done
+try_wait_for_completion
+wait_for_completion_killable
+wait_for_completion_interruptible_timeout
+wait_for_completion_interruptible
+wait_for_completion_timeout
+wait_for_completion
+complete_all
+__wake_up_sync
+__wake_up_sync_key
+default_wake_function
+per_cpu__kstat
+wake_up_process
+get_task_mm
+__set_personality
+unregister_exec_domain
+register_exec_domain
+warn_slowpath_null
+warn_slowpath_fmt
+test_taint
+panic_blink
+panic_notifier_list
+printk_timed_ratelimit
+printk_ratelimit
+unregister_console
+register_console
+console_start
+console_stop
+console_print
+console_conditional_schedule
+release_console_sem
+try_acquire_console_sem
+acquire_console_sem
+console_suspend_enabled
+console_set_on_cmdline
+console_drivers
+oops_in_progress
+cpu_active_mask
+cpu_present_mask
+cpu_online_mask
+cpu_possible_mask
+cpu_all_bits
+cpu_bit_bitmap
+complete_and_exit
+disallow_signal
+allow_signal
+get_jiffies_64
+jiffies_64_to_clock_t
+clock_t_to_jiffies
+jiffies_to_clock_t
+jiffies_to_timeval
+timeval_to_jiffies
+jiffies_to_timespec
+timespec_to_jiffies
+usecs_to_jiffies
+msecs_to_jiffies
+ns_to_timeval
+ns_to_timespec
+set_normalized_timespec
+timespec_trunc
+jiffies_to_usecs
+jiffies_to_msecs
+current_fs_time
+send_remote_softirq
+__send_remote_softirq
+per_cpu__softirq_work_list
+tasklet_hrtimer_init
+tasklet_kill
+tasklet_init
+__tasklet_hi_schedule_first
+__tasklet_hi_schedule
+__tasklet_schedule
+local_bh_enable_ip
+local_bh_enable
+_local_bh_enable
+local_bh_disable
+__devm_release_region
+__devm_request_region
+__release_region
+__check_region
+__request_region
+adjust_resource
+allocate_resource
+release_resource
+request_resource
+iomem_resource
+ioport_resource
+unregister_sysctl_table
+sysctl_data
+sysctl_string
+sysctl_ms_jiffies
+sysctl_jiffies
+sysctl_intvec
+register_sysctl_paths
+register_sysctl_table
+proc_doulongvec_ms_jiffies_minmax
+proc_doulongvec_minmax
+proc_dostring
+proc_dointvec_ms_jiffies
+proc_dointvec_userhz_jiffies
+proc_dointvec_minmax
+proc_dointvec_jiffies
+proc_dointvec
+__cap_init_eff_set
+__cap_full_set
+__cap_empty_set
+msleep_interruptible
+schedule_timeout_uninterruptible
+schedule_timeout_killable
+schedule_timeout_interruptible
+schedule_timeout
+add_timer_on
+mod_timer_pinned
+mod_timer_pending
+init_timer_deferrable_key
+init_timer_key
+round_jiffies_up_relative
+round_jiffies_up
+__round_jiffies_up_relative
+__round_jiffies_up
+round_jiffies_relative
+round_jiffies
+__round_jiffies_relative
+__round_jiffies
+boot_tvec_bases
+jiffies_64
+init_user_ns
+unblock_all_signals
+block_all_signals
+sigprocmask
+send_sig_info
+flush_signals
+dequeue_signal
+recalc_sigpending
+kill_pid_info_as_uid
+__fatal_signal_pending
+orderly_poweroff
+kernel_power_off
+kernel_halt
+kernel_restart
+emergency_restart
+fs_overflowgid
+fs_overflowuid
+call_usermodehelper_pipe
+call_usermodehelper_exec
+call_usermodehelper_stdinpipe
+call_usermodehelper_setcleanup
+call_usermodehelper_setkeys
+call_usermodehelper_setup
+call_usermodehelper_freeinfo
+__request_module
+destroy_workqueue
+__create_workqueue_key
+execute_in_process_context
+flush_scheduled_work
+schedule_delayed_work_on
+schedule_delayed_work
+schedule_work_on
+schedule_work
+cancel_delayed_work_sync
+cancel_work_sync
+flush_work
+flush_workqueue
+queue_delayed_work_on
+queue_delayed_work
+queue_work_on
+queue_work
+task_active_pid_ns
+task_tgid_nr_ns
+__task_pid_nr_ns
+find_get_pid
+find_pid_ns
+is_container_init
+init_pid_ns
+rcu_barrier_sched
+rcu_barrier_bh
+rcu_barrier
+synchronize_rcu
+param_get_string
+param_set_copystring
+param_array_get
+param_array_set
+param_get_invbool
+param_set_invbool
+param_get_bool
+param_set_bool
+param_get_charp
+param_set_charp
+param_get_ulong
+param_set_ulong
+param_get_long
+param_set_long
+param_get_uint
+param_set_uint
+param_get_int
+param_set_int
+param_get_ushort
+param_set_ushort
+param_get_short
+param_set_short
+param_get_byte
+param_set_byte
+do_posix_clock_nonanosleep
+do_posix_clock_nosettime
+register_posix_clock
+posix_timer_event
+kthread_stop
+kthread_bind
+kthread_create
+kthread_should_stop
+bit_waitqueue
+wake_up_bit
+__wake_up_bit
+out_of_line_wait_on_bit_lock
+__wait_on_bit_lock
+out_of_line_wait_on_bit
+__wait_on_bit
+wake_bit_function
+autoremove_wake_function
+abort_exclusive_wait
+finish_wait
+prepare_to_wait_exclusive
+prepare_to_wait
+remove_wait_queue
+add_wait_queue_exclusive
+add_wait_queue
+__init_waitqueue_head
+__kfifo_get
+__kfifo_put
+kfifo_free
+kfifo_alloc
+kfifo_init
+atomic_dec_and_mutex_lock
+mutex_trylock
+mutex_lock_killable
+mutex_lock_interruptible
+mutex_unlock
+mutex_lock
+__mutex_init
+schedule_hrtimeout
+schedule_hrtimeout_range
+hrtimer_get_res
+hrtimer_init
+hrtimer_get_remaining
+hrtimer_cancel
+hrtimer_try_to_cancel
+hrtimer_start
+hrtimer_start_range_ns
+hrtimer_forward
+ktime_add_safe
+ktime_sub_ns
+ktime_add_ns
+ktime_get_ts
+ktime_get_real
+downgrade_write
+down_write_trylock
+down_write
+down_read_trylock
+srcu_batches_completed
+synchronize_srcu
+srcu_read_unlock
+srcu_read_lock
+cleanup_srcu_struct
+init_srcu_struct
+down_timeout
+down_trylock
+down_killable
+down_interruptible
+unregister_die_notifier
+register_die_notifier
+unregister_reboot_notifier
+register_reboot_notifier
+srcu_init_notifier_head
+srcu_notifier_call_chain
+__srcu_notifier_call_chain
+srcu_notifier_chain_unregister
+srcu_notifier_chain_register
+raw_notifier_call_chain
+__raw_notifier_call_chain
+raw_notifier_chain_unregister
+raw_notifier_chain_register
+blocking_notifier_call_chain
+__blocking_notifier_call_chain
+blocking_notifier_chain_unregister
+blocking_notifier_chain_cond_register
+blocking_notifier_chain_register
+atomic_notifier_call_chain
+__atomic_notifier_call_chain
+atomic_notifier_chain_unregister
+atomic_notifier_chain_register
+kernel_kobj
+pm_qos_remove_notifier
+pm_qos_add_notifier
+pm_qos_remove_requirement
+pm_qos_update_requirement
+pm_qos_add_requirement
+pm_qos_requirement
+set_create_files_as
+set_security_override_from_ctx
+set_security_override
+prepare_kernel_cred
+revert_creds
+override_creds
+abort_creds
+commit_creds
+prepare_creds
+__put_cred
+async_synchronize_cookie
+async_synchronize_cookie_domain
+async_synchronize_full_domain
+async_synchronize_full
+async_schedule_domain
+async_schedule
+in_egroup_p
+in_group_p
+set_current_groups
+set_groups
+groups_free
+groups_alloc
+current_kernel_time
+get_seconds
+getrawmonotonic
+do_settimeofday
+do_gettimeofday
+getnstimeofday
+clocksource_register
+timecounter_cyc2time
+timecounter_read
+timecounter_init
+__timecompare_update
+timecompare_offset
+timecompare_transform
+clockevents_notify
+clockevents_register_device
+clockevent_delta2ns
+smp_call_function_single
+__module_text_address
+__module_address
+__symbol_get
+module_put
+symbol_put_addr
+__symbol_put
+module_refcount
+use_module
+find_module
+find_symbol
+each_symbol
+__module_put_and_exit
+unregister_module_notifier
+register_module_notifier
+module_mutex
+__print_symbol
+sprint_symbol
+kallsyms_on_each_symbol
+kstat_irqs_cpu
+request_threaded_irq
+remove_irq
+set_irq_wake
+enable_irq
+disable_irq
+disable_irq_nosync
+synchronize_irq
+__set_irq_handler
+handle_level_irq
+set_irq_chip_data
+set_irq_data
+set_irq_type
+set_irq_chip
+devm_free_irq
+devm_request_threaded_irq
+probe_irq_off
+probe_irq_mask
+probe_irq_on
+rcu_batches_completed_bh
+rcu_batches_completed
+call_rcu_bh
+try_to_release_page
+generic_file_aio_write
+generic_file_aio_write_nolock
+generic_file_buffered_write
+grab_cache_page_write_begin
+generic_file_direct_write
+pagecache_write_end
+pagecache_write_begin
+generic_write_checks
+iov_iter_single_seg_count
+iov_iter_fault_in_readable
+iov_iter_advance
+iov_iter_copy_from_user
+iov_iter_copy_from_user_atomic
+file_remove_suid
+should_remove_suid
+read_cache_page
+read_cache_page_async
+generic_file_readonly_mmap
+generic_file_mmap
+filemap_fault
+generic_file_aio_read
+generic_segment_checks
+grab_cache_page_nowait
+find_get_pages_tag
+find_get_pages_contig
+find_or_create_page
+find_lock_page
+find_get_page
+__lock_page_killable
+__lock_page
+end_page_writeback
+unlock_page
+add_page_wait_queue
+wait_on_page_bit
+add_to_page_cache_lru
+add_to_page_cache_locked
+filemap_write_and_wait_range
+filemap_write_and_wait
+filemap_fdatawait
+sync_page_range_nolock
+sync_page_range
+filemap_flush
+filemap_fdatawrite_range
+filemap_fdatawrite
+mempool_free_pages
+mempool_alloc_pages
+mempool_kfree
+mempool_kzalloc
+mempool_kmalloc
+mempool_free_slab
+mempool_alloc_slab
+mempool_free
+mempool_alloc
+mempool_destroy
+mempool_resize
+mempool_create_node
+mempool_create
+unregister_oom_notifier
+register_oom_notifier
+probe_kernel_write
+probe_kernel_read
+contig_page_data
+si_meminfo
+nr_free_buffer_pages
+free_pages_exact
+alloc_pages_exact
+free_pages
+__free_pages
+get_zeroed_page
+__get_free_pages
+__alloc_pages_nodemask
+movable_zone
+totalram_pages
+node_states
+mapping_tagged
+test_set_page_writeback
+clear_page_dirty_for_io
+set_page_dirty_lock
+set_page_dirty
+redirty_page_for_writepage
+__set_page_dirty_nobuffers
+write_one_page
+generic_writepages
+write_cache_pages
+balance_dirty_pages_ratelimited_nr
+bdi_set_max_ratio
+bdi_writeout_inc
+laptop_mode
+page_cache_async_readahead
+page_cache_sync_readahead
+read_cache_pages
+file_ra_state_init
+pagevec_lookup_tag
+pagevec_lookup
+____pagevec_lru_add
+__pagevec_release
+mark_page_accessed
+put_pages_list
+invalidate_inode_pages2
+invalidate_inode_pages2_range
+invalidate_mapping_pages
+truncate_inode_pages
+truncate_inode_pages_range
+cancel_dirty_page
+unregister_shrinker
+register_shrinker
+shmem_file_setup
+get_user_pages_fast
+strndup_user
+__krealloc
+memdup_user
+all_vm_events
+per_cpu__vm_event_states
+congestion_wait
+set_bdi_congested
+clear_bdi_congested
+bdi_destroy
+bdi_unregister
+bdi_register_dev
+bdi_register
+default_backing_dev_info
+default_unplug_io_fn
+follow_pfn
+vmtruncate
+unmap_mapping_range
+apply_to_page_range
+remap_pfn_range
+vm_insert_mixed
+vm_insert_pfn
+vm_insert_page
+get_user_pages
+zap_vma_ptes
+high_memory
+num_physpages
+can_do_mlock
+get_unmapped_area
+do_mmap_pgoff
+vm_get_page_prot
+page_mkclean
+free_vm_area
+alloc_vm_area
+remap_vmalloc_range
+vmalloc_32_user
+vmalloc_32
+vmalloc_node
+vmalloc_user
+__get_vm_area
+map_vm_area
+vm_map_ram
+vm_unmap_ram
+vm_unmap_aliases
+vmalloc_to_pfn
+vmalloc_to_page
+dmam_pool_destroy
+dmam_pool_create
+dma_pool_free
+dma_pool_alloc
+dma_pool_destroy
+dma_pool_create
+kmem_cache_name
+kmem_cache_size
+kmem_cache_free
+kmem_cache_alloc
+kmem_cache_destroy
+kmem_cache_shrink
+kmem_cache_create
+malloc_sizes
+nonseekable_open
+generic_file_open
+filp_close
+fd_install
+put_unused_fd
+dentry_open
+lookup_instantiate_filp
+vfs_statfs
+vfs_writev
+iov_shorten
+do_sync_write
+do_sync_read
+vfs_llseek
+default_llseek
+generic_file_llseek
+generic_file_llseek_unlocked
+generic_ro_fops
+drop_file_write_access
+alloc_file
+get_empty_filp
+get_max_files
+kern_mount_data
+do_kern_mount
+vfs_kern_mount
+get_sb_single
+get_sb_nodev
+kill_block_super
+get_sb_bdev
+kill_litter_super
+kill_anon_super
+set_anon_super
+drop_super
+generic_shutdown_super
+unlock_super
+lock_super
+deactivate_locked_super
+deactivate_super
+directly_mappable_cdev_bdi
+unregister_chrdev
+register_chrdev
+cdev_index
+cdev_alloc
+alloc_chrdev_region
+unregister_chrdev_region
+register_chrdev_region
+inode_set_bytes
+inode_get_bytes
+inode_sub_bytes
+inode_add_bytes
+vfs_fstatat
+vfs_getattr
+generic_fillattr
+set_binfmt
+search_binary_handler
+remove_arg_zero
+prepare_binprm
+install_exec_creds
+flush_old_exec
+kernel_read
+setup_arg_pages
+copy_strings_kernel
+unregister_binfmt
+__register_binfmt
+pipe_unlock
+generic_readlink
+dentry_unhash
+vfs_unlink
+vfs_symlink
+vfs_rename
+vfs_readlink
+generic_permission
+vfs_follow_link
+vfs_create
+unlock_rename
+file_permission
+inode_permission
+vfs_path_lookup
+path_lookup
+page_symlink_inode_operations
+page_symlink
+__page_symlink
+page_readlink
+page_put_link
+page_follow_link_light
+lookup_one_len
+lock_rename
+get_write_access
+follow_down
+user_path_at
+lookup_create
+kill_fasync
+__kill_fasync
+fasync_helper
+__f_setown
+generic_block_fiemap
+__generic_block_fiemap
+fiemap_check_flags
+fiemap_fill_next_extent
+vfs_readdir
+poll_schedule_timeout
+poll_freewait
+poll_initwait
+shrink_dcache_sb
+shrink_dcache_parent
+names_cachep
+have_submounts
+find_inode_number
+dget_locked
+d_validate
+d_splice_alias
+d_prune_aliases
+d_materialise_unique
+d_invalidate
+d_instantiate
+d_find_alias
+d_alloc_root
+d_genocide
+d_obtain_alias
+d_instantiate_unique
+dcache_lock
+sysctl_vfs_cache_pressure
+init_special_inode
+inode_wait
+inode_needs_sync
+file_update_time
+touch_atime
+generic_drop_inode
+generic_delete_inode
+remove_inode_hash
+__insert_inode_hash
+insert_inode_locked4
+insert_inode_locked
+iget_locked
+iget5_locked
+ilookup5_nowait
+unlock_new_inode
+inode_add_to_lists
+invalidate_inodes
+clear_inode
+inode_init_once
+__destroy_inode
+inode_init_always
+notify_change
+inode_setattr
+inode_change_ok
+iget_failed
+is_bad_inode
+make_bad_inode
+get_unused_fd
+get_fs_type
+unregister_filesystem
+register_filesystem
+put_mnt_ns
+create_mnt_ns
+mark_mounts_for_expiry
+do_add_mount
+may_umount
+may_umount_tree
+replace_mount_options
+save_mount_options
+generic_show_options
+mntput_no_expire
+simple_set_mnt
+mnt_drop_write
+mnt_want_write_file
+mnt_clone_write
+mnt_want_write
+__mnt_is_readonly
+seq_list_next
+seq_list_start_head
+seq_list_start
+seq_open_private
+__seq_open_private
+seq_release_private
+single_release
+single_open
+seq_bitmap_list
+seq_bitmap
+mangle_path
+seq_printf
+seq_escape
+seq_release
+generic_removexattr
+generic_setxattr
+generic_listxattr
+generic_getxattr
+vfs_removexattr
+vfs_listxattr
+vfs_getxattr
+xattr_getsecurity
+vfs_setxattr
+simple_attr_write
+simple_attr_read
+simple_attr_release
+simple_attr_open
+simple_transaction_release
+simple_transaction_read
+simple_transaction_get
+simple_transaction_set
+memory_read_from_buffer
+simple_read_from_buffer
+simple_unlink
+simple_sync_file
+simple_statfs
+simple_rmdir
+simple_rename
+simple_release_fs
+simple_readpage
+simple_pin_fs
+simple_lookup
+simple_link
+simple_getattr
+simple_fill_super
+d_alloc_name
+simple_empty
+simple_dir_operations
+simple_dir_inode_operations
+simple_write_end
+simple_write_begin
+get_sb_pseudo
+generic_read_dir
+dcache_readdir
+dcache_dir_open
+dcache_dir_lseek
+dcache_dir_close
+simple_fsync
+generic_fh_to_parent
+generic_fh_to_dentry
+generic_osync_inode
+sync_inode
+write_inode_now
+generic_sync_sb_inodes
+sb_has_dirty_inodes
+__mark_inode_dirty
+splice_direct_to_actor
+generic_splice_sendpage
+generic_file_splice_write
+__splice_from_pipe
+splice_from_pipe_end
+splice_from_pipe_begin
+splice_from_pipe_next
+splice_from_pipe_feed
+pipe_to_file
+default_file_splice_read
+generic_file_splice_read
+do_sync_mapping_range
+sync_filesystem
+fsstack_copy_attr_all
+fsstack_copy_inode_size
+current_umask
+unshare_fs_struct
+unlock_buffer
+sync_dirty_buffer
+mark_buffer_dirty
+ll_rw_block
+invalidate_bdev
+init_buffer
+generic_cont_expand_simple
+generic_block_bmap
+file_fsync
+end_buffer_async_write
+end_buffer_write_sync
+end_buffer_read_sync
+cont_write_begin
+block_write_full_page_endio
+block_write_full_page
+block_truncate_page
+block_sync_page
+block_read_full_page
+block_page_mkwrite
+block_prepare_write
+block_commit_write
+__wait_on_buffer
+bh_submit_read
+bh_uptodate_or_lock
+free_buffer_head
+alloc_buffer_head
+try_to_free_buffers
+nobh_truncate_page
+nobh_writepage
+nobh_write_end
+nobh_write_begin
+block_is_partially_uptodate
+generic_write_end
+block_write_end
+block_write_begin
+page_zero_new_buffers
+unmap_underlying_metadata
+create_empty_buffers
+block_invalidatepage
+set_bh_page
+invalidate_bh_lrus
+__breadahead
+__find_get_block
+alloc_page_buffers
+invalidate_inode_buffers
+__set_page_dirty_buffers
+mark_buffer_dirty_inode
+sync_mapping_buffers
+mark_buffer_async_write
+__lock_buffer
+bio_alloc_bioset
+bioset_free
+bioset_create
+bio_uncopy_user
+bio_copy_user
+bio_pair_release
+bio_copy_kern
+bio_map_kern
+bio_unmap_user
+bio_map_user
+bio_get_nr_vecs
+bio_add_pc_page
+bio_add_page
+bio_phys_segments
+__bio_clone
+bio_kmalloc
+bio_sector_offset
+zero_fill_bio
+__invalidate_device
+close_bdev_exclusive
+open_bdev_exclusive
+lookup_bdev
+ioctl_by_bdev
+blkdev_put
+blkdev_get
+bd_set_size
+check_disk_change
+revalidate_disk
+check_disk_size_change
+open_by_devnum
+bd_release
+freeze_bdev
+fsync_bdev
+sync_blockdev
+sb_min_blocksize
+sb_set_blocksize
+set_blocksize
+__blockdev_direct_IO
+mpage_writepage
+mpage_writepages
+mpage_readpage
+mpage_readpages
+set_task_ioprio
+remove_proc_entry
+proc_create_data
+create_proc_entry
+proc_mkdir
+proc_symlink
+proc_net_mkdir
+proc_net_remove
+proc_net_fops_create
+single_release_net
+seq_release_net
+single_open_net
+seq_open_net
+read_dev_sector
+__bdevname
+fat_add_entries
+fat_alloc_new_dir
+fat_remove_entries
+fat_dir_empty
+fat_get_dotdot_entry
+fat_search_long
+fat_free_clusters
+fat_setattr
+fat_getattr
+fat_flush_inodes
+fat_fill_super
+fat_sync_inode
+fat_build_inode
+fat_detach
+fat_attach
+fat_time_unix2fat
+fat_fs_error
+load_nls_default
+unload_nls
+unregister_nls
+register_nls
+utf16s_to_utf8s
+utf8s_to_utf16s
+utf32_to_utf8
+utf8_to_utf32
+cap_netlink_recv
+crypto_has_alg
+crypto_destroy_tfm
+crypto_alloc_tfm
+crypto_create_tfm
+crypto_alloc_base
+__crypto_alloc_tfm
+crypto_shoot_alg
+crypto_alg_mod_lookup
+crypto_probing_notify
+crypto_larval_lookup
+crypto_alg_lookup
+crypto_larval_kill
+crypto_larval_alloc
+crypto_mod_put
+crypto_mod_get
+crypto_chain
+crypto_alg_sem
+crypto_alg_list
+crypto_xor
+crypto_inc
+crypto_tfm_in_queue
+crypto_dequeue_request
+__crypto_dequeue_request
+crypto_enqueue_request
+crypto_init_queue
+crypto_alloc_instance
+crypto_attr_u32
+crypto_attr_alg
+crypto_attr_alg_name
+crypto_check_attr_type
+crypto_get_attr_type
+crypto_unregister_notifier
+crypto_register_notifier
+crypto_spawn_tfm
+crypto_drop_spawn
+crypto_init_spawn
+crypto_register_instance
+crypto_lookup_template
+crypto_unregister_template
+crypto_register_template
+crypto_unregister_alg
+crypto_register_alg
+crypto_alg_tested
+crypto_larval_error
+scatterwalk_map_and_copy
+scatterwalk_copychunks
+scatterwalk_done
+scatterwalk_map
+scatterwalk_start
+crypto_unregister_pcomp
+crypto_register_pcomp
+crypto_alloc_pcomp
+crypto_aes_set_key
+crypto_aes_expand_key
+crypto_il_tab
+crypto_it_tab
+crypto_fl_tab
+crypto_ft_tab
+elv_rb_latter_request
+elv_rb_former_request
+elv_unregister
+elv_register
+elv_abort_queue
+elv_queue_empty
+elv_add_request
+__elv_add_request
+elv_dispatch_add_tail
+elv_dispatch_sort
+elv_rb_find
+elv_rb_del
+elv_rb_add
+elevator_exit
+elevator_init
+elv_rq_merge_ok
+kblockd_schedule_work
+blk_rq_prep_clone
+blk_rq_unprep_clone
+blk_lld_busy
+__blk_end_request_cur
+__blk_end_request_all
+__blk_end_request
+blk_end_request_cur
+blk_end_request_all
+blk_end_request
+blk_update_request
+blk_fetch_request
+blk_start_request
+blk_peek_request
+blk_insert_cloned_request
+blk_rq_check_limits
+submit_bio
+generic_make_request
+blk_put_request
+__blk_put_request
+part_round_stats
+blk_insert_request
+blk_requeue_request
+blk_make_request
+blk_get_request
+blk_init_queue_node
+blk_init_queue
+blk_alloc_queue_node
+blk_alloc_queue
+blk_cleanup_queue
+blk_run_queue
+__blk_run_queue
+blk_sync_queue
+blk_stop_queue
+blk_start_queue
+blk_unplug
+generic_unplug_device
+blk_remove_plug
+blk_plug_device_unlocked
+blk_plug_device
+blk_dump_rq_flags
+blk_rq_init
+blk_get_backing_dev_info
+blk_queue_invalidate_tags
+blk_queue_start_tag
+blk_queue_end_tag
+blk_queue_resize_tags
+blk_queue_init_tags
+blk_init_tags
+blk_queue_free_tags
+blk_free_tags
+blk_queue_find_tag
+blkdev_issue_discard
+blkdev_issue_flush
+blk_queue_ordered
+blk_queue_update_dma_alignment
+blk_queue_dma_alignment
+blk_queue_segment_boundary
+blk_queue_dma_drain
+blk_queue_update_dma_pad
+blk_queue_dma_pad
+disk_stack_limits
+blk_stack_limits
+blk_queue_stack_limits
+blk_queue_io_opt
+blk_queue_io_min
+blk_limits_io_min
+blk_queue_alignment_offset
+blk_queue_physical_block_size
+blk_queue_logical_block_size
+blk_queue_max_segment_size
+blk_queue_max_hw_segments
+blk_queue_max_phys_segments
+blk_queue_max_hw_sectors
+blk_queue_max_sectors
+blk_queue_bounce_limit
+blk_queue_make_request
+blk_set_default_limits
+blk_queue_lld_busy
+blk_queue_rq_timed_out
+blk_queue_rq_timeout
+blk_queue_softirq_done
+blk_queue_merge_bvec
+blk_queue_set_discard
+blk_queue_prep_rq
+blk_max_low_pfn
+copy_io_context
+get_io_context
+put_io_context
+blk_rq_map_kern
+blk_rq_unmap_user
+blk_rq_map_user_iov
+blk_rq_map_user
+blk_execute_rq
+blk_execute_rq_nowait
+blk_rq_map_sg
+blk_recount_segments
+blk_complete_request
+blk_abort_queue
+blk_abort_request
+blkdev_ioctl
+__blkdev_driver_ioctl
+invalidate_partition
+bdev_read_only
+set_disk_ro
+set_device_ro
+alloc_disk_node
+alloc_disk
+blk_lookup_devt
+bdget_disk
+del_gendisk
+blk_unregister_region
+blk_register_region
+unregister_blkdev
+register_blkdev
+disk_map_sector_rcu
+disk_part_iter_exit
+disk_part_iter_next
+disk_part_iter_init
+disk_get_part
+scsi_cmd_ioctl
+sg_scsi_ioctl
+blk_verify_command
+scsi_command_size_tbl
+argv_split
+get_options
+get_option
+_atomic_dec_and_lock
+generic_find_next_le_bit
+generic_find_next_zero_le_bit
+find_next_zero_bit
+find_next_bit
+ida_destroy
+ida_remove
+ida_get_new
+ida_get_new_above
+ida_pre_get
+idr_replace
+idr_for_each
+idr_destroy
+idr_remove_all
+idr_remove
+idr_get_new
+idr_get_new_above
+idr_pre_get
+kset_unregister
+kset_register
+kobject_del
+kobject_put
+kobject_get
+kset_create_and_add
+kobject_create_and_add
+kobject_rename
+kobject_init_and_add
+kobject_add
+kobject_init
+kobject_set_name
+kobject_get_path
+radix_tree_tagged
+radix_tree_delete
+radix_tree_gang_lookup_tag_slot
+radix_tree_gang_lookup_tag
+radix_tree_gang_lookup_slot
+radix_tree_gang_lookup
+radix_tree_prev_hole
+radix_tree_next_hole
+radix_tree_tag_clear
+radix_tree_tag_set
+radix_tree_lookup
+radix_tree_lookup_slot
+radix_tree_insert
+radix_tree_preload
+__ratelimit
+rb_replace_node
+rb_insert_color
+__downgrade_write
+__up_write
+__down_write_trylock
+__down_write
+__down_write_nested
+__down_read_trylock
+__down_read
+__init_rwsem
+sysfs_streq
+strncasecmp
+strcasecmp
+vscnprintf
+strict_strtoll
+strict_strtoull
+strict_strtol
+strict_strtoul
+simple_strtoull
+simple_strtol
+simple_strtoul
+iter_div_u64_rem
+div_s64_rem
+__div64_32
+match_strdup
+match_strlcpy
+match_octal
+match_token
+half_md4_transform
+print_hex_dump_bytes
+print_hex_dump
+hex_dump_to_buffer
+kvasprintf
+bitmap_copy_le
+bitmap_allocate_region
+bitmap_release_region
+bitmap_find_free_region
+bitmap_fold
+bitmap_onto
+bitmap_bitremap
+bitmap_remap
+bitmap_parselist
+bitmap_scnlistprintf
+bitmap_parse_user
+__bitmap_parse
+bitmap_scnprintf
+__bitmap_weight
+__bitmap_subset
+__bitmap_intersects
+__bitmap_andnot
+__bitmap_xor
+__bitmap_or
+__bitmap_and
+__bitmap_shift_left
+__bitmap_shift_right
+__bitmap_complement
+__bitmap_equal
+__bitmap_full
+__bitmap_empty
+sg_copy_to_buffer
+sg_copy_from_buffer
+sg_miter_stop
+sg_miter_next
+sg_miter_start
+sg_alloc_table
+__sg_alloc_table
+sg_free_table
+__sg_free_table
+sg_init_one
+sg_init_table
+string_get_size
+__iowrite64_copy
+__iowrite32_copy
+devm_ioport_unmap
+devm_ioport_map
+devm_iounmap
+devm_ioremap_nocache
+devm_ioremap
+find_last_bit
+byte_rev_table
+nla_strcmp
+nla_memcmp
+nla_memcpy
+nla_strlcpy
+nla_policy_len
+nla_validate
+nla_append
+nla_put_nohdr
+__nla_put_nohdr
+nla_reserve_nohdr
+nla_reserve
+__nla_reserve_nohdr
+__nla_reserve
+ioport_unmap
+ioport_map
+iowrite32_rep
+iowrite16_rep
+iowrite8_rep
+ioread32_rep
+ioread16_rep
+ioread8_rep
+iowrite32be
+iowrite16be
+ioread32be
+ioread16be
+fb_notifier_call_chain
+fb_unregister_client
+fb_register_client
+secure_ipv4_port_ephemeral
+generate_random_uuid
+get_random_bytes
+add_input_randomness
+get_current_tty
+tty_devnum
+tty_unregister_driver
+tty_register_driver
+put_tty_driver
+tty_set_operations
+tty_driver_kref_put
+alloc_tty_driver
+tty_unregister_device
+tty_register_device
+tty_put_char
+tty_pair_get_pty
+tty_pair_get_tty
+tty_get_pgrp
+tty_kref_put
+tty_shutdown
+tty_free_termios
+tty_hung_up_p
+tty_vhangup
+tty_hangup
+tty_wakeup
+tty_check_change
+tty_std_termios
+n_tty_ioctl_helper
+tty_perform_flush
+tty_mode_ioctl
+tty_termios_hw_change
+tty_termios_copy_hw
+tty_get_baud_rate
+tty_encode_baud_rate
+tty_termios_encode_baud_rate
+tty_termios_input_baud_rate
+tty_termios_baud_rate
+tty_wait_until_sent
+tty_unthrottle
+tty_throttle
+tty_driver_flush_buffer
+tty_write_room
+tty_chars_in_buffer
+tty_ldisc_flush
+tty_ldisc_deref
+tty_ldisc_ref
+tty_ldisc_ref_wait
+tty_unregister_ldisc
+tty_register_ldisc
+tty_flip_buffer_push
+tty_prepare_flip_string_flags
+tty_prepare_flip_string
+tty_schedule_flip
+tty_insert_flip_string_flags
+tty_insert_flip_string
+tty_buffer_request_room
+tty_port_close_end
+tty_port_close_start
+tty_port_block_til_ready
+tty_port_lower_dtr_rts
+tty_port_raise_dtr_rts
+tty_port_carrier_raised
+tty_port_hangup
+tty_port_tty_set
+tty_port_tty_get
+tty_port_free_xmit_buf
+tty_port_alloc_xmit_buf
+tty_port_init
+misc_deregister
+misc_register
+uart_remove_one_port
+uart_add_one_port
+uart_resume_port
+uart_suspend_port
+uart_unregister_driver
+uart_register_driver
+uart_write_wakeup
+uart_match_port
+uart_set_options
+uart_parse_options
+uart_console_write
+uart_get_divisor
+uart_get_baud_rate
+uart_update_timeout
+serial8250_resume_port
+serial8250_suspend_port
+serial8250_unregister_port
+serial8250_register_port
+device_move
+device_rename
+device_destroy
+device_create
+device_create_vargs
+root_device_unregister
+__root_device_register
+device_remove_file
+device_create_file
+put_device
+get_device
+device_unregister
+device_del
+device_register
+device_add
+device_initialize
+device_find_child
+device_for_each_child
+dev_set_name
+device_schedule_callback_owner
+device_remove_bin_file
+device_create_bin_file
+dev_driver_string
+sysdev_show_int
+sysdev_store_int
+sysdev_show_ulong
+sysdev_store_ulong
+sysdev_unregister
+sysdev_register
+sysdev_resume
+sysdev_suspend
+sysdev_driver_unregister
+sysdev_driver_register
+sysdev_class_unregister
+sysdev_class_register
+sysdev_class_remove_file
+sysdev_class_create_file
+sysdev_remove_file
+sysdev_create_file
+bus_sort_breadthfirst
+bus_get_device_klist
+bus_get_kset
+bus_unregister_notifier
+bus_register_notifier
+bus_unregister
+bus_register
+device_reprobe
+bus_rescan_devices
+bus_for_each_drv
+bus_find_device_by_name
+bus_find_device
+bus_for_each_dev
+bus_remove_file
+bus_create_file
+device_release_driver
+driver_attach
+device_attach
+wait_for_device_probe
+device_bind_driver
+driver_find
+driver_unregister
+driver_register
+put_driver
+get_driver
+driver_add_kobj
+driver_remove_file
+driver_create_file
+driver_find_device
+driver_for_each_device
+class_interface_unregister
+class_interface_register
+class_destroy
+class_unregister
+class_remove_file
+class_create_file
+class_find_device
+class_for_each_device
+class_dev_iter_exit
+class_dev_iter_next
+class_dev_iter_init
+__class_create
+__class_register
+dma_get_required_mask
+platform_bus_type
+platform_driver_probe
+platform_driver_unregister
+platform_driver_register
+platform_device_register_simple
+platform_device_unregister
+platform_device_register
+platform_device_del
+platform_device_add
+platform_device_add_data
+platform_device_add_resources
+platform_device_alloc
+platform_device_put
+platform_add_devices
+platform_get_irq_byname
+platform_get_resource_byname
+platform_get_irq
+platform_get_resource
+platform_bus
+get_cpu_sysdev
+cpu_sysdev_class
+firmware_kobj
+devm_kfree
+devm_kzalloc
+devres_release_group
+devres_remove_group
+devres_close_group
+devres_open_group
+devres_destroy
+devres_remove
+devres_get
+devres_find
+devres_add
+devres_free
+devres_alloc
+attribute_container_find_class_device
+attribute_container_unregister
+attribute_container_register
+attribute_container_classdev_to_container
+transport_destroy_device
+transport_remove_device
+transport_configure_device
+transport_add_device
+transport_setup_device
+anon_transport_class_unregister
+anon_transport_class_register
+transport_class_unregister
+transport_class_register
+dmam_free_noncoherent
+dmam_alloc_noncoherent
+dmam_free_coherent
+dmam_alloc_coherent
+scsi_device_lookup
+__scsi_device_lookup
+scsi_device_lookup_by_target
+__scsi_device_lookup_by_target
+__starget_for_each_device
+starget_for_each_device
+__scsi_iterate_devices
+scsi_device_put
+scsi_device_get
+scsi_get_vpd_page
+scsi_track_queue_full
+scsi_adjust_queue_depth
+scsi_finish_command
+scsi_free_command
+scsi_allocate_command
+scsi_put_command
+__scsi_put_command
+scsi_get_command
+__scsi_get_command
+scsi_device_type
+scsi_flush_work
+scsi_queue_work
+scsi_is_host_device
+scsi_host_put
+scsi_host_get
+scsi_host_lookup
+scsi_unregister
+scsi_register
+scsi_host_alloc
+scsi_add_host
+scsi_remove_host
+scsi_host_set_state
+scsi_nonblockable_ioctl
+scsi_ioctl
+scsi_set_medium_removal
+scsi_print_result
+scsi_show_result
+scsi_print_sense
+__scsi_print_sense
+scsi_cmd_print_sense_hdr
+scsi_print_sense_hdr
+scsi_show_sense_hdr
+scsi_show_extd_sense
+scsi_extd_sense_format
+scsi_sense_key_string
+scsi_print_status
+scsi_print_command
+__scsi_print_command
+scsi_partsize
+scsicam_bios_param
+scsi_bios_ptable
+scsi_build_sense_buffer
+scsi_get_sense_info_fld
+scsi_sense_desc_find
+scsi_command_normalize_sense
+scsi_normalize_sense
+scsi_reset_provider
+scsi_report_device_reset
+scsi_report_bus_reset
+scsi_eh_flush_done_q
+scsi_eh_ready_devs
+scsi_eh_get_sense
+scsi_eh_finish_cmd
+scsi_eh_restore_cmnd
+scsi_eh_prep_cmnd
+scsi_block_when_processing_errors
+scsi_schedule_eh
+scsi_kunmap_atomic_sg
+scsi_kmap_atomic_sg
+scsi_target_unblock
+scsi_target_block
+scsi_internal_device_unblock
+scsi_internal_device_block
+scsi_target_resume
+scsi_target_quiesce
+scsi_device_resume
+scsi_device_quiesce
+sdev_evt_send_simple
+sdev_evt_alloc
+sdev_evt_send
+scsi_device_set_state
+scsi_test_unit_ready
+scsi_mode_sense
+scsi_mode_select
+scsi_unblock_requests
+scsi_block_requests
+__scsi_alloc_queue
+scsi_calculate_bounce_limit
+scsi_prep_fn
+scsi_prep_return
+scsi_prep_state_check
+scsi_setup_fs_cmnd
+scsi_setup_blk_pc_cmnd
+scsi_init_io
+scsi_release_buffers
+scsi_execute_req
+scsi_execute
+scsi_dma_unmap
+scsi_dma_map
+scsi_free_host_dev
+scsi_get_host_dev
+scsi_scan_host
+scsi_scan_target
+scsi_rescan_device
+scsi_add_device
+__scsi_add_device
+int_to_scsilun
+scsilun_to_int
+scsi_is_target_device
+scsi_complete_async_scans
+scsi_is_sdev_device
+scsi_register_interface
+scsi_register_driver
+scsi_remove_target
+scsi_remove_device
+scsi_bus_type
+scsi_dev_info_remove_list
+scsi_dev_info_add_list
+scsi_get_device_flags_keyed
+scsi_dev_info_list_add_keyed
+generic_mii_ioctl
+mii_check_gmii_support
+mii_check_media
+mii_check_link
+mii_ethtool_sset
+mii_ethtool_gset
+mii_nway_restart
+mii_link_ok
+default_mtd_writev
+unregister_mtd_user
+register_mtd_user
+put_mtd_device
+get_mtd_device_nm
+get_mtd_device
+del_mtd_device
+add_mtd_device
+mtd_table_mutex
+kill_mtd_super
+get_sb_mtd
+parse_mtd_partitions
+deregister_mtd_parser
+register_mtd_parser
+add_mtd_partitions
+del_mtd_partitions
+mtd_erase_callback
+del_mtd_blktrans_dev
+add_mtd_blktrans_dev
+deregister_mtd_blktrans
+register_mtd_blktrans
+ar7240_flash_spi_up
+ar7240_flash_spi_down
+map_destroy
+do_map_probe
+unregister_mtd_chip_driver
+register_mtd_chip_driver
+usb_debug_root
+usb_disabled
+usb_buffer_unmap_sg
+usb_buffer_map_sg
+usb_buffer_free
+usb_buffer_alloc
+__usb_get_extra_descriptor
+usb_get_current_frame_number
+usb_lock_device_for_reset
+usb_put_intf
+usb_get_intf
+usb_put_dev
+usb_get_dev
+usb_find_interface
+usb_altnum_to_altsetting
+usb_ifnum_to_if
+usb_queue_reset_device
+usb_reset_device
+usb_ep0_reinit
+usb_set_device_state
+usb_hub_clear_tt_buffer
+ehci_cf_port_reset_rwsem
+usb_mon_deregister
+usb_mon_register
+usb_hcd_platform_shutdown
+usb_remove_hcd
+usb_add_hcd
+usb_put_hcd
+usb_get_hcd
+usb_create_hcd
+usb_hc_died
+usb_hcd_giveback_urb
+usb_hcd_unlink_urb_from_ep
+usb_hcd_check_unlink_urb
+usb_hcd_link_urb_to_ep
+usb_calc_bus_time
+usb_hcd_poll_rh_status
+usb_bus_list_lock
+usb_bus_list
+usb_hcds_loaded
+usb_anchor_empty
+usb_scuttle_anchored_urbs
+usb_get_from_anchor
+usb_wait_anchor_empty_timeout
+usb_unlink_anchored_urbs
+usb_unpoison_anchored_urbs
+usb_poison_anchored_urbs
+usb_kill_anchored_urbs
+usb_unpoison_urb
+usb_poison_urb
+usb_kill_urb
+usb_unlink_urb
+usb_submit_urb
+usb_unanchor_urb
+usb_anchor_urb
+usb_get_urb
+usb_free_urb
+usb_alloc_urb
+usb_init_urb
+usb_driver_set_configuration
+usb_reset_configuration
+usb_set_interface
+usb_reset_endpoint
+usb_clear_halt
+usb_get_status
+usb_string
+usb_get_descriptor
+usb_sg_cancel
+usb_sg_wait
+usb_sg_init
+usb_bulk_msg
+usb_interrupt_msg
+usb_control_msg
+usb_deregister
+usb_register_driver
+usb_deregister_device_driver
+usb_register_device_driver
+usb_match_id
+usb_match_one_id
+usb_driver_release_interface
+usb_driver_claim_interface
+usb_deregister_dev
+usb_register_dev
+usb_unregister_notify
+usb_register_notify
+kernel_sock_shutdown
+kernel_sock_ioctl
+kernel_sendpage
+kernel_setsockopt
+kernel_getsockopt
+kernel_getpeername
+kernel_getsockname
+kernel_connect
+kernel_accept
+kernel_listen
+kernel_bind
+kernel_recvmsg
+kernel_sendmsg
+sockfd_lookup
+sock_wake_async
+sock_unregister
+sock_sendmsg
+sock_release
+sock_register
+sock_recvmsg
+sock_map_fd
+sock_create_lite
+sock_create_kern
+sock_create
+dlci_ioctl_set
+vlan_ioctl_set
+brioctl_set
+__sock_recv_timestamp
+sock_tx_timestamp
+proto_unregister
+proto_register
+sock_prot_inuse_get
+sock_prot_inuse_add
+sk_common_release
+sock_common_setsockopt
+sock_common_recvmsg
+sock_common_getsockopt
+sock_get_timestampns
+sock_get_timestamp
+release_sock
+lock_sock_nested
+sock_init_data
+sk_stop_timer
+sk_reset_timer
+sk_send_sigurg
+sock_no_sendpage
+sock_no_mmap
+sock_no_recvmsg
+sock_no_sendmsg
+sock_no_getsockopt
+sock_no_setsockopt
+sock_no_shutdown
+sock_no_listen
+sock_no_ioctl
+sock_no_poll
+sock_no_getname
+sock_no_accept
+sock_no_socketpair
+sock_no_connect
+sock_no_bind
+__sk_mem_reclaim
+__sk_mem_schedule
+sk_wait_data
+sock_alloc_send_skb
+sock_alloc_send_pskb
+sock_kfree_s
+sock_kmalloc
+sock_wmalloc
+sock_i_ino
+sock_i_uid
+sock_rfree
+sock_wfree
+sk_setup_caps
+sk_release_kernel
+sock_setsockopt
+sk_dst_check
+__sk_dst_check
+sk_receive_skb
+sock_queue_rcv_skb
+sysctl_optmem_max
+__skb_warn_lro_forwarding
+skb_partial_csum_set
+skb_tstamp_tx
+skb_cow_data
+skb_to_sgvec
+skb_gro_receive
+skb_segment
+skb_pull_rcsum
+skb_append_datato_frags
+skb_find_text
+skb_abort_seq_read
+skb_seq_read
+skb_prepare_seq_read
+skb_insert
+skb_append
+skb_unlink
+skb_queue_tail
+skb_queue_head
+skb_queue_purge
+skb_dequeue_tail
+skb_dequeue
+skb_copy_and_csum_dev
+skb_copy_and_csum_bits
+skb_checksum
+skb_store_bits
+skb_copy_bits
+__pskb_pull_tail
+___pskb_trim
+skb_copy_expand
+skb_realloc_headroom
+pskb_expand_head
+skb_recycle_check
+consume_skb
+__kfree_skb
+dev_alloc_skb
+skb_add_rx_frag
+__netdev_alloc_page
+__netdev_alloc_skb
+__alloc_skb
+skb_under_panic
+skb_over_panic
+memcpy_toiovecend
+memcpy_toiovec
+memcpy_fromiovecend
+memcpy_fromiovec
+csum_partial_copy_fromiovecend
+skb_recv_datagram
+skb_free_datagram
+skb_copy_datagram_iovec
+skb_copy_and_csum_datagram_iovec
+datagram_poll
+__skb_checksum_complete
+__skb_checksum_complete_head
+skb_copy_datagram_from_iovec
+skb_copy_datagram_const_iovec
+skb_kill_datagram
+__skb_recv_datagram
+sk_stream_kill_queues
+sk_stream_error
+sk_stream_wait_memory
+sk_stream_wait_close
+sk_stream_wait_connect
+sk_stream_write_space
+scm_fp_dup
+scm_detach_fds
+__scm_send
+__scm_destroy
+gnet_stats_finish_copy
+gnet_stats_copy_app
+gnet_stats_copy_queue
+gnet_stats_copy_rate_est
+gnet_stats_copy_basic
+gnet_stats_start_copy_compat
+gnet_stats_start_copy
+gen_estimator_active
+gen_replace_estimator
+gen_kill_estimator
+gen_new_estimator
+net_assign_generic
+unregister_pernet_gen_device
+unregister_pernet_device
+register_pernet_gen_device
+register_pernet_device
+unregister_pernet_gen_subsys
+register_pernet_gen_subsys
+unregister_pernet_subsys
+register_pernet_subsys
+net_namespace_list
+skb_dma_unmap
+skb_dma_map
+per_cpu__softnet_data
+dev_get_flags
+net_disable_timestamp
+net_enable_timestamp
+unregister_netdevice_notifier
+unregister_netdevice
+synchronize_net
+skb_checksum_help
+register_netdevice_notifier
+register_netdevice
+register_gifconf
+netif_receive_skb
+netdev_state_change
+netdev_set_master
+netdev_boot_setup_check
+free_netdev
+dev_set_mac_address
+dev_set_mtu
+dev_change_flags
+dev_set_promiscuity
+dev_set_allmulti
+dev_remove_pack
+dev_queue_xmit
+dev_get_by_name
+dev_get_by_index
+dev_get_by_flags
+dev_alloc_name
+dev_add_pack
+dev_valid_name
+__dev_remove_pack
+__dev_get_by_name
+__dev_get_by_index
+netdev_increment_features
+unregister_netdev
+alloc_netdev_mq
+dev_get_stats
+register_netdev
+init_dummy_netdev
+netdev_fix_features
+dev_unicast_unsync
+dev_unicast_sync
+dev_unicast_add
+dev_unicast_delete
+dev_addr_del_multiple
+dev_addr_add_multiple
+dev_addr_del
+dev_addr_add
+netif_napi_del
+netif_napi_add
+napi_complete
+__napi_complete
+__napi_schedule
+napi_gro_frags
+napi_frags_skb
+napi_frags_finish
+napi_get_frags
+napi_reuse_skb
+napi_gro_receive
+skb_gro_reset_offset
+napi_skb_finish
+dev_gro_receive
+napi_gro_flush
+br_handle_frame_hook
+netif_rx_ni
+dev_pick_tx
+skb_tx_hash
+netdev_rx_csum_fault
+skb_gso_segment
+netif_device_attach
+netif_device_detach
+dev_kfree_skb_any
+dev_kfree_skb_irq
+__netif_schedule
+dev_disable_lro
+netdev_bonding_change
+netdev_features_change
+dev_getfirstbyhwtype
+__dev_getfirstbyhwtype
+dev_getbyhwaddr
+dev_base_lock
+ethtool_op_get_flags
+ethtool_op_set_flags
+ethtool_op_get_ufo
+ethtool_op_set_ufo
+ethtool_op_set_tx_ipv6_csum
+ethtool_op_set_tx_hw_csum
+ethtool_op_set_tx_csum
+ethtool_op_set_tso
+ethtool_op_set_sg
+ethtool_op_get_tx_csum
+ethtool_op_get_tso
+ethtool_op_get_sg
+ethtool_op_get_link
+dev_mc_delete
+dev_mc_add
+dev_mc_unsync
+dev_mc_sync
+dst_destroy
+__dst_free
+dst_release
+dst_discard
+call_netevent_notifiers
+unregister_netevent_notifier
+register_netevent_notifier
+neigh_sysctl_unregister
+neigh_sysctl_register
+neigh_seq_stop
+neigh_seq_next
+neigh_seq_start
+__neigh_for_each_release
+neigh_for_each
+neigh_table_clear
+neigh_table_init
+neigh_table_init_no_netlink
+neigh_parms_release
+neigh_parms_alloc
+pneigh_enqueue
+neigh_connected_output
+neigh_resolve_output
+neigh_compat_output
+neigh_event_ns
+neigh_update
+__neigh_event_send
+neigh_destroy
+pneigh_lookup
+__pneigh_lookup
+neigh_create
+neigh_lookup_nodev
+neigh_lookup
+neigh_ifdown
+neigh_changeaddr
+neigh_rand_reach_time
+ifla_policy
+rtnl_create_link
+rtnl_set_sk_err
+rtnl_notify
+rtnl_unicast
+rtnl_is_locked
+rtnl_unlock
+rtnl_trylock
+rtnetlink_put_metrics
+__rta_fill
+rtnl_put_cacheinfo
+rtnl_link_unregister
+__rtnl_link_unregister
+rtnl_kill_links
+rtnl_link_register
+__rtnl_link_register
+rtnl_unregister_all
+rtnl_unregister
+rtnl_register
+__rtnl_register
+inet_proto_csum_replace4
+net_ratelimit
+net_msg_warn
+linkwatch_fire_event
+sk_chk_filter
+sk_run_filter
+netdev_class_remove_file
+netdev_class_create_file
+llc_sap_close
+llc_sap_open
+llc_sap_find
+llc_sap_list_lock
+llc_sap_list
+llc_set_station_handler
+llc_remove_pack
+llc_add_pack
+llc_build_and_send_ui_pkt
+llc_mac_hdr_init
+sysfs_format_mac
+alloc_etherdev_mq
+ether_setup
+eth_validate_addr
+eth_change_mtu
+eth_mac_addr
+eth_header_cache_update
+eth_header_cache
+eth_header_parse
+eth_type_trans
+eth_rebuild_header
+eth_header
+unregister_8022_client
+register_8022_client
+unregister_snap_client
+register_snap_client
+stp_proto_unregister
+stp_proto_register
+qdisc_destroy
+qdisc_reset
+qdisc_create_dflt
+noop_qdisc
+netif_carrier_off
+netif_carrier_on
+dev_trans_start
+netlink_unregister_notifier
+netlink_register_notifier
+nlmsg_notify
+netlink_rcv_skb
+netlink_ack
+netlink_dump_start
+netlink_set_nonroot
+netlink_clear_multicast_users
+netlink_change_ngroups
+netlink_kernel_release
+netlink_kernel_create
+netlink_set_err
+netlink_broadcast
+netlink_has_listeners
+netlink_unicast
+genl_unregister_family
+genl_register_family
+genl_unregister_ops
+genl_register_ops
+genl_register_family_with_ops
+genl_unregister_mc_group
+genl_register_mc_group
+ip_route_output_key
+ip_route_input
+__ip_select_ident
+ip_route_output_flow
+__ip_route_output_key
+inet_del_protocol
+inet_add_protocol
+ip_send_check
+ip_queue_xmit
+ip_generic_getfrag
+ip_fragment
+ip_build_and_send_pkt
+ip_local_out
+ip_getsockopt
+ip_setsockopt
+ip_cmsg_recv
+inet_hashinfo_init
+inet_hash_connect
+inet_unhash
+__inet_hash_nolisten
+__inet_lookup_established
+__inet_lookup_listener
+__inet_inherit_port
+inet_put_port
+inet_twsk_purge
+inet_twdr_twcal_tick
+inet_twsk_schedule
+inet_twsk_deschedule
+inet_twdr_twkill_work
+inet_twdr_hangman
+inet_twsk_alloc
+__inet_twsk_hashdance
+inet_twsk_put
+inet_csk_addr2sockaddr
+inet_csk_listen_stop
+inet_csk_listen_start
+inet_csk_destroy_sock
+inet_csk_clone
+inet_csk_reqsk_queue_prune
+inet_csk_reqsk_queue_hash_add
+inet_csk_search_req
+inet_csk_route_req
+inet_csk_reset_keepalive_timer
+inet_csk_delete_keepalive_timer
+inet_csk_clear_xmit_timers
+inet_csk_init_xmit_timers
+inet_csk_accept
+inet_csk_get_port
+inet_csk_bind_conflict
+inet_get_local_port_range
+inet_csk_timer_bug_msg
+tcp_shutdown
+tcp_setsockopt
+tcp_sendpage
+tcp_splice_read
+tcp_sendmsg
+tcp_recvmsg
+tcp_read_sock
+tcp_getsockopt
+tcp_disconnect
+tcp_gro_complete
+tcp_gro_receive
+tcp_tso_segment
+tcp_get_info
+tcp_set_state
+tcp_enter_memory_pressure
+tcp_memory_pressure
+tcp_sockets_allocated
+tcp_memory_allocated
+sysctl_tcp_wmem
+sysctl_tcp_rmem
+sysctl_tcp_mem
+tcp_orphan_count
+tcp_initialize_rcv_mss
+tcp_rcv_state_process
+tcp_rcv_established
+tcp_parse_options
+sysctl_tcp_adv_win_scale
+sysctl_tcp_reordering
+sysctl_tcp_ecn
+tcp_mtup_init
+tcp_sync_mss
+tcp_simple_retransmit
+tcp_make_synack
+tcp_connect
+tcp_select_initial_window
+tcp_init_xmit_timers
+sysctl_tcp_low_latency
+tcp_proc_unregister
+tcp_proc_register
+tcp_v4_syn_recv_sock
+tcp_v4_send_check
+tcp_v4_remember_stamp
+tcp_v4_do_rcv
+tcp_v4_connect
+tcp_v4_conn_request
+tcp_hashinfo
+ipv4_specific
+tcp4_gro_complete
+tcp4_gro_receive
+tcp_v4_destroy_sock
+tcp_twsk_unique
+tcp_timewait_state_process
+tcp_create_openreq_child
+tcp_child_process
+tcp_check_req
+tcp_twsk_destructor
+tcp_death_row
+sysctl_tcp_syncookies
+tcp_init_congestion_ops
+tcp_reno_min_cwnd
+tcp_reno_ssthresh
+tcp_reno_cong_avoid
+tcp_cong_avoid_ai
+tcp_slow_start
+tcp_is_cwnd_limited
+tcp_unregister_congestion_control
+tcp_register_congestion_control
+ip4_datagram_connect
+raw_seq_open
+raw_seq_stop
+raw_seq_next
+raw_seq_start
+raw_unhash_sk
+raw_hash_sk
+udp_proc_unregister
+udp_proc_register
+udp_lib_get_port
+udp_lib_setsockopt
+udp_lib_getsockopt
+udp_sendmsg
+udp_disconnect
+udp_lib_unhash
+udp_flush_pending_frames
+udp4_lib_lookup
+udp_memory_allocated
+sysctl_udp_wmem_min
+sysctl_udp_rmem_min
+sysctl_udp_mem
+udplite_prot
+udplite_table
+arp_create
+arp_broken_ops
+xrlim_allow
+icmp_err_convert
+unregister_inetaddr_notifier
+register_inetaddr_notifier
+inetdev_by_index
+inet_select_addr
+in_dev_finish_destroy
+sysctl_ip_nonlocal_bind
+inet_unregister_protosw
+inet_stream_ops
+inet_stream_connect
+inet_sock_destruct
+inet_shutdown
+inet_sendmsg
+inet_release
+inet_register_protosw
+inet_listen
+inet_ioctl
+inet_getname
+inet_dgram_ops
+inet_dgram_connect
+inet_accept
+snmp_mib_free
+snmp_mib_init
+snmp_fold_field
+inet_ctl_sock_create
+inet_sk_rebuild_header
+build_ehash_secret
+inet_ehash_secret
+ipv4_config
+ip_mc_rejoin_group
+ip_mc_join_group
+ip_mc_inc_group
+ip_mc_dec_group
+ip_dev_find
+inet_dev_addr_type
+inet_addr_type
+inet_frag_find
+inet_frag_evictor
+inet_frag_destroy
+inet_frag_kill
+inet_frags_exit_net
+inet_frags_fini
+inet_frags_init_net
+inet_frags_init
+net_ipv4_ctl_path
+br_should_route_hook
+vlan_gro_frags
+vlan_gro_receive
+vlan_dev_vlan_id
+vlan_dev_real_dev
+__vlan_hwaccel_rx
+wireless_spy_update
+iw_handler_get_thrspy
+iw_handler_set_thrspy
+iw_handler_get_spy
+iw_handler_set_spy
+wireless_send_event
+unregister_net_sysctl_table
+register_net_sysctl_rotable
+register_net_sysctl_table
+klist_next
+klist_iter_exit
+klist_iter_init
+klist_iter_init_node
+klist_node_attached
+klist_remove
+klist_add_before
+klist_add_after
+klist_add_tail
+klist_add_head
+klist_init
+sha_transform
+2.6.31--LSDK-9.2.0_U11.14
+#10 Tue Sep 8 15:36:13 HKT 2015
+Exception vector 0 called
+Exception vector 1 called
+Got mcheck at %08lx
+Got reserved at %08lx
+"console=ttyS0,115200 root=01:00 rd_start=0x80600000 rd_size=8388608 init=/sbin/init"
+/sbin/poweroff
+/sbin/modprobe
+aes-generic
+pfifo_fast
+<3>Unsupported ISA type, c0.config0: %d.
+Trying to set NULL cache error exception handler
+reset_devices
+rootdelay=
+rootfstype=
+rootflags=
+load_ramdisk=
+ramdisk_start=
+prompt_ramdisk=
+rdhwr_noopt
+raw_show_trace
+coherentio
+coredump_filter=
+no_console_suspend
+ignore_loglevel
+log_buf_len=
+print-fatal-signals=
+ntp_tick_adj=
+clocksource=
+noirqdebug
+bootmem_debug
+movablecore
+kernelcore
+norandmaps
+noaliencache
+dhash_entries=
+ihash_entries=
+ramdisk_size=
+<2>SNAP - unable to register with 802.2
+rhash_entries=
+thash_entries=

@@ -1,0 +1,9 @@
+demologger.c:14:task 1 done
+demologger.c:18:task 1 done
+demologger.c:18:task 1 done
+demologger.c:23:task 1 done
+demologger.c:23:task 1 done
+demologger.c:23:task 1 done
+demologger.c:23:task 1 done
+demologger.c:23:task 1 done
+demologger.c:32:root

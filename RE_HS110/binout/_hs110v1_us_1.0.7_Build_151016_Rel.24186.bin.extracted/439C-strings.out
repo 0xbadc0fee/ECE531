@@ -1,0 +1,292 @@
+U-Boot 1.1.4 (Oct 16 2015 - 11:22:19)
+ag7240_miiphy_write
+ag7240_miiphy_read
+ag7240_get_ethaddr
+ag7240_mii_setup
+reset   - Perform RESET of the CPU
+   Image Name:   %.*s
+   Created:      %4d-%02d-%02d  %2d:%02d:%02d UTC
+   Image Type:   
+Invalid OS
+Unknown OS
+Invalid CPU
+MIPS 64 Bit
+SPARC 64 Bit
+Microblaze
+Unknown Architecture
+Standalone Program
+Invalid Image
+Kernel Image
+RAMDisk Image
+Multi-File Image
+Unknown Image
+gzip compressed
+uncompressed
+bzip2 compressed
+lzma compressed
+unknown compression
+%s %s %s (%s)
+   Data Size:    %d Bytes = 
+   Load Address: %08x
+   Entry Point:  %08x
+   Contents:
+   Image %d: %8ld Bytes = 
+## Booting image at %08lx ...
+Bad Magic Number
+Bad Header Checksum
+   Verifying Checksum at 0x%p ...
+Bad Data CRC
+Unsupported Architecture 0x%x
+Standalone Application
+Wrong Image Type for %s command
+   XIP %s ... 
+   Uncompressing %s ... 
+LZMA ERROR %d - must RESET board to recover
+Unimplemented compression type %d
+Can't boot image type %d
+## Transferring control to NetBSD stage-2 loader (at address %08lx) ...
+## Transferring control to RTEMS (at address %08lx) ...
+## Control returned to monitor - resetting...
+bootm   - boot application image from memory
+[addr [arg ...]]
+    - boot application image stored in memory
+	passing arguments 'arg ...'; when booting a Linux kernel,
+	'arg' can be the address of an initrd image
+boot    - boot default, i.e., run 'bootcmd'
+bootd   - boot default, i.e., run 'bootcmd'
+Error: end address not on sector boundary
+Error: end sector precedes start sector
+Error: start address not on sector boundary
+Error: cannot span across banks when they are mapped in reverse order
+Erase Flash from 0x%08lx to 0x%08lx in Bank # %ld 
+Erased %d sectors
+Error: start and/or end address not on sector boundary
+Erase Flash Bank # %ld 
+Erase Flash Sectors %d-%d in Bank # %d 
+Only FLASH Banks # 1 ... # %d supported
+Error: end address (0x%08lx) not in flash!
+Bad address format
+Bad sector specification
+erase   - erase FLASH memory
+    - erase FLASH from addr 'start' to addr 'end'
+erase start +len
+    - erase FLASH from addr 'start' to the end of sect w/addr 'start'+'len'-1
+erase N:SF[-SL]
+    - erase sectors SF-SL in FLASH bank # N
+erase bank N
+    - erase FLASH bank # N
+    - erase all FLASH banks
+Pattern %08lX  Writing...%12s
+Reading...
+Mem error @ 0x%08X: found %08lX, expected %08lX
+Zero length ???
+Copy to Flash... 
+md      - memory display
+[.b, .w, .l] address [# of objects]
+    - memory display
+mm      - memory modify (auto-incrementing)
+[.b, .w, .l] address
+    - memory modify, auto increment address
+nm      - memory modify (constant address)
+[.b, .w, .l] address
+    - memory modify, read and keep address
+mw      - memory write (fill)
+[.b, .w, .l] address value [count]
+    - write memory
+mtest   - simple RAM test
+[start [end [pattern]]]
+    - simple RAM read/write test
+cp      - memory copy
+[.b, .w, .l] source target count
+    - copy memory
+Serno out of range
+progmac - Set ethernet MAC addresses
+progmac <serno> - Program the MAC addresses
+                <serno> is the value of the last
+                4 digits (decimal) of the serial number
+ping failed; host %s is not alive
+host %s is alive
+Automatic boot of image at addr 0x%08lX ...
+tftpboot- boot image via network using TFTP protocol
+[loadAddress] [bootfilename]
+ping	- send ICMP ECHO_REQUEST to network host
+pingAddress
+Can't overwrite "%s"
+Can't delete "%s"
+## Baudrate %d bps not supported
+## Switch baudrate to %d bps and press ENTER ...
+## Error: environment overflow, "%s" deleted
+Environment size: %d/%d bytes
+## Error: "%s" not defined
+printenv- print environment variables
+    - print values of all environment variables
+printenv name ...
+    - print value of environment variable 'name'
+setenv  - set environment variables
+name value ...
+    - set environment variable 'name' to 'value ...'
+setenv name
+    - delete environment variable 'name'
+run     - run commands in an environment variable
+    - run the commands in the environment variable(s) 'var'
+- No help available.
+Unknown command '%s' - try 'help' without arguments for list of all known commands
+version - print monitor version
+help    - print online help
+[command ...]
+    - show help information (for 'command')
+'help' prints online help for the monitor commands.
+Without arguments, it prints a short usage message for all commands.
+To get detailed help information for specific commands you can type
+'help' with one or more command names as arguments.
+?       - alias for 'help'
+No input devices available!
+No output devices available!
+No error devices available!
+Cannot initialize the list of devices!
+Using default environment
+HUSH_VERSION
+ERROR : memory not allocated
+syntax error
+ERROR: There is a global environment variable with the same name.
+%s: readonly variable
+exit not allowed from main input shell.
+<INTERRUPT>
+Unknown command '%s' - try 'help' or use 'run' command
+Unknown command '%s' - try 'help'
+'bootd' recursion detected
+Timeout writing to Flash
+Flash not Erased
+Can't write to protected Flash sectors
+Outside available Flash
+Start and/or end address not on sector boundary
+Unknown Vendor of Flash
+Unknown Type of Flash
+General Flash Programming Error
+%s[%d] FIXME: rc=%d
+flash_protect %s: from 0x%08lX to 0x%08lX
+protect off %d
+protect on %d
+## Command too long!
+** Too many args (max. %d) **
+tftpboot 0x8022c090 uImage; bootm 0x8022c090
+Hit any key to stop autoboot: %2d 
+write addr: %x
+First %#x last %#x sector size %#x
+The hell do you want flinfo for??
+Flash Manuf Id 0x%x, DeviceId0 0x%x, DeviceId1 0x%x
+flash size %d, sector count = %d
+### ERROR ### Please RESET the board ###
+Now running in RAM - U-Boot at: %08lx
+Top of RAM usable for U-Boot at: %08lx
+Reserving %ldk for U-Boot at: %08lx
+Reserving %dk for malloc() at: %08lx
+Reserving %d Bytes for Board Info at: %08lx
+Reserving %d Bytes for Global Data at: %08lx
+Reserving %dk for boot params() at: %08lx
+Stack Pointer at: %08lx
+## Loading Ramdisk Image at %08lx ...
+   Verifying Checksum ... 
+No Linux MIPS Ramdisk Image
+## Transferring control to Linux (at address %08lx) ...
+REVISIONID
+## Giving linux memsize in bytes, %lu
+initrd_start
+initrd_size
+flash_start
+flash_size
+Starting kernel ...
+%d.%d.%d.%d
+## Warning: gatewayip needed but not set
+bad length %d < %d
+invalid RARP header
+len bad %d < %d
+checksum bad
+ ICMP Host Redirect to 
+ARP Retry count exceeded; starting again
+*** ERROR: ping address not given
+*** ERROR: `serverip' not set
+*** ERROR: `ipaddr' not set
+*** ERROR: No ethernet found.
+*** ERROR: `ethaddr' not set
+*** ERROR: `eth%daddr' not set
+Using %s device
+Bytes transferred = %ld (%lx hex)
+File too large
+File has bad magic
+%02lX%02lX%02lX%02lX.img
+*** Warning: no boot file name; using '%s'
+TFTP from server 
+; our IP address is 
+; sending through gateway 
+Filename '%s'.
+ Size is 0x%x Bytes = 
+Load address: 0x%lx
+Loading: *
+Retry count exceeded; starting again
+	 %lu MB reveived
+TFTP error: First block is not block 1 (%ld)
+Starting again
+TFTP error: '%s' (%d)
+Starting again
+eth_set_enetaddr(num=%d, addr=%s)
+Setting new HW address on %s
+New Address is             %02X:%02X:%02X:%02X:%02X:%02X
+No ethernet found.
+0123456789abcdefghijklmnopqrstuvwxyz
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Stream with EOS marker is not supported
+Too big uncompressed stream
+Incorrect stream properties
+Decoding error = %d
+Not enough buffer for decompression
+ERROR, %s, %d
+LzmaDecode.c
+ERROR: %s, %d
+MII devices: 
+Current device: '%s'
+NULL device name!
+No such device: %s
+PHY_BMSR read failed, assuming no link
+PHY duplex read failed, assuming half duplex
+PHY AN duplex read failed, assuming half duplex
+PHY speed read failed, assuming 10bT
+PHY AN speed read failed, assuming 10bT
+PHY status read failed
+PHY reset failed
+PHY reset timed out
+PHY ID register 2 read failed
+PHY_PHYIDR2 @ 0x%x = 0x%04x
+PHY ID register 1 read failed
+PHY_PHYIDR[1,2] @ 0x%x = 0x%08x
+miiphy_register: non unique device name '%s'
+miiphy_register: cannot allocate memory for '%s'
+AP121 (ar9331) U-boot
+ERROR:%s:%d transaction failed
+Error!!! Leave ag7240_miiphy_write without polling correct status!
+Error!!! Leave ag7240_miiphy_read without polling correct status!
+Cant allocate fifos
+Tx Timed out
+%s link down
+Invalid speed detected
+dup %d speed %d
+Virian MDC CFG Value ==> %x
+%s: MDC check failed
+ag7240_enet_initialize...
+malloc failed
+%s: unknown ethernet device %s
+No valid address in Flash. Using fixed address
+%s:Fetching MAC Address from 0x%p
+: cfg1 %#x cfg2 %#x
+%s: %02x:%02x:%02x:%02x:%02x:%02x
+athrs26_reg_init_lan
+Unkown speed read!
+ATHRS26: resetting s26
+ATHRS26: s26 reset done
+bootargs=console=ttyS0,115200 root=31:02 rootfstype=squashfs init=/sbin/init mtdparts=ar7240-nor0:64k(u-boot),1024k(uImage),2752k(rootfs),64k(TPHead),64k(config),64k(log),64k(ART),3904k@0x0(firmware)
+bootcmd=bootm 0x9f010000
+bootdelay=1
+baudrate=115200
+ethaddr=0x00:0xaa:0xbb:0xcc:0xdd:0xee
+ipaddr=192.168.1.2
+serverip=192.168.1.10

@@ -1,0 +1,2521 @@
+!}b"6
+@lB P
+*QG12
+^5D8#
+jI[r!
+;$ZSH;
+j B;^
+/{ROc
+^<`fip
+44-%(M
+FZd9%<
+p<*p'
+Q:RkhZ
+OEflWm
+nsgdq
+B{B8g
+b-w=M\
+ wdSt0
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+Curl_cfree
+strlen
+curlx_ultous
+Curl_ccalloc
+Curl_cstrdup
+memcpy
+Curl_strncasecompare
+Curl_llist_remove
+Curl_strcasecompare
+__isoc99_sscanf
+Curl_getdate_capped
+Curl_llist_insert_next
+__stack_chk_fail
+__stack_chk_guard
+Curl_alpnid2str
+Curl_altsvc_init
+Curl_llist_init
+Curl_altsvc_load
+fopen64
+fclose
+Curl_get_line
+Curl_cmalloc
+Curl_altsvc_ctrl
+Curl_altsvc_cleanup
+Curl_altsvc_save
+Curl_fopen
+fputs
+Curl_gmtime
+curl_mfprintf
+Curl_rename
+unlink
+Curl_altsvc_parse
+memset
+Curl_infof
+strtoul
+__memcpy_chk
+Curl_altsvc_lookup
+pthread_mutex_destroy
+Curl_freeaddrinfo
+pthread_mutex_lock
+pthread_mutex_unlock
+Curl_thread_destroy
+Curl_multi_closed
+Curl_thread_join
+Curl_addrinfo_callback
+curl_msnprintf
+Curl_getaddrinfo_ex
+__errno_location
+Curl_resolver_global_init
+Curl_resolver_global_cleanup
+Curl_resolver_init
+Curl_resolver_cleanup
+Curl_resolver_duphandle
+Curl_resolver_cancel
+Curl_resolver_kill
+Curl_resolver_wait_resolv
+Curl_resolver_error
+Curl_conncontrol
+Curl_resolver_is_resolved
+Curl_now
+Curl_timediff
+Curl_expire
+Curl_resolver_getsock
+Curl_resolver_getaddrinfo
+Curl_ipv6works
+pthread_mutex_init
+socketpair
+Curl_thread_create
+Curl_failf
+Curl_set_dns_servers
+Curl_set_dns_interface
+Curl_set_dns_local_ip4
+Curl_set_dns_local_ip6
+Curl_base64_decode
+strchr
+curlx_uztoul
+curlx_ultouc
+Curl_base64_encode
+Curl_base64url_encode
+Curl_bufref_init
+Curl_bufref_free
+Curl_bufref_set
+Curl_bufref_ptr
+Curl_bufref_len
+Curl_bufref_memdup
+curl_free
+Curl_hash_start_iterate
+Curl_hash_next_element
+Curl_llist_destroy
+sigaction
+Curl_strntolower
+Curl_conncache_init
+curl_easy_init
+Curl_hash_init
+Curl_str_key_compare
+Curl_hash_str
+Curl_conncache_destroy
+Curl_hash_destroy
+Curl_conncache_size
+Curl_share_lock
+Curl_share_unlock
+Curl_conncache_find_bundle
+Curl_hash_pick
+Curl_conncache_add_conn
+Curl_hash_add
+Curl_conncache_remove_conn
+Curl_hash_delete
+Curl_conncache_foreach
+Curl_conncache_extract_bundle
+Curl_conncache_extract_oldest
+Curl_conncache_return_conn
+Curl_disconnect
+Curl_conncache_close_all_connections
+Curl_hostcache_clean
+Curl_close
+Curl_SOCKS5
+Curl_SOCKS4
+getsockopt
+Curl_timeleft
+Curl_persistconninfo
+Curl_addr2string
+inet_ntop
+Curl_conninfo_remote
+getpeername
+Curl_strerror
+Curl_conninfo_local
+getsockname
+Curl_updateconninfo
+Curl_pgrsTime
+Curl_verboseconnect
+Curl_getconnectinfo
+Curl_connalive
+Curl_ssl_check_cxn
+Curl_closesocket
+Curl_set_in_callback
+Curl_socket
+curlx_nonblock
+setsockopt
+curlx_sltosi
+Curl_ipv6_scope
+strncmp
+Curl_if2ip
+inet_pton
+Curl_resolv
+Curl_printable_address
+Curl_resolv_unlock
+Curl_is_connected
+Curl_socket_check
+curl_easy_strerror
+Curl_connecthost
+Curl_num_addresses
+Curl_conn_data_pending
+Curl_ssl_data_pending
+Curl_recv_has_postponed_data
+Curl_client_write
+inflateInit_
+zlibVersion
+inflateInit2_
+inflateEnd
+Curl_all_content_encodings
+strcpy
+Curl_unencode_write
+inflate
+Curl_saferealloc
+Curl_unencode_cleanup
+Curl_build_unencoding_stack
+Curl_httpchunk_init
+memmove
+curl_maprintf
+Curl_host_is_ipnum
+Curl_memrchr
+Curl_raw_toupper
+Curl_cookie_add
+strcspn
+curlx_strtoofft
+strrchr
+strtok_r
+Curl_cookie_freelist
+Curl_cookie_getlist
+qsort
+Curl_cookie_clearall
+Curl_cookie_clearsess
+Curl_cookie_cleanup
+Curl_cookie_init
+curl_strnequal
+stdin
+Curl_cookie_loadfiles
+curl_slist_free_all
+Curl_cookie_list
+Curl_slist_append_nodup
+Curl_flush_cookies
+stdout
+Curl_he2ai
+Curl_ip2addr
+Curl_str2addr
+Curl_unix2addr
+Curl_read16_le
+Curl_read32_le
+Curl_read16_be
+Curl_fnmatch
+fgets
+Curl_gethostname
+DES_set_odd_parity
+DES_set_key_unchecked
+Curl_ntlm_core_lm_resp
+DES_ecb_encrypt
+Curl_ntlm_core_mk_lm_hash
+Curl_strntoupper
+Curl_ntlm_core_mk_nt_hash
+Curl_md4it
+Curl_ntlm_core_mk_ntlmv2_hash
+Curl_hmacit
+Curl_HMAC_MD5
+Curl_ntlm_core_mk_ntlmv2_resp
+Curl_ntlm_core_mk_lmv2_resp
+Curl_range
+Curl_sasl_cleanup
+Curl_auth_cleanup_ntlm
+Curl_sasl_decode_mech
+memcmp
+Curl_sasl_parse_url_auth_option
+Curl_sasl_init
+Curl_sasl_can_authenticate
+Curl_sasl_start
+Curl_auth_create_external_message
+Curl_auth_is_digest_supported
+Curl_auth_is_ntlm_supported
+Curl_auth_create_ntlm_type1_message
+Curl_auth_create_oauth_bearer_message
+Curl_auth_create_xoauth_bearer_message
+Curl_auth_create_plain_message
+Curl_auth_create_login_message
+Curl_sasl_continue
+Curl_auth_create_cram_md5_message
+Curl_auth_create_digest_md5_message
+Curl_auth_decode_ntlm_type2_message
+Curl_auth_create_ntlm_type3_message
+pthread_create
+pthread_detach
+pthread_join
+Curl_urldecode
+curl_mvaprintf
+Curl_write
+Curl_debug
+Curl_setup_transfer
+Curl_handler_dict
+Curl_dyn_addn
+Curl_dyn_init
+Curl_open
+curl_easy_setopt
+curl_multi_add_handle
+stderr
+Curl_doh
+curl_slist_append
+Curl_doh_is_resolved
+curl_multi_remove_handle
+Curl_dyn_uptr
+Curl_dyn_len
+Curl_dyn_free
+Curl_cache_addr
+Curl_dyn_ptr
+Curl_crealloc
+Curl_dyn_reset
+Curl_dyn_tail
+Curl_dyn_add
+Curl_dyn_vaddf
+Curl_dyn_vprintf
+Curl_dyn_addf
+Curl_dyn_setlen
+Curl_ssl_init
+Curl_attach_connection
+Curl_detach_connection
+sched_yield
+curl_global_init
+curl_global_init_mem
+curl_global_cleanup
+Curl_ssl_cleanup
+curl_global_sslset
+Curl_init_sslset_nolock
+curl_easy_perform
+Curl_multi_handle
+curl_multi_setopt
+curl_multi_cleanup
+curl_multi_poll
+curl_multi_perform
+curl_multi_info_read
+curl_easy_cleanup
+curl_easy_getinfo
+Curl_getinfo
+curl_easy_duphandle
+Curl_mime_initpart
+Curl_setstropt
+Curl_setblobopt
+curlx_sotouz
+Curl_memdup
+Curl_mime_duppart
+Curl_hsts_init
+Curl_hsts_loadfile
+Curl_hsts_loadcb
+Curl_initinfo
+Curl_hsts_cleanup
+Curl_freeset
+Curl_slist_duplicate
+Curl_ssl_set_engine
+curl_easy_reset
+Curl_free_request_state
+Curl_init_userdefined
+Curl_http_auth_cleanup_digest
+curl_easy_pause
+Curl_mime_unpause
+Curl_update_timer
+Curl_updatesocket
+Curl_mime_read
+curl_easy_recv
+Curl_is_in_callback
+Curl_read
+Curl_senddata
+curl_easy_send
+curl_easy_upkeep
+curl_easy_option_by_name
+Curl_easyopts
+curl_easy_option_by_id
+curl_easy_option_next
+Curl_isunreserved
+curl_easy_escape
+curl_escape
+curl_easy_unescape
+curlx_uztosi
+curl_unescape
+memchr
+Curl_pgrsStartNow
+Curl_pgrsSetUploadSize
+fstat64
+Curl_fillreadbuffer
+Curl_pgrsSetUploadCounter
+Curl_pgrsUpdate
+Curl_speedcheck
+Curl_meets_timecondition
+Curl_pgrsSetDownloadSize
+lseek64
+Curl_pgrsSetDownloadCounter
+Curl_wkday
+Curl_month
+Curl_handler_file
+Curl_fileinfo_alloc
+Curl_fileinfo_cleanup
+Curl_rand_hex
+fchmod
+fdopen
+curl_mime_name
+curl_formadd
+Curl_mime_contenttype
+curl_formfree
+Curl_getformdata
+Curl_mime_cleanpart
+curl_mime_init
+curl_mime_subparts
+curl_mime_addpart
+curl_mime_headers
+curl_mime_data_cb
+curl_mime_type
+curl_mime_filedata
+curl_mime_filename
+curl_mime_data
+fseek
+fread
+curl_formget
+Curl_mime_prepare_headers
+Curl_pp_sendf
+Curl_pp_statemach
+Curl_pp_getsock
+Curl_ssl_connect
+Curl_pp_setup
+Curl_pp_init
+strncpy
+listen
+accept
+Curl_ftp_parselist_data_free
+strstr
+Curl_SOCKS_getsock
+strtol
+Curl_pp_disconnect
+Curl_GetFTPResponse
+Curl_pp_state_timeout
+Curl_pp_readresp
+Curl_connect_ongoing
+Curl_proxyCONNECT
+Curl_proxy_connect
+Curl_pp_flushsend
+Curl_ssl_shutdown
+Curl_ftp_parselist_data_alloc
+Curl_ftp_parselist_geterror
+Curl_ftp_parselist
+Curl_ssl_close
+Curl_handler_ftps
+Curl_handler_ftp
+curl_getenv
+Curl_ssl_free_certinfo
+Curl_ssl_backend
+Curl_ssl_engines_list
+Curl_ssl
+curlx_uztosz
+Curl_handler_gophers
+Curl_handler_gopher
+Curl_hash_clean_with_criterium
+Curl_hash_clean
+curl_easy_header
+Curl_llist_count
+curl_easy_nextheader
+Curl_headers_push
+Curl_headers_cleanup
+Curl_HMAC_init
+Curl_HMAC_update
+Curl_HMAC_final
+curlx_uztoui
+Curl_getaddrinfo
+Curl_raw_tolower
+Curl_hostcache_prune
+Curl_fetch_addr
+Curl_rand
+Curl_init_dnscache
+Curl_loadhostpairs
+Curl_resolv_check
+Curl_ipvalid
+Curl_resolv_timeout
+Curl_resolv_getsock
+Curl_once_resolved
+Curl_setup_conn
+curl_jmpenv
+Curl_hsts
+Curl_hsts_parse
+Curl_hsts_save
+Curl_ssl_connect_nonblocking
+Curl_readrewind
+Curl_http_done
+Curl_checkProxyheaders
+Curl_output_aws_sigv4
+Curl_checkheaders
+Curl_output_ntlm
+Curl_output_digest
+Curl_copy_header_value
+Curl_http_auth_act
+Curl_http_output_auth
+Curl_auth_allowed_to_host
+Curl_http_input_auth
+Curl_input_ntlm
+Curl_input_digest
+Curl_buffer_send
+Curl_get_upload_buffer
+Curl_http_connect
+Curl_compareheader
+Curl_use_http_1_1plus
+Curl_http_compile_trailers
+Curl_add_custom_headers
+Curl_add_timecondition
+Curl_http_method
+Curl_http_useragent
+Curl_http_host
+Curl_http_target
+curl_url_dup
+curl_url_set
+curl_url_cleanup
+curl_url_get
+Curl_http_body
+Curl_mime_rewind
+Curl_mime_size
+Curl_http_bodysend
+Curl_http_cookies
+Curl_http_range
+Curl_http_resume
+Curl_http_firstwrite
+Curl_transferencode
+Curl_http
+Curl_expire_done
+Curl_http_header
+curlx_uitous
+Curl_rtsp_parseheader
+Curl_http_statusline
+Curl_http_size
+Curl_http_readwrite_headers
+Curl_done_sending
+Curl_handler_https
+Curl_handler_http
+curl_pushheader_bynum
+curl_pushheader_byname
+Curl_httpchunk_read
+Curl_chunked_strerror
+Curl_auth_decode_digest_http_message
+Curl_auth_create_digest_http_message
+Curl_auth_digest_cleanup
+Curl_http_auth_cleanup_ntlm
+Curl_connect_complete
+Curl_connect_getsock
+Curl_connect_done
+Curl_connect_free
+__strcpy_chk
+__strncpy_chk
+strftime
+Curl_sha256it
+Curl_HMAC_SHA256
+getifaddrs
+freeifaddrs
+Curl_pp_vsendf
+Curl_mime_add_header
+Curl_handler_imaps
+Curl_pp_moredata
+Curl_handler_imap
+MD4_Init
+MD4_Update
+MD4_Final
+MD5_Final
+MD5_Update
+MD5_Init
+Curl_md5it
+Curl_MD5_init
+Curl_MD5_update
+Curl_MD5_final
+Curl_DIGEST_MD5
+curl_mime_free
+access
+__xpg_basename
+curl_mime_encoder
+Curl_mime_set_subparts
+curl_strequal
+curl_mvsnprintf
+curl_msprintf
+curl_mprintf
+fputc
+curl_mvsprintf
+curl_mvprintf
+curl_mvfprintf
+Curl_handler_mqtt
+Curl_single_getsock
+Curl_splay
+Curl_splayinsert
+curl_multi_init
+Curl_multiplex_wanted
+Curl_ssl_detach_conn
+Curl_ssl_associate_conn
+curl_multi_fdset
+__fdelt_chk
+curl_multi_wakeup
+Curl_preconnect
+curlx_sltoui
+curl_multi_timeout
+Curl_poll
+Curl_wait_ms
+curl_multi_wait
+Curl_splayremove
+Curl_multi_add_perform
+Curl_init_do
+Curl_pgrsDone
+Curl_expire_clear
+Curl_wildcard_dtor
+curl_multi_assign
+Curl_multi_max_host_connections
+Curl_multi_max_total_connections
+Curl_multiuse_state
+Curl_posttransfer
+Curl_pretransfer
+Curl_connect
+Curl_retry_request
+Curl_follow
+Curl_pgrsLimitWaitTime
+Curl_ratelimit
+Curl_readwrite
+Curl_splaygetbest
+curl_multi_socket
+curl_multi_socket_action
+curl_multi_socket_all
+Curl_multi_max_concurrent_streams
+Curl_init_CONNECT
+Curl_timestrcmp
+Curl_parsenetrc
+geteuid
+getpwuid_r
+fcntl64
+Curl_check_noproxy
+curl_getdate
+gmtime_r
+Curl_handler_pop3s
+Curl_pop3_write
+Curl_handler_pop3
+Curl_timediff_us
+Curl_pgrsResetTransferSizes
+fflush
+Curl_ssl_random
+Curl_handler_rtsp
+Curl_read_plain
+fwrite
+Curl_recv_plain
+Curl_send_plain
+Curl_write_plain
+Curl_parse_login_details
+Curl_builtin_scheme
+Curl_vsetopt
+Curl_ssl_tls13_ciphersuites
+Curl_ssl_set_engine_default
+curlx_sltous
+Curl_ssl_cert_status_request
+Curl_ssl_false_start
+EVP_MD_CTX_new
+EVP_sha256
+EVP_DigestInit_ex
+EVP_DigestUpdate
+EVP_DigestFinal_ex
+EVP_MD_CTX_free
+curl_share_init
+curl_share_setopt
+curl_share_cleanup
+Curl_ssl_kill_session
+getpid
+Curl_handler_smbs
+Curl_handler_smb
+Curl_handler_smtps
+Curl_idnconvert_hostname
+Curl_free_idnconverted_hostname
+Curl_is_ASCII_name
+Curl_smtp_escape_eob
+Curl_handler_smtp
+Curl_speedinit
+Curl_safe_strcasecompare
+Curl_safecmp
+curl_multi_strerror
+curl_share_strerror
+curl_url_strerror
+__xpg_strerror_r
+strtoll
+fileno
+Curl_handler_telnet
+sendto
+recvfrom
+Curl_handler_tftp
+curlx_mstotv
+curlx_tvtoms
+clock_gettime
+gettimeofday
+Curl_ssl_initsessions
+Curl_wildcard_init
+Curl_is_absolute_url
+curl_url
+Curl_uc_to_curlcode
+if_nametoindex
+Curl_free_primary_ssl_config
+Curl_ssl_close_all
+Curl_clone_primary_ssl_config
+Curl_ssl_config_matches
+strspn
+curl_version
+Curl_ssl_version
+curl_version_info
+curlx_uztoso
+curlx_sztosi
+curlx_sitouz
+curl_ws_recv
+curl_ws_send
+curl_ws_meta
+Curl_auth_digest_get_pair
+Curl_auth_build_spn
+Curl_auth_user_contains_domain
+strpbrk
+Curl_cert_hostcheck
+Curl_tls_keylog_open
+setvbuf
+Curl_tls_keylog_close
+Curl_tls_keylog_enabled
+Curl_tls_keylog_write_line
+Curl_tls_keylog_write
+BN_print
+BIO_ctrl
+Curl_ssl_push_certinfo_len
+UI_get_string_type
+UI_OpenSSL
+UI_method_get_writer
+UI_get0_user_data
+UI_get_input_flags
+UI_method_get_reader
+UI_set_result
+ENGINE_finish
+ENGINE_free
+CRYPTO_get_ex_new_index
+SSL_set_ex_data
+EVP_DigestInit
+ENGINE_get_first
+ENGINE_get_id
+ENGINE_get_next
+SSL_SESSION_free
+SSL_get_ex_data
+Curl_ssl_sessionid_lock
+Curl_ssl_getsessionid
+Curl_ssl_delsessionid
+Curl_ssl_addsessionid
+Curl_ssl_sessionid_unlock
+SSL_alert_desc_string_long
+SSL_pending
+OpenSSL_version_num
+OPENSSL_init_ssl
+ENGINE_set_default
+BIO_s_mem
+BIO_new
+X509_NAME_print_ex
+BIO_free
+ERR_error_string_n
+SSL_shutdown
+ERR_clear_error
+SSL_read
+SSL_get_error
+ERR_get_error
+SSL_get_shutdown
+SSL_free
+SSL_connect
+SSL_get_verify_result
+X509_verify_cert_error_string
+SSL_get_version
+SSL_get_current_cipher
+SSL_CIPHER_get_name
+SSL_get0_alpn_selected
+ENGINE_by_id
+ENGINE_init
+SSL_set_connect_state
+SSL_CTX_free
+SSL_write
+RAND_status
+RAND_bytes
+SSL_CTX_set_default_passwd_cb_userdata
+SSL_CTX_set_default_passwd_cb
+BIO_new_mem_buf
+PEM_read_bio_X509_AUX
+X509_free
+SSL_CTX_use_certificate
+ERR_peek_error
+SSL_CTX_ctrl
+PEM_read_bio_X509
+ERR_peek_last_error
+SSL_CTX_use_certificate_chain_file
+d2i_X509_bio
+SSL_CTX_use_certificate_file
+ENGINE_ctrl
+ENGINE_ctrl_cmd
+BIO_s_file
+d2i_PKCS12_bio
+PKCS12_PBE_add
+PKCS12_parse
+PKCS12_free
+EVP_PKEY_free
+OPENSSL_sk_pop_free
+SSL_CTX_use_PrivateKey
+SSL_CTX_check_private_key
+OPENSSL_sk_num
+OPENSSL_sk_pop
+SSL_CTX_add_client_CA
+PEM_read_bio_PrivateKey
+SSL_new
+d2i_PrivateKey_bio
+SSL_CTX_use_PrivateKey_file
+UI_create_method
+UI_method_get_opener
+UI_method_set_opener
+UI_method_get_closer
+UI_method_set_closer
+UI_method_set_reader
+UI_method_set_writer
+ENGINE_load_private_key
+UI_destroy_method
+SSL_get_certificate
+X509_get_pubkey
+SSL_get_privatekey
+EVP_PKEY_copy_parameters
+EVP_PKEY_id
+EVP_PKEY_get1_RSA
+RSA_flags
+RSA_free
+TLS_client_method
+SSL_CTX_new
+SSL_CTX_set_msg_callback
+SSL_CTX_set_options
+SSL_CTX_set_alpn_protos
+SSL_CTX_set_ciphersuites
+SSL_CTX_set_cipher_list
+SSL_CTX_set_post_handshake_auth
+SSL_CTX_set_srp_username
+SSL_CTX_set_srp_password
+SSL_CTX_get_cert_store
+PEM_X509_INFO_read_bio
+X509_LOOKUP_file
+X509_STORE_add_lookup
+X509_STORE_add_crl
+OPENSSL_sk_value
+X509_STORE_add_cert
+SSL_CTX_load_verify_locations
+X509_load_crl_file
+X509_STORE_set_flags
+SSL_CTX_set_verify
+SSL_CTX_set_keylog_callback
+SSL_CTX_sess_set_new_cb
+SSL_ctrl
+Curl_ssl_snihost
+SSL_set_session
+BIO_f_ssl
+SSL_set_bio
+X509_INFO_free
+SSL_set_fd
+Curl_ossl_certchain
+SSL_get_peer_cert_chain
+Curl_ssl_init_certinfo
+X509_get_subject_name
+X509_get_issuer_name
+X509_get_version
+BIO_printf
+X509_get_serialNumber
+BIO_puts
+X509_get0_signature
+i2a_ASN1_OBJECT
+X509_get_X509_PUBKEY
+X509_PUBKEY_get0_param
+X509_get0_extensions
+X509_get0_notBefore
+ASN1_TIME_print
+X509_get0_notAfter
+X509_EXTENSION_get_object
+i2t_ASN1_OBJECT
+X509V3_EXT_print
+X509_EXTENSION_get_data
+ASN1_STRING_print
+EVP_PKEY_get0_RSA
+RSA_get0_key
+BN_num_bits
+EVP_PKEY_get0_DSA
+DSA_get0_pqg
+DSA_get0_key
+EVP_PKEY_get0_DH
+DH_get0_pqg
+DH_get0_key
+PEM_write_bio_X509
+Curl_ossl_set_client_cert
+Curl_ossl_verifyhost
+X509_get_ext_d2i
+GENERAL_NAMES_free
+ASN1_STRING_get0_data
+ASN1_STRING_length
+X509_NAME_get_index_by_NID
+X509_NAME_get_entry
+X509_NAME_ENTRY_get_data
+ASN1_STRING_type
+CRYPTO_malloc
+ASN1_STRING_to_UTF8
+CRYPTO_free
+SSL_get_peer_certificate
+OCSP_RESPONSE_free
+X509_check_issued
+d2i_OCSP_RESPONSE
+OCSP_response_status
+OCSP_response_status_str
+OCSP_response_get1_basic
+OCSP_BASICRESP_free
+OCSP_basic_verify
+EVP_sha1
+OCSP_cert_to_id
+OCSP_resp_find_status
+OCSP_CERTID_free
+OCSP_check_validity
+OCSP_cert_status_str
+OCSP_crl_reason_str
+i2d_X509_PUBKEY
+Curl_pin_peer_pubkey
+Curl_ssl_openssl
+Curl_ssl_getsock
+Curl_none_false_start
+Curl_none_cleanup
+Curl_none_shutdown
+Curl_none_check_cxn
+Curl_none_random
+Curl_none_close_all
+Curl_none_data_pending
+Curl_none_cert_status_request
+Curl_none_set_engine
+Curl_none_set_engine_default
+Curl_none_engines_list
+Curl_none_session_free
+Curl_ssl_push_certinfo
+ftell
+Curl_none_init
+raise
+libssl.so.1.1
+libcrypto.so.1.1
+libz.so.1
+libatomic.so.1
+libc.so.6
+ld-linux.so.3
+libcurl.so.4
+GLIBC_2.4
+GLIBC_2.15
+GLIBC_2.28
+GLIBC_2.33
+GLIBC_2.7
+GLIBC_2.17
+GLIBC_2.34
+OPENSSL_1_1_0
+OPENSSL_1_1_1
+!1C "
+%10s %512s %u %10s %512s %u "%64[^"]" %u %u
+# Your alt-svc cache. https://curl.se/docs/alt-svc.html
+# This file was generated by libcurl! Edit at your own risk.
+%s %s %u %s %s %u "%d%02d%02d %02d:%02d:%02d" %u %d
+Excessive alt-svc header, ignoring.
+clear
+Excessive alt-svc host name, ignoring.
+Unknown alt-svc port number, ignoring.
+persist
+Added alt-svc: %s:%d over %s
+getaddrinfo() thread failed to start
+%c%c%c%s
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
+%u/%ld/%s
+Connection cache is full, closing the oldest one
+unknown proxytype option given
+getpeername() failed with errno %d: %s
+ssrem inet_ntop() failed with errno %d: %s
+getsockname() failed with errno %d: %s
+ssloc inet_ntop() failed with errno %d: %s
+  Trying [%s]:%d...
+  Trying %s:%d...
+sa_addr inet_ntop() failed with errno %d: %s
+Could not set TCP_NODELAY: %s
+Failed to set SO_KEEPALIVE on fd %d
+Failed to set TCP_KEEPIDLE on fd %d
+Failed to set TCP_KEEPINTVL on fd %d
+host!
+Couldn't bind to interface '%s'
+Local Interface %s is ip %s using address family %i
+Name '%s' family %i resolved to '%s' family %i
+Couldn't bind to '%s'
+Local port: %hu
+Bind to local port %hu failed, trying next
+bind failed with errno %d: %s
+Failed to enable TCP Fast Open on fd %d
+Immediate connect fail for %s: %s
+After %lldms connect time, move on!
+connect to %s port %u failed: %s
+Connection timeout after %ld ms
+Failed to connect to %s port %u after %lld ms: %s
+Connection time-out
+Error while processing content unencoding: %s
+Error while processing content unencoding: Unknown failure within decompression software.
+1.2.13
+1.2.0.4
+identity
+Unrecognized content encoding type. libcurl understands %s content encodings.
+Reject response due to %u content encodings
+x-gzip
+deflate
+#HttpOnly_
+FALSE
+%s%s%s	%s	%s	%s	%lld	%s	%s
+Replaced
+Added
+%4095[^;	
+=] =%4095[^;
+oversized cookie dropped, name/val %zu + %zu bytes
+cookie contains TAB, dropping
+__Secure-
+__Host-
+invalid octets in name/value, cookie dropped
+secure
+httponly
+domain
+skipped cookie with bad tailmatch domain: %s
+version
+max-age
+expires
+cookie '%s' for domain '%s' dropped, would overlay an existing cookie
+%s cookie %s="%s" for domain %s, path %s, expire %lld
+Included max number of cookies (%zu) in request!
+WARNING: failed to open cookie file "%s"
+Set-Cookie:
+ignoring failed cookie_init for %s
+# Netscape HTTP Cookie File
+# https://curl.se/docs/http-cookies.html
+# This file was generated by libcurl! Edit at your own risk.
+WARNING: failed to save cookies in %s: %s
+KGS!@#$%EXTERNAL
+DIGEST-MD5
+CRAM-MD5
+OAUTHBEARER
+XOAUTH2
+PLAIN
+LOGIN
+Unsupported SASL authentication mechanism
+GSSAPI
+SCRAM-SHA-1
+SCRAM-SHA-256
+/MATCH:
+/FIND:
+lookup word is missing
+CLIENT libcurl 7.86.0
+MATCH %s %s %s
+Failed sending DICT request
+/DEFINE:
+/LOOKUP:
+CLIENT libcurl 7.86.0
+DEFINE %s %s
+CLIENT libcurl 7.86.0
+a DoH request is completed, %u to go
+DoH request %s
+Failed to encode DoH packet [%d]
+https
+Content-Type: application/dns-message
+bad error code
+Could not DoH-resolve: %s
+DoH: %s type %s for %s
+DoH Host name: %s
+TTL: %u seconds
+DoH A: %u.%u.%u.%u
+DoH AAAA: 
+%s%02x%02x
+CNAME: %s
+Bad label
+Out of range
+Label loop
+Too small
+Out of memory
+RDATA length
+Malformat
+Bad RCODE
+Unexpected TYPE
+Unexpected CLASS
+No content
+Bad ID
+Name too long
+CONNECT_ONLY is required
+Failed to get recent socket
+easy handle already used in multi handle
+ABSTRACT_UNIX_SOCKET
+ACCEPTTIMEOUT_MS
+ACCEPT_ENCODING
+ADDRESS_SCOPE
+ALTSVC
+ALTSVC_CTRL
+AUTOREFERER
+AWS_SIGV4
+CERTINFO
+CHUNK_BGN_FUNCTION
+CHUNK_DATA
+CHUNK_END_FUNCTION
+CLOSESOCKETDATA
+CLOSESOCKETFUNCTION
+CONNECTTIMEOUT
+CONNECTTIMEOUT_MS
+CONNECT_ONLY
+CONNECT_TO
+CONV_FROM_NETWORK_FUNCTION
+CONV_FROM_UTF8_FUNCTION
+CONV_TO_NETWORK_FUNCTION
+COOKIE
+COOKIEFILE
+COOKIEJAR
+COOKIELIST
+COOKIESESSION
+COPYPOSTFIELDS
+CURLU
+CUSTOMREQUEST
+DEBUGDATA
+DEBUGFUNCTION
+DEFAULT_PROTOCOL
+DIRLISTONLY
+DISALLOW_USERNAME_IN_URL
+DNS_CACHE_TIMEOUT
+DNS_INTERFACE
+DNS_LOCAL_IP4
+DNS_LOCAL_IP6
+DNS_SERVERS
+DNS_SHUFFLE_ADDRESSES
+DNS_USE_GLOBAL_CACHE
+DOH_SSL_VERIFYHOST
+DOH_SSL_VERIFYPEER
+DOH_SSL_VERIFYSTATUS
+DOH_URL
+EGDSOCKET
+ERRORBUFFER
+EXPECT_100_TIMEOUT_MS
+FAILONERROR
+FILETIME
+FNMATCH_DATA
+FNMATCH_FUNCTION
+FOLLOWLOCATION
+FORBID_REUSE
+FRESH_CONNECT
+FTPAPPEND
+FTPLISTONLY
+FTPPORT
+FTPSSLAUTH
+FTP_ACCOUNT
+FTP_ALTERNATIVE_TO_USER
+FTP_CREATE_MISSING_DIRS
+FTP_FILEMETHOD
+FTP_RESPONSE_TIMEOUT
+FTP_SKIP_PASV_IP
+FTP_SSL
+FTP_SSL_CCC
+FTP_USE_EPRT
+FTP_USE_EPSV
+FTP_USE_PRET
+GSSAPI_DELEGATION
+HAPPY_EYEBALLS_TIMEOUT_MS
+HAPROXYPROTOCOL
+HEADERDATA
+HEADERFUNCTION
+HEADEROPT
+HSTSREADDATA
+HSTSREADFUNCTION
+HSTSWRITEDATA
+HSTSWRITEFUNCTION
+HSTS_CTRL
+HTTP09_ALLOWED
+HTTP200ALIASES
+HTTPAUTH
+HTTPGET
+HTTPHEADER
+HTTPPOST
+HTTPPROXYTUNNEL
+HTTP_CONTENT_DECODING
+HTTP_TRANSFER_DECODING
+HTTP_VERSION
+IGNORE_CONTENT_LENGTH
+INFILE
+INFILESIZE
+INFILESIZE_LARGE
+INTERLEAVEDATA
+INTERLEAVEFUNCTION
+IOCTLDATA
+IOCTLFUNCTION
+IPRESOLVE
+KEEP_SENDING_ON_ERROR
+KRB4LEVEL
+KRBLEVEL
+LOCALPORT
+LOCALPORTRANGE
+LOGIN_OPTIONS
+LOW_SPEED_LIMIT
+LOW_SPEED_TIME
+MAIL_AUTH
+MAIL_FROM
+MAIL_RCPT
+MAIL_RCPT_ALLLOWFAILS
+MAXAGE_CONN
+MAXCONNECTS
+MAXFILESIZE
+MAXFILESIZE_LARGE
+MAXLIFETIME_CONN
+MAXREDIRS
+MAX_RECV_SPEED_LARGE
+MAX_SEND_SPEED_LARGE
+MIMEPOST
+MIME_OPTIONS
+NETRC
+NETRC_FILE
+NEW_DIRECTORY_PERMS
+NEW_FILE_PERMS
+NOBODY
+NOPROGRESS
+NOPROXY
+NOSIGNAL
+OPENSOCKETDATA
+OPENSOCKETFUNCTION
+PATH_AS_IS
+PIPEWAIT
+POST301
+POSTFIELDSIZE
+POSTFIELDSIZE_LARGE
+POSTQUOTE
+POSTREDIR
+PREQUOTE
+PREREQDATA
+PREREQFUNCTION
+PRE_PROXY
+PRIVATE
+PROGRESSDATA
+PROGRESSFUNCTION
+PROXYAUTH
+PROXYHEADER
+PROXYPASSWORD
+PROXYPORT
+PROXYTYPE
+PROXYUSERNAME
+PROXYUSERPWD
+PROXY_CAINFO
+PROXY_CAINFO_BLOB
+PROXY_CAPATH
+PROXY_CRLFILE
+PROXY_ISSUERCERT
+PROXY_ISSUERCERT_BLOB
+PROXY_KEYPASSWD
+PROXY_PINNEDPUBLICKEY
+PROXY_SERVICE_NAME
+PROXY_SSLCERT
+PROXY_SSLCERTTYPE
+PROXY_SSLCERT_BLOB
+PROXY_SSLKEY
+PROXY_SSLKEYTYPE
+PROXY_SSLKEY_BLOB
+PROXY_SSLVERSION
+PROXY_SSL_CIPHER_LIST
+PROXY_SSL_OPTIONS
+PROXY_SSL_VERIFYHOST
+PROXY_SSL_VERIFYPEER
+PROXY_TLS13_CIPHERS
+PROXY_TLSAUTH_PASSWORD
+PROXY_TLSAUTH_TYPE
+PROXY_TLSAUTH_USERNAME
+PROXY_TRANSFER_MODE
+RANDOM_FILE
+REDIR_PROTOCOLS
+REDIR_PROTOCOLS_STR
+REQUEST_TARGET
+RESOLVER_START_DATA
+RESOLVER_START_FUNCTION
+RESUME_FROM
+RESUME_FROM_LARGE
+RTSPHEADER
+RTSP_CLIENT_CSEQ
+RTSP_REQUEST
+RTSP_SERVER_CSEQ
+RTSP_SESSION_ID
+RTSP_STREAM_URI
+RTSP_TRANSPORT
+SASL_AUTHZID
+SASL_IR
+SEEKDATA
+SEEKFUNCTION
+SERVER_RESPONSE_TIMEOUT
+SHARE
+SOCKOPTDATA
+SOCKOPTFUNCTION
+SOCKS5_AUTH
+SOCKS5_GSSAPI_NEC
+SOCKS5_GSSAPI_SERVICE
+SSH_AUTH_TYPES
+SSH_COMPRESSION
+SSH_HOSTKEYDATA
+SSH_HOSTKEYFUNCTION
+SSH_HOST_PUBLIC_KEY_MD5
+SSH_HOST_PUBLIC_KEY_SHA256
+SSH_KEYDATA
+SSH_KEYFUNCTION
+SSH_KNOWNHOSTS
+SSH_PRIVATE_KEYFILE
+SSH_PUBLIC_KEYFILE
+SSLCERTPASSWD
+SSLENGINE
+SSLENGINE_DEFAULT
+SSLKEYPASSWD
+SSL_CTX_DATA
+SSL_CTX_FUNCTION
+SSL_EC_CURVES
+SSL_ENABLE_ALPN
+SSL_ENABLE_NPN
+SSL_FALSESTART
+SSL_SESSIONID_CACHE
+STDERR
+STREAM_DEPENDS
+STREAM_DEPENDS_E
+STREAM_WEIGHT
+SUPPRESS_CONNECT_HEADERS
+TCP_FASTOPEN
+TCP_KEEPALIVE
+TCP_KEEPIDLE
+TCP_KEEPINTVL
+TCP_NODELAY
+TELNETOPTIONS
+TFTP_BLKSIZE
+TFTP_NO_OPTIONS
+TIMECONDITION
+TIMEVALUE_LARGE
+TRAILERDATA
+TRAILERFUNCTION
+TRANSFERTEXT
+TRANSFER_ENCODING
+UNIX_SOCKET_PATH
+UNRESTRICTED_AUTH
+UPKEEP_INTERVAL_MS
+UPLOAD
+UPLOAD_BUFFERSIZE
+USERAGENT
+USE_SSL
+VERBOSE
+WILDCARDMATCH
+WRITEHEADER
+WS_OPTIONS
+XFERINFODATA
+XFERINFOFUNCTION
+XOAUTH2_BEARER
+%%%02X
+Couldn't open file %s
+Can't open %s for writing
+Can't get the size of %s
+Content-Length: %lld
+Last-Modified: %s, %02d %s %4d %02d:%02d:%02d GMT
+Can't get the size of file.
+failed to resume file:// transfer
+Accept-ranges: bytes
+%s.%s.tmp
+application/octet-stream
+multipart/form-data
+USER %s
+PBSZ %d
+Maximum file size exceeded
+ftp server doesn't support SIZE
+Offset (%lld) was beyond file size (%lld)
+File already completely downloaded
+Instructs server to resume from offset %lld
+REST %lld
+Connect data stream passively
+Failed EPSV attempt, exiting
+Failed EPSV attempt. Disabling EPSV
+APPE %s
+SIZE %s
+Could not seek stream
+Failed to read data
+File already completely uploaded
+getsockname() failed: %s
+failed to resolve the address provided to PORT: %s
+bind(port=%hu) on non-local address failed: %s
+bind(port=%hu) failed: %s
+socket failure: %s
+%s |%d|%s|%hu|
+Failure sending EPRT command: %s
+,%d,%d
+Failure sending PORT command: %s
+bind() failed, we ran out of ports
+Error accept()ing server connect
+Connection accepted from server
+Doing the SSL/TLS handshake on the data stream
+path contains control characters
+Uploading to a URL without a file name
+Request has same path as previous transfer
+;type=
+REST %d
+MDTM %s
+CWD %s
+PRET %s
+PRET STOR %s
+PRET RETR %s
+Couldn't set desired mode
+Got a %03d response code instead of the assumed 200
+TYPE %c
+Failure sending QUIT command: %s
+%c%c%c%u%c
+Illegal port number in EPSV reply
+Weirdly formatted EPSV reply
+%u,%u,%u,%u,%u,%u
+Couldn't interpret the 227-response
+Skip %u.%u.%u.%u for data connection, re-use %s instead
+Bad PASV/EPSV response: %03d
+Can't resolve proxy host %s:%hu
+Can't resolve new host %s:%hu
+Connecting to %s (%s) port %d
+FTP response timeout
+FTP response aborted due to select/poll error: %d
+We got a 421 - timeout
+Checking for server connect
+Accept timeout occurred while waiting server connect
+There is negative response in cache while serv connect
+Error while waiting for server connect
+Ready to accept data connection from server
+Ctrl conn has data while waiting for data conn
+Preparing for accepting server on data port
+Got a %03d ftp-server response when 220 was expected
+unsupported parameter to CURLOPT_FTPSSLAUTH: %d
+AUTH %s
+PASS %s
+ACCT %s
+ACCT requested but none available
+Access denied: %03d
+ACCT rejected by server: %03d
+PROT %c
+Failed to clear the command channel (CCC)
+Entry path is '%s'
+Failed to figure out path
+OS/400
+SITE NAMEFMT 1
+QUOT command failed with %03d
+MKD %s
+Server denied you to change to the given directory
+Failed to MKD dir: %03d
+%04d%02d%02d%02d%02d%02d
+%04d%02d%02d %02d:%02d:%02d GMT
+Last-Modified: %s, %02d %s %4d %02d:%02d:%02d GMT
+unsupported MDTM reply format
+MDTM failed: file does not exist or permission problem, continuing
+The requested document is not new enough
+The requested document is not old enough
+Skipping time comparison
+The file does not exist
+Couldn't use REST
+PRET command not accepted: %03d
+disabling EPRT usage
+Failed to do PORT
+Connect data stream actively
+Maxdownload = %lld
+Getting file with size: %lld
+Data conn was not available immediately
+RETR response: %03d
+Failed FTP upload: %0d
+Wildcard - Parsing started
+Wildcard - START of "%s"
+Wildcard - "%s" skipped by user
+ftp_perform ends with SECONDARY: %d
+Remembering we are in dir "%s"
+Failure sending ABOR command: %s
+control connection looks dead
+partial download completed, closing connection
+Exceeded storage allocation
+server did not report OK, got %d
+Uploaded unaligned file size (%lld out of %lld bytes)
+Received only partial file: %lld bytes
+No data was received
+QUOT string not accepted: %s
+Accept-ranges: bytes
+total 
+rwx-tTsS
+0123456789-
+APM0123456789:
+<DIR>
+/etc/ssl/certs
+%s?%s
+Failed sending Gopher request
+GOPHERS
+GOPHER
+6\:%u
+Hostname in DNS cache was stale, zapped
+Hostname in DNS cache doesn't have needed family, zapped
+Shuffling %i addresses
+ (non-permanent)
+%255[^:]:%d
+Couldn't parse CURLOPT_RESOLVE removal entry '%s'
+Resolve address '%s' found illegal
+RESOLVE %s:%d is - old addresses discarded
+Added %s:%d:%s to DNS cache%s
+RESOLVE %s:%d is wildcard, enabling wildcard checks
+Couldn't parse CURLOPT_RESOLVE entry '%s'
+Hostname %s was found in DNS cache
+127.0.0.1
+.localhost
+Could not resolve %s: %s
+%256s "%64[^"]"
+unlimited
+max-age=
+includesubdomains
+# Your HSTS cache. https://curl.se/docs/hsts.html
+# This file was generated by libcurl! Edit at your own risk.
+%s%s "%d%02d%02d %02d:%02d:%02d"
+%s%s "%s"
+%d%02d%02d %02d:%02d:%02d
+Rewind stream after send
+NTLM send, close instead of sending %lld bytes
+Empty reply from server
+HTTP/3 requested for non-HTTPS URL
+HTTP/
+RTSP/
+Proxy-
+Basic
+Digest
+Bearer
+Proxy
+Server
+Proxy-authorization
+Authorization
+%sAuthorization: Basic %s
+Authorization: Bearer %s
+%s auth using %s with user '%s'
+Forcing HTTP/1.1 for NTLM
+The requested URL returned error: %d
+Authentication problem. Ignoring this.
+Ignoring duplicate digest auth header.
+PROXY UNKNOWN
+PROXY %s %s %s %i %i
+Expect
+Expect:
+Expect: 100-continue
+Malformatted trailing header, skipping trailer
+Host:
+Content-Type:
+Content-Length:
+Authorization:
+Transfer-Encoding:
+If-Modified-Since
+If-Unmodified-Since
+Last-Modified
+Invalid TIMEVALUE
+%s: %s, %02d %s %4d %02d:%02d:%02d GMT
+User-Agent
+Host:%s
+Host: %s%s%s
+Host: %s%s%s:%d
+;type=%c
+Chunky upload is not supported by HTTP 1.0
+Transfer-Encoding: chunked
+Content-Type
+Content-Length
+Failed sending PUT request
+Content-Length: 0
+Failed sending POST request
+Content-Type: application/x-www-form-urlencoded
+Failed sending HTTP POST request
+Failed sending HTTP request
+Cookie
+[::1]
+Cookie: 
+Restricted outgoing cookies due to header size, '%s' not sent
+%s%s=%s
+Range: bytes=%s
+Content-Range
+Content-Range: bytes 0-%lld/%lld
+Content-Range: bytes %s%lld/%lld
+Content-Range: bytes %s/%lld
+Could only read %lld bytes from the input
+Ignoring the response-body
+The entire document is already downloaded
+HTTP server doesn't seem to support byte ranges. Cannot resume.
+Simulate a HTTP 304 response
+Connection: %s%sTE
+TE: gzip
+Accept: */*
+Proxy-Connection: Keep-Alive
+Accept-Encoding
+Referer
+Referer: %s
+Accept-Encoding: %s
+Accept
+Alt-Used
+Alt-Used: %s:%d
+Proxy-Connection
+ HTTP/%s
+%s%s%s%s%s%s%s%s%s%s%s%s
+upload completely sent off: %lld out of %lld bytes
+Overflow Content-Length: value
+Invalid Content-Length: value
+keep-alive
+Proxy-Connection:
+HTTP/1.0 proxy connection set to keep alive
+HTTP/1.1 proxy connection set close
+HTTP/1.0 connection set to keep alive
+Content-Encoding:
+Retry-After:
+Content-Range:
+Last-Modified:
+WWW-Authenticate:
+Proxy-authenticate:
+Location:
+Strict-Transport-Security:
+Illegal STS header skipped
+Alt-Svc:
+HTTP 1.0, assume close after body
+Received HTTP/0.9 when not allowed
+Received 101, Switching to HTTP/2
+no chunk, no close, no size. Assume close to signal end
+Connection closure while negotiating auth (HTTP 1.0?)
+Got 417 while waiting for a 100
+HTTP error before end of send, keep sending
+HTTP error before end of send, stop sending
+Keep sending data to get tossed away
+ HTTP/%1d.%1d%c%3d%c
+ HTTP/%1[23] %d
+Unsupported response code in HTTP response
+Mark bundle as not supporting multiuse
+Unsupported HTTP version (%u.%d) in response
+Lying server, not serving HTTP/2
+ HTTP %3d
+Unsupported HTTP version in response
+ RTSP/%1d.%1d%c%3d
+Nul byte in header
+Header without colon
+HTTPS
+Too long hexadecimal number
+Illegal or missing hexadecimal sequence
+Malformed encoding found
+Bad content-encoding found
+%sAuthorization: Digest %s
+%sAuthorization: NTLM %s
+NTLM auth restarted
+NTLM handshake rejected
+NTLM handshake failure (internal error)
+%s cannot be done over CONNECT
+allocate connect buffer
+CONNECT phase completed
+Establish HTTP proxy tunnel to %s:%d
+%s%s%s:%d
+Host: %s
+CONNECT %s HTTP/%s
+User-Agent: %s
+Failed sending CONNECT to proxy
+Proxy CONNECT aborted due to timeout
+Proxy CONNECT connection closed
+Proxy CONNECT aborted
+chunk reading DONE
+CONNECT response too large
+Ignore %lld bytes of response-body
+Ignore chunked response-body
+Ignoring Content-Length in CONNECT %03d response
+Ignoring Transfer-Encoding in CONNECT %03d response
+CONNECT responded chunked
+HTTP/1.%d %d
+Connect me again please
+Received HTTP code %d from proxy after CONNECT
+Proxy replied %d to CONNECT request
+aws:amz
+%64[^:]:%64[^:]:%64[^:]:%64s
+first provider can't be empty
+service missing in parameters and hostname
+service too long in hostname
+region missing in parameters and hostname
+region too long in hostname
+%Y%m%dT%H%M%SZ
+X-%s-Date
+x-%s-date:%s
+host:%s
+%s4_request
+%s/%s/%s/%s
+%s4-HMAC-SHA256
+%s4%s
+Authorization: %s4-HMAC-SHA256 Credential=%s/%s, SignedHeaders=%s, Signature=%s
+%c%03d
+LOGOUT
+(){ %*]
+LIST "%s" *
+Cannot SEARCH without a query string.
+SEARCH %s
+UID FETCH %s BODY[%s]<%s>
+UID FETCH %s BODY[%s]
+Cannot FETCH without a UID.
+PREAUTH
+CAPABILITY
+STORE
+SELECT
+FETCH
+EXAMINE
+SEARCH
+EXPUNGE
+GETQUOTAROOT
+Unexpected continuation response
+LOGIN %s %s
+No known authentication mechanisms supported
+AUTHENTICATE %s %s
+AUTHENTICATE %s
+UIDVALIDITY
+MAILINDEX
+SECTION
+PARTIAL
+Cannot APPEND without a mailbox.
+Mime-Version
+Mime-Version: 1.0
+Cannot APPEND with unknown input file size
+APPEND %s (\Seen) {%lld}
+Cannot SELECT without a mailbox.
+SELECT %s
+PREAUTH connection, already authenticated
+Got unexpected imap-server response
+STARTTLS
+LOGINDISABLED
+SASL-IR
+STARTTLS not available.
+STARTTLS denied
+Authentication cancelled
+Access denied. %c
+OK [UIDVALIDITY %19[0123456789]]
+Mailbox UIDVALIDITY has changed
+Select failed
+Found %lld bytes to download
+Written %zu bytes, %llu bytes are left for transfer
+Failed to parse FETCH response.
+IMAPS
+Can't add itself as a subpart
+multipart/mixed
+; name="
+; filename="
+; boundary=
+attachment
+text/plain
+Content-Disposition
+Content-Transfer-Encoding
+multipart/
+Content-Disposition: %s%s%s%s%s%s%s
+Content-Type: %s%s%s
+Content-Transfer-Encoding: %s
+image/gif
+image/jpeg
+.jpeg
+image/png
+image/svg+xml
+text/html
+.html
+application/pdf
+application/xml
+binary
+base64
+quoted-printable
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+0123456789ABCDEF
+0123456789abcdefghijklmnopqrstuvwxyz
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+(nil)
+(nil)
+Client ID length mismatched: [%lu]
+Using client id '%s'
+Username is too large: [%lu]
+Password is too large: [%lu]
+Error %d sending MQTT CONNECT request
+Too long MQTT topic
+No MQTT topic found. Forgot to URL encode it?
+mqtt_doing: state [%d]
+Connection disconnected
+Got DISCONNECT
+Expected %02x%02x but got %02x%02x
+Remaining length: %zd bytes
+EEEE AAAAGAIN
+server disconnected
+State not handled yet
+Internal error removing splay node = %d
+Connection #%ld to host %s left intact
+Resolving timed out after %lld milliseconds
+Connection timed out after %lld milliseconds
+Operation timed out after %lld milliseconds with %lld out of %lld bytes received
+Operation timed out after %lld milliseconds with %lld bytes received
+Internal error clearing splay node = %d
+Transfer was pending, now try another
+Hostname '%s' was found in DNS cache
+operation aborted by pre-request callback
+macdef
+machine
+login
+%s%s.netrc
+%31[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]
+%02d:%02d:%02d%n
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+cached response data too big to handle
+response reading failed (errno: %d)
+Excessive server response line length received, %zd bytes. Stripping
+server response timeout
+select/poll error
+AUTH %s %s
++APOP
+APOP %s %s
+Got unexpected pop3-server response
+SASL 
+STLS not supported.
+Authentication failed: %d
+POP3S
+--:--:--
+%2lld:%02lld:%02lld
+%3lldd %02lldh
+%7lldd
+%5lld
+%4lldk
+%2lld.%0lldM
+%4lldM
+%2lld.%0lldG
+%4lldG
+%4lldT
+%4lldP
+Callback aborted
+** Resuming transfer from byte position %lld
+  %% Total    %% Received %% Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+%3lld %s  %3lld %s  %3lld %s  %s  %s %s %s %s %s
+/dev/urandom
+WARNING: using weak random seed
+0123456789abcdef
+Cannot pause RTP
+Failed writing RTP data
+Got an error writing an RTP packet
+The CSeq of this request %ld did not match the response %ld
+Got an RTP Receive with a CSeq of %ld
+Accept: application/sdp
+SET_PARAMETER
+GET_PARAMETER
+TEARDOWN
+PAUSE
+SETUP
+ANNOUNCE
+DESCRIBE
+Got invalid RTSP request
+Got invalid RTSP request: RTSPREQ_LAST
+Refusing to issue an RTSP request [%s] without a session ID.
+Transport
+Transport: %s
+Refusing to issue an RTSP SETUP without a Transport: header.
+Range: %s
+CSeq cannot be set as a custom header.
+Session
+Session ID cannot be set as a custom header.
+%s %s RTSP/1.0
+CSeq: %ld
+Session: %s
+Content-Type: text/parameters
+Content-Type: application/sdp
+Failed sending RTSP request
+CSeq:
+: %ld
+Unable to read the CSeq header: [%s]
+Session:
+Got RTSP Session ID Line [%s], but wanted ID [%s]
+Got a blank Session ID
+Recv failure: %s
+Write callback asked for PAUSE when not supported
+Failure writing output to destination
+Failed writing header
+Send failure: %s
+FLUSH
+RELOAD
+arm-buildroot-linux-gnueabi
+?????
+Invalid input packet
+NT LM 0.12
+EHLO %s
+RCPT TO:<%s@%s>
+RCPT TO:<%s>
+ SMTPUTF8
+VRFY %s%s%s%s
+%s %s%s
+ AUTH=
+ SIZE=
+MAIL FROM:%s%s%s%s%s%s
+Got unexpected smtp-server response: %d
+HELO %s
+Remote access denied: %d
+AUTH 
+STARTTLS not supported.
+Unexpectedly short EHLO response
+STARTTLS denied, code %d
+Command failed: %d
+MAIL failed: %d
+RCPT failed: %d
+RCPT failed: %d (last error)
+DATA failed: %d
+Failed to alloc scratch buffer
+SMTPS
+SOCKS4%s: connecting to HTTP proxy %s port %d
+SOCKS4 communication to %s:%d
+SOCKS4 non-blocking resolve of %s
+Hostname '%s' was found
+Failed to resolve "%s" for SOCKS4 connect.
+Too long SOCKS proxy user name, can't use
+SOCKS4: too long host name
+Failed to send SOCKS4 connect request.
+SOCKS4: Failed receiving connect request ack: %s
+connection to proxy closed
+SOCKS4 reply has wrong version, version should be 0.
+SOCKS4%s request granted.
+Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected or failed.
+Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because SOCKS server cannot connect to identd on the client.
+Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because the client program and identd report different user-ids.
+Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), Unknown.
+SOCKS4 connection to %s not supported
+SOCKS4 connect to IPv4 %s (locally resolved)
+SOCKS5: connecting to HTTP proxy %s port %d
+SOCKS5: server resolving disabled for hostnames of length > 255 [actual len=%zu]
+warning: unsupported value passed to CURLOPT_SOCKS5_AUTH: %lu
+Unable to send initial SOCKS5 request.
+Unable to receive initial SOCKS5 response.
+Connection to proxy closed
+Received invalid version in initial SOCKS5 response.
+SOCKS5 GSSAPI per-message authentication is not supported.
+No authentication method was acceptable.
+Undocumented SOCKS5 mode attempted to be used by server.
+Excessive user name length for proxy auth
+Excessive password length for proxy auth
+Failed to send SOCKS5 sub-negotiation request.
+Unable to receive SOCKS5 sub-negotiation response.
+User was rejected by the SOCKS5 server (%d %d).
+SOCKS5: hostname '%s' found
+Failed to resolve "%s" for SOCKS5 connect.
+SOCKS5 connect to IPv4 %s (locally resolved)
+SOCKS5 connect to IPv6 %s (locally resolved)
+SOCKS5 connection to %s not supported
+SOCKS5 connect to %s:%d (remotely resolved)
+Failed to send SOCKS5 connect request.
+Failed to receive SOCKS5 connect request ack.
+SOCKS5 reply has wrong version, version should be 5.
+Can't complete SOCKS5 connection to %s. (%d)
+SOCKS5 reply has wrong address type.
+SOCKS5 request granted.
+Operation too slow. Less than %ld bytes/sec transferred the last %ld seconds
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+No error
+Unsupported protocol
+Failed initialization
+URL using bad/illegal format or missing URL
+A requested feature, protocol or option was not found built-in in this libcurl due to a build-time decision.
+Couldn't resolve proxy name
+Couldn't resolve host name
+Couldn't connect to server
+Weird server reply
+Access denied to remote resource
+FTP: The server failed to connect to data port
+FTP: Accepting server connect has timed out
+FTP: The server did not accept the PRET command.
+FTP: unknown PASS reply
+FTP: unknown PASV reply
+FTP: unknown 227 response format
+FTP: can't figure out the host in the PASV response
+Error in the HTTP2 framing layer
+FTP: couldn't set file type
+Transferred a partial file
+FTP: couldn't retrieve (RETR failed) the specified file
+Quote command returned error
+HTTP response code said error
+Failed writing received data to disk/application
+Upload failed (at start/before it took off)
+Failed to open/read local data from file/application
+Timeout was reached
+FTP: command PORT failed
+FTP: command REST failed
+Requested range was not delivered by the server
+Internal problem setting up the POST
+SSL connect error
+Couldn't resume download
+Couldn't read a file:// file
+LDAP: cannot bind
+LDAP: search failed
+A required function in the library was not found
+Operation was aborted by an application callback
+A libcurl function was given a bad argument
+Failed binding local connection end
+Number of redirects hit maximum amount
+An unknown option was passed in to libcurl
+Malformed option provided in a setopt
+Server returned nothing (no headers, no data)
+SSL crypto engine not found
+Can not set SSL crypto engine as default
+Failed to initialise SSL crypto engine
+Failed sending data to the peer
+Failure when receiving data from the peer
+Problem with the local SSL certificate
+Couldn't use specified SSL cipher
+SSL peer certificate or SSH remote key was not OK
+Problem with the SSL CA cert (path? access rights?)
+Unrecognized or bad HTTP Content or Transfer-Encoding
+Requested SSL level failed
+Failed to shut down the SSL connection
+Failed to load CRL file (path? access rights?, format?)
+Issuer check against peer certificate failed
+Send failed since rewinding of the data stream failed
+Login denied
+TFTP: File Not Found
+TFTP: Access Violation
+Disk full or allocation exceeded
+TFTP: Illegal operation
+TFTP: Unknown transfer ID
+Remote file already exists
+TFTP: No such user
+Remote file not found
+Error in the SSH layer
+Socket not ready for send/recv
+RTSP CSeq mismatch or invalid CSeq
+RTSP session error
+Unable to parse FTP file list
+Chunk callback failed
+The max connection limit is reached
+SSL public key does not match pinned public key
+SSL server certificate status verification FAILED
+Stream error in the HTTP/2 framing layer
+API function called from within callback
+An authentication function returned an error
+HTTP/3 error
+QUIC connection error
+proxy handshake error
+SSL Client Certificate required
+Unrecoverable error in select/poll
+Unknown error
+Please call curl_multi_perform() soon
+Invalid multi handle
+Invalid easy handle
+Internal error
+Invalid socket argument
+Unknown option
+The easy handle is already added to a multi handle
+Wakeup is unavailable or failed
+Unknown share option
+Share currently in use
+Invalid share handle
+Feature not enabled in this library
+CURLSHcode unknown
+An invalid CURLU pointer was passed as argument
+An invalid 'part' argument was passed as argument
+Malformed input to a URL function
+Port number was not a decimal number between 0 and 65535
+Unsupported URL scheme
+URL decode error, most likely because of rubbish in the input
+A memory function failed
+Credentials was passed in the URL when prohibited
+An unknown part ID was passed to a URL API function
+No scheme part in the URL
+No user part in the URL
+No password part in the URL
+No options part in the URL
+No host part in the URL
+No port part in the URL
+No query part in the URL
+No fragment part in the URL
+No zoneid part in the URL
+Bad login part
+Bad IPv6 address
+Bad hostname
+Bad file:// URL
+Unsupported number of slashes following scheme
+Bad scheme
+Bad path
+Bad fragment
+Bad query
+Bad password
+Bad user
+CURLUcode unknown
+Unknown error %d
+USER,%s
+%127[^= ]%*[ =]%255s
+XDISPLOC
+NEW_ENV
+%hu%*[xX]%hu
+Syntax error in telnet option: %s
+BINARY
+Unknown telnet option %s
+%s IAC SB 
+(terminated by 
+, not IAC SE) 
+(Empty suboption?)
+%s (unsupported)
+%d (unknown)
+Width: %d ; Height: %d
+ SEND
+ INFO/REPLY
+ NAME
+ %.2x
+%c%c%c%c%s%c%c
+Sending data failed (%d)
+%127[^,]%1[,]%127s
+%c%s%c%s
+EXOPL
+%s IAC %s
+%s IAC %d
+%s %s %d
+In SUBOPTION processing, RCVD
+Time-out
+TELNET
+ABORT
+DMARK
+SUPPRESS GO AHEAD
+TIMING MARK
+NAOCRD
+NAOHTS
+NAOHTD
+NAOFFD
+NAOVTS
+NAOVTD
+NAOLFD
+EXTEND ASCII
+BYTE MACRO
+DE TERMINAL
+SUPDUP
+SUPDUP OUTPUT
+SEND LOCATION
+TERM TYPE
+END OF RECORD
+TACACS UID
+OUTPUT MARKING
+TTYLOC
+3270 REGIME
+X3 PAD
+TERM SPEED
+LFLOW
+LINEMODE
+OLD-ENVIRON
+AUTHENTICATION
+ENCRYPT
+NEW-ENVIRON
+set timeouts for state %d; Total % lld, retry %d maxtry %d
+bind() failed; %s
+;mode=
+Received ACK for block %d, expecting %d
+tftp_tx: giving up waiting for block %d ack
+Timeout waiting for block %d ACK.  Retries = %d
+tftp_tx: internal error, event: %i
+Connected for transmit
+Received last DATA packet block %d again.
+Received unexpected DATA packet block %d, expecting block %d
+tftp_rx: internal error
+Connected for receive
+octet
+netascii
+TFTP file name too long
+%s%c%s%c
+tsize
+blksize
+TFTP buffer too small for options
+tftp_send_first: internal error
+TFTP finished
+Internal state machine error
+Received too short packet
+TFTP error: %s
+got option=(%s) value=(%s)
+invalid blocksize value in OACK packet
+blksize is larger than max supported
+blksize is smaller than min supported
+server requested blksize larger than allocated
+blksize parsed from OACK
+%s (%d) %s (%d)
+requested
+tsize parsed from OACK
+invalid tsize -:%s:- value in OACK packet
+Internal error: Unexpected packet
+Malformed ACK packet, rejecting
+Moving trailers state machine from initialized to sending.
+operation aborted by trailing headers callback
+Successfully compiled trailers.
+operation aborted by callback
+Read callback asked for PAUSE when not supported
+read function returned funny value
+%zx%s
+Signaling end of chunked upload after trailers.
+Signaling end of chunked upload via terminating chunk.
+Cannot rewind mime/post data
+seek callback returned error %d
+the ioctl callback returned %d
+ioctl callback returned error %d
+necessary data rewind wasn't possible
+select/poll returned error
+Excess found: excess = %zd url = %s (zero-length body)
+Failed reading the chunked-encoded stream
+%s in chunked-encoding
+Leftovers after chunking: % lldu bytes
+Excess found in a read: excess = %zu, size = %lld, maxdownload = %lld, bytecount = %lld
+we are done reading and this is set to close, stop send
+We are completely uploaded and fine
+Done waiting for 100-continue
+transfer closed with %lld bytes remaining to read
+transfer closed with outstanding read data remaining
+No URL set
+The redirect target URL could not be parsed: %s
+Clear auth, redirects to port from %u to %u
+Clear auth, redirects scheme from %s to %s
+Maximum (%ld) redirects followed
+Issue another request to this URL: '%s'
+Switch from POST to GET
+Switch to %s
+REFUSED_STREAM, retrying a fresh connect
+Connection died, tried %d times before giving up
+Connection died, retrying a fresh connect (retry count: %d)
+%lld-
+Invalid zoneid: %s; %s
+socks5h
+socks5
+socks4a
+socks4
+socks
+Unsupported proxy scheme for '%s'
+Unsupported proxy syntax in '%s'
+Unsupported proxy '%s', libcurl is built without the HTTPS-proxy support.
+localhost%s
+Too old connection (%ld seconds idle), disconnect it
+Too old connection (%ld seconds since creation), disconnect it
+Connection %ld seems to be dead
+Connected to %s (%s) port %u (#%ld)
+IDN support not present, can't parse Unicode domains
+Closing connection %ld
+NO_PROXY
+no_proxy
+ALL_PROXY
+all_proxy
+ftp@example.com
+anonymous
+can multiplex
+serially
+%s://%s
+Too long host name (maximum is %d)
+Switched from HTTP to HTTPS due to HSTS => %s
+Protocol "%s" not supported or disabled in libcurl
+memory shortage
+Uses proxy env variable %s == '%s'
+http_proxy
+Couldn't find host %s in the %s file; using defaults
+.netrc parser error
+Please URL encode %% as %%25, see RFC 6874.
+Invalid IPv6 address format
+No valid port number in connect to host string (%s)
+Connecting to hostname: %s
+Connecting to port: %d
+Alt-svc connecting from [%s]%s:%d to [%s]%s:%d
+Found bundle for host: %p [%s]
+Server doesn't support multiplex yet, wait
+Server doesn't support multiplex (yet)
+Could multiplex, but not asked to
+Can not multiplex, even if we wanted to
+Connection #%ld is still name resolving, can't reuse
+Connection #%ld isn't open enough, can't reuse
+Multiplexed connection found
+Found pending candidate for reuse and CURLOPT_PIPEWAIT is set
+Re-using existing connection #%ld with %s %s
+No more connections allowed to host: %zu
+No connections available in cache
+No connections available.
+NTLM picked AND auth done set, clear picked
+NTLM-proxy picked AND auth done set, clear picked
+localhost/
+Unix socket path too long: '%s'
+Couldn't resolve proxy '%s'
+Failed to resolve host '%s' with timeout after %ld ms
+Could not resolve host: %s
+<no protocol>
+%%%02x
+0123456789abcdefABCDEF:.
+	/:#?!@{}[]\$'"^`*<>=;,
+127.0.0.1/
+[%*45[0123456789abcdefABCDEF:.]%c%n
+%*[^]]%c%n
+dict.
+ldap.
+imap.
+smtp.
+pop3.
+file://%s%s%s
+%.*s%%25%s]
+%s://%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s
+libcurl/7.86.0
+zlib/%s
+gopher
+gophers
+imaps
+pop3s
+smtps
+telnet
+%s %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
+auth-int
+%s:%s:%08x:%s:%s:%s
+username="%s", realm="%s", nonce="%s", uri="%s", cnonce="%s", nc=%08x, qop=%s, response="%s"
+username="%s", realm="%s", nonce="%s", uri="%s", response="%s"
+%s, opaque="%s"
+%s, algorithm=%s
+%s, userhash=true
+nonce="
+realm="
+algorithm=
+qop="
+md5-sess
+auth-conf
+username="%s",realm="%s",nonce="%s",cnonce="%s",nc="%s",digest-uri="%s",response=%s,qop=%s
+00000001
+AUTHENTICATE
+nonce
+stale
+realm
+opaque
+algorithm
+MD5-sess
+SHA-256-SESS
+SHA-512-256
+SHA-512-256-SESS
+userhash
+NTLMSSP
+NTLM handshake failure (bad type-2 message)
+NTLM handshake failure (bad type-2 message). Target Info Offset Len is set incorrect by the peer
+NTLMSSP%c
+%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%s%s
+WORKSTATION
+NTLMSSP%c
+%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c
+incoming NTLM message too big
+user + domain + host name too big
+n,a=%s,
+host=%s
+auth=Bearer %s
+n,a=%s,
+host=%s
+port=%ld
+auth=Bearer %s
+user=%s
+auth=Bearer %s
+%s/%s@%s
+SSLKEYLOGFILE
+0123456789ABCDEF
+SSL_ERROR_NONE
+SSL_ERROR_SSL
+SSL_ERROR_WANT_READ
+SSL_ERROR_WANT_WRITE
+SSL_ERROR_WANT_X509_LOOKUP
+SSL_ERROR_SYSCALL
+SSL_ERROR_ZERO_RETURN
+SSL_ERROR_WANT_CONNECT
+SSL_ERROR_WANT_ACCEPT
+SSL_ERROR_WANT_ASYNC
+SSL_ERROR_WANT_ASYNC_JOB
+SSL_ERROR unknown
+%s(%s)
+old SSL session ID is stale, removing
+failed to store ssl session
+SSLv2
+SSLv3
+TLSv1.0
+TLSv1.1
+TLSv1.2
+TLSv1.3
+TLS change cipher
+TLS Unknown
+TLS alert
+Change cipher spec
+Message hash
+Next protocol
+Key update
+End of early data
+Supplemental data
+Encrypted Extensions
+Certificate Status
+Finished
+CERT verify
+Server finished
+Request CERT
+Client key exchange
+Server key exchange
+Certificate
+Newsession Ticket
+Server hello
+Client hello
+Hello request
+TLS header
+TLS app data
+TLS handshake
+%s (%s), %s, %s (%d):
+OpenSSL
+%s/%lx.%lx.%lx%s
+set default crypto engine '%s'
+set default crypto engine '%s' failed
+OpenSSL SSL_read on shutdown: %s, errno %d
+SSL shutdown timeout
+select/poll on SSL socket, errno: %d
+SSL_get_shutdown() returned SSL_SENT_SHUTDOWN
+SSL_get_shutdown() returned SSL_RECEIVED_SHUTDOWN
+SSL_get_shutdown() returned SSL_SENT_SHUTDOWN|SSL_RECEIVED__SHUTDOWN
+SSL certificate problem: %s
+SSL certificate verification failed
+OpenSSL SSL_connect: %s in connection to %s:%ld 
+SSL connection using %s / %s
+ALPN: server accepted %.*s
+http/1.1
+ALPN: server did not agree on a protocol. Uses default.
+OpenSSL SSL_read: %s, errno %d
+SSL Engine '%s' not found
+Failed to initialise SSL Engine '%s': %s
+OpenSSL SSL_write: %s, errno %d
+Error: %s does not support double SSL tunneling.
+SSL_write() error: %s
+Insufficient randomness
+CURLOPT_SSLCERT_BLOB
+(memory blob)
+could not load PEM client certificate from %s, OpenSSL error %s, (no key found, wrong pass phrase, or wrong file format?)
+could not load ASN1 client certificate from %s, OpenSSL error %s, (no key found, wrong pass phrase, or wrong file format?)
+pkcs11:
+pkcs11
+LOAD_CERT_CTRL
+ssl engine does not support loading certificates
+ssl engine cannot load client cert with id '%s' [%s]
+ssl engine didn't initialized the certificate properly.
+unable to set client certificate [%s]
+crypto engine not set, can't load certificate
+BIO_new_mem_buf NULL, OpenSSL error %s
+BIO_new return NULL, OpenSSL error %s
+could not open PKCS12 file '%s'
+error reading PKCS12 file '%s'
+could not parse PKCS12 file, check password, OpenSSL error %s
+could not load PKCS12 client certificate, OpenSSL error %s
+unable to use private key from PKCS12 file '%s'
+private key from PKCS12 file '%s' does not match certificate in same file
+cannot add certificate to client CA list
+cannot add certificate to certificate chain
+not supported file type '%s' for certificate
+unable to set private key file: '%s' type %s
+curl user interface
+unable do create OpenSSL user-interface method
+failed to load private key from crypto engine
+unable to set private key
+crypto engine not set, can't load private key
+file type P12 for private key not supported
+not supported file type for private key
+unable to create an SSL structure
+Private key does not match the certificate public key
+No SSLv2 support
+No SSLv3 support
+Unrecognized parameter passed via CURLOPT_SSLVERSION
+SSL: couldn't create a context: %s
+ALPN: offers %s
+Error setting ALPN
+failed setting cipher list: %s
+Cipher selection: %s
+failed setting TLS 1.3 cipher suite: %s
+TLS 1.3 cipher selection: %s
+failed setting curves list: '%s'
+Using TLS-SRP username: %s
+Unable to set SRP user name
+failed setting SRP password
+Setting cipher list SRP
+failed setting SRP cipher list
+error importing CA certificate blob
+error importing CA certificate blob, continuing anyway
+error setting certificate verify locations:  CAfile: %s CApath: %s
+ CAfile: %s
+error loading CRL file: %s
+successfully loaded CRL file:
+  CRLfile: %s
+error signaled by ssl ctx callback
+SSL: couldn't create a context (handle)
+Failed set SNI
+SSL: ossl_associate_connection failed: %s
+SSL: SSL_set_session failed: %s
+SSL re-using session ID
+SSL: SSL_set_fd failed: %s
+Subject
+Issuer
+Serial Number
+Signature Algorithm
+Public Key Algorithm
+Start date
+Expire date
+   Unable to load public key
+RSA Public Key
+pub_key
+%02x:
+Signature
+ subjectAltName: host "%s" matched cert's "%s"
+ subjectAltName: host "%s" matched cert's IP address!
+ subjectAltName does not match %s
+SSL: no alternative certificate subject name matches target host name '%s'
+vtls/openssl.c
+SSL: illegal cert name field
+SSL: unable to obtain common name from peer certificate
+SSL: certificate subject name '%s' does not match target host name '%s'
+ common name: %s (matched)
+[NONE]
+SSL: couldn't get peer certificate
+%s certificate:
+ subject: %s
+ start date: %.*s
+ expire date: %.*s
+SSL: couldn't get X509-issuer name
+ issuer: %s
+SSL: Unable to open issuer cert (%s)
+SSL: Unable to read issuer cert (%s)
+SSL: Certificate issuer check failed (%s)
+ SSL certificate issuer check ok (%s)
+SSL certificate verify result: %s (%ld)
+ SSL certificate verify result: %s (%ld), continuing anyway.
+ SSL certificate verify ok.
+No OCSP response received
+Invalid OCSP response
+Invalid OCSP response status: %s (%d)
+Could not get peer certificate chain
+OCSP response verification failed
+Error getting peer certificate
+Error computing OCSP ID
+Could not find certificate ID in OCSP response
+OCSP response has expired
+SSL certificate status: %s (%d)
+SSL certificate revocation reason: %s (%d)
+SSL: public key does not match pinned public key
+SSL connection timeout
+openssl
+Unrecognized parameter value passed via CURLOPT_SSLVERSION
+CURL_SSLVERSION_MAX incompatible with CURL_SSLVERSION
+CURL_SSL_BACKEND
+ public key hash: sha256//%s
+;sha256//
+-----BEGIN PUBLIC KEY-----
+-----END PUBLIC KEY-----
+multi
+aeabi
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.ARM.exidx
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.ARM.attributes

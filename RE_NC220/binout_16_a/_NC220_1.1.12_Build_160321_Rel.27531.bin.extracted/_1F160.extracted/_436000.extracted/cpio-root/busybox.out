@@ -1,0 +1,19 @@
+BusyBox v1.12.1 (2016-03-18 10:43:17 CST) multi-call binary
+Copyright (C) 1998-2008 Erik Andersen, Rob Landley, Denys Vlasenko
+and others. Licensed under GPLv2.
+See source distribution for full notice.
+
+Usage: busybox [function] [arguments]...
+   or: function [arguments]...
+
+	BusyBox is a multi-call binary that combines many common Unix
+	utilities into a single executable.  Most people will create a
+	link to busybox for each function they wish to use and BusyBox
+	will act like whatever it was invoked as!
+
+Currently defined functions:
+	[, [[, addgroup, adduser, arp, ash, awk, brctl, cat, chmod, cp, date, df, dmesg, echo, expr, find, free, getty, grep,
+	halt, hostname, ifconfig, init, init, insmod, kill, killall, ln, login, ls, lsmod, mdev, mkdir, mknod, mount, mv, netstat,
+	nice, passwd, ping, pkill, poweroff, ps, reboot, rm, rmdir, rmmod, route, sed, seq, sh, sleep, sysctl, telnetd, test,
+	time, top, touch, udhcpc, umount, wc, wget, xargs
+

@@ -1,0 +1,4709 @@
+070701000002D1000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/tmp
+070701000002D2000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/lib
+070701000002D3000081A400000000000000000000000156EB6C4C0006EDF0000000030000000100000000000000000000001900000000/lib/libuClibc-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+inet_ntoa_r
+_uintmaxtostr
+inet_makeaddr
+inet_lnaof
+inet_netof
+__encode_header
+__decode_header
+__encode_dotted
+__decode_dotted
+__length_dotted
+__encode_question
+__decode_question
+__length_question
+__encode_answer
+__decode_answer
+__encode_packet
+__decode_packet
+__form_query
+__dns_lookup
+__pthread_mutex_lock
+__pthread_mutex_unlock
+__resolv_lock
+__searchdomains
+__searchdomain
+__errno_location
+__h_errno_location
+__open_nameservers
+__nameservers
+__nameserver
+__close_nameservers
+gethostbyname
+gethostbyname_r
+__res_init
+__res_close
+__res_query
+__res_querydomain
+__res_search
+gethostbyaddr
+gethostbyaddr_r
+__open_etc_hosts
+__read_etc_hosts_r
+strcasecmp
+__get_hosts_byname_r
+__get_hosts_byaddr_r
+gethostbyname2
+getnameinfo
+getdomainname
+getservbyport
+endhostent
+sethostent
+gethostent_r
+gethostent
+gethostbyname2_r
+__dn_expand
+__ns_name_uncompress
+__ns_name_ntop
+__ns_name_unpack
+__libc_accept
+__libc_connect
+getpeername
+getsockname
+getsockopt
+__libc_recv
+__libc_recvfrom
+__libc_recvmsg
+__libc_send
+__libc_sendmsg
+__libc_sendto
+setsockopt
+socketpair
+setservent
+endservent
+getservent_r
+getservent
+getservbyport_r
+getservbyname_r
+getservbyname
+setprotoent
+endprotoent
+getprotoent_r
+getprotoent
+getprotobyname_r
+getprotobyname
+getprotobynumber_r
+getprotobynumber
+gethostname
+_net_stayopen
+inet_network
+getnetbyname
+getnetbyaddr
+if_nametoindex
+if_freenameindex
+if_nameindex
+if_indextoname
+gai_strerror
+freeaddrinfo
+getaddrinfo
+ether_aton_r
+__ctype_tolower
+ether_aton
+ether_ntoa_r
+ether_ntoa
+authnone_create
+__rpc_thread_variables
+_null_auth
+xdrmem_create
+xdr_opaque_auth
+authunix_create
+gettimeofday
+xdr_authunix_parms
+authunix_create_default
+xdr_u_long
+xdr_string
+bindresvport
+clnt_create
+clntunix_create
+__rpc_thread_createerr
+clntudp_create
+clnttcp_create
+clnt_sperrno
+clnt_sperror
+__glibc_strerror_r
+clnt_perror
+clnt_perrno
+clnt_spcreateerror
+clnt_pcreateerror
+clntraw_create
+xdr_callhdr
+svc_getreq
+xdr_replymsg
+_seterr_reply
+__rpc_thread_clnt_cleanup
+pmap_getport
+_create_xid
+xdrrec_create
+xdrrec_endofrecord
+xdrrec_skiprecord
+clntudp_bufcreate
+__cmsg_nxthdr
+_rpc_dtablesize
+getdtablesize
+get_myaddress
+getrpcbyname
+getrpcbynumber
+getrpcport
+pmap_unset
+pmap_getmaps
+xdr_pmaplist
+xdr_u_short
+xdr_reference
+pmap_rmtcall
+xdr_rmtcall_args
+xdr_rmtcallres
+clnt_broadcast
+xdr_callmsg
+xdr_accepted_reply
+xdr_rejected_reply
+xdr_des_block
+xdr_opaque
+rpc_createerr
+xprt_register
+__rpc_thread_svc_fdset
+__rpc_thread_svc_max_pollfd
+__rpc_thread_svc_pollfd
+xprt_unregister
+svc_register
+svc_unregister
+svc_sendreply
+svcerr_noproc
+svcerr_decode
+svcerr_systemerr
+svcerr_auth
+svcerr_weakauth
+svcerr_noprog
+svcerr_progvers
+svc_getreq_common
+_authenticate
+svc_getreq_poll
+svc_getreqset
+__rpc_thread_svc_cleanup
+_svcauth_unix
+_svcauth_short
+svcraw_create
+registerrpc
+svcudp_create
+svctcp_create
+svcfd_create
+xdrrec_eof
+svcudp_bufcreate
+svcudp_enablecache
+xdr_u_hyper
+xdr_longlong_t
+xdr_u_longlong_t
+xdr_u_char
+xdr_netobj
+xdr_wrapstring
+xdr_vector
+xdr_double
+xdr_pointer
+xdrstdio_create
+svcunix_create
+svcunixfd_create
+xdr_int64_t
+xdr_uint64_t
+xdr_int32_t
+xdr_uint32_t
+xdr_int16_t
+xdr_uint16_t
+xdr_int8_t
+xdr_uint8_t
+__check_rhosts_file
+sigsetmask
+__rcmd_errstr
+__fgetc_unlocked
+__ivaliduser
+__libc_sa_len
+rexecoptions
+__fsetlocking
+strncasecmp
+__libc_internal_tsd_set
+__libc_internal_tsd_get
+__pthread_once
+__rpc_thread_destroy
+__progname
+__ctype_toupper
+__C_ctype_b_data
+__C_ctype_b
+__C_ctype_tolower_data
+__C_ctype_tolower
+__C_ctype_toupper_data
+__C_ctype_toupper
+__pthread_mutex_init
+__getdents
+__getdents64
+alphasort64
+readdir64_r
+__error_at_line
+error_print_progname
+error_message_count
+__fputc_unlocked
+error_one_per_line
+__xpg_strerror_r
+glob_pattern_p
+__glob_opendir_hook
+__glob_readdir_hook
+__glob_closedir_hook
+globfree64
+obstack_exit_failure
+obstack_alloc_failed_handler
+_obstack_begin
+_obstack_begin_1
+_obstack_newchunk
+_obstack_allocated_p
+_obstack_free
+_obstack_memory_used
+__pagesize
+__libc_fcntl
+__libc_open
+__uClibc_init
+__pthread_initialize_minimal
+_stdio_init
+__uClibc_main
+__libc_stack_end
+__uClibc_start_main
+__path_search
+__gen_tempname
+localeconv
+nl_langinfo
+getmntent_r
+pthread_attr_destroy
+pthread_attr_getdetachstate
+pthread_attr_getinheritsched
+pthread_attr_getschedparam
+pthread_attr_getschedpolicy
+pthread_attr_getscope
+pthread_attr_init
+pthread_attr_setdetachstate
+pthread_attr_setinheritsched
+pthread_attr_setschedparam
+pthread_attr_setschedpolicy
+pthread_attr_setscope
+pthread_cond_broadcast
+pthread_cond_destroy
+pthread_cond_init
+pthread_cond_signal
+pthread_cond_timedwait
+pthread_cond_wait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_getschedparam
+pthread_mutex_destroy
+pthread_self
+pthread_setcancelstate
+pthread_setcanceltype
+pthread_setschedparam
+pthread_equal
+__pthread_mutex_trylock
+pthread_exit
+re_max_failures
+re_compile_fastmap
+re_set_syntax
+re_syntax_options
+re_set_registers
+re_search_2
+re_match_2
+re_compile_pattern
+hdestroy_r
+fstatvfs64
+sigemptyset
+setlogmask
+__syscall_ipc
+localtime_r
+_time_t2tm
+_time_tzlock
+__time_localtime_tzi
+_time_tzinfo
+_time_mktime
+_time_mktime_tzi
+__mbsnrtowcs
+__wcsnrtombs
+__iswctype
+getpwuid_r
+getpwnam_r
+__libc_argc
+__libc_argv
+fgetpwent_r
+__pgsreader
+__parsepwent
+fgetgrent_r
+__parsegrent
+getgrnam_r
+getgrgid_r
+initgroups
+fgetspent_r
+__parsespent
+sgetspent_r
+getspnam_r
+sigfillset
+__libc_current_sigrtmin
+__libc_current_sigrtmax
+__libc_allocate_rtsig
+__libc_sigaction
+__syscall_rt_sigaction
+__sigaddset
+__sigismember
+__sigdelset
+siggetmask
+siginterrupt
+sigisemptyset
+__sigjmp_save
+bsd_signal
+__sigpause
+__sysv_signal
+sigwaitinfo
+_stdio_openlist_lock
+_stdio_openlist
+__fflush_unlocked
+_stdio_fopen
+__fseeko64
+__ftello64
+__getdelim
+__getchar_unlocked
+__fread_unlocked
+__fputs_unlocked
+__fwrite_unlocked
+setlinebuf
+__stdio_trans2r_o
+__asprintf
+open_memstream
+__stdio_init_mutex
+__stdio_READ
+__stdio_WRITE
+__stdio_adjust_position
+_stdio_user_locking
+__stdio_fwrite
+__stdio_wcommit
+__stdio_rfill
+_stdio_openlist_delflag
+_stdio_term
+__stdio_trans2w_o
+_load_inttype
+_store_inttype
+_fpmaxtostr
+__fbufsize
+__fpending
+__freadable
+__freading
+__fwritable
+__fwriting
+fopencookie
+ftrylockfile
+funlockfile
+__fgets_unlocked
+__fileno_unlocked
+__fgetwc_unlocked
+__fgetws_unlocked
+__fputwc_unlocked
+__fputws_unlocked
+_wstdio_fwrite
+__clearerr_unlocked
+__feof_unlocked
+__ferror_unlocked
+__putchar_unlocked
+__getwchar_unlocked
+__putwchar_unlocked
+_ppfs_init
+_ppfs_prepargs
+_ppfs_parsespec
+_ppfs_setargs
+_custom_printf_spec
+_custom_printf_handler
+_custom_printf_arginfo
+register_printf_function
+parse_printf_format
+__scan_getc
+__init_scan_cookie
+__psfs_parse_spec
+__scan_ungetc
+__psfs_do_numeric
+_stdlib_strto_ll
+__strtofpmax
+_stdlib_strto_l
+_stdlib_mb_cur_max
+_stdlib_wcsto_l
+_stdlib_wcsto_ll
+__fp_range_check
+__wcstofpmax
+__exit_count
+__exit_slots
+__exit_function_table
+__exit_handler
+__exit_cleanup
+initstate_r
+setstate_r
+__add_to_environ
+__libc_system
+__bsd_getpt
+__drand48_iterate
+__libc_drand48_data
+__malloc_lock
+__malloc_state
+__malloc_consolidate
+malloc_trim
+malloc_stats
+strcasestr
+__strchrnul
+__strtok_r
+_string_syserrmsgs
+__strerror_r
+_string_syssigmsgs
+__xpg_basename
+wcscasecmp
+__wcschrnul
+wcsncasecmp
+__rt_sigtimedwait
+__socketcall
+__libc_fcntl64
+__adjtimex
+ntp_adjtime
+clock_getres
+clock_gettime
+clock_settime
+__libc_close
+create_module
+delete_module
+epoll_create
+epoll_wait
+__libc_fork
+__xstat_conv
+__xstat64_conv
+__libc_fsync
+ftruncate64
+get_kernel_syms
+get_current_dir_name
+__getpagesize
+__libc_getpid
+getpriority
+getrlimit64
+init_module
+__syscall_ioctl
+__libc_lseek64
+__libc_longjmp
+__libc_siglongjmp
+__libc_lseek
+__modify_ldt
+__libc_msync
+munlockall
+__libc_nanosleep
+__cyg_profile_func_exit
+__cyg_profile_func_enter
+ntp_gettime
+__libc_open64
+__libc_pause
+personality
+pivot_root
+__libc_posix_fadvise
+posix_fadvise64
+__syscall_fadvise64
+__libc_pread
+__libc_pread64
+__libc_pwrite
+__libc_pwrite64
+query_module
+__libc_read
+sched_get_priority_max
+sched_get_priority_min
+sched_getparam
+sched_getscheduler
+sched_rr_get_interval
+sched_setparam
+sched_setscheduler
+sched_yield
+_newselect
+sendfile64
+setdomainname
+sethostname
+setpriority
+__setrlimit
+setrlimit64
+settimeofday
+sigaltstack
+__rt_sigpending
+__rt_sigprocmask
+__rt_sigsuspend
+__libc_wait
+__libc_waitpid
+__libc_write
+llistxattr
+flistxattr
+lremovexattr
+fremovexattr
+__sigsetjmp
+__sigsetjmp_aux
+__thread_start
+_flush_cache
+cacheflush
+_test_and_set
+__libc_tcdrain
+tcsendbreak
+cfgetospeed
+cfgetispeed
+cfsetospeed
+cfsetispeed
+cfsetspeed
+getlogin_r
+endusershell
+setusershell
+getusershell
+_getopt_internal
+getopt_long
+getopt_long_only
+__dl_ldso__
+ld-uClibc.so.0
+__bss_start
+/etc/resolv.conf
+/etc/config/resolv.conf
+nameserver
+/etc/hosts
+/etc/config/hosts
+%u.%u.%u.%u.in-addr.arpa
+0123456789
+/etc/services
+/etc/protocols
+/etc/hostid
+/etc/networks
+Unknown host
+Host name lookup failure
+Unknown server error
+No address associated with name
+Resolver error
+Address family for hostname not supported
+Temporary failure in name resolution
+Bad value for ai_flags
+Non-recoverable failure in name resolution
+ai_family not supported
+Memory allocation failure
+No address associated with hostname
+Name or service not known
+Servname not supported for ai_socktype
+ai_socktype not supported
+System error
+Processing request in progress
+Request canceled
+Request not canceled
+All requests done
+Interrupted by a signal
+Unknown error
+%x:%x:%x:%x:%x:%x
+auth_none.c - Fatal marshalling problem
+authunix_create: out of memory
+RPC: Success
+RPC: Can't encode arguments
+RPC: Can't decode result
+RPC: Unable to send
+RPC: Unable to receive
+RPC: Timed out
+RPC: Incompatible versions of RPC
+RPC: Authentication error
+RPC: Program unavailable
+RPC: Program/version mismatch
+RPC: Procedure unavailable
+RPC: Server can't decode arguments
+RPC: Remote system error
+RPC: Unknown host
+RPC: Unknown protocol
+RPC: Port mapper failure
+RPC: Program not registered
+RPC: Failed (unspecified error)
+Authentication OK
+Invalid client credential
+Server rejected credential
+Invalid client verifier
+Server rejected verifier
+Client credential too weak
+Invalid server verifier
+Failed (unspecified error)
+RPC: (unknown error code)
+; errno = %s
+(unknown authentication error - %d)
+; low version = %lu, high version = %lu
+; s1 = %lu, s2 = %lu
+clnt_raw.c - Fatal header serialization error.
+clnttcp_create: out of memory
+clntudp_create: out of memory
+get_myaddress: socket
+get_myaddress: ioctl (get interface configuration)
+get_myaddress: ioctl
+__get_myaddress: socket
+__get_myaddress: ioctl (get interface configuration)
+__get_myaddress: ioctl
+Cannot register service
+pmap_getmaps rpc problem
+Cannot create socket for broadcast rpc
+Cannot set socket option SO_BROADCAST
+broadcast: ioctl (get interface configuration)
+broadcast: ioctl (get interface flags)
+Cannot send broadcast packet
+Broadcast poll problem
+Cannot receive reply to broadcast
+bad auth_len gid %d str %d auth %d
+svc_run: - poll failed
+can't reassign procedure number %ld
+couldn't create an rpc server
+couldn't register prog %ld vers %ld
+registerrpc: out of memory
+trouble replying to prog %d
+never registered prog %d
+svc_tcp.c - tcp socket creation problem
+svc_tcp.c - cannot getsockname or listen
+svctcp_create: out of memory
+svc_tcp: makefd_xprt: out of memory
+svcudp_create: socket creation problem
+svcudp_create - cannot getsockname
+svcudp_create: out of memory
+cache_set: victim not found
+cache_set: victim alloc failed
+cache_set: could not allocate new rpc_buffer
+enablecache: cache already enabled
+enablecache: could not allocate cache
+enablecache: could not allocate cache data
+enablecache: could not allocate cache fifo
+xdr_bytes: out of memory
+xdr_string: out of memory
+xdr_array: out of memory
+xdrrec_create: out of memory
+xdr_reference: out of memory
+clntunix_create: out of memory
+svc_unix.c - AF_UNIX socket creation problem
+svc_unix.c - cannot getsockname or listen
+svcunix_create: out of memory
+svc_unix: makefd_xprt: out of memory
+rcmd: write (setting up stderr): %m
+rcmd: poll (setting up stderr): %m
+poll: protocol failure in circuit setup
+rcmd: accept: %m
+socket: protocol failure in circuit setup
+rcmd: %s: %m
+rcmd: socket: All ports in use
+rcmd: socket: %m
+connect to address %s: 
+Trying %s...
+lstat failed
+not regular file
+cannot open
+fstat failed
+writeable by other than owner
+hard linked somewhere
+/etc/hosts.equiv
+getsockname
+rexec: socket
+Unknown .netrc keyword %s
+Error: .netrc file is readable by others.
+Remove password or make file unreadable by others.
+out of memory
+?function?
+%s: %s: %d: %s: Assertion `%s' failed.
+memory exhausted
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+%.*s/%.*sXXXXXX
+/dev/urandom
+/dev/random
+ $(,048<CJR\eluy}
+6<BFKPWair{~
+%a %b %e %H:%M:%S %Y
+%I:%M:%S %p
+%s %s %s %s %d %d
+Invalid regular expression
+Invalid collation character
+Invalid character class name
+Trailing backslash
+Invalid back reference
+Unmatched [ or [^
+Unmatched ( or \(
+Unmatched \{
+Invalid content of \{\}
+Invalid range end
+Memory exhausted
+Invalid preceding regular expression
+Premature end of regular expression
+Regular expression too big
+Unmatched ) or \)
+No previous regular expression
+/proc/mounts
+nodiratime
+/var/syslogd
+<%d>%.15s 
+<BUFFER OVERRUN ATTEMPT>
+/dev/console
+[truncated] 
+SunMonTueWedThuFriSatJanFebMarAprMayJunJulAugSepOctNovDec??? ??? 0
+,M4.1.0,M10.5.0
+""##$$$%%&&
+/var/run/utmp
+%s: parameter null or not set
+/etc/passwd
+/etc/group
+%s:%s:%lu:%lu:%s:%s:%s
+%s:%s:%lu:
+/etc/shadow
+npxXoudifFeEgGaACScs
+npxXoudifFeEgGaACSncs[
+0123456789abcdef
+pqrstuvwxyzabcde
+total bytes allocated             = %10u
+total bytes in use bytes          = %10u
+total non-mmapped bytes allocated = %10d
+number of mmapped regions         = %10d
+total allocated mmap space        = %10d
+total allocated sbrk space        = %10d
+maximum total allocated space     = %10d
+total free space                  = %10d
+memory releasable via malloc_trim = %10d
+#$%&'()*+,234567
+;<=>?@ABCDEFGJIMOPQRSTUVWX[\^_`abcxyz{|}~
+Unknown error 
+Operation not permitted
+No such file or directory
+No such process
+Interrupted system call
+Input/output error
+No such device or address
+Argument list too long
+Exec format error
+Bad file descriptor
+No child processes
+Resource temporarily unavailable
+Cannot allocate memory
+Permission denied
+Bad address
+Block device required
+Device or resource busy
+File exists
+Invalid cross-device link
+No such device
+Not a directory
+Is a directory
+Invalid argument
+Too many open files in system
+Too many open files
+Inappropriate ioctl for device
+Text file busy
+File too large
+No space left on device
+Illegal seek
+Read-only file system
+Too many links
+Broken pipe
+Numerical argument out of domain
+Numerical result out of range
+Resource deadlock avoided
+File name too long
+No locks available
+Function not implemented
+Directory not empty
+Too many levels of symbolic links
+No message of desired type
+Identifier removed
+Channel number out of range
+Level 2 not synchronized
+Level 3 halted
+Level 3 reset
+Link number out of range
+Protocol driver not attached
+No CSI structure available
+Level 2 halted
+Invalid exchange
+Invalid request descriptor
+Exchange full
+Invalid request code
+Invalid slot
+Bad font file format
+Device not a stream
+No data available
+Timer expired
+Out of streams resources
+Machine is not on the network
+Package not installed
+Object is remote
+Link has been severed
+Advertise error
+Srmount error
+Communication error on send
+Protocol error
+Multihop attempted
+RFS specific error
+Bad message
+Value too large for defined data type
+Name not unique on network
+File descriptor in bad state
+Remote address changed
+Can not access a needed shared library
+Accessing a corrupted shared library
+.lib section in a.out corrupted
+Attempting to link in too many shared libraries
+Cannot exec a shared library directly
+Invalid or incomplete multibyte or wide character
+Interrupted system call should be restarted
+Streams pipe error
+Too many users
+Socket operation on non-socket
+Destination address required
+Message too long
+Protocol wrong type for socket
+Protocol not available
+Protocol not supported
+Socket type not supported
+Operation not supported
+Protocol family not supported
+Address family not supported by protocol
+Address already in use
+Cannot assign requested address
+Network is down
+Network is unreachable
+Network dropped connection on reset
+Software caused connection abort
+Connection reset by peer
+No buffer space available
+Transport endpoint is already connected
+Transport endpoint is not connected
+Cannot send after transport endpoint shutdown
+Too many references: cannot splice
+Connection timed out
+Connection refused
+Host is down
+No route to host
+Operation already in progress
+Operation now in progress
+Stale NFS file handle
+Structure needs cleaning
+Not a XENIX named type file
+No XENIX semaphores available
+Is a named type file
+Remote I/O error
+Disk quota exceeded
+No medium found
+Wrong medium type
+File locking deadlock error
+Illegal instruction
+Trace/breakpoint trap
+Floating point exception
+User defined signal 1
+Segmentation fault
+User defined signal 2
+Broken pipe
+Alarm clock
+Terminated
+Stack fault
+Child exited
+Stopped (signal)
+Stopped (tty input)
+Stopped (tty output)
+Urgent I/O condition
+CPU time limit exceeded
+File size limit exceeded
+Virtual timer expired
+Profiling timer expired
+Window changed
+I/O possible
+Power failure
+Bad system call
+Unknown signal 
+	/dev/tts/
+	/dev/pty/
+	/dev/pts/
+/bin:/usr/bin
+/etc/shells
+%s: illegal option -- %c
+%s: option requires an argument -- %c
+POSIXLY_CORRECT
+%s: option `%s' is ambiguous
+					%s: option `--%s' doesn't allow an argument
+					%s: option `%c%s' doesn't allow an argument
+%s: option `%s' requires an argument
+%s: unrecognized option `--%s'
+%s: unrecognized option `%c%s'
+:/bin:/usr/bin
+/lib/ld-uClibc.so.0
+GCC: (GNU) 3.4.2
+GCC: (GNU) 3.4.2
+GCC: (GNU) 3.4.2
+.MIPS.stubs
+.data.rel.ro
+070701000002D4000081A400000000000000000000000156EB6C4C000010E0000000030000000100000000000000000000001500000000/lib/librt-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+__errno_location
+mq_setattr
+mq_getattr
+mq_timedsend
+mq_timedreceive
+mq_receive
+timer_create
+timer_delete
+timer_settime
+timer_gettime
+timer_getoverrun
+__bss_start
+librt.so.0
+.MIPS.stubs
+070701000002D5000081A400000000000000000000000156EB6C4C000128BC000000030000000100000000000000000000001300000000/lib/libz-1.2.3.so
+_GLOBAL_OFFSET_TABLE_
+adler32_combine
+get_crc_table
+crc32_combine
+inflateBackInit_
+inflateBack
+inflate_table
+inflate_fast
+inflateBackEnd
+inflateReset
+inflatePrime
+inflateInit2_
+inflateInit_
+inflateEnd
+inflateSetDictionary
+inflateGetHeader
+inflateSync
+inflateSyncPoint
+inflateCopy
+gz_compress
+gz_uncompress
+file_compress
+file_uncompress
+deflateInit_
+deflateEnd
+compressBound
+deflate_copyright
+deflateSetDictionary
+deflateSetHeader
+deflatePrime
+deflateTune
+deflateBound
+_tr_stored_block
+deflateParams
+deflateReset
+deflateInit2_
+deflateCopy
+_tr_flush_block
+_length_code
+_dist_code
+gzsetparams
+__errno_location
+__fputc_unlocked
+gzclearerr
+inflate_copyright
+zlibVersion
+zlibCompileFlags
+__bss_start
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+invalid code lengths set
+invalid bit length repeat
+invalid literal/lengths set
+invalid distances set
+invalid literal/length code
+invalid distance code
+invalid distance too far back
+incorrect header check
+invalid window size
+unknown compression method
+unknown header flags set
+header crc mismatch
+incorrect data check
+incorrect length check
+failed gzclose
+failed fwrite
+failed fclose
+%s: can't gzopen %s
+can't gzdopen stdin
+can't gzdopen stdout
+ deflate 1.2.3 Copyright 1995-2005 Jean-loup Gailly 
+%c%c%c%c%c%c%c%c%c%c
+ inflate 1.2.3 Copyright 1995-2005 Mark Adler 
+file error
+stream error
+data error
+insufficient memory
+buffer error
+incompatible version
+need dictionary
+stream end
+.MIPS.stubs
+.data.rel.ro
+070701000002D60000A1FF00000000000000000000000156EB6C5100000015000000030000000100000000000000000000001300000000/lib/libpthread.so
+libpthread-0.9.28.so
+070701000002D7000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000B00000000/lib/ipsec
+070701000002D8000081A400000000000000000000000156EB6C4C00000634000000030000000100000000000000000000001600000000/lib/libnsl-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+__dl_ldso__
+__bss_start
+libnsl.so.0
+/lib/ld-uClibc.so.0
+.MIPS.stubs
+070701000002D90000A1FF00000000000000000000000156EB6C5100000014000000030000000100000000000000000000001200000000/lib/libresolv.so
+libresolv-0.9.28.so
+070701000002DA0000A1FF00000000000000000000000156EB6C5100000014000000030000000100000000000000000000000D00000000/lib/libc.so
+libuClibc-0.9.28.so
+070701000002DB000081A400000000000000000000000156EB6C4C00002E48000000030000000100000000000000000000001800000000/lib/libcrypt-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+__des_crypt
+__md5_crypt
+__dl_ldso__
+__bss_start
+libcrypt.so.0
+./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+(3-!0,1'8"5.*2$
+./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+/lib/ld-uClibc.so.0
+.MIPS.stubs
+070701000002DC0000A1FF00000000000000000000000156EB6C5100000014000000030000000100000000000000000000001400000000/lib/libresolv.so.0
+libresolv-0.9.28.so
+070701000002DD0000A1FF00000000000000000000000156EB6C5100000010000000030000000100000000000000000000000E00000000/lib/libdl.so
+libdl-0.9.28.so
+070701000002DE000081A400000000000000000000000156EB6C4C00012B54000000030000000100000000000000000000001400000000/lib/libm-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+__ieee754_acos
+__ieee754_sqrt
+__ieee754_acosh
+__ieee754_log
+__ieee754_asin
+__ieee754_atan2
+__ieee754_atanh
+__ieee754_cosh
+__ieee754_exp
+__ieee754_fmod
+__ieee754_gamma
+__ieee754_gamma_r
+__ieee754_lgamma_r
+__ieee754_hypot
+__ieee754_j0
+__ieee754_y0
+__ieee754_j1
+__ieee754_y1
+__ieee754_jn
+__ieee754_yn
+__ieee754_lgamma
+__kernel_sin
+__kernel_cos
+__ieee754_log10
+__ieee754_pow
+__ieee754_remainder
+__ieee754_rem_pio2
+__kernel_rem_pio2
+__ieee754_scalb
+__ieee754_sinh
+__kernel_standard
+_LIB_VERSION
+__errno_location
+__kernel_tan
+significand
+__fpclassifyf
+__fpclassify
+__isnormalf
+__isnormal
+__signbitf
+nextafterf
+remainderf
+__dl_ldso__
+__bss_start
+!)@:F,@zj/@\G1@|
+=@zj?@L~@@\GA@l
+acos: DOMAIN error
+asin: DOMAIN error
+atan2: DOMAIN error
+y0: DOMAIN error
+y1: DOMAIN error
+yn: DOMAIN error
+lgamma: SING error
+log: SING error
+log: DOMAIN error
+log10: SING error
+log10: DOMAIN error
+pow(0,0): DOMAIN error
+pow(0,neg): DOMAIN error
+neg**non-integral: DOMAIN error
+sqrt: DOMAIN error
+fmod:  DOMAIN error
+remainderf
+remainder: DOMAIN error
+acosh: DOMAIN error
+atanh: DOMAIN error
+atanh: SING error
+: TLOSS error
+gamma: SING error
+Iq/lib/ld-uClibc.so.0
+.MIPS.stubs
+070701000002DF0000A1FF00000000000000000000000156EB6C5100000013000000030000000100000000000000000000001300000000/lib/libnvram.so.0
+libnvram-0.9.28.so
+070701000002E00000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000001000000000/lib/libutil.so
+libutil-0.9.28.so
+070701000002E10000A1FF00000000000000000000000156EB6C5100000014000000030000000100000000000000000000001400000000/lib/ld-uClibc.so.0
+ld-uClibc-0.9.28.so
+070701000002E2000081A400000000000000000000000156EB6C4C000084F4000000030000000100000000000000000000001800000000/lib/libnvram-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+libnvram_debug
+nvram_init
+nvram_commit
+nvram_close
+nvram_bufget
+nvram_bufset
+nvram_buflist
+nvram_clear
+getNvramNum
+getNvramOffset
+getNvramName
+getNvramBlockSize
+getNvramIndex
+toggleNvramDebug
+flash_read_mac
+flash_read_NicConf
+flash_read
+flash_write
+__bss_start
+libnvram.so.0
+%s %d: --> nvram_init %d
+nvram_env.c
+%s %d: index(%d) is out of range
+/dev/nvram
+%s %d: parsed failed - cannot find '='
+%s %d: parsed failed - cannot find '\0'
+%s %d: run out of env cache, please increase MAX_CACHE_ENTRY
+%s %d: fb[%d] invalid, init again
+%s %d: --> nvram_close %d
+%s %d: bufget %d '%s'->'%s'
+%s %d: bufget %d '%s'->''(empty) Warning!
+%s %d: ERROR! run out of env cache, please increase MAX_CACHE_ENTRY
+%s %d: bufset %d '%s'->'%s'
+  '%s'='%s'
+%s %d: --> nvram_clear %d
+%s: turn off debugging
+%s: turn ON debugging
+/dev/mtd/%d
+/dev/mtd%d
+Could not open mtd device
+Could not get mtd device info
+Too many bytes - %d > %d bytes
+Reading from mtd failed
+Too many bytes: %d > %d bytes
+Not enough memory
+Erasing mtd failed
+Writing to mtd failed
+.MIPS.stubs
+070701000002E30000A1FF00000000000000000000000156EB6C5100000011000000030000000100000000000000000000000F00000000/lib/libusb.so
+libusb.so.0.1.12
+070701000002E4000081A400000000000000000000000156EB6C4C00002050000000030000000100000000000000000000001500000000/lib/libdl-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+_dl_symbol_tables
+_dl_handles
+_dl_find_hash
+_dl_error_number
+_dl_loaded_modules
+_dl_debug_addr
+_dl_map_cache
+_dl_load_shared_library
+_dl_unmap_cache
+_dl_perform_mips_global_got_relocations
+_dl_protect_relro
+dl_cleanup
+__dl_ldso__
+ld-uClibc.so.0
+__bss_start
+libdl.so.0
+File not found
+Unable to open /dev/zero
+Not an ELF file
+Unrecognized binary type
+Not an ELF shared library
+Unable to mmap file
+No dynamic section
+Unable to process RELA relocs
+Bad handle
+Unable to resolve symbol
+LD_BIND_NOW
+List of loaded modules
+	%p %p %p %s %d %s
+Modules for application (%p):
+Modules for handle %p
+/lib/ld-uClibc.so.0
+.MIPS.stubs
+070701000002E50000A1FF00000000000000000000000156EB6C5100000010000000030000000100000000000000000000000E00000000/lib/librt.so
+librt-0.9.28.so
+070701000002E6000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000D00000000/lib/modules
+070701000002E7000081A400000000000000000000000156EB6C4C00001278000000030000000100000000000000000000001700000000/lib/libutil-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+gettimeofday
+__bss_start
+libutil.so.0
+/var/run/utmp
+/var/log/wtmp
+.MIPS.stubs
+070701000002E8000081A400000000000000000000000156EB6C4C00017B9C000000030000000100000000000000000000001A00000000/lib/libpthread-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+__cxa_finalize
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+__pthread_attr_setguardsize
+__pthread_attr_getguardsize
+__pthread_attr_setstackaddr
+__pthread_attr_getstackaddr
+__pthread_attr_setstacksize
+__pthread_attr_getstacksize
+pthread_attr_init
+__getpagesize
+pthread_attr_destroy
+pthread_attr_setdetachstate
+pthread_attr_getdetachstate
+pthread_attr_setschedparam
+sched_get_priority_max
+sched_get_priority_min
+pthread_attr_getschedparam
+pthread_attr_setschedpolicy
+pthread_attr_getschedpolicy
+pthread_attr_setinheritsched
+pthread_attr_getinheritsched
+pthread_attr_setscope
+pthread_attr_getscope
+pthread_setcancelstate
+__pthread_initial_thread_bos
+__pthread_initial_thread
+__pthread_manager_thread_bos
+__pthread_manager_thread_tos
+__pthread_manager_thread
+__pthread_nonstandard_stacks
+__pthread_find_self
+pthread_exit
+pthread_setcanceltype
+pthread_cancel
+__pthread_handles
+__pthread_lock
+__pthread_unlock
+__pthread_restart_new
+__pthread_sig_cancel
+pthread_testcancel
+_pthread_cleanup_push
+_pthread_cleanup_pop
+_pthread_cleanup_push_defer
+_pthread_cleanup_pop_restore
+__pthread_perform_cleanup
+__rpc_thread_destroy
+pthread_cond_init
+pthread_cond_destroy
+pthread_cond_wait
+__pthread_wait_for_restart_signal
+pthread_cond_timedwait
+__pthread_timedsuspend_new
+pthread_cond_signal
+pthread_cond_broadcast
+pthread_condattr_init
+pthread_condattr_destroy
+pthread_condattr_getpshared
+pthread_condattr_setpshared
+__errno_location
+__h_errno_location
+__linuxthreads_create_event
+__linuxthreads_death_event
+__linuxthreads_reap_event
+__pthread_destroy_specifics
+__pthread_threads_events
+__pthread_last_event
+__pthread_main_thread
+__pthread_manager_request
+__libc_write
+pthread_join
+pthread_detach
+__fresetlockfiles
+_stdio_openlist
+__pthread_handles_num
+__linuxthreads_pthread_threads_max
+sigprocmask
+sched_setscheduler
+__pthread_threads_debug
+__pthread_sig_debug
+__libc_waitpid
+__pthread_manager_sighandler
+__pthread_manager_adjust_prio
+__pthread_manager
+sigfillset
+__libc_read
+__pagesize
+sched_getscheduler
+sched_getparam
+__pthread_exit_requested
+__pthread_exit_code
+__new_sem_post
+__pthread_manager_event
+__pthread_mutex_init
+__pthread_mutex_destroy
+__pthread_mutex_trylock
+__pthread_mutex_lock
+__pthread_mutex_timedlock
+__pthread_mutex_unlock
+__pthread_mutexattr_init
+__pthread_mutexattr_destroy
+__pthread_mutexattr_settype
+__pthread_mutexattr_setkind_np
+__pthread_mutexattr_gettype
+__pthread_mutexattr_getkind_np
+__pthread_mutexattr_getpshared
+__pthread_mutexattr_setpshared
+__pthread_once
+__pthread_alt_lock
+__pthread_alt_timedlock
+__pthread_alt_unlock
+__pthread_once_fork_prepare
+__pthread_once_fork_parent
+__pthread_once_fork_child
+__old_sem_init
+__old_sem_wait
+__old_sem_trywait
+__old_sem_post
+__old_sem_getvalue
+__old_sem_destroy
+testandset
+__compare_and_swap
+pthread_atfork
+__libc_fork
+__pthread_reset_main_thread
+__pthread_kill_other_threads_np
+__pthread_setconcurrency
+__pthread_getconcurrency
+__pthread_timedsuspend
+__pthread_suspend
+__pthread_restart
+__pthread_sig_restart
+__linuxthreads_version
+__linuxthreads_pthread_sizeof_descr
+__pthread_offsetof_pid
+__pthread_offsetof_descr
+__pthread_sizeof_handle
+__pthread_threads_max
+__libc_current_sigrtmin
+__libc_current_sigrtmax
+__libc_allocate_rtsig
+__pthread_initialize_minimal
+_stdio_user_locking
+sigemptyset
+__libc_sigaction
+__pthread_initialize
+pthread_self
+pthread_equal
+pthread_setschedparam
+pthread_getschedparam
+__pthread_manager_reader
+__libc_close
+sigsuspend
+__pthread_initialize_manager
+__linuxthreads_initial_report_events
+pthread_create
+__sigsetjmp
+gettimeofday
+__libc_nanosleep
+__libc_siglongjmp
+pthread_rwlock_init
+pthread_rwlock_destroy
+pthread_rwlock_rdlock
+pthread_rwlock_tryrdlock
+pthread_rwlock_wrlock
+pthread_rwlock_trywrlock
+pthread_rwlock_unlock
+pthread_rwlockattr_init
+pthread_rwlockattr_destroy
+pthread_rwlockattr_getpshared
+pthread_rwlockattr_setpshared
+pthread_rwlockattr_getkind_np
+pthread_rwlockattr_setkind_np
+__new_sem_init
+__new_sem_wait
+__new_sem_trywait
+__new_sem_getvalue
+__new_sem_destroy
+sem_unlink
+sem_timedwait
+__sigaction
+pthread_sigmask
+pthread_kill
+sigismember
+__libc_internal_tsd_address
+__libc_internal_tsd_get
+__libc_internal_tsd_set
+__linuxthreads_pthread_key_2ndlevel_size
+__linuxthreads_pthread_keys_max
+pthread_key_create
+pthread_key_delete
+pthread_setspecific
+pthread_getspecific
+sched_yield
+__libc_fcntl
+__libc_fsync
+__libc_lseek
+__libc_lseek64
+__libc_msync
+__libc_open
+__libc_open64
+__libc_pause
+__libc_pread
+__libc_pread64
+__libc_pwrite
+__libc_system
+__libc_tcdrain
+__libc_wait
+__libc_accept
+__libc_connect
+__libc_recv
+__libc_recvfrom
+__libc_recvmsg
+__libc_send
+__libc_sendmsg
+__libc_sendto
+__dl_ldso__
+__bss_start
+libpthread.so.0
+pt: assertion failed in %s:%i.
+/lib/ld-uClibc.so.0
+GCC: (GNU) 3.3.2
+GCC: (GNU) 3.4.2
+GCC: (GNU) 3.4.2
+GCC: (GNU) 3.3.2
+.MIPS.stubs
+.data.rel.ro
+initfini.c
+crtstuff.c
+__CTOR_LIST__
+__DTOR_LIST__
+__EH_FRAME_BEGIN__
+__JCR_LIST__
+completed.1
+__do_global_dtors_aux
+frame_dummy
+__CTOR_END__
+__DTOR_END__
+__FRAME_END__
+__JCR_END__
+__do_global_ctors_aux
+lockfile.c
+oldsemaphore.c
+pt-machine.c
+ptlongjmp.c
+semaphore.c
+specific.c
+spinlock.c
+wrapsyscall.c
+__dso_handle
+__libc_tcdrain
+__linuxthreads_pthread_threads_max
+__libc_internal_tsd_set
+__libc_sigaction
+__libc_pread
+__old_sem_trywait
+pthread_mutex_timedlock
+__libc_fsync
+pthread_cond_signal
+__pthread_mutexattr_destroy
+pthread_rwlockattr_setkind_np
+__pthread_exit_code
+__pthread_restart_new
+pthread_mutexattr_gettype
+testandset
+pthread_attr_destroy
+__linuxthreads_initial_report_events
+pthread_attr_getstacksize
+__pthread_once
+pthread_create
+sigemptyset
+__pthread_mutex_lock
+pthread_getspecific
+__new_sem_destroy
+pthread_rwlock_rdlock
+__pthread_find_self
+pthread_attr_init
+pthread_mutexattr_getkind_np
+pthread_rwlock_init
+pthread_rwlockattr_getkind_np
+pthread_exit
+sem_timedwait
+__pthread_manager_thread_bos
+sched_getparam
+pthread_condattr_setpshared
+__libc_fcntl
+__new_sem_init
+pthread_rwlockattr_setpshared
+__pthread_mutex_timedlock
+__pthread_manager_event
+__fresetlockfiles
+__pthread_mutexattr_settype
+__linuxthreads_create_event
+__libc_accept
+__libc_current_sigrtmax
+pthread_condattr_init
+getpagesize
+pthread_attr_getstackaddr
+__pthread_suspend
+pthread_key_delete
+__old_sem_post
+_pthread_cleanup_pop
+__pthread_lock
+pthread_cancel
+__pthread_mutexattr_setpshared
+__pthread_initial_thread_bos
+pthread_mutexattr_destroy
+__pthread_reset_main_thread
+pthread_equal
+__cxa_finalize
+__libc_nanosleep
+__pthread_mutex_init
+__libc_current_sigrtmin
+__pthread_sig_debug
+sem_destroy
+siglongjmp
+pthread_attr_getscope
+sched_setscheduler
+__new_sem_post
+__pthread_initialize_manager
+pthread_rwlock_destroy
+pthread_attr_getguardsize
+sched_getscheduler
+pthread_testcancel
+__pthread_manager_sighandler
+__pthread_attr_getstackaddr
+__linuxthreads_version
+__linuxthreads_death_event
+pthread_rwlock_unlock
+_pthread_cleanup_pop_restore
+__pthread_attr_setstacksize
+pthread_attr_getinheritsched
+__linuxthreads_pthread_keys_max
+pthread_kill_other_threads_np
+__pthread_mutexattr_gettype
+sem_unlink
+__libc_pwrite
+__libc_read
+__pthread_kill_other_threads_np
+__pthread_initialize
+__pthread_mutexattr_setkind_np
+__linuxthreads_pthread_key_2ndlevel_size
+__pthread_alt_unlock
+pthread_detach
+pthread_attr_getschedpolicy
+__compare_and_swap
+__pthread_handles
+pthread_attr_setstackaddr
+__sigsetjmp
+__libc_lseek64
+__dl_ldso__
+__libc_allocate_rtsig
+pthread_getschedparam
+__libc_pread64
+pthread_setcancelstate
+__libc_internal_tsd_get
+__pthread_wait_for_restart_signal
+__pthread_mutex_unlock
+__old_sem_init
+pthread_condattr_destroy
+pthread_attr_setscope
+__pthread_mutex_trylock
+__pthread_destroy_specifics
+pthread_mutexattr_setkind_np
+__libc_internal_tsd_address
+_stdio_openlist
+__pthread_nonstandard_stacks
+pthread_cond_broadcast
+pthread_once
+__deregister_frame_info
+__pthread_once_fork_child
+pthread_attr_setinheritsched
+__pthread_alt_lock
+__pthread_manager_adjust_prio
+__pthread_manager_thread
+__pthread_setconcurrency
+pthread_setschedparam
+__pthread_perform_cleanup
+pthread_key_create
+__pthread_initialize_minimal
+__new_sem_wait
+__libc_open64
+pthread_setconcurrency
+__pthread_mutex_destroy
+__pthread_mutexattr_getkind_np
+__pthread_handles_num
+pthread_kill
+__pthread_manager_request
+__linuxthreads_pthread_sizeof_descr
+pthread_attr_setstacksize
+_stdio_user_locking
+pthread_rwlock_wrlock
+pthread_rwlockattr_getpshared
+sched_get_priority_max
+__old_sem_getvalue
+pthread_sigmask
+__libc_siglongjmp
+__libc_send
+__pthread_attr_setstackaddr
+pthread_cond_init
+sigfillset
+sched_get_priority_min
+pthread_rwlockattr_init
+__pthread_restart
+pthread_mutexattr_getpshared
+__libc_pause
+sem_trywait
+__pthread_mutexattr_init
+__getpagesize
+__libc_close
+pthread_condattr_getpshared
+_pthread_cleanup_push_defer
+gettimeofday
+__bss_start
+__libc_open
+pthread_mutexattr_settype
+__libc_recvfrom
+__pthread_threads_events
+__libc_system
+pthread_mutexattr_setpshared
+pthread_attr_getdetachstate
+__pthread_last_event
+__libc_recvmsg
+pthread_mutex_unlock
+__pthread_manager_reader
+__pthread_initial_thread
+__h_errno_location
+__pthread_offsetof_descr
+__new_sem_trywait
+__libc_waitpid
+__pthread_unlock
+pthread_rwlockattr_destroy
+__rpc_thread_destroy
+__pthread_attr_setguardsize
+__pthread_exit_requested
+__pthread_attr_getguardsize
+__pthread_manager_thread_tos
+__old_sem_wait
+__pthread_once_fork_parent
+__libc_fork
+pthread_rwlock_trywrlock
+pthread_rwlock_tryrdlock
+sigismember
+__linuxthreads_reap_event
+__pthread_manager
+__libc_lseek
+__old_sem_destroy
+__pthread_getconcurrency
+__pthread_alt_timedlock
+_pthread_cleanup_push
+pthread_self
+pthread_setcanceltype
+__pthread_once_fork_prepare
+pthread_mutexattr_init
+__libc_wait
+__pagesize
+_GLOBAL_OFFSET_TABLE_
+__pthread_threads_max
+pthread_mutex_destroy
+pthread_mutex_lock
+__sigaction
+__new_sem_getvalue
+sem_getvalue
+pthread_cond_wait
+__errno_location
+__pthread_timedsuspend
+pthread_attr_setguardsize
+pthread_mutex_trylock
+pthread_atfork
+__libc_sendmsg
+pthread_cond_destroy
+pthread_attr_setschedpolicy
+__pthread_mutexattr_getpshared
+__pthread_timedsuspend_new
+__pthread_sig_cancel
+__pthread_sig_restart
+__pthread_offsetof_pid
+__libc_recv
+__pthread_main_thread
+pthread_mutex_init
+__pthread_attr_getstacksize
+__libc_write
+__libc_sendto
+pthread_attr_setschedparam
+__pthread_sizeof_handle
+__libc_msync
+_Jv_RegisterClasses
+__pthread_threads_debug
+pthread_attr_setdetachstate
+sched_yield
+pthread_join
+pthread_getconcurrency
+pthread_cond_timedwait
+__register_frame_info
+__libc_connect
+pthread_attr_getschedparam
+pthread_setspecific
+sigsuspend
+sigprocmask
+070701000002E9000081A400000000000000000000000156EB6C4C00001B50000000030000000100000000000000000000001900000000/lib/libresolv-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+__ns_name_compress
+__ns_name_ntop
+__errno_location
+__ns_name_pton
+__ns_name_ntol
+__ctype_tolower
+__ns_name_unpack
+__ns_name_uncompress
+__ns_name_rollback
+__ns_name_skip
+__ns_name_pack
+__dl_ldso__
+__bss_start
+libresolv.so.0
+0123456789
+/lib/ld-uClibc.so.0
+.MIPS.stubs
+070701000002EA0000A1FF00000000000000000000000156EB6C5100000013000000030000000100000000000000000000001300000000/lib/libcrypt.so.0
+libcrypt-0.9.28.so
+070701000002EB0000A1FF00000000000000000000000156EB6C5100000010000000030000000100000000000000000000001000000000/lib/librt.so.0
+librt-0.9.28.so
+070701000002EC0000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000D00000000/lib/libm.so
+libm-0.9.28.so
+070701000002ED0000A1FF00000000000000000000000156EB6C510000000E000000030000000100000000000000000000000D00000000/lib/libz.so
+libz-1.2.3.so
+070701000002EE0000A1FF00000000000000000000000156EB6C510000000E000000030000000100000000000000000000000F00000000/lib/libz.so.1
+libz-1.2.3.so
+070701000002EF0000A1FF00000000000000000000000156EB6C5100000013000000030000000100000000000000000000001100000000/lib/libnvram.so
+libnvram-0.9.28.so
+070701000002F00000A1FF00000000000000000000000156EB6C5100000014000000030000000100000000000000000000000F00000000/lib/libc.so.0
+libuClibc-0.9.28.so
+070701000002F10000A1FF00000000000000000000000156EB6C5100000011000000030000000100000000000000000000001100000000/lib/libnsl.so.0
+libnsl-0.9.28.so
+070701000002F2000081A400000000000000000000000156EB6C4C00007540000000030000000100000000000000000000001600000000/lib/libusb.so.0.1.12
+_GLOBAL_OFFSET_TABLE_
+usb_get_descriptor_by_endpoint
+usb_control_msg
+usb_get_descriptor
+usb_parse_descriptor
+usb_parse_configuration
+usb_destroy_configuration
+usb_fetch_and_parse_descriptors
+usb_error_type
+usb_error_errno
+usb_error_str
+usb_strerror
+__errno_location
+usb_os_open
+usb_os_close
+usb_set_configuration
+usb_claim_interface
+usb_release_interface
+usb_set_altinterface
+gettimeofday
+usb_bulk_write
+usb_bulk_read
+usb_interrupt_write
+usb_interrupt_read
+usb_os_find_busses
+usb_os_find_devices
+usb_os_determine_children
+usb_os_init
+usb_resetep
+usb_clear_halt
+usb_get_driver_np
+usb_detach_kernel_driver_np
+usb_busses
+usb_set_debug
+usb_free_bus
+usb_find_busses
+usb_get_string
+usb_get_string_simple
+usb_device
+usb_free_dev
+usb_find_devices
+usb_get_busses
+__bss_start
+libusb.so.0.1.12
+too many interfaces
+out of memory
+invalid descriptor length of %d
+skipping descriptor 0x%X
+skipped %d class/vendor specific endpoint descriptors
+couldn't allocate memory for config extra descriptors
+couldn't malloc interface->altsetting
+skipped %d class/vendor specific interface descriptors
+couldn't allocate memory for interface extra descriptors
+too many endpoints
+couldn't allocate memory for ifp->endpoint
+ran out of descriptors parsing
+unexpected descriptor 0x%X, expecting endpoint descriptor, type 0x%X
+couldn't allocate memory for endpoint extra descriptors
+Too many configurations (%d > %d)
+Not enough configurations (%d < %d)
+Unable to allocate memory for config descriptor
+Config descriptor too short (expected %d, got %d)
+Unable to allocate memory for descriptors
+Unable to get descriptor (%d)
+Descriptor data still left
+Unable to parse descriptors
+Unknown error
+failed to open %s: %s
+USB error: %s
+tried to close device fd %d: %s
+could not set config %d: %s
+Check that you have permissions to write to %s/%s and, if you don't, that you set up hotplug (http://linux-hotplug.sourceforge.net/) correctly.
+could not claim interface %d: %s
+could not release intf %d: %s
+could not set alt intf %d/%d: %s
+error sending control message: %s
+error submitting URB: %s
+error reaping URB: %s
+error discarding URB: %s
+couldn't opendir(%s): %s
+0123456789
+usb_os_find_busses: Skipping non bus directory %s
+usb_os_find_busses: Found %s
+usb_os_find_devices: Couldn't open %s
+usb_os_find_devices: couldn't get connect info
+usb_os_find_devices: Couldn't read descriptor
+bbWbbbbWWWbbbb
+usb_os_find_devices: Found %s on %s
+error obtaining child information: %s
+error allocating %zu bytes memory for dev->children
+USB_DEVFS_PATH
+usb_os_init: couldn't find USB VFS in USB_DEVFS_PATH
+/dev/bus/usb
+/proc/bus/usb
+usb_os_init: Found USB VFS at %s
+usb_os_init: No USB VFS found, is it mounted?
+could not reset ep %d: %s
+could not clear/halt ep %d: %s
+could not reset: %s
+could not get bound driver: %s
+could not detach kernel driver from interface %d: %s
+usb_set_debug: Setting debugging level to %d (%s)
+.MIPS.stubs
+070701000002F30000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000F00000000/lib/libm.so.0
+libm-0.9.28.so
+070701000002F40000A1FF00000000000000000000000156EB6C5100000015000000030000000100000000000000000000001500000000/lib/libpthread.so.0
+libpthread-0.9.28.so
+070701000002F5000081ED00000000000000000000000156EB6C4C00005970000000030000000100000000000000000000001900000000/lib/ld-uClibc-0.9.28.so
+_GLOBAL_OFFSET_TABLE_
+__dl_runtime_resolve
+__libc_stack_end
+_dl_handles
+_dl_symbol_tables
+_dl_loaded_modules
+_dl_progname
+_dl_malloc_function
+_dl_debug_addr
+_dl_pagesize
+_dl_secure
+_dl_ldsopath
+_dl_preload
+_dl_library_path
+_dl_parse_lazy_relocation_information
+_dl_debug_state
+_dl_getenv
+_dl_unsetenv
+_dl_parse_dynamic_info
+_dl_unmap_cache
+_dl_find_hash
+_dl_perform_mips_global_got_relocations
+_dl_check_hashed_files
+_dl_dprintf
+_dl_check_if_named_library_is_loaded
+_dl_protect_relro
+_dl_map_cache
+_dl_malloc
+_dl_strdup
+_dl_add_elf_hash_table
+_dl_load_elf_shared_library
+_dl_internal_error_number
+_dl_load_shared_library
+_dl_error_number
+_dl_parse_relocation_information
+_dl_get_ready_to_run
+_dl_elf_main
+__bss_start
+ld-uClibc.so.0
+ld-uClibc.so.0
+%s: cannot apply additional memory protection after relocation
+/home/work/ipcamera/SDK/RT288x_SDK/source/romfs/etc/ld.so.cache
+%s: can't map cache '%s'
+%s: cache '%s' is corrupt
+%s: mmap of a spare page failed!
+%s: can't map '%s'
+%s: '%s' is not an ELF file
+%s: '%s' is not an ELF executable for MIPS
+%s: '%s' has more than one dynamic section
+%s: can't map %s
+%s: '%s' is missing a dynamic section
+Can't modify %s's text section. Use GCC option -fPIC for shared objects, please.
+Out of memory!
+/home/work/ipcamera/SDK/RT288x_SDK/source/romfs/lib:/home/work/ipcamera/SDK/RT288x_SDK/source/romfs/usr/lib
+symbol '%s': 
+can't handle reloc type %x
+Standalone execution is not supported yet
+LD_BIND_NOW
+LD_PRELOAD
+LD_LIBRARY_PATH
+LD_TRACE_LOADED_OBJECTS
+	%s => not found
+%s: can't load library '%s'
+	%s => %s (%x)
+%s: can't resolve symbol '%s'
+%s: aborted attempt to load %s!
+LD_AOUT_PRELOAD
+LD_AOUT_LIBRARY_PATH
+LD_PRELOAD
+LD_LIBRARY_PATH
+LD_DEBUG_OUTPUT
+LD_TRACE_LOADED_OBJECTS
+HOSTALIASES
+LOCALDOMAIN
+RES_OPTIONS
+.MIPS.stubs
+.data.rel.ro
+070701000002F60000A1FF00000000000000000000000156EB6C5100000011000000030000000100000000000000000000000F00000000/lib/libnsl.so
+libnsl-0.9.28.so
+070701000002F70000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000001200000000/lib/libutil.so.0
+libutil-0.9.28.so
+070701000002F80000A1FF00000000000000000000000156EB6C5100000013000000030000000100000000000000000000001100000000/lib/libcrypt.so
+libcrypt-0.9.28.so
+070701000002F90000A1FF00000000000000000000000156EB6C5100000010000000030000000100000000000000000000001000000000/lib/libdl.so.0
+libdl-0.9.28.so
+070701000002FA000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/usr
+070701000002FB000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000B00000000/usr/local
+070701000002FC000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000900000000/usr/bin
+070701000002FD0000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000B00000000/usr/bin/[
+../../bin/busybox
+070701000002FE0000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000E00000000/usr/bin/test
+../../bin/busybox
+070701000002FF0000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000C00000000/usr/bin/[[
+../../bin/busybox
+070701000003000000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000D00000000/usr/bin/seq
+../../bin/busybox
+070701000003010000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000001000000000/usr/bin/passwd
+../../bin/busybox
+070701000003020000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000F00000000/usr/bin/pkill
+../../bin/busybox
+070701000003030000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000E00000000/usr/bin/find
+../../bin/busybox
+070701000003040000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000F00000000/usr/bin/xargs
+../../bin/busybox
+070701000003050000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000C00000000/usr/bin/wc
+../../bin/busybox
+070701000003060000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000D00000000/usr/bin/awk
+../../bin/busybox
+070701000003070000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000001100000000/usr/bin/killall
+../../bin/busybox
+070701000003080000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000E00000000/usr/bin/expr
+../../bin/busybox
+070701000003090000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000E00000000/usr/bin/wget
+../../bin/busybox
+0707010000030A0000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000E00000000/usr/bin/time
+../../bin/busybox
+0707010000030B0000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000E00000000/usr/bin/free
+../../bin/busybox
+0707010000030C0000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000000D00000000/usr/bin/top
+../../bin/busybox
+0707010000030D000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000F00000000/usr/codepages
+0707010000030E000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000A00000000/usr/sbin
+0707010000030F0000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000001200000000/usr/sbin/telnetd
+../../bin/busybox
+070701000003100000A1FF00000000000000000000000156EB6C5100000012000000030000000100000000000000000000001000000000/usr/sbin/brctl
+../../bin/busybox
+07070100000311000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/bin
+070701000003120000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/touch
+070701000003130000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/df
+070701000003140000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/chmod
+070701000003150000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000A00000000/bin/kill
+070701000003160000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/rm
+070701000003170000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/sleep
+070701000003180000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000900000000/bin/sed
+070701000003190000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/mount
+0707010000031A0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/ln
+0707010000031B000081ED00000000000000000000000156EB6C4C0000A3D8000000030000000100000000000000000000000E00000000/bin/iwconfig
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+iw_get_basic_config
+iw_get_range_info
+iw_get_stats
+iw_operation_mode
+iw_channel_to_freq
+iw_print_freq
+iw_sawap_ntop
+iw_print_bitrate
+iw_print_key
+iw_print_pm_value
+iw_print_pm_mode
+iw_print_stats
+strcasecmp
+iw_get_kernel_we_version
+strncasecmp
+iw_float2freq
+iw_in_key_full
+iw_sockets_open
+iw_enum_devices
+iw_print_version_info
+__errno_location
+iw_ignore_version
+iw_freq2float
+iw_print_freq_value
+iw_mwatt2dbm
+iw_ether_ntop
+iw_mac_aton
+getnetbyname
+gethostbyname
+__h_errno_location
+iw_check_if_addr_type
+iw_in_inet
+iw_check_mac_addr_type
+iw_ether_aton
+iw_init_event_stream
+iw_extract_event_stream
+iw_process_scan
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+{NNN|any|on|off}
+{managed|ad-hoc|master|...}
+Set Frequency
+N.NNN[k|M|G]
+Set Bit Rate
+{N[k|M|G]|auto|fixed}
+Set Encode
+{NNNN-NNNN|off}
+Set Power Management
+{period N|timeout N|saving N|off}
+Commit changes
+%-8.16s  %s  
+ESSID:"%s" [%d]  
+ESSID:"%s"  
+ESSID:off/any  
+          
+Access Point:
+Bit Rate%c%s   
+Encryption key:
+   Security mode:restricted
+   Security mode:open
+          Rx invalid nwid:%d  Rx invalid crypt:%d  Rx invalid frag:%d
+          Tx excessive retries:%d  Invalid misc:%d   Missed beacon:%d
+          Rx invalid nwid:%d  invalid crypt:%d  invalid misc:%d
+%-8.16s  no wireless extensions.
+%-8.16s  %s
+restricted
+Usage: iwconfig [interface]
+                interface %s %s
+       Check man pages for more details.
+iwconfig: unknown command "%s"
+iwconfig: command "%s" is ambiguous
+Error for wireless request "%s" (%X) :
+    too few arguments.
+    invalid argument "%s".
+    argument too big (max %d)
+    conflicting argument "%s".
+    SET failed on device %-1.16s ; %s.
+    GET failed on device %-1.16s ; %s.
+IEEE 802.11a + 802.11g (2.4 & 5 GHz, up to 54 Mb/s)
+IEEE 802.11a + 802.11b (2.4 & 5 GHz, up to 54 Mb/s)
+IEEE 802.11g (2.4 GHz, up to 54 Mb/s)
+IEEE 802.11a (5 GHz, up to 54 Mb/s)
+IEEE 802.11b (2.4 GHz, up to 11 Mb/s)
+Atheros turbo mode at 5 GHz (up to 108 Mb/s)
+Atheros turbo mode at 2.4 GHz (up to 108 Mb/s)
+TI 802.11+ (2.4 GHz, up to 22 Mb/s)
+802.11g higher rates, OFDM at 2.4 GHz (up to 54 Mb/s)
+802.11a, OFDM at 5 GHz (up to 54 Mb/s)
+802.11b higher rates (2.4 GHz, up to 11 Mb/s)
+802.11 Direct Sequence (2.4 GHz, up to 2 Mb/s)
+802.11 Frequency Hopping (2,4 GHz, up to 2 Mb/s)
+Atheros turbo mode, channel bonding (up to 108 Mb/s)
+TI 802.11+ higher rates (2.4 GHz, up to 22 Mb/s)
+Driver specific modulation (check driver documentation)
+Unknown/bug
+/proc/net/dev
+Cannot parse /proc/net/dev
+SIOCGIFCONF: %s
+/proc/net/wireless
+Cannot read /proc/net/wireless
+Cannot parse /proc/net/wireless
+%-8.16s  Driver has no Wireless Extension version information.
+%-8.16s  Recommend Wireless Extension v%d or later,
+          Currently compiled with Wireless Extension v%d.
+%-8.16s  Wireless Extension version too old.
+%-8.16s  Wireless-Tools version %d
+          Compatible with Wireless Extension v11 to v%d.
+Kernel    Currently compiled with Wireless Extension v%d.
+Warning: Driver for device %s has been compiled with an ancient version
+of Wireless Extension, while this program support version 11 and later.
+Some things may be broken...
+Warning: Driver for device %s has been compiled with version %d
+of Wireless Extension, while this program supports up to version %d.
+Warning: Driver for device %s recommend version %d of Wireless Extension,
+but has been compiled with version %d, therefore some driver features
+may not be available...
+%s: Allocation failed
+SIOCSIWMODE: %s
+SIOCSIWFREQ: %s
+SIOCSIWENCODE(%d): %s
+SIOCSIWNWID: %s
+SIOCSIWESSID: %s
+IEEE 802.11
+Channel%c%s
+Frequency%c%s (Channel %d)
+Frequency%c%s
+Quality%c%d/%d  
+Signal level%c%g dBm  
+Noise level%c%g dBm
+Signal level%c%d dBm  
+Noise level%c%d dBm
+Signal level%c%d/%d  
+Noise level%c%d/%d
+Quality:%d  Signal level:%d  Noise level:%d
+%02X:%02X:%02X:%02X:%02X:%02X
+Error: Passphrase not implemented
+Error: Invalid login format
+flags = %X, index = %X
+mode:Unicast only received
+mode:Multicast only received
+mode:All packets received
+mode:Force sending
+mode:Repeat multicasts
+ lifetime:
+%02d:%02d:%02d.%06u
+Interface %s doesn't support MAC addresses
+Interface %s doesn't support IP addresses
+Not-Associated
+%-8.16s  Interface doesn't support IP addresses
+Invalid interface address %s
+Arp failed for %s on %s... (%d)
+Try to ping the address before setting it.
+%-8.16s  Interface doesn't support MAC addresses
+Invalid hardware address %s
+iw_get_priv_info
+.MIPS.stubs
+.data.rel.ro
+0707010000031C0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/ls
+0707010000031D000081ED00000000000000000000000156EB6C4B000026BC000000030000000100000000000000000000000A00000000/bin/ated
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+libnvram.so.0
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+sigemptyset
+init_signals
+cmd_id_len_tbl
+__bss_start
+usage: ated [-i] <interface>
+example: ated -i ra0
+ioctl(SIOCGIFHWADDR)(eth_sock)
+ioctl(SIOCGIFINDEX)(eth_sock)
+fork/getpid
+.MIPS.stubs
+.data.rel.ro
+0707010000031E0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000900000000/bin/ash
+0707010000031F0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000C00000000/bin/umount
+070701000003200000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000A00000000/bin/nice
+07070100000321000081ED00000000000000000000000156EB6C4C00009414000000030000000100000000000000000000001100000000/bin/ralink_init
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+libnvram.so.0
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+getNvramNum
+getNvramName
+getNvramIndex
+nvram_init
+nvram_close
+nvram_bufget
+nvram_bufset
+flash_read_mac
+nvram_commit
+getNvramBlockSize
+getNvramOffset
+flash_read
+nvram_clear
+strncasecmp
+renew_nvram
+nvram_show
+gen_config
+__bss_start
+'%s: Error: "%s" flash zone not existed
+Usage example: 
+lan_ipaddr 1.2.3.4
+lan_ipaddr
+  %s <command> [<platform>] [<file>]
+  rt2860_nvram_show - display rt2860 values in nvram
+  rtdev_nvram_show   - display 2nd ralink device values in nvram
+  show    - display values in nvram for <platform>
+  gen     - generate config file from nvram for <platform>
+  renew   - replace nvram values for <platform> with <file>
+  clear	  - clear all entries in nvram for <platform>
+  2860    - rt2860
+  rtdev    - 2nd ralink device
+          - file name for renew command
+mkdir -p /etc/Wireless/RT2860
+/etc/Wireless/RT2860/RT2860.dat
+#The word of "Default" must not be removed
+CountryRegion
+CountryRegion=%d
+CountryRegionABand
+CountryRegionABand=%d
+CountryCode
+CountryCode=%s
+BssidNum=%d
+WirelessMode
+WirelessMode=%d
+FixedTxMode
+FixedTxMode=%s
+Channel=%d
+BasicRate=%d
+BeaconPeriod
+BeaconPeriod=%d
+DtimPeriod
+DtimPeriod=%d
+TxPower=%d
+DisableOLBC
+DisableOLBC=%d
+BGProtection
+BGProtection=%d
+TxAntenna=
+RxAntenna=
+TxPreamble
+TxPreamble=%d
+RTSThreshold
+RTSThreshold=%d
+FragThreshold
+FragThreshold=%d
+TxBurst=%d
+PktAggregate
+PktAggregate=%d
+AutoProvisionEn
+AutoProvisionEn=%d
+FreqDelta=%d
+TurboRate=0
+WmmCapable
+WmmCapable=%s
+APAifsn=%s
+APCwmin=%s
+APCwmax=%s
+BSSAifsn=%s
+BSSCwmin=%s
+BSSCwmax=%s
+BSSTxop=%s
+AckPolicy=%s
+APSDCapable
+APSDCapable=%s
+DLSCapable
+DLSCapable=%s
+NoForwarding
+NoForwarding=%s
+NoForwardingBTNBSSID
+NoForwardingBTNBSSID=%d
+HideSSID=%s
+ShortSlot=%d
+AutoChannelSelect
+AutoChannelSelect=%d
+IEEE8021X=%s
+IEEE80211H
+IEEE80211H=%d
+CarrierDetect
+CarrierDetect=%d
+ITxBfEn=%d
+PreAntSwitch
+PreAntSwitch=%s
+PhyRateLimit
+PhyRateLimit=%d
+DebugFlags
+DebugFlags=%d
+ETxBfEnCond
+ETxBfEnCond=%d
+ITxBfTimeout
+ITxBfTimeout=%d
+ETxBfTimeout
+ETxBfTimeout=%d
+ETxBfNoncompress
+ETxBfNoncompress=%d
+ETxBfIncapable
+ETxBfIncapable=%d
+FineAGC=%d
+StreamMode
+StreamMode=%d
+StreamModeMac0
+StreamModeMac0=%s
+StreamModeMac1
+StreamModeMac1=%s
+StreamModeMac2
+StreamModeMac2=%s
+StreamModeMac3
+StreamModeMac3=%s
+CSPeriod=%d
+RDRegion=%s
+StationKeepAlive
+StationKeepAlive=%d
+DfsLowerLimit
+DfsLowerLimit=%d
+DfsUpperLimit
+DfsUpperLimit=%d
+DfsOutdoor
+DfsOutdoor=%d
+SymRoundFromCfg
+SymRoundFromCfg=%d
+BusyIdleFromCfg
+BusyIdleFromCfg=%d
+DfsRssiHighFromCfg
+DfsRssiHighFromCfg=%d
+DfsRssiLowFromCfg
+DfsRssiLowFromCfg=%d
+DFSParamFromConfig
+DFSParamFromConfig=%d
+FCCParamCh0
+FCCParamCh0=%s
+FCCParamCh1
+FCCParamCh1=%s
+FCCParamCh2
+FCCParamCh2=%s
+FCCParamCh3
+FCCParamCh3=%s
+CEParamCh0
+CEParamCh0=%s
+CEParamCh1
+CEParamCh1=%s
+CEParamCh2
+CEParamCh2=%s
+CEParamCh3
+CEParamCh3=%s
+JAPParamCh0
+JAPParamCh0=%s
+JAPParamCh1
+JAPParamCh1=%s
+JAPParamCh2
+JAPParamCh2=%s
+JAPParamCh3
+JAPParamCh3=%s
+JAPW53ParamCh0
+JAPW53ParamCh0=%s
+JAPW53ParamCh1
+JAPW53ParamCh1=%s
+JAPW53ParamCh2
+JAPW53ParamCh2=%s
+JAPW53ParamCh3
+JAPW53ParamCh3=%s
+FixDfsLimit
+FixDfsLimit=%d
+LongPulseRadarTh
+LongPulseRadarTh=%d
+AvgRssiReq
+AvgRssiReq=%d
+DFS_R66=%d
+BlockCh=%s
+GreenAP=%d
+PreAuth=%s
+WapiPsk1=%s
+WapiPsk2=%s
+WapiPsk3=%s
+WapiPsk4=%s
+WapiPsk5=%s
+WapiPsk6=%s
+WapiPsk7=%s
+WapiPsk8=%s
+WapiPskType
+WapiPskType=%s
+Wapiifname
+Wapiifname=%s
+WapiAsCertPath
+WapiAsCertPath=%s
+WapiUserCertPath
+WapiUserCertPath=%s
+WapiAsIpAddr
+WapiAsIpAddr=%s
+WapiAsPort
+WapiAsPort=%s
+RekeyMethod
+RekeyMethod=%s
+RekeyInterval
+RekeyInterval=%d
+PMKCachePeriod
+PMKCachePeriod=%s
+MeshAutoLink
+MeshAutoLink=%d
+MeshAuthMode
+MeshAuthMode=%s
+MeshEncrypType
+MeshEncrypType=%s
+MeshDefaultkey
+MeshDefaultkey=%d
+MeshWEPKEY
+MeshWEPKEY=%s
+MeshWPAKEY
+MeshWPAKEY=%s
+WPAPSK1=%s
+WPAPSK2=%s
+WPAPSK3=%s
+WPAPSK4=%s
+WPAPSK5=%s
+WPAPSK6=%s
+WPAPSK7=%s
+WPAPSK8=%s
+DefaultKeyID
+DefaultKeyID=%s
+Key1Type=%s
+Key1Str1=%s
+Key1Str2=%s
+Key1Str3=%s
+Key1Str4=%s
+Key1Str5=%s
+Key1Str6=%s
+Key1Str7=%s
+Key1Str8=%s
+Key2Type=%s
+Key2Str1=%s
+Key2Str2=%s
+Key2Str3=%s
+Key2Str4=%s
+Key2Str5=%s
+Key2Str6=%s
+Key2Str7=%s
+Key2Str8=%s
+Key3Type=%s
+Key3Str1=%s
+Key3Str2=%s
+Key3Str3=%s
+Key3Str4=%s
+Key3Str5=%s
+Key3Str6=%s
+Key3Str7=%s
+Key3Str8=%s
+Key4Type=%s
+Key4Str1=%s
+Key4Str2=%s
+Key4Str3=%s
+Key4Str4=%s
+Key4Str5=%s
+Key4Str6=%s
+Key4Str7=%s
+Key4Str8=%s
+HSCounter=%d
+HT_LinkAdapt
+HT_LinkAdapt=%d
+HT_OpMode=%d
+HT_MpduDensity
+HT_MpduDensity=%d
+HT_EXTCHA=%d
+HT_AutoBA=%d
+HT_BADecline
+HT_BADecline=%d
+HT_AMSDU=%d
+HT_BAWinSize
+HT_BAWinSize=%d
+HT_STBC=%d
+HT_TxStream
+HT_TxStream=%d
+HT_RxStream
+HT_RxStream=%d
+HT_PROTECT
+HT_PROTECT=%d
+HT_DisallowTKIP
+HT_DisallowTKIP=%d
+HT_BSSCoexistence
+HT_BSSCoexistence=%d
+HT_LDPC=%d
+VHT_STBC=%d
+VHT_SGI=%d
+VHT_BW_SIGNAL
+VHT_BW_SIGNAL=%d
+VHT_LDPC=%d
+WscConfMode
+WscConfMode=%d
+WscConfigured
+WscConfStatus=%d
+WscVendorPinCode
+WCNTest=%d
+AccessPolicy0
+AccessPolicy0=%d
+AccessControlList0
+AccessControlList0=%s
+AccessPolicy1
+AccessPolicy1=%d
+AccessControlList1
+AccessControlList1=%s
+AccessPolicy2
+AccessPolicy2=%d
+AccessControlList2
+AccessControlList2=%s
+AccessPolicy3
+AccessPolicy3=%d
+AccessControlList3
+AccessControlList3=%s
+AccessPolicy4
+AccessPolicy4=%d
+AccessControlList4
+AccessControlList4=%s
+AccessPolicy5
+AccessPolicy5=%d
+AccessControlList5
+AccessControlList5=%s
+AccessPolicy6
+AccessPolicy6=%d
+AccessControlList6
+AccessControlList6=%s
+AccessPolicy7
+AccessPolicy7=%d
+AccessControlList7
+AccessControlList7=%s
+WdsEnable=%d
+WdsPhyMode
+WdsPhyMode=%s
+WdsEncrypType
+WdsEncrypType=%s
+WdsList=%s
+Wds0Key=%s
+Wds1Key=%s
+Wds2Key=%s
+Wds3Key=%s
+RADIUS_Server
+RADIUS_Server=%s
+RADIUS_Port
+RADIUS_Port=%s
+RADIUS_Key1
+RADIUS_Key1=%s
+RADIUS_Key2
+RADIUS_Key2=%s
+RADIUS_Key3
+RADIUS_Key3=%s
+RADIUS_Key4
+RADIUS_Key4=%s
+RADIUS_Key5
+RADIUS_Key5=%s
+RADIUS_Key6
+RADIUS_Key6=%s
+RADIUS_Key7
+RADIUS_Key7=%s
+RADIUS_Key8
+RADIUS_Key8=%s
+RADIUS_Acct_Server
+RADIUS_Acct_Server=%s
+RADIUS_Acct_Port
+RADIUS_Acct_Port=%d
+RADIUS_Acct_Key
+RADIUS_Acct_Key=%s
+own_ip_addr
+own_ip_addr=%s
+Ethifname=%s
+EAPifname=%s
+PreAuthifname
+PreAuthifname=%s
+session_timeout_interval
+session_timeout_interval=%d
+idle_timeout_interval
+idle_timeout_interval=%d
+WiFiTest=%d
+TGnWifiTest
+TGnWifiTest=%d
+ApCliEnable
+ApCliEnable=%d
+ApCliSsid=%s
+ApCliBssid
+ApCliBssid=%s
+ApCliAuthMode
+ApCliAuthMode=%s
+ApCliEncrypType
+ApCliEncrypType=%s
+ApCliWPAPSK
+ApCliWPAPSK=%s
+ApCliDefaultKeyID
+ApCliDefaultKeyID=%d
+ApCliKey1Type
+ApCliKey1Type=%d
+ApCliKey1Str
+ApCliKey1Str=%s
+ApCliKey2Type
+ApCliKey2Type=%d
+ApCliKey2Str
+ApCliKey2Str=%s
+ApCliKey3Type
+ApCliKey3Type=%d
+ApCliKey3Str
+ApCliKey3Str=%s
+ApCliKey4Type
+ApCliKey4Type=%d
+ApCliKey4Str
+ApCliKey4Str=%s
+EfuseBufferMode
+EfuseBufferMode=%d
+E2pAccessMode
+E2pAccessMode=%d
+BW_Enable=%d
+BW_Root=%d
+BW_Priority
+BW_Priority=%s
+BW_Guarantee_Rate
+BW_Guarantee_Rate=%s
+BW_Maximum_Rate
+BW_Maximum_Rate=%s
+mkdir -p /etc/Wireless/iNIC
+/etc/Wireless/iNIC/iNIC_ap.dat
+WscVendorPinCode=%s
+%0X:%0X:%0X:%0X:%0X:%0X
+WAN_MAC_ADDR
+file format error!
+%s file format error!
+nvram_show: Can not allocate memory!
+make_wireless_config
+rt2860_nvram_show
+rtdev_nvram_show
+cert_nvram_show
+.MIPS.stubs
+070701000003220000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/mv
+070701000003230000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000A00000000/bin/ping
+070701000003240000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/sh
+070701000003250000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000A00000000/bin/date
+07070100000326000081ED00000000000000000000000156EB6C4C00001B38000000030000000100000000000000000000001200000000/bin/nvram_daemon
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+libnvram.so.0
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+nvram_bufget
+nvram_close
+loadDefault
+pidfile_acquire
+pidfile_write_release
+__bss_start
+loadDefault
+ralink_init clear 2860
+ralink_init clear rtdev
+%s:Wrong chip id
+ralink_init renew rtdev /etc_ro/Wireless/RT61AP/RT2561_default
+ralink_init renew 2860 /etc_ro/Wireless/RT2860AP/RT2860_default_novlan
+ralink_init renew rtdev /etc_ro/Wireless/iNIC/RT2860AP.dat
+load default and reboot..
+Unable to open pidfile %s: %m
+/var/run/nvramd.pid
+.MIPS.stubs
+070701000003270000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/ps
+070701000003280000A1FF00000000000000000000000156EB6C510000000C000000030000000100000000000000000000000F00000000/bin/nvram_get
+ralink_init
+070701000003290000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000A00000000/bin/echo
+0707010000032A000081ED00000000000000000000000156EB6C4B0000168C000000030000000100000000000000000000000E00000000/bin/adjtimex
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+clock synchronized
+insert leap second
+delete leap second
+leap second in progress
+leap second has occurred
+clock not synchronized
+Usage: %s [ -q ] [ -o offset ] [ -f frequency ] [ -p timeconstant ] [ -t tick ]
+    mode:         %d
+-o  offset:       %ld
+-f  frequency:    %ld
+    maxerror:     %ld
+    esterror:     %ld
+    status:       %d ( 
+-p  timeconstant: %ld
+    precision:    %ld
+    tolerance:    %ld
+-t  tick:         %ld
+    time.tv_sec:  %ld
+    time.tv_usec: %ld
+    return value: %d (%s)
+.MIPS.stubs
+0707010000032B0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000E00000000/bin/addgroup
+0707010000032C0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/dmesg
+0707010000032D000081ED00000000000000000000000156EB6C4B000084C8000000030000000100000000000000000000001000000000/bin/mkfs.jffs2
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+zlib_compress
+jffs2_rtime_compress
+__fputc_unlocked
+__errno_location
+crc32_table
+getopt_long
+__xpg_basename
+jffs2_compress
+deflateInit_
+deflateEnd
+inflateInit_
+inflateEnd
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+-$Revision: #1 $
+Usage: mkfs.jffs2 [OPTIONS]
+Make a JFFS2 filesystem image from an existing directory tree
+  -p, --pad[=SIZE]       Pad output to SIZE bytes with 0xFF. If SIZE is
+                         not specified, the output is padded to the end of
+                         the final erase block
+  -r, -d, --root=DIR     Build filesystem from directory DIR (default: cwd)
+  -s, --pagesize=SIZE    Use page size (max data node size) SIZE (default: 4KiB)
+  -e, --eraseblock=SIZE  Use erase block size SIZE (default: 64KiB)
+  -o, --output=FILE      Output to FILE (default: stdout)
+  -l, --little-endian    Create a little-endian filesystem
+  -b, --big-endian       Create a big-endian filesystem
+  -D, --devtable=FILE    Use the named FILE as a device table file
+  -f, --faketime         Change all file times to '0' for regression testing
+  -q, --squash           Squash permissions and owners making all files be owned by root
+  -h, --help             Display this help text
+  -v, --version          Display version information
+eraseblock
+big-endian
+little-endian
+mkfs.jffs2
+memory exhausted
+write returned zero
+%s: has no parent directory!
+%s: file type does not match specified type!
+%s: file is must exist on disk!
+%s: is not a directory!
+Unknown file type %o for %s
+@%31[-a-zA-Z0-9_+],%c,%d,%d
+opening directory %s
+%s: invalid special device type '%c'
+D:p::d:r:s:e:o:blqfh?v
+mkfs.jffs2 revision %.*s
+%40s %c %lo %lu %lu %lu %lu %lu %lu %lu
+root directory specified more than once
+output filename specified more than once
+open output file
+%s: not a proper device table file
+Unsupported file type
+Unknown mode %o for %s
+There are not supposed to be directories in the file list!
+Device table entries require absolute paths
+symlink too large. Truncated to %d chars.
+File "%s" too large.
+deflateInit failed
+inflate returned %d
+inflateInit failed
+.MIPS.stubs
+.data.rel.ro
+0707010000032E0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000A00000000/bin/grep
+0707010000032F0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000800000000/bin/cp
+070701000003300000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000900000000/bin/cat
+070701000003310000A1FF00000000000000000000000156EB6C510000000C000000030000000100000000000000000000000F00000000/bin/nvram_set
+ralink_init
+07070100000332000081ED00000000000000000000000156EB6C4B00001DC0000000030000000100000000000000000000000900000000/bin/reg
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+ra_reg_read
+ra_reg_write
+ra_reg_mod_bits
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+'/dev/rdm0
+Open pseudo device failed
+ioctl error
+method must be either r p d f w s m q o
+syntax: reg [method(r/w/s/d/f)] [offset(Hex)] [value(hex, w only)]
+syntax: reg q [interval(Hex in ms)] [count(Hex)]
+syntax: reg o [offset_number] [offset_value]
+read example : reg r 18
+write example : reg w 18 12345678
+dump example : reg d 18 
+dump example [FPGA emulation]: reg f 18 
+modify example : reg m [Offset:Hex] [Data:Hex] [StartBit:Decimal] [DataLen:Decimal] 
+To use system register: reg s 0
+To use wireless register: reg s 1
+To use other base address offset: reg s [offset]
+for example: reg s 0xa0500000
+for example: reg m c8 1 31 1
+To show current base address offset: reg s 2
+reg q reads and shows the 16 register values  [count] times in the interval of [interval]ms.
+the addresses of the 16 registers are assigned by reg o
+for example: reg o 5 10. This sets the 5th register offset as 0x10
+[interval]: 1 ~ 1000. [count]: 1 ~ 1000. [offset_number]: 0 ~ 15.
+[interval]: 1 ~ 3ff . [count]: 1 ~ 3ff.
+invalid value
+invalid offset
+.MIPS.stubs
+07070100000333000081ED00000000000000000000000156EB6C4A000620A0000000030000000100000000000000000000000D00000000/bin/busybox
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+addgroup_main
+adduser_main
+brctl_main
+chmod_main
+dmesg_main
+getty_main
+hostname_main
+ifconfig_main
+insmod_main
+login_main
+lsmod_main
+mkdir_main
+mknod_main
+netstat_main
+passwd_main
+pgrep_main
+rmdir_main
+rmmod_main
+route_main
+sleep_main
+sysctl_main
+telnetd_main
+touch_main
+udhcpc_main
+umount_main
+xargs_main
+full_write
+applet_names
+applet_nameofs
+applet_name
+find_applet_by_name
+__errno_location
+skip_whitespace
+xfunc_error_retval
+bb_show_usage
+bb_error_msg_and_die
+bb_perror_msg_and_die
+applet_main
+run_applet_no_and_exit
+get_terminal_width_height
+bb_get_last_path_component_nostrip
+run_applet_and_exit
+lbb_prepare
+bb_basename
+strcasecmp
+bb_strtoul
+bb_verror_msg
+safe_write
+last_char_is
+bb_simple_perror_msg
+utoa_to_buf
+itoa_to_buf
+bb_error_msg
+bb_msg_memory_exhausted
+bb_perror_msg
+open3_or_warn
+bb_msg_standard_output
+__fputc_unlocked
+bb_copyfd_eof
+bb_msg_write_error
+bb_msg_read_error
+nonblock_safe_read
+xmalloc_read
+xmalloc_open_read_close
+bb_msg_perm_denied_are_you_root
+opt_complementary
+xatoul_range
+option_mask32
+bb_path_group_file
+bb_default_login_shell
+xgroup2gid
+bb_path_passwd_file
+bb_perror_nomsg_and_die
+tty_value_to_baud
+bb_process_escape_sequence
+bb_dev_null
+ndelay_off
+ioctl_or_perror_and_die
+bb_common_bufsiz1
+print_login_issue
+print_login_prompt
+sanitize_env_if_suid
+bb_daemonize_or_rexec
+safe_strncpy
+__fgetc_unlocked
+config_open2
+config_read
+config_close
+correct_password
+bb_do_delay
+bb_putchar
+change_identity
+setup_environment
+bb_path_motd_file
+bb_getpwuid
+bb_askpass
+pw_encrypt
+crypt_make_salt
+bb_signals
+update_passwd
+bb_info_msg
+monotonic_us
+getpagesize
+xmalloc_xopen_read_close
+init_module
+xfopen_for_read
+xmalloc_fgets
+delete_module
+get_aftype
+get_hwtype
+index_in_strings
+bb_herror_msg_and_die
+get_hwntype
+print_flags_separated
+bb_msg_invalid_arg
+if_indextoname
+if_nametoindex
+sethostname
+safe_gethostname
+xgethostbyname
+interface_opt_a
+display_interfaces
+bb_str_default
+xhost2sockaddr
+index_in_substrings
+INET_rresolve
+INET_resolve
+bb_ioctl_or_warn
+fopen_or_warn
+ptr_to_globals
+xmalloc_readlink
+concat_path_file
+recursive_action
+xmalloc_sockaddr2dotted_noport
+xmalloc_sockaddr2host_noport
+getservbyport
+fputc_printable
+fopen_or_warn_stdin
+xmalloc_fgets_str
+bb_displayroutes
+xdotted2sockaddr
+create_icmp_socket
+setsockopt
+setsockopt_broadcast
+fflush_stdout_and_exit
+wait_any_nohang
+create_and_bind_stream_or_die
+monotonic_sec
+signal_SA_RESTART_empty_mask
+bb_uuencode
+bb_uuenc_tbl_base64
+xconnect_stream
+bb_lookup_port
+__ctype_tolower
+xmalloc_sockaddr2dotted
+skip_non_whitespace
+str_tolower
+send_release
+udhcp_run_script
+write_pidfile
+dhcp_option_strings
+dhcp_options
+udhcp_read_interface
+bb_sanitize_stdio
+setlinebuf
+udhcp_sp_setup
+udhcp_listen_socket
+udhcp_sp_fd_set
+random_xid
+send_discover
+send_renew
+send_selecting
+udhcp_recv_kernel_packet
+udhcp_recv_raw_packet
+udhcp_get_option
+send_decline
+udhcp_sp_read
+wrote_pidfile
+udhcp_end_option
+dhcp_option_lengths
+udhcp_add_option_string
+udhcp_add_simple_option
+udhcp_checksum
+setsockopt_reuseaddr
+safe_waitpid
+close_on_exec_on
+ioctl_or_perror
+bb_msg_can_not_create_raw_socket
+udhcp_init_header
+udhcp_send_raw_packet
+MAC_BCAST_ADDR
+udhcp_send_kernel_packet
+print_signames
+get_signum
+get_signame
+find_pid_by_name
+smart_ulltoa5
+read_cmdline
+get_cached_username
+concat_subpath_file
+config_open
+clear_username_cache
+xrealloc_vector_helper
+bb_PATH_root_path
+sigemptyset
+sigprocmask
+sigfillset
+read_line_input
+bb_parse_mode
+new_line_input_t
+bb_msg_requires_arg
+bb_makedev
+xopen_xwrite_close
+xdr_opaque
+xdr_string
+get_linux_version_code
+bb_herror_msg
+pmap_getmaps
+clntudp_create
+clnttcp_create
+clnt_spcreateerror
+authunix_create_default
+clnt_sperror
+bindresvport
+pmap_getport
+llist_add_to_end
+xmalloc_fgetline
+bb_path_mtab_file
+getmntent_r
+bb_simplify_path
+bb_simple_perror_msg_and_die
+match_fstype
+bb_argv_dash
+cp_mv_stat2
+cp_mv_stat
+bb_get_last_path_component_strip
+bb_msg_invalid_date
+find_mount_point
+make_human_readable_str
+is_directory
+bb_mode_string
+xmalloc_readlink_or_warn
+warn_opendir
+bb_make_directory
+getopt_mk_fifo_nod
+bb_ask_confirmation
+remove_file
+getpriority
+xatol_range
+setpriority
+test_ptr_to_statics
+bb_msg_standard_input
+fclose_if_not_stdin
+__ctype_toupper
+xfopen_stdin
+strncasecmp
+xfopen_for_write
+bb_get_chunk_from_file
+xprint_and_close_file
+overlapping_strcpy
+llist_add_to
+spawn_and_wait
+device_open
+sigprocmask_allsigs
+sigaction_set
+initgroups
+is_in_ino_dev_hashtable
+add_to_ino_dev_hashtable
+bb_get_chunk_with_continuation
+__h_errno_location
+gethostbyaddr
+lineedit_ptr_to_statics
+qsort_string_vector
+const_int_0
+free_procps_scan
+sigsuspend
+xrealloc_getcwd_or_warn
+tty_baud_to_value
+gettimeofday
+xmalloc_follow_symlinks
+forkexit_or_rexec
+xstrtoul_range_sfx
+xstrtol_range_sfx
+xatoul_sfx
+const_int_1
+getservbyname
+getaddrinfo
+freeaddrinfo
+xsocket_type
+getnameinfo
+regcomp_or_errmsg
+bb_pstrcmp
+libcrypt.so.0
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+redirection
+/etc/busybox.conf
+EXPRESSION ]
+Check file types, compare values etc. Return a 0/1 exit code
+depending on logical value of EXPRESSION
+EXPRESSION ]
+Check file types, compare values etc. Return a 0/1 exit code
+depending on logical value of EXPRESSION
+[-g GID] group_name
+Add a group 
+	-g GID	Group id
+[OPTIONS] user_name
+Add an user
+	-h DIR		Home directory
+	-g GECOS	GECOS field
+	-s SHELL	Login shell
+	-G GROUP	Add user to existing group
+	-S		Create a system user
+	-D		Do not assign a password
+	-H		Do not create home directory
+[-vn]	[-H type] [-i if] -a [hostname]
+[-v]		  [-i if] -d hostname [pub]
+[-v]	[-H type] [-i if] -s hostname hw_addr [temp]
+[-v]	[-H type] [-i if] -s hostname hw_addr [netmask nm] pub
+[-v]	[-H type] [-i if] -Ds hostname ifa [netmask nm] pub
+Manipulate ARP cache
+	-a		Display (all) hosts
+	-s		Set new ARP entry
+	-d		Delete a specified entry
+	-v		Verbose
+	-n		Don't resolve names
+	-i IF		Network interface
+	-D		Read <hwaddr> from given device
+	-A, -p AF	Protocol family
+	-H HWTYPE	Hardware address type
+[OPTION]... [program-text] [FILE...]
+	-v var=val	Set variable
+	-F sep		Use sep as field separator
+	-f file		Read program from file
+COMMAND [BRIDGE [INTERFACE]]
+Manage ethernet bridges.
+	show			Show a list of bridges
+	addbr BRIDGE		Create BRIDGE
+	delbr BRIDGE		Delete BRIDGE
+	addif BRIDGE IFACE	Add IFACE to BRIDGE
+	delif BRIDGE IFACE	Delete IFACE from BRIDGE
+	setageing BRIDGE TIME		Set ageing time
+	setfd BRIDGE TIME		Set bridge forward delay
+	sethello BRIDGE TIME		Set hello time
+	setmaxage BRIDGE TIME		Set max message age
+	setpathcost BRIDGE COST		Set path cost
+	setportprio BRIDGE PRIO		Set port priority
+	setbridgeprio BRIDGE PRIO	Set bridge priority
+	stp BRIDGE [1|0]		STP on/off
+[-u] [FILE]...
+Concatenate FILE(s) and print them to stdout
+	-u	Use unbuffered i/o (ignored)
+[-R] MODE[,MODE]... FILE...
+Each MODE is one or more of the letters ugoa, one of the
+symbols +-= and one or more of the letters rwxst
+	-R	Recurse directories
+[OPTION]... SOURCE DEST
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY
+	-a	Same as -dpR
+	-d,-P	Preserve links
+	-H,-L	Dereference all symlinks (default)
+	-p	Preserve file attributes if possible
+	-f	Force overwrite
+	-i	Prompt before overwrite
+	-R,-r	Recurse directories
+	-l,-s	Create (sym)links
+[OPTION]... [+FMT] [TIME]
+Display time (using +FMT), or set time
+	-u		Work in UTC (don't convert to local time)
+	-R		Output RFC-822 compliant date string
+	-d TIME		Display TIME, not 'now'
+	-r FILE		Display last modification time of FILE
+	[-s] TIME	Set time to TIME
+Recognized formats for TIME:
+	hh:mm[:ss]
+	[YYYY.]MM.DD-hh:mm[:ss]
+	YYYY-MM-DD hh:mm[:ss]
+	MMDDhhmm[[YY]YY][.ss]
+[-hmk] [FILESYSTEM...]
+Print filesystem usage statistics
+	-h	Human readable (e.g. 1K 243M 2G)
+	-m	1024*1024 blocks
+	-k	1024 blocks
+[-c] [-n LEVEL] [-s SIZE]
+Print or control the kernel ring buffer
+	-c		Clear ring buffer after printing
+	-n LEVEL	Set console logging level
+	-s SIZE		Buffer size
+[-neE] [ARG...]
+Print the specified ARGs to stdout
+	-n	Suppress trailing newline
+	-e	Interpret backslash-escaped characters (i.e., \t=tab)
+	-E	Disable interpretation of backslash-escaped characters
+EXPRESSION
+Print the value of EXPRESSION to standard output.
+EXPRESSION may be:
+	ARG1 | ARG2	ARG1 if it is neither null nor 0, otherwise ARG2
+	ARG1 & ARG2	ARG1 if neither argument is null or 0, otherwise 0
+	ARG1 < ARG2	1 if ARG1 is less than ARG2, else 0. Similarly:
+	ARG1 <= ARG2
+	ARG1 = ARG2
+	ARG1 != ARG2
+	ARG1 >= ARG2
+	ARG1 > ARG2
+	ARG1 + ARG2	Sum of ARG1 and ARG2. Similarly:
+	ARG1 - ARG2
+	ARG1 * ARG2
+	ARG1 / ARG2
+	ARG1 % ARG2
+	STRING : REGEXP		Anchored pattern match of REGEXP in STRING
+	match STRING REGEXP	Same as STRING : REGEXP
+	substr STRING POS LENGTH Substring of STRING, POS counted from 1
+	index STRING CHARS	Index in STRING where any CHARS is found, or 0
+	length STRING		Length of STRING
+	quote TOKEN		Interpret TOKEN as a string, even if
+				it is a keyword like 'match' or an
+				operator like '/'
+	(EXPRESSION)		Value of EXPRESSION
+Beware that many operators need to be escaped or quoted for shells.
+Comparisons are arithmetic if both ARGs are numbers, else
+lexicographical. Pattern matches return the string matched between
+\( and \) or null; if \( and \) are not used, they return the number
+of characters matched or 0.
+[PATH...] [EXPRESSION]
+Search for files. The default PATH is the current directory,
+default EXPRESSION is '-print'
+EXPRESSION may consist of:
+	-follow		Dereference symlinks
+	-name PATTERN	File name (w/o directory name) matches PATTERN
+	-iname PATTERN	Case insensitive -name
+	-mmin MINS	Modified time is greater than (+N), less than (-N),
+			or exactly (N) minutes
+	-print		Print (default and assumed)
+Display the amount of free and used system memory
+[OPTIONS] BAUD_RATE TTY [TERMTYPE]
+Open a tty, prompt for a login name, then invoke /bin/login
+	-h		Enable hardware (RTS/CTS) flow control
+	-i		Do not display /etc/issue before running login
+	-L		Local line, do not do carrier detect
+	-m		Get baud rate from modem's CONNECT status message
+	-w		Wait for a CR or LF before sending /etc/issue
+	-n		Do not prompt the user for a login name
+	-f issue_file	Display issue_file instead of /etc/issue
+	-l login_app	Invoke login_app instead of /bin/login
+	-t timeout	Terminate after timeout if no username is read
+	-I initstring	Init string to send before anything else
+	-H login_host	Log login_host into the utmp file as the hostname
+[-HhrilLnqvsoeF] PATTERN [FILEs...]
+Search for PATTERN in each FILE or standard input
+	-H	Prefix output lines with filename where match was found
+	-h	Suppress the prefixing filename on output
+	-r	Recurse subdirectories
+	-i	Ignore case distinctions
+	-l	List names of files that match
+	-L	List names of files that do not match
+	-n	Print line number with output lines
+	-q	Quiet. Return 0 if PATTERN is found, 1 otherwise
+	-v	Select non-matching lines
+	-s	Suppress file open/read error messages
+	-c	Only print count of matching lines
+	-o	Show only the part of a line that matches PATTERN
+	-m MAX	Match up to MAX times per file
+	-F	PATTERN is a set of newline-separated strings
+	-e PTRN	Pattern to match
+	-f FILE	Read pattern from file
+[-d delay] [-n] [-f]
+Halt the system
+	-d	Delay interval for halting
+	-n	No call to sync()
+	-f	Force halt (don't go through init)
+[OPTION] [hostname | -F FILE]
+Get or set hostname or DNS domain name
+	-i	Addresses for the hostname
+	-d	DNS domain name
+	-f	Fully qualified domain name
+	-F FILE	Use the contents of FILE to specify the hostname
+[-a] interface [address]
+Configure a network interface
+	[[-]broadcast [ADDRESS]] [[-]pointopoint [ADDRESS]]
+	[netmask ADDRESS] [dstaddr ADDRESS]
+	[hw ether ADDRESS] [metric NN] [mtu NN]
+	[[-]trailers] [[-]arp] [[-]allmulti]
+	[multicast] [[-]promisc] [txqueuelen NN] [[-]dynamic]
+	[up|down] ...
+Init is the parent of all processes
+Init is the parent of all processes
+MODULE [symbol=value]...
+Load the specified kernel modules into the kernel
+[-l] [-signal] process-id...
+Send a signal (default is TERM) to the specified process(es)
+	-l	List all signal names and numbers
+[-l] [-q] [-signal] process-name...
+Send a signal (default is TERM) to the specified process(es)
+	-l	List all signal names and numbers
+	-q	Do not complain if no processes were killed
+[OPTION] TARGET... LINK_NAME|DIRECTORY
+Create a link named LINK_NAME or DIRECTORY to the specified TARGET.
+Use '--' to indicate that all following arguments are non-options.
+	-s	Make symlinks instead of hardlinks
+	-f	Remove existing destination files
+	-n	Don't dereference symlinks - treat like normal file
+	-b	Make a backup of the target (if exists) before link operation
+	-S suf	Use suffix instead of ~ when making backup files
+[-p] [-h HOST] [[-f] USER]
+Begin a new session on the system
+	-f	Do not authenticate (user already authenticated)
+	-h	Name of the remote host
+	-p	Preserve environment
+[-1AaCdilnrSsTvwxXhk] [filenames...]
+List directory contents
+	-1	List files in a single column
+	-A	Do not list implied . and ..
+	-a	Do not hide entries starting with .
+	-C	List entries by columns
+	-d	List directory entries instead of contents
+	-i	List the i-node for each file
+	-l	Use a long listing format
+	-n	List numeric UIDs and GIDs instead of names
+	-r	Sort the listing in reverse order
+	-S	Sort the listing by file size
+	-s	List the size of each file, in blocks
+	-T NUM	Assume Tabstop every NUM columns
+	-v	Sort the listing by version
+	-w NUM	Assume the terminal is NUM columns wide
+	-x	List entries by lines instead of by columns
+	-X	Sort the listing by extension
+	-h	Print sizes in human readable format (e.g., 1K 243M 2G)
+List the currently loaded kernel modules
+	-s	Scan /sys and populate /dev during system boot
+Called with no options (via hotplug) it uses environment variables
+to determine which device to add/remove.
+[OPTION] DIRECTORY...
+Create DIRECTORY
+	-m	Set permission mode (as in chmod), not rwxrwxrwx - umask
+	-p	No error if existing, make parent directories as needed
+[OPTIONS] NAME TYPE MAJOR MINOR
+Create a special file (block, character, or pipe)
+	-m	Create the special file using the specified mode (default a=rw)
+TYPEs include:
+	b:	Make a block device
+	c or u:	Make a character device
+	p:	Make a named pipe (MAJOR and MINOR are ignored)
+[flags] DEVICE NODE [-o options,more-options]
+Mount a filesystem. Filesystem autodetection requires /proc be mounted.
+	-a		Mount all filesystems in fstab
+	-f		don't mount
+	-r		Read-only mount
+	-t fs-type	Filesystem type
+	-w		Read-write mount (default)
+-o option:
+	[a]sync		Writes are asynchronous / synchronous
+	[no]atime	Disable / enable updates to inode access times
+	[no]diratime	Disable / enable atime updates to directories
+	[no]relatime	Disable / enable atime updates relative to modification time
+	[no]dev		Allow use of special device files / disallow them
+	[no]exec	Allow use of executable files / disallow them
+	[no]suid	Allow set-user-id-root programs / disallow them
+	[r]shared	Convert [recursively] to a shared subtree
+	[r]slave	Convert [recursively] to a slave subtree
+	[r]private	Convert [recursively] to a private subtree
+	[un]bindable	Make mount point [un]able to be bind mounted
+	bind		Bind a directory to an additional location
+	move		Relocate an existing mount point
+	remount		Remount a mounted filesystem, changing its flags
+	ro/rw		Mount for read-only / read-write
+There are EVEN MORE flags that are specific to each filesystem
+You'll have to see the written documentation for those filesystems
+[OPTION]... SOURCE DEST
+or: mv [OPTION]... SOURCE... DIRECTORY
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY
+	-f	Don't prompt before overwriting
+	-i	Interactive, prompt before overwrite
+[-laentuwxrp]
+Display networking information
+	-l	Display listening server sockets
+	-a	Display all sockets (default: connected)
+	-e	Display other/more information
+	-n	Don't resolve names
+	-t	Tcp sockets
+	-u	Udp sockets
+	-w	Raw sockets
+	-x	Unix sockets
+	-r	Display routing table
+	-p	Display PID/Program name for sockets
+[-n ADJUST] [COMMAND [ARG]...]
+Run a program with modified scheduling priority
+	-n ADJUST	Adjust the scheduling priority by ADJUST
+[OPTION] [name]
+Change user's password. If no name is specified,
+changes the password for the current user.
+	-a	Algorithm to use for password (choices: des, md5)
+	-d	Delete password for the account
+	-l	Lock (disable) account
+	-u	Unlock (re-enable) account
+[OPTION]... host
+Send ICMP ECHO_REQUEST packets to network hosts
+	-4, -6		Force IPv4 or IPv6 hostname resolution
+	-c CNT		Send only CNT pings
+	-s SIZE		Send SIZE data bytes in packets (default=56)
+	-I iface/IP	Use interface or IP address as source
+	-W timeout	Seconds to wait for the first response (default:10)
+			(after all -c CNT packets are sent)
+	-w deadline	Seconds until ping exits (default:infinite)
+			(can exit earlier with -c CNT)
+	-q		Quiet, only displays output at start
+			and when finished
+[-l] | [-fnovx] [-signal] pattern
+Send a signal to process(es) selected by regex pattern
+	-l	List all signals
+	-f	Match against entire command line
+	-n	Signal the newest process only
+	-o	Signal the oldest process only
+	-v	Negate the matching
+	-x	Match whole name (not substring)
+[-d delay] [-n] [-f]
+Halt and shut off power
+	-d	Delay interval for halting
+	-n	No call to sync()
+	-f	Force power off (don't go through init)
+Report process status
+This version of ps accepts no options
+[-d delay] [-n] [-f]
+Reboot the system
+	-d	Delay interval for rebooting
+	-n	No call to sync()
+	-f	Force reboot (don't go through init)
+[OPTION]... FILE...
+Remove (unlink) the FILE(s). Use '--' to
+indicate that all following arguments are non-options.
+	-i	Always prompt before removing
+	-f	Never prompt
+	-r,-R	Remove directories recursively
+[OPTION]... DIRECTORY...
+Remove the DIRECTORY, if it is empty
+[OPTION]... [MODULE]...
+Unload the specified kernel modules from the kernel
+	-a	Remove all unused modules (recursively)
+[{add|del|delete}]
+Edit the kernel's routing tables
+	-n	Don't resolve names
+	-e	Display other/more information
+	-A inet	Select address family
+[-efinr] pattern [files...]
+	-e script	Add the script to the commands to be executed
+	-f scriptfile	Add scriptfile contents to the
+			commands to be executed
+	-i		Edit files in-place
+	-n		Suppress automatic printing of pattern space
+	-r		Use extended regular expression syntax
+If no -e or -f is given, the first non-option argument is taken as the sed
+script to interpret. All remaining arguments are names of input files; if no
+input files are specified, then the standard input is read. Source files
+will not be modified unless -i option is given.
+[first [increment]] last
+Print numbers from FIRST to LAST, in steps of INCREMENT.
+FIRST, INCREMENT default to 1
+Arguments:
+	FIRST LAST
+	FIRST INCREMENT LAST
+Pause for N seconds
+[OPTIONS]... [VALUE]...
+Configure kernel parameters at runtime
+	-n	Disable printing of key names
+	-e	Don't warn about unknown keys
+	-w	Change sysctl setting
+	-p FILE	Load sysctl settings from FILE (default /etc/sysctl.conf)
+	-a	Display all values
+	-A	Display all values in table form
+Handle incoming telnet connections
+	-l LOGIN	Exec LOGIN on connect
+	-f issue_file	Display issue_file instead of /etc/issue
+	-K		Close connection as soon as login exits
+			(normally wait until all programs close slave pty)
+	-p PORT		Port to listen on
+	-b ADDR		Address to bind to
+	-F		Run in foreground
+	-i		Run as inetd subservice
+EXPRESSION ]
+Check file types, compare values etc. Return a 0/1 exit code
+depending on logical value of EXPRESSION
+[OPTION]... COMMAND [ARGS...]
+Run the program COMMAND with arguments ARGS. When COMMAND finishes,
+COMMAND's resource usage information is displayed.
+	-v	Verbose
+[-b] [-n COUNT] [-d SECONDS]
+Provide a view of process activity in real time.
+Read the status of all processes from /proc each SECONDS
+and show the status for however many processes will fit on the screen.
+[-c] FILE [FILE...]
+Update the last-modified date on the given FILE[s]
+	-c	Do not create any files
+[-Cfbnqtvo] [-c CID] [-V VCLS] [-H HOSTNAME] [-i INTERFACE]
+	[-p pidfile] [-r IP] [-s script] [-O dhcp-option]...
+	-V CLASSID	Vendor class identifier
+	-i INTERFACE	Interface to use (default: eth0)
+	-H,-h HOSTNAME	Client hostname
+	-c CLIENTID	Client identifier
+	-C		Suppress default client identifier
+	-p file		Create pidfile
+	-r IP		IP address to request
+	-s file		Run file at DHCP events (default /usr/local/config/udhcpc/default.script)
+	-t N		Send up to N request packets
+	-T N		Try to get a lease for N seconds (default 3)
+	-A N		Wait N seconds (default 20) after failure
+	-O OPT		Request DHCP option OPT (cumulative)
+	-o		Do not request any options (unless -O is also given)
+	-f		Run in foreground
+	-b		Background if lease is not immediately obtained
+	-S		Log to syslog too
+	-n		Exit with failure if lease is not immediately obtained
+	-q		Quit after obtaining lease
+	-R		Release IP on quit
+	-a		Use arping to validate offered address
+[flags] FILESYSTEM|DIRECTORY
+Unmount file systems
+	-a	Unmount all file systems
+	-r	Try to remount devices as read-only if mount is busy
+	-l	Lazy umount (detach filesystem)
+	-f	Force umount (i.e., unreachable NFS server)
+[OPTION]... [FILE]...
+Print line, word, and byte counts for each FILE, and a total line if
+more than one FILE is specified. With no FILE, read standard input.
+	-c	Print the byte counts
+	-l	Print the newline counts
+	-L	Print the length of the longest line
+	-w	Print the word counts
+[-csq] [-O file] [-Y on/off] [-P DIR] [-U agent] url
+Retrieve files via HTTP or FTP
+	-s	Spider mode - only check file existence
+	-c	Continue retrieval of aborted transfer
+	-P	Set directory prefix to DIR
+	-O	Save to filename ('-' for stdout)
+	-U	Adjust 'User-Agent' field
+	-Y	Use proxy ('on' or 'off')
+[OPTIONS] [COMMAND] [ARGS...]
+Execute COMMAND on every item given by standard input
+	-r	Do not run command if input is empty
+	-t	Print the command on stderr before execution
+	-e[STR]	STR stops input processing (default _)
+	-n N	Pass no more than N args to COMMAND
+	-s N	Pass command line of no more than N bytes
+ multi-call binary
+No help available.
+you have no permission to run this applet!
+must be suid to work properly
+ multi-call binary
+Copyright (C) 1998-2008 Erik Andersen, Rob Landley, Denys Vlasenko
+and others. Licensed under GPLv2.
+See source distribution for full notice.
+Usage: busybox [function] [arguments]...
+   or: function [arguments]...
+	BusyBox is a multi-call binary that combines many common Unix
+	utilities into a single executable.  Most people will create a
+	link to busybox for each function they wish to use and BusyBox
+	will act like whatever it was invoked as!
+Currently defined functions:
+: applet not found
+section header
+<uid>.<gid>
+keyword outside section
+Parse error in %s, line %d: %s
+line too long
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+/etc/group
+/etc/passwd
+standard output
+standard input
+invalid argument '%s' to '%s'
+%s requires an argument
+permission denied. (are you root?)
+can't create raw socket
+read error
+write error
+invalid date '%s'
+memory exhausted
+BusyBox v1.12.1 (2016-03-18 10:43:17 CST)
+ 123456789
+0123456789
+can't open '%s'
+can't remove file '%s'
+can't move '%s' to '%s'
+can't create pipe
+can't duplicate file descriptor
+short write
+lseek(%lu)
+%s: I/O error
+can't change root directory to %s
+can't stat '%s'
+SELinux support is disabled
+ioctl %#x failed
+short read
+can't read '%s'
+read error from '%s'
+no gids left
+group %s already exists
+Linux User,,,
+h:g:s:G:DSH
+login '%s' is in use
+group name '%s' is in use
+no free uids left
+addgroup -g %u '%s'
+cannot execute %s, you must set password manually
+I:LH:f:hil:mt:wn
+/etc/issue
+bad speed: %s
+too many alternate speeds
+stdin is not open for read/write
+%s: TCGETS
+%s: input overrun
+%s: TCSETS
+%s: can't exec %s
+/bin/login
+Login timed out after %d seconds
+-f is for root only
+ on '%s' from '%s'
+/etc/securetty
+Login incorrect
+/etc/nologin
+System closed for routine maintenance
+root login%s
+invalid password for '%s'%s
+unknown user %s
+%s can't change password for %s
+cannot change locked password for %s
+Changing password for %s
+Old password:
+incorrect password for %s
+Incorrect password
+New password:
+Retype password:
+Passwords don't match
+password for %s is unchanged
+cannot update password file %s
+Password for %s changed by %s
+password for %s is already %slocked
+	Command being timed: "%C"
+	User time (seconds): %U
+	System time (seconds): %S
+	Percent of CPU this job got: %P
+	Elapsed (wall clock) time (h:mm:ss or m:ss): %E
+	Average shared text size (kbytes): %X
+	Average unshared data size (kbytes): %D
+	Average stack size (kbytes): %p
+	Average total size (kbytes): %K
+	Maximum resident set size (kbytes): %M
+	Average resident set size (kbytes): %t
+	Major (requiring I/O) page faults: %F
+	Minor (reclaiming a frame) page faults: %R
+	Voluntary context switches: %w
+	Involuntary context switches: %c
+	Swaps: %W
+	File system inputs: %I
+	File system outputs: %O
+	Socket messages sent: %s
+	Socket messages received: %r
+	Signals delivered: %k
+	Page size (bytes): %Z
+	Exit status: %x
+cannot run %s
+Command terminated by signal %u
+Command exited with non-zero status %u
+%uh %um %02us
+%um %u.%02us
+invalid module format
+unknown symbol in module
+module has wrong symbol version
+invalid parameters
+cannot insert '%s': %s
+/proc/modules
+Module                  Size  Used by
+%s: %s not supported
+A:p:H:t:i:adnDsv
+%s: unknown %s
+address family
+%s: kernel only supports 'inet'
+%s: %s without ARP support
+hardware type
+need host name
+need hardware address
+cant get HW-Address for '%s'
+protocol type mismatch
+invalid hardware address
+feature ATF_DONTPUB is not supported
+feature ATF_MAGIC is not supported
+255.255.255.255
+SIOCDARP(priv)
+No ARP entry for %s
+SIOCDARP(pub)
+/proc/net/arp
+%s 0x%x 0x%x %s %s %s
+%s (%s) at 
+<incomplete> 
+netmask %s 
+No match found in %d entries
+setpathcost
+setportprio
+setbridgeprio
+bridge name	bridge id		STP enabled	interfaces
+can't get bridge name for index %d
+can't get interface name for index %d
+.Asethostname
+SIFDSTADDR
+SIFNETMASK
+SIFBRDADDR
+txqueuelen
+pointopoint
+invalid hw-addr %s
+%n%llu%u%u%u%u%n%n%n%llu%u%u%u%u%u
+%llu%llu%u%u%u%u%n%n%llu%llu%u%u%u%u%u
+%llu%llu%u%u%u%u%u%u%llu%llu%u%u%u%u%u%u
+DARPA Internet
+Point-to-Point Protocol
+Local Loopback
+[NONE SET]
+error: no inet socket available
+/proc/net/dev
+compressed
+Device not found
+%s: error fetching interface information: %s
+%02X:%02X:%02X:%02X:%02X:%02X
+X bytes:%llu (%llu.%u %sB)%s
+%-9.9s Link encap:%s  
+HWaddr %s  
+          %s addr:%s 
+ P-t-P:%s 
+ Bcast:%s 
+          
+[NO FLAGS] 
+ MTU:%d  Metric:%d
+RX packets:%llu errors:%lu dropped:%lu overruns:%lu frame:%lu
+             compressed:%lu
+TX packets:%llu errors:%lu dropped:%lu overruns:%lu carrier:%lu
+          collisions:%lu 
+compressed:%lu 
+txqueuelen:%d 
+          R
+Interrupt:%d 
+Base address:0x%lx 
+Memory:%lx-%lx 
+DMA chan:%x 
+POINTOPOINT
+NOTRAILERS
+ESTABLISHED
+CLOSE_WAIT
+%*d: %64[0-9A-Fa-f]:%X %64[0-9A-Fa-f]:%X %X %lX:%lX %*X:%*X %*X %d %*d %ld 
+%*p: %lX %lX %lX %X %X %lu %n
+CONNECTING
+DISCONNECTING
+%-5s %-6ld %-11s %-10s %-13s %6lu 
+%s: bogus data on line %d
+%s   %6ld %6ld %-23s %-23s %-12s
+laentuwxrp
+can't scan /proc - are you root?
+showing only processes with your user ID
+Active Internet connections 
+(servers and established)
+(only servers)
+(w/o servers)
+Proto Recv-Q Send-Q %-23s %-23s State       
+Local Address
+Foreign Address
+PID/Program name    
+/proc/net/tcp
+/proc/net/udp
+/proc/net/raw
+Active UNIX domain sockets 
+Proto RefCnt Flags       Type       State         I-Node 
+/proc/net/unix
+--- %s ping statistics ---
+%lu packets transmitted, 
+%lu packets received, 
+%lu duplicates, 
+%lu%% packet loss
+round-trip min/avg/max = %u.%03u/%u.%03u/%u.%03u ms
+=1:q--v:v--q:w+:W+
+qvc:s:w:W:I:4
+PING %s (%s)
+: %d data bytes
+can't set multicast source interface
+%d bytes from %s: seq=%u ttl=%d
+ time=%u.%03u ms
+Echo Reply
+Destination Unreachable
+Source Quench
+Redirect (change route)
+Echo Request
+Time Exceeded
+Parameter Problem
+Timestamp Request
+Timestamp Reply
+Information Request
+Information Reply
+Address Mask Request
+Address Mask Reply
+unknown ICMP type
+warning: got ICMP %d (%s)
+#reinstate
+/proc/net/route
+  MSS Window  irtt
+Metric Ref    Use
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags %s Iface
+%63s%lx%lx%X%d%d%d%lx%d%d%d
+%-15.15s %-15.15s %-16s%-6s
+%5d %-5d %6d %s
+%-6d %-2d %7d %s
+resolving %s
+gateway %s is a NETWORK
+netmask %.8x and host route conflict
+bogus netmask %s
+netmask and route address conflict
+/etc/issue.net
+f:l:Kip:b:F
+ - stalled -
+--:--:-- ETA
+%02d:%02d:%02d ETA
+%-20.20s%4d%% 
+error getting response
+not an http or ftp url: %s
+bad header line: %s
+csqO:P:Y:U:t:T:
+http_proxy
+index.html
+Connecting to %s (%s)
+too many redirections
+GET %stp://%s/%s HTTP/1.1
+GET /%s HTTP/1.1
+User-Agent: %s
+Proxy-Authorization: Basic %s
+Range: bytes=%ld-
+Connection: close
+no response from server
+server returned error: %s
+content-length %s is garbage
+transfer encoding '%s' is not supported
+anonymous:busybox@
+ftp login: %s
+SIZE value is garbage
+bad response to %s: %s
+/tmp/wget_download_ratio_%s
+ftp error: %s
+content-length
+transfer-encoding
+udhcp 1.12.1
+No lease, forking to background
+No lease, fallback ip set, the parent id : %d.
+Lease lost, entering init state
+cannot get message type from packet - ignoring
+no server ID in message
+no lease time with ACK, using 1 hour lease
+offered address is in use (got ARP reply), declining
+Lease of %s obtained, lease time %u
+Received DHCP NAK
+Performing a DHCP renew
+SYSTEM_PRODUCT_NAME=
+SYSTEM_PRODUCT_NAME=
+/usr/local/config/ipcamera/system.conf
+SYSTEM_PRODUCT_NAME
+Received SIGTERM
+Unicasting a release of %s to %s
+Entering released state
+c--C:C--c:O::T+:t+:A+
+/usr/local/config/udhcpc/default.script
+c:CV:H:h:F:i:np:qRr:s:T:t:vSA:O:ofba
+version 1.12.1
+unknown option '%s'
+No lease, failing
+%s (v1.12.1) started
+vendorclass
+bogus packet, option fields too long
+option 0x%02x did not fit into the packet
+cannot add option 0x%02x
+received bogus message, ignoring
+socket(%s)
+boot_file=%s
+%s%d.%d.%d.%d
+interface=%s
+cannot send signal
+is interface %s up and configured?
+SO_BROADCAST
+SO_BINDTODEVICE
+cannot enable bcast on raw socket
+Sending decline...
+Sending select for %s...
+Sending renew...
+Sending release...
+packet with bad UDP checksum received, ignoring
+received bogus message (bad magic), ignoring
+%6s%13ld%13ld%13ld%13ld%13ld
+%6s%13ld%13ld%13ld
+%6s%13s%13s%13s%13s%13s
+bad signal name '%s'
+you need to specify whom to kill
+%s: no process killed
+cannot kill pid %u
+unknown signal '%s'
+bad pid '%s'
+cannot kill pid %d
+  PID USER       VSZ STAT COMMAND
+%5u %-8.8s %s %s  
+/etc/sysctl.conf
+/proc/sys/
+error setting key '%s'
+error: permission denied on key '%s'
+error: '%s' is an unknown key
+error: malformed setting '%s'
+error: '%s' must be of the form name=value
+error reading key '%s'
+cpu %llu %llu %llu %llu %llu %llu %llu %llu
+can't read /proc/stat
+MemTotal: %lu %s
+Mem: %lu %lu %lu %lu %lu %lu
+MemFree: %lu %s
+MemShared: %lu %s
+Buffers: %lu %s
+Cached: %lu %s
+Mem: %luK used, %luK free, %luK shrd, %luK buff, %luK cached
+CPU:%4u%% usr%4u%% sys%4u%% nic%4u%% idle%4u%% io%4u%% irq%4u%% sirq
+Load average: %s
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+%5u%6u %-8.8s %s%s%4u%%%4u%% 
+no process info in /proc
+Iignoreeof
+iinteractive
+Cnoclobber
+aallexport
+end of file
+illegal option -%c
+no arg for -%c option
+%.*s: is read only
+%.*s: bad variable name
+can't cd to %s
+ (core dumped)
+No such job: %s
+No current job
+No previous job
+%s: ambiguous
+You have stopped jobs.
+parameter not set
+%.*s: %s%s
+%s built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+sh: turning off NDELAY mode
+cannot fork
+can't open %s
+out of file descriptors
+illegal option -o %s
+Current option settings
+can't shift that many
+%s%s%.*s%s
+syntax error: %s
+%s unexpected
+ (expecting %s)
+Bad fd number
+Illegal eof marker for << redirection
+Unterminated quoted string
+Missing '}'
+We unsupport $((arith))
+Bad substitution
+EOF in backquote substitution
+Bad for loop variable
+Bad function name
+pipe call failed
+redir error
+nonexistent directory
+cannot create %s: %s
+no such file
+cannot open %s: %s
+Use "exit" to leave shell.
+%s: not found
+%s not defined in %s
+ is a shell keyword
+ a tracked alias for
+ is a shell function
+ is a %sshell builtin
+: not found
+trap -- %s %s
+%s: bad trap
+Built-in commands:
+-------------------
+%ldm%ld.%.3lds%c
+illegal mode: %s
+HSatfdscmlpnvw
+too many arguments
+bad number
+error setting limit (%m)
+/etc/profile
+Illegal number: %s
+time(seconds)
+file(blocks)
+coredump(blocks)
+memory(kb)
+locked memory(kb)
+vmemory(kb)
+/etc/mdev.conf
+bad line %u
+can't run '%s'
+/sys/block
+/sys/class
+nodiratime
+norelatime
+unbindable
+runbindable
+%s%saddr=%s
+warning: unrecognized proto= option
+unknown nfs mount parameter: %s=%d
+warning: option nolock is not supported
+unknown nfs mount option: %s%s
+NFSv%d not supported
+%s:%s failed, reason given by server: %s
+NFS over TCP is not supported
+nfs socket
+nfs bindresvport
+mounting %s on %s failed
+mount('%s','%s','%s',0x%08lx,'%s'):%d
+would do mount('%s','%s','%s',0x%08lx,'%s')
+%s is write-protected, mounting read-only
+unknown nfs status return value: %d
+warning: multiple hostnames not supported
+got bad hp->h_length
+o:t:rwanfvsi
+%s on %s type %s (%s)
+/etc/fstab
+cannot read %s
+can't find %s in %s
+/etc/filesystems
+/proc/filesystems
+can't %sumount %s
+fldnravdt:i
+%s busy - remounted read-only
+can't remount %s read-only
+invalid mode: %s
+-2:l--s:s--l:Pd:rRd:Rd:apdR:HL
+pdRfilsLarPH
+%u.%u-%u:%u%c
+%u.%u.%u-%u:%u%c
+%u-%u-%u %u:%u%c
+%2u%2u%2u%2u%u%c
+cannot set date
+%a, %d %b %Y %H:%M:%S 
+%a %b %e %H:%M:%S %Z %Y
+%Y.%m.%d-%H:%M:%S
+%9s %3u%% %s
+h-km:k-hm:m-hk
+Filesystem           %-15sUsed Available Use%% Mounted on
+%s: can't find mount point
+non-numeric argument
+division by zero
+warning: unportable BRE: `%s': using `^' as the first character
+of a basic regular expression is not portable; it is being ignored
+syntax error
+too few arguments
+Cadil1gnsxAkSXrvhT:w:
+invalid mode '%s'
+cannot overwrite %sdirectory with %sdirectory
+cannot remove '%s'
+-2:f-i:i-f
+mv: overwrite '%s'? 
+cannot rename '%s'
+setpriority(%d)
+cannot remove '.' or '..'
+out of range
+argument expected
+closing paren expected
+missing ]]
+%s: unknown operand
+cannot stat '%s'
+*IGNORECASE
+Invalid format specifier
+Unexpected token
+Unexpected end of string
+Division by zero
+Call to undefined function
+Possible syntax error
+Not an array
+Too few arguments for builtin
+Internal error
+%a %b %d %H:%M:%S %Z %Y
+%*x formats are not supported
+/dev/stdin
+/dev/stdout
+/dev/stderr
+warning: unrecognized option '-W %s' ignored
+unmatched '%c'
+bad format in substitution expression
+empty filename
+no address after comma
+missing command
+bad option in substitution expression
+only a beginning address can be specified for edit commands
+command only uses one address
+dDgGhHlnNpPqx={}
+unsupported command %c
+unterminated {
+no previous regexp
+can't find label for jump to '%s'
+This is not GNU sed version 4.0
+cannot create temp file %s
+unrecognized: %s
+H-h:c-n:q-n:l-n:e::f::m+
+lnqvscFiHhe:f:Lorm:aI
+(standard input)
++trn:s:e::E:
+cannot fit single argument within argument list size limit
+argument line too long
+%s: exited with status 255; aborting
+%s: terminated by signal %d
+umount -a -r
+/etc_ro/rcS
+Bad inittab entry at line %d
+SHELL=/bin/sh
+can't log to %s
+~`!$^&*()=|\{}[];"'<>?
+cannot run '%s': %s
+ifconfig apcli%d down 1>/dev/null 2>&1; 				  ifconfig apclii%d down 1>/dev/null 2>&1
+ifconfig mesh%d down 1>/dev/null 2>&1; 				  ifconfig meshi%d down 1>/dev/null 2>&1
+ifconfig wds%d down 1>/dev/null 2>&1; 					  ifconfig wdsi%d down 1>/dev/null 2>&1
+ifconfig ra%d down 1>/dev/null 2>&1; 					  ifconfig rai%d down 1>/dev/null 2>&1
+Requesting system %s
+can't open %s: %s
+can't fork
+starting pid %d, tty '%s': '%s'
+The system is going down NOW!
+Sending SIG%s to all processes
+/etc_ro/inittab
+reloading /etc/inittab
+TERM=vt102
+TERM=linux
+init started: %s
+process '%s' (pid %d) exited. Scheduling for restart.
+Please press Enter to activate this console. 
+ctrlaltdel
+unknown %cid %ld
+unknown group name: %s
+can't set groups
+%s: overwrite '%s'? 
+cannot create '%s'
+'%s' and '%s' are the same file
+recursion detected, omitting directory '%s'
+target '%s' is not a directory
+cannot create directory '%s'
+cannot preserve %s of '%s'
+permissions
+cannot create link '%s'
+cannot close '%s'
+cannot create symlink '%s'
+unrecognized file '%s' with mode %x
+Password: 
+ptsname error (is /dev/pts mounted?)
+can't find free pty
+cannot get system information
+ `"#$%^&*()=+{}[]:;'|\<>
+LD_LIBRARY_PATH
+LD_PRELOAD
+LD_TRACE_LOADED_OBJECTS
+LD_BIND_NOW
+LD_AOUT_LIBRARY_PATH
+LD_AOUT_PRELOAD
+LD_KEEPDIR
+%A, %d %B %Y
+set permissions of
+cannot %s directory '%s'
+?pc?d?b?-?l?s???/proc/mounts
+bad line %u: %d tokens found, %d needed
+%c %u %u %u %d %*s %*s %*s %*s %*s %*s %lu %lu %*s %*s %*s %ld %*s %*s %lu %lu %lu 
+/proc/%u/cmdline
+%s: is a directory
+%s: descend into directory '%s'? 
+%s: remove directory '%s'? 
+%s: remove '%s'? 
+can't chdir to home directory '%s'
+warning: cannot create backup copy '%s'
+warning: cannot lock '%s'
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
+number %s is not in %llu..%llu range
+invalid number '%s'
+number %s is not in %lld..%lld range
+cannot connect to remote host
+bad port spec '%s'
+bad address '%s'
+%s: cannot read link (not a symlink?)
+bad regex '%s': %s
+.MIPS.stubs
+07070100000334000081ED00000000000000000000000156EB6C4B00005910000000030000000100000000000000000000000F00000000/bin/ntpclient
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+__adjtimex
+gettimeofday
+get_current_freq
+settimeofday
+contemplate_data
+gethostbyname
+stuff_net_addr
+send_packet
+get_packet_timestamp
+check_source
+rfc1305print
+setup_receive
+setup_transmit
+primary_loop
+find_shift
+polygon_reset
+polygon_point
+find_df_center
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+Sending ...
+packet of length %d received
+Source: Address family %d
+Source: INET Port %d host %s
+%d %.5d.%.3d  %8.1f %8.1f  %8.1f %8.1f %9d
+set time to %lu.%.6lu
+Total elapsed: %9.2f
+Server stall:  %9.2f
+Slop:          %9.2f
+Skew:          %9.2f
+Frequency:     %9d
+ day   second     elapsed    stall     skew  dispersion  freq
+LI=%d  VN=%d  Mode=%d  Stratum=%d  Poll=%d  Precision=%d
+Delay=%.1f  Dispersion=%.1f  Refid=%u.%u.%u.%u
+Reference %u.%.10u
+Originate %u.%.10u
+Receive   %u.%.10u
+Transmit  %u.%.10u
+Our recv  %u.%.10u
+settimeofday
+could not bind to udp port %d
+Listening...
+Ooops.  pack_len=%d
+%d %f %f %f %lf %f %d
+fake %f %d 
+contemplate %u %.1f %.1f %d
+Replay input error
+Usage: %s [-c count] [-d] [-g goodness] -h hostname [-i interval]
+	[-l] [-p port] [-r] [-s] 
+c:dg:h:i:lp:rs
+Configuration:
+  -c probe_count %d
+  -d (debug)     %d
+  -g goodness    %d
+  -h hostname    %s
+  -i interval    %d
+  -l live        %d
+  -p local_port  %d
+  -s set_clock   %d
+@find_shift %f %f -> %f
+loop %f %f
+constraint left:  %f %f 
+constraint right: %f %f 
+find_df_center %f %f
+xontemplate %u %.1f %.1f %d
+hist %d %d %f %f %f
+maxseg[%d] = %f *x+ %f
+minseg[%d] = %f *x+ %f
+found minseg vs. save_max inconsistency
+# inconsistent
+# box [( %.3f , %.1f ) 
+ ( %.3f , %.1f )] 
+ delta_f %.3f  computed_freq %d
+found maxseg vs. save_min inconsistency
+maxcross %f *x+ %f
+mincross %f *x+ %f
+delta_f %f  delta_freq %d  bsn %d
+find_df() = %e
+.MIPS.stubs
+070701000003350000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000D00000000/bin/netstat
+07070100000336000081ED00000000000000000000000156EB6C4C00002528000000030000000100000000000000000000000A00000000/bin/gpio
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+gpio_set_dir
+gpio_write_int
+gpio_read_int
+gpio_enb_irq
+gpio_reg_info
+signal_handler
+gpio_dis_irq
+gpio_test_write
+gpio_test_intr
+gpio_set_led
+gpio_test_read
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+'/dev/gpio
+gpio 72 = 0x%x
+gpio 71~40 = 0x%x
+gpio 39~24 = 0x%x
+gpio 23~00 = 0x%x
+gpio tester: signal 
+times of blinking %d out of range (should be 0 ~ %d)
+on interval %d out of range (should be 0 ~ %d)
+gpio number %d out of range (should be 0 ~ %d)
+number of resting cycles %d out of range (should be 0 ~ %d)
+off interval %d out of range (should be 0 ~ %d)
+number of blinking cycles %d out of range (should be 0 ~ %d)
+Usage: %s w - writing test (output)
+       %s r - reading test (input)
+       %s i (<gpio>) - interrupt test for gpio number
+       %s l <gpio> <on> <off> <blinks> <rests> <times>
+            - set led on <gpio>(0~24) on/off interval, no. of blinking/resting cycles, times of blinking
+.MIPS.stubs
+070701000003370000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/rmdir
+070701000003380000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/mknod
+070701000003390000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/login
+0707010000033A0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000D00000000/bin/adduser
+0707010000033B000081ED00000000000000000000000156EB6C4C00008D78000000030000000100000000000000000000000C00000000/bin/iwpriv
+/lib/ld-uClibc.so.0
+__uClibc_main
+__deregister_frame_info
+__register_frame_info
+_Jv_RegisterClasses
+iw_float2freq
+iw_in_addr
+iw_get_priv_size
+__errno_location
+iw_freq2float
+iw_ether_ntop
+iw_get_priv_info
+iw_sockets_open
+iw_enum_devices
+iw_print_version_info
+iw_get_kernel_we_version
+iw_ignore_version
+iw_print_freq_value
+iw_mwatt2dbm
+iw_get_range_info
+iw_mac_aton
+getnetbyname
+gethostbyname
+__h_errno_location
+iw_check_if_addr_type
+iw_in_inet
+iw_check_mac_addr_type
+iw_ether_aton
+iw_init_event_stream
+iw_extract_event_stream
+iw_process_scan
+_DYNAMIC_LINKING
+_GLOBAL_OFFSET_TABLE_
+__bss_start
+Invalid command : %s
+Invalid private ioctl definition for : %s
+Not implemented...
+The command %s needs exactly %d argument(s)...
+Interface doesn't accept private ioctl...
+%s (%X): %s
+%-8.16s  %s:
+                
+           %.*s
+Not yet implemented...
+Invalid float [%s]...
+Invalid address [%s]...
+%-8.16s  no private ioctls.
+%-8.16s  Available private ioctls :
+          %-16.16s (%.4X) : set %3d %s & get %3d %s
+%-8.16s  Available read-only private ioctl :
+Usage: iwpriv interface [private-command [private-arguments]]
+@IEEE 802.11a + 802.11g (2.4 & 5 GHz, up to 54 Mb/s)
+IEEE 802.11a + 802.11b (2.4 & 5 GHz, up to 54 Mb/s)
+IEEE 802.11g (2.4 GHz, up to 54 Mb/s)
+IEEE 802.11a (5 GHz, up to 54 Mb/s)
+IEEE 802.11b (2.4 GHz, up to 11 Mb/s)
+Atheros turbo mode at 5 GHz (up to 108 Mb/s)
+Atheros turbo mode at 2.4 GHz (up to 108 Mb/s)
+TI 802.11+ (2.4 GHz, up to 22 Mb/s)
+802.11g higher rates, OFDM at 2.4 GHz (up to 54 Mb/s)
+802.11a, OFDM at 5 GHz (up to 54 Mb/s)
+802.11b higher rates (2.4 GHz, up to 11 Mb/s)
+802.11 Direct Sequence (2.4 GHz, up to 2 Mb/s)
+802.11 Frequency Hopping (2,4 GHz, up to 2 Mb/s)
+Atheros turbo mode, channel bonding (up to 108 Mb/s)
+TI 802.11+ higher rates (2.4 GHz, up to 22 Mb/s)
+Driver specific modulation (check driver documentation)
+Unknown/bug
+/proc/net/dev
+Cannot parse /proc/net/dev
+SIOCGIFCONF: %s
+/proc/net/wireless
+Cannot read /proc/net/wireless
+Cannot parse /proc/net/wireless
+%-8.16s  Driver has no Wireless Extension version information.
+%-8.16s  Recommend Wireless Extension v%d or later,
+          Currently compiled with Wireless Extension v%d.
+%-8.16s  Wireless Extension version too old.
+%-8.16s  Wireless-Tools version %d
+          Compatible with Wireless Extension v11 to v%d.
+Kernel    Currently compiled with Wireless Extension v%d.
+Warning: Driver for device %s has been compiled with an ancient version
+of Wireless Extension, while this program support version 11 and later.
+Some things may be broken...
+Warning: Driver for device %s has been compiled with version %d
+of Wireless Extension, while this program supports up to version %d.
+Warning: Driver for device %s recommend version %d of Wireless Extension,
+but has been compiled with version %d, therefore some driver features
+may not be available...
+%s: Allocation failed
+SIOCSIWMODE: %s
+SIOCSIWFREQ: %s
+SIOCSIWENCODE(%d): %s
+SIOCSIWNWID: %s
+SIOCSIWESSID: %s
+IEEE 802.11
+Channel%c%s
+Frequency%c%s (Channel %d)
+Frequency%c%s
+Quality%c%d/%d  
+Signal level%c%g dBm  
+Noise level%c%g dBm
+Signal level%c%d dBm  
+Noise level%c%d dBm
+Signal level%c%d/%d  
+Noise level%c%d/%d
+Quality:%d  Signal level:%d  Noise level:%d
+%02X:%02X:%02X:%02X:%02X:%02X
+Error: Passphrase not implemented
+Error: Invalid login format
+flags = %X, index = %X
+mode:Unicast only received
+mode:Multicast only received
+mode:All packets received
+mode:Force sending
+mode:Repeat multicasts
+ lifetime:
+%02d:%02d:%02d.%06u
+Interface %s doesn't support MAC addresses
+Interface %s doesn't support IP addresses
+Not-Associated
+%-8.16s  Interface doesn't support IP addresses
+Invalid interface address %s
+Arp failed for %s on %s... (%d)
+Try to ping the address before setting it.
+%-8.16s  Interface doesn't support MAC addresses
+Invalid hardware address %s
+iw_get_priv_info
+.MIPS.stubs
+.data.rel.ro
+0707010000033C0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000B00000000/bin/mkdir
+0707010000033D0000A1FF00000000000000000000000156EB6C5100000008000000030000000100000000000000000000000E00000000/bin/hostname
+0707010000033E000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000800000000/etc_ro
+0707010000033F000081ED00000000000000000000000156EB6C480000045B000000030000000100000000000000000000000C00000000/etc_ro/rcS
+# mount /usr/local from flash
+mount -t jffs2 /dev/mtdblock5 /usr/local
+mount -t jffs2 /dev/mtdblock6 /usr/local/config/ipcamera
+ln -sf /usr/local/etc /etc
+if [ ! -d /usr/local/etc ]; then
+	mkdir -p /usr/local/etc
+	cd /etc_ro
+	cp profile fstab /usr/local/etc
+	adduser -SDH root
+mkdir -p /var/run
+mkdir -p /var/log
+#cat /etc_ro/motd
+mknod /dev/mixer c 14 0
+mknod /dev/dsp c 14 3 
+# kernel optimization
+sysctl -w net.ipv4.tcp_keepalive_time=300
+sysctl -w net.ipv4.tcp_keepalive_probes=5
+sysctl -w net.ipv4.tcp_keepalive_intvl=15
+sysctl -w net.ipv4.tcp_window_scaling=1
+sysctl -w net.ipv4.tcp_max_orphans=32
+sysctl -w net.ipv4.tcp_orphan_retries=2
+sysctl -w net.ipv4.tcp_syncookies=1
+sysctl -w net.ipv4.tcp_tw_reuse=1
+sysctl -w net.ipv4.tcp_tw_recycle=1
+sysctl -w net.ipv4.tcp_timestamps=0
+sysctl -w net.ipv4.tcp_rmem="4096 16384 32768"
+sysctl -w net.ipv4.tcp_max_tw_buckets=512
+sysctl -w net.ipv4.tcp_fin_timeout=15
+sysctl -w net.core.somaxconn=256
+sysctl -w net.ipv4.tcp_max_syn_backlog=64
+sysctl -w kernel.panic=1
+# disable cpu qos, this fix eth2 Tx problem
+reg s b0113600
+reg w 0 5e30b
+07070100000340000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000C00000000/etc_ro/ppp
+07070100000341000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000F00000000/etc_ro/ppp/3g
+07070100000342000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000001200000000/etc_ro/ppp/peers
+07070100000343000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000001400000000/etc_ro/ppp/plugins
+07070100000344000081A400000000000000000000000156EB6C4800000174000000030000000100000000000000000000000E00000000/etc_ro/fstab
+proc            /proc           proc    defaults 0 0
+none            /var            ramfs   defaults 0 0
+#none            /etc            ramfs   defaults 0 0
+none            /tmp            ramfs   defaults 0 0
+none            /sys            sysfs   default  0 0
+none            /dev/pts        devpts  default  0 0
+none            /proc/bus/usb   usbfs   defaults 0 0
+07070100000345000081A400000000000000000000000156EB6C480000002E000000030000000100000000000000000000001000000000/etc_ro/inittab
+::sysinit:/etc_ro/rcS
+ttyS1::respawn:-/bin/sh
+07070100000346000081A400000000000000000000000156EB6C4800000339000000030000000100000000000000000000001000000000/etc_ro/profile
+# /etc_ro/profile
+# System wide environment and startup programs
+if filecut  -i /dev/mtdblock3 -s0x1FE -l 2 | grep -q "FF FF"
+	insmod /usr/local/lib/kernel/drivers/net/wireless/rt2860v2_ap/rt2860v2_ap.ko 
+	ifconfig ra0 up
+	ifconfig eth2 192.168.0.10
+	tp_mp_server "TL-NC200" "156TCa{m4372V30" &
+# necessary dirs
+mkdir -p /var/run/lighttpd
+PATH=$PATH:/usr/local/bin:/usr/local/sbin
+export PATH
+# lib searching path
+LD_LIBRARY_PATH=/usr/local/lib
+export LD_LIBRARY_PATH
+# startup local interface
+ifconfig lo up
+# setting default time
+echo "GMT-0:00" > /usr/local/etc/TZ
+date -s "2014-8-8 0:0:0"
+# start telnetd for debug
+# start lighttpd
+if [ -f /usr/local/bin/watch_lighttpd.sh ]; then
+	/usr/local/bin/watch_lighttpd.sh &
+	lighttpd -f /usr/local/config/lighttpd.conf
+07070100000347000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000C00000000/etc_ro/web
+07070100000348000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000001100000000/etc_ro/linuxigd
+07070100000349000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000C00000000/etc_ro/xml
+0707010000034A000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000D00000000/etc_ro/dhcp
+0707010000034B000081ED00000000000000000000000156EB6C4900000375000000030000000100000000000000000000001B00000000/etc_ro/dhcp/simple.script
+# udhcpc script edited by Tim Riker <Tim@Rikers.org>
+[ -z "$1" ] && echo "Error: should be called from udhcpc" && exit 1
+RESOLV_CONF="/etc/resolv.conf"
+[ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+[ -n "$subnet" ] && NETMASK="netmask $subnet"
+case "$1" in
+	deconfig)
+#		/sbin/ifconfig $interface 0.0.0.0
+	renew|bound)
+		/sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+		if [ -n "`ifconfig | grep Point-to-Point`" ] ; then 
+		if [ -n "$router" ] ; then
+			echo "deleting routers"
+			while route del default gw 0.0.0.0 dev $interface ; do
+			metric=0
+			for i in $router ; do
+				route add default gw $i dev $interface 
+		echo -n > $RESOLV_CONF
+		[ -n "$domain" ] && echo search $domain >> $RESOLV_CONF
+		for i in $dns ; do
+			echo adding dns $i
+			echo nameserver $i >> $RESOLV_CONF
+0707010000034C000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000C00000000/etc_ro/usb
+0707010000034D000081A400000000000000000000000156EB6C4800000145000000030000000100000000000000000000000D00000000/etc_ro/motd
+Welcome to
+    _______  _______  ___     __  ____   _  _   ___
+    |  ___  \|   __  ||   |   |__||    \ | || | /  /
+    | |___| ||  |__| ||   |__  __ |     \| || |/  /
+    |   _   /|   _   ||      ||  || |\     ||     \
+    |__| \__\|__| |__||______||__||_| \____||_|\___\
+   	             =System Architecture Department=
+0707010000034E000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000D00000000/etc_ro/wlan
+0707010000034F000081ED00000000000000000000000156EB6C4800000200000000030000000100000000000000000000002700000000/etc_ro/wlan/MT7620_AP_2T2R-4L_V15.BIN
+07070100000350000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000600000000/proc
+07070100000351000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/sys
+07070100000352000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/var
+07070100000353000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000600000000/sbin
+070701000003540000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000B00000000/sbin/halt
+../bin/busybox
+070701000003550000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000D00000000/sbin/insmod
+../bin/busybox
+070701000003560000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000C00000000/sbin/rmmod
+../bin/busybox
+070701000003570000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000D00000000/sbin/reboot
+../bin/busybox
+070701000003580000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000F00000000/sbin/ifconfig
+../bin/busybox
+070701000003590000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000C00000000/sbin/lsmod
+../bin/busybox
+0707010000035A0000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000B00000000/sbin/mdev
+../bin/busybox
+0707010000035B0000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000D00000000/sbin/sysctl
+../bin/busybox
+0707010000035C0000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000C00000000/sbin/route
+../bin/busybox
+0707010000035D0000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000F00000000/sbin/poweroff
+../bin/busybox
+0707010000035E0000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000C00000000/sbin/getty
+../bin/busybox
+0707010000035F0000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000D00000000/sbin/udhcpc
+../bin/busybox
+070701000003600000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000A00000000/sbin/arp
+../bin/busybox
+070701000003610000A1FF00000000000000000000000156EB6C510000000F000000030000000100000000000000000000000B00000000/sbin/init
+../bin/busybox
+07070100000362000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/dev
+07070100000363000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000090000000C00000000/dev/mtd4ro
+07070100000364000021B000000000000000000000000156EB6C510000000000000003000000010000005A0000000C0000000A00000000/dev/mtd6
+07070100000365000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000020000000A00000000/dev/mtd1
+070701000003660000219200000000000000000000000156EB6C51000000000000000300000001000000FA000000000000000A00000000/dev/mtr0
+07070100000367000061B000000000000000000000000156EB6C5100000000000000030000000100000001000000000000000A00000000/dev/ram0
+07070100000368000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000000000000F00000000/dev/mtdblock0
+07070100000369000021B000000000000000000000000156EB6C510000000000000003000000010000005A0000000B0000000C00000000/dev/mtd5ro
+0707010000036A000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000010000000C00000000/dev/mtd0ro
+0707010000036B0000219200000000000000000000000156EB6C510000000000000003000000010000006C000000000000000900000000/dev/ppp
+0707010000036C000061B000000000000000000000000156EB6C5100000000000000030000000100000001000000010000000A00000000/dev/ram1
+0707010000036D000061B000000000000000000000000156EB6C5100000000000000030000000100000001000000010000000900000000/dev/ram
+0707010000036E000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000010000000F00000000/dev/mtdblock1
+0707010000036F000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000040000000A00000000/dev/mtd2
+07070100000370000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000030000000C00000000/dev/mtd1ro
+07070100000371000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000020000000F00000000/dev/mtdblock2
+07070100000372000021A400000000000000000000000156EB6C5100000000000000030000000100000001000000080000000C00000000/dev/random
+070701000003730000219200000000000000000000000156EB6C51000000000000000300000001000000EA000000000000000A00000000/dev/i2s0
+07070100000374000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000060000000A00000000/dev/mtd3
+07070100000375000061B000000000000000000000000156EB6C5100000000000000030000000100000001000000030000000A00000000/dev/ram3
+070701000003760000219200000000000000000000000156EB6C510000000000000003000000010000000A000000820000000E00000000/dev/watchdog
+07070100000377000021A400000000000000000000000156EB6C5100000000000000030000000100000002000000010000000B00000000/dev/ptyp1
+07070100000378000021A400000000000000000000000156EB6C5100000000000000030000000100000002000000000000000B00000000/dev/ptyp0
+07070100000379000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000040000000F00000000/dev/mtdblock4
+0707010000037A0000219200000000000000000000000156EB6C51000000000000000300000001000000DA000000000000000B00000000/dev/i2cM0
+0707010000037B000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000080000000A00000000/dev/mtd4
+0707010000037C0000219200000000000000000000000156EB6C51000000000000000300000001000000D9000000000000000B00000000/dev/spiS0
+0707010000037D000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000030000000F00000000/dev/mtdblock3
+0707010000037E000021B600000000000000000000000156EB6C5100000000000000030000000100000005000000020000000A00000000/dev/ptmx
+0707010000037F0000219200000000000000000000000156EB6C51000000000000000300000001000000FB000000000000000B00000000/dev/nvram
+07070100000380000021B000000000000000000000000156EB6C510000000000000003000000010000005A0000000E0000000A00000000/dev/mtd7
+07070100000381000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000060000000F00000000/dev/mtdblock6
+070701000003820000219200000000000000000000000156EB6C51000000000000000300000001000000E9000000000000000A00000000/dev/pcm0
+070701000003830000219200000000000000000000000156EB6C5100000000000000030000000100000005000000010000000D00000000/dev/console
+07070100000384000021A400000000000000000000000156EB6C5100000000000000030000000100000001000000090000000D00000000/dev/urandom
+070701000003850000219200000000000000000000000156EB6C51000000000000000300000001000000E1000000000000000B00000000/dev/motor
+07070100000386000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000070000000F00000000/dev/mtdblock7
+07070100000387000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000900000000/dev/snd
+070701000003880000219200000000000000000000000156EB6C5100000000000000030000000100000074000000100000001200000000/dev/snd/pcmC0D0p
+070701000003890000219200000000000000000000000156EB6C5100000000000000030000000100000074000000180000001200000000/dev/snd/pcmC0D0c
+0707010000038A0000219200000000000000000000000156EB6C5100000000000000030000000100000074000000000000001300000000/dev/snd/controlC0
+0707010000038B0000219200000000000000000000000156EB6C5100000000000000030000000100000004000000400000000B00000000/dev/ttyS0
+0707010000038C000021B600000000000000000000000156EB6C5100000000000000030000000100000001000000030000000A00000000/dev/null
+0707010000038D000021B000000000000000000000000156EB6C510000000000000003000000010000005A0000000D0000000C00000000/dev/mtd6ro
+0707010000038E000021A400000000000000000000000156EB6C5100000000000000030000000100000003000000010000000B00000000/dev/ttyp1
+0707010000038F000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000900000000/dev/pts
+070701000003900000219200000000000000000000000156EB6C5100000000000000030000000100000088000000020000000B00000000/dev/pts/2
+070701000003910000219200000000000000000000000156EB6C5100000000000000030000000100000088000000030000000B00000000/dev/pts/3
+070701000003920000219200000000000000000000000156EB6C5100000000000000030000000100000088000000000000000B00000000/dev/pts/0
+070701000003930000219200000000000000000000000156EB6C5100000000000000030000000100000088000000010000000B00000000/dev/pts/1
+07070100000394000021B000000000000000000000000156EB6C510000000000000003000000010000005A0000000F0000000C00000000/dev/mtd7ro
+070701000003950000219200000000000000000000000156EB6C51000000000000000300000001000000E6000000000000000A00000000/dev/acl0
+070701000003960000219200000000000000000000000156EB6C51000000000000000300000001000000FD000000000000000A00000000/dev/rdm0
+070701000003970000219200000000000000000000000156EB6C51000000000000000300000001000000DC000000000000000C00000000/dev/hwnat0
+07070100000398000021B000000000000000000000000156EB6C510000000000000003000000010000005A0000000A0000000A00000000/dev/mtd5
+070701000003990000219200000000000000000000000156EB6C51000000000000000300000001000000FC000000000000000A00000000/dev/gpio
+0707010000039A000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000070000000C00000000/dev/mtd3ro
+0707010000039B000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000050000000C00000000/dev/mtd2ro
+0707010000039C0000219200000000000000000000000156EB6C51000000000000000300000001000000F0000000000000000900000000/dev/ac0
+0707010000039D0000219200000000000000000000000156EB6C51000000000000000300000001000000D2000000000000000C00000000/dev/swnat0
+0707010000039E000021A400000000000000000000000156EB6C5100000000000000030000000100000003000000000000000B00000000/dev/ttyp0
+0707010000039F000061B000000000000000000000000156EB6C5100000000000000030000000100000001000000020000000A00000000/dev/ram2
+070701000003A00000219200000000000000000000000156EB6C5100000000000000030000000100000004000000410000000B00000000/dev/ttyS1
+070701000003A1000021B000000000000000000000000156EB6C510000000000000003000000010000005A000000000000000A00000000/dev/mtd0
+070701000003A20000219200000000000000000000000156EB6C5100000000000000030000000100000051000000000000000C00000000/dev/video0
+070701000003A3000021B000000000000000000000000156EB6C5100000000000000030000000100000001000000010000000900000000/dev/mem
+070701000003A4000061B000000000000000000000000156EB6C510000000000000003000000010000001F000000050000000F00000000/dev/mtdblock5
+070701000003A50000219200000000000000000000000156EB6C51000000000000000300000001000000EB000000000000000A00000000/dev/cls0
+070701000003A6000021B600000000000000000000000156EB6C5100000000000000030000000100000001000000020000000A00000000/dev/kmem
+070701000003A70000219200000000000000000000000156EB6C51000000000000000300000001000000C8000000000000000C00000000/dev/flash0
+070701000003A80000219200000000000000000000000156EB6C5100000000000000030000000100000051000000010000000C00000000/dev/video1
+070701000003A9000041ED00000000000000000000000256EB6C5100000000000000030000000100000000000000000000000500000000/mnt
+070701000003AA0000A1FF00000000000000000000000156EB6C510000000C000000030000000100000000000000000000000600000000/init
+bin/busybox
+07070100000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000B00000000TRAILER!!!

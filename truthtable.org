@@ -1,0 +1,7 @@
+| STATE   |   initFlag |   parseFlag |   runFlag | NEXT STATE   |
+| +++++++ | ++++++++++ | +++++++++++ | +++++++++ | ++++++++++++ |
+| stInit  |          0 |           0 |         0 | stInit       |
+| stInit  |          1 |           0 |         0 | stParse      |
+| stInit  |          2 |           0 |         0 | stError      |
+| stParse |          2 |           0 |         0 | stParse      |
+| stParse |          2 |           1 |         0 | st           |

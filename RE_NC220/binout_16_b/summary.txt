@@ -1,0 +1,41 @@
+Scan Time:     2023-01-10 14:48:07
+Target File:   /home/sgc/Documents/ECE531/RE_NC220/NC220_v1.1.12_160321_b/NC220_1.1.12_Build_160321_Rel.27531_upgrade.bin
+MD5 Checksum:  732b36d26c6973db412aeb0e1e264b11
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+252           0xFC            uImage header, header size: 64 bytes, header CRC: 0xBE9A003B, created: 2016-03-18 02:51:02, image size: 1867301 bytes, Data Address: 0x80000000, Entry Point: 0x8000C310, data CRC: 0x10189852, OS: Linux, CPU: MIPS, image type: OS Kernel Image, compression type: lzma, image name: "Linux Kernel Image"
+316           0x13C           LZMA compressed data, properties: 0x5D, dictionary size: 33554432 bytes, uncompressed size: 4816188 bytes
+
+WARNING: Extractor.execute failed to run external extractor 'jefferson -d 'jffs2-root' '%e'': [Errno 2] No such file or directory: 'jefferson', 'jefferson -d 'jffs2-root' '%e'' might not be installed correctly
+1867617       0x1C7F61        JFFS2 filesystem, little endian
+
+
+Scan Time:     2023-01-10 14:48:11
+Target File:   /home/sgc/Documents/ECE531/RE_NC220/binout_16_b/_NC220_1.1.12_Build_160321_Rel.27531_upgrade.bin.extracted/13C
+MD5 Checksum:  42e4a8277feaa022d258d0a1e2b522de
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+1573092       0x1800E4        MySQL ISAM index file Version 8
+3309644       0x32804C        Linux kernel version 2.6.36
+3309760       0x3280C0        CRC32 polynomial table, little endian
+3579008       0x369C80        DES SP1, little endian
+3579520       0x369E80        DES SP2, little endian
+3593488       0x36D510        CRC32 polynomial table, little endian
+
+WARNING: Extractor.execute failed to run external extractor '7z e -y '%e'': [Errno 2] No such file or directory: '7z', '7z e -y '%e'' might not be installed correctly
+3924972       0x3BE3EC        xz compressed data
+3944580       0x3C3084        Unix path: /var/run/udhcpc.pid
+4001279       0x3D0DFF        Neighborly text, "neighbor %.2x%.2x.%pM lostrouter"
+4213721       0x404BD9        Intel x86 or x64 microcode, sig 0x0000003f, pf_mask 0x3000000, 1E00-04-04, rev 0x3000000, size 63
+4415488       0x436000        LZMA compressed data, properties: 0x5D, dictionary size: 1048576 bytes, uncompressed size: 1475584 bytes
+
+
+Scan Time:     2023-01-10 14:48:13
+Target File:   /home/sgc/Documents/ECE531/RE_NC220/binout_16_b/_NC220_1.1.12_Build_160321_Rel.27531_upgrade.bin.extracted/_13C.extracted/436000
+MD5 Checksum:  de34db1e53708f9e05188b18c36b5c3c
+Signatures:    411
+

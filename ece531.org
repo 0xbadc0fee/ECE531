@@ -64,6 +64,8 @@
       - [[#test-empty-script-ie-sample_framed][Test empty script (i.e. sample_framed)]]
       - [[#fill-out-after-having-tested][FIll out after having tested...]]
         - [[#terminal-commands-to-move-to-qemu][terminal commands to move to qemu]]
+    - [[#assignment-simple-daemon][ASSIGNMENT: SIMPLE DAEMON]]
+      - [[#ref-projects--links][Ref projects / links]]
   - [[#module-5][Module 5]]
   - [[#module-6][Module 6]]
   - [[#module-7][Module 7]]
@@ -76,7 +78,6 @@
 *** Schedule
 ** Module 1
 N/A
-------
 ** Module 2 Software Analysis and Tools
 *** GOALS: install all necessary dev, deploy, & analysis tool
 *** TODO Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17 [4/4]
@@ -244,7 +245,6 @@ Dynamic section at offset 0xe8 contains 24 entries:
      3. Runtime Analysis
      4. Binary Exploitation
 
-------
 ** Module 3
 *** GOALS:
 **** A
@@ -566,8 +566,12 @@ close(STDEER_FILENO);
       ## call S80sampled (want all other services to start first... i.e. S80...)
       ## reboot, login, check out /var/log/messages
       #+end_src
-
--------
+*** ASSIGNMENT: SIMPLE DAEMON
+**** Ref projects / links
+     + https://www.thegeekstuff.com/2012/02/c-daemon-process/
+     + https://lloydrochester.com/post/c/unix-daemon-example/
+     + https://github.com/pasce/daemon-skeleton-linux-c
+     + https://stackoverflow.com/questions/17954432/creating-a-daemon-in-linux
 ** Module 5
 ** Module 6
 ** Module 7
