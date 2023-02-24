@@ -56,4 +56,15 @@ arm-linux-gnueabi-gcc
 #now...
 arm-linux-gcc
 
+#QEMU + Web Server
+#@host
+#start web service
+sudo python2 -m SimpleHTTPServer 80
+#start qemu image
+from buildroot/ ./test-qemu.sh
+user:sgc
+pwd:
+#@QEMU, test 'get'
+./hw_arm -g -u 192.168.x.x
+
 
