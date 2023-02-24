@@ -17,12 +17,16 @@
 #define ERROR_FORMAT "error no: %s"
 #define DAEMON_NAME "mod4logd"
 #define true 1
-
-
+#define LOG_FILE_NAME "/var/log/messages"
 
 enum error_t{OK=0, ERROR_TIME_FORMAT, ERROR_USLEEP_FORMAT, ERR_CHDIR,
   ERR_DISABLE_PRINT, ERR_FORK, ERR_NO_LOG_FILE, ERR_SAVE_VAR, ERR_SETSID, ERR_TIME,
   ERR_USLEEP, ERR_WTF};
+
+
+
+
+
 
 static void _signal_handler(const int signal) {
   switch(signal) {
@@ -103,6 +107,13 @@ int main(void){
 
   //
   //
+  /*add check for log file presence*/
+  if(access(LOG_FILE_NAME, F_OK) != 0){
+    syslog(LOG_ERR, ERROR_FORMAT, strerror(errno));
+    return ERR_NO_LOG_FILE;
+  }
+
+
   signal(SIGTERM, _signal_handler);
   signal(SIGHUP, _signal_handler);
 
