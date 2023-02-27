@@ -1,66 +1,66 @@
 
 # Table of Contents
 
-1.  [Firmware Analysis Report](#orgd6c1ce4)
-2.  [Abstract](#org2fd0541)
-3.  [Target(s)](#orgaed34de)
-    1.  [Sample 1](#org6642a48)
-        1.  [name: mod4logd.c](#org6a5be5f)
-        2.  [obtained as:](#org753b797)
-        3.  [source language:](#org2e72166)
-    2.  [Sample 2](#orgfb64211)
-        1.  [name: S80sampled](#org8f180e1)
-        2.  [obtained as:](#org33e905d)
-        3.  [source language:](#org64533d6)
-4.  [Methods](#org8e79263)
-    1.  [Applicable Standards](#org88c36d5)
-    2.  [Applicable Attack Vectors](#orgdfd997d)
-    3.  [Suggested Tests, Manual](#org748fd51)
-        1.  [Test Set: Sample 1](#orgba67547)
-        2.  [Test Set: Sample 2](#orgf077ee1)
-    4.  [Suggested Tests, Automatic (SAST)](#org61be84d)
-5.  [Findings](#org6e16ff2)
-    1.  [Results: Sample 1 Manual Review](#org47ac524)
-    2.  [Results: Sample 1 SAST Scan results](#orgaeb5259)
-    3.  [Results: Sample 2 Manual Review](#org8dbe17f)
-    4.  [Results: Sample 2 Scan Results](#org20b7fa7)
-6.  [Conclusion](#org2281fff)
-    1.  [Attack Surface](#org8be453e)
-        1.  [Data Paths](#org5ea6527)
-        2.  [Data Path protections](#org680bad2)
-        3.  [Valueable data](#org03e6e3a)
-        4.  [Valueable data protections](#org3d789f2)
+1.  [Firmware Analysis Report](#orgf6d13fd)
+2.  [Abstract](#org5b6afac)
+3.  [Target(s)](#org5f6b8a3)
+    1.  [Sample 1](#orgb6e2820)
+        1.  [name: mod4logd.c](#org02e4c18)
+        2.  [obtained as:](#org24dcff0)
+        3.  [source language:](#org5dcc968)
+    2.  [Sample 2](#org0f621aa)
+        1.  [name: S80sampled](#org03f9ca9)
+        2.  [obtained as:](#orgf0838f1)
+        3.  [source language:](#org7d8d90d)
+4.  [Methods](#org1598c44)
+    1.  [Applicable Standards](#orgb07c4ef)
+    2.  [Applicable Attack Vectors](#orgc5f1c32)
+    3.  [Suggested Tests, Manual](#org30b23b5)
+        1.  [Test Set: Sample 1](#orga5551e3)
+        2.  [Test Set: Sample 2](#org9f39885)
+    4.  [Suggested Tests, Automatic (SAST)](#org44528e2)
+5.  [Findings](#orgb7db248)
+    1.  [Results: Sample 1 Manual Review](#org9f9b74b)
+    2.  [Results: Sample 1 SAST Scan results](#org637ed72)
+    3.  [Results: Sample 2 Manual Review](#org1bcb75b)
+    4.  [Results: Sample 2 Scan Results](#org19ce603)
+6.  [Conclusion](#org7bec7d8)
+    1.  [Attack Surface](#org2b337b9)
+        1.  [Data Paths](#orga5d9a10)
+        2.  [Data Path protections](#org3c3f614)
+        3.  [Valueable data](#orgeadc407)
+        4.  [Valueable data protections](#orgf8212b2)
 
 
 
-<a id="orgd6c1ce4"></a>
+<a id="orgf6d13fd"></a>
 
 # Firmware Analysis Report
 
 This report serves as a template for analyzing the attack surface of firmware samples.  Samples may
 
 
-<a id="org2fd0541"></a>
+<a id="org5b6afac"></a>
 
 # Abstract
 
 
-<a id="orgaed34de"></a>
+<a id="org5f6b8a3"></a>
 
 # Target(s)
 
 
-<a id="org6642a48"></a>
+<a id="orgb6e2820"></a>
 
 ## Sample 1
 
 
-<a id="org6a5be5f"></a>
+<a id="org02e4c18"></a>
 
 ### name: mod4logd.c
 
 
-<a id="org753b797"></a>
+<a id="org24dcff0"></a>
 
 ### obtained as:
 
@@ -69,7 +69,7 @@ This report serves as a template for analyzing the attack surface of firmware sa
 -   [ ] encrypt
 
 
-<a id="org2e72166"></a>
+<a id="org5dcc968"></a>
 
 ### source language:
 
@@ -79,17 +79,17 @@ This report serves as a template for analyzing the attack surface of firmware sa
 -   [ ] N/A
 
 
-<a id="orgfb64211"></a>
+<a id="org0f621aa"></a>
 
 ## Sample 2
 
 
-<a id="org8f180e1"></a>
+<a id="org03f9ca9"></a>
 
 ### name: S80sampled
 
 
-<a id="org33e905d"></a>
+<a id="orgf0838f1"></a>
 
 ### obtained as:
 
@@ -99,7 +99,7 @@ This report serves as a template for analyzing the attack surface of firmware sa
 -   [ ] other
 
 
-<a id="org64533d6"></a>
+<a id="org7d8d90d"></a>
 
 ### source language:
 
@@ -109,12 +109,12 @@ This report serves as a template for analyzing the attack surface of firmware sa
 -   [ ] N/A
 
 
-<a id="org8e79263"></a>
+<a id="org1598c44"></a>
 
 # Methods
 
 
-<a id="org88c36d5"></a>
+<a id="orgb07c4ef"></a>
 
 ## Applicable Standards
 
@@ -127,7 +127,7 @@ This report serves as a template for analyzing the attack surface of firmware sa
 -   [ ] PA-DSS
 
 
-<a id="orgdfd997d"></a>
+<a id="orgc5f1c32"></a>
 
 ## Applicable Attack Vectors
 
@@ -142,12 +142,12 @@ This report serves as a template for analyzing the attack surface of firmware sa
 -   [X] Bad Coding Practices
 
 
-<a id="org748fd51"></a>
+<a id="org30b23b5"></a>
 
 ## Suggested Tests, Manual
 
 
-<a id="orgba67547"></a>
+<a id="orga5551e3"></a>
 
 ### Test Set: Sample 1
 
@@ -166,7 +166,7 @@ This report serves as a template for analyzing the attack surface of firmware sa
 4.  Logging / Auditing
 
 
-<a id="orgf077ee1"></a>
+<a id="org9f39885"></a>
 
 ### Test Set: Sample 2
 
@@ -177,7 +177,7 @@ This report serves as a template for analyzing the attack surface of firmware sa
     -   [ ] Formatted Strings
 
 
-<a id="org61be84d"></a>
+<a id="org44528e2"></a>
 
 ## Suggested Tests, Automatic (SAST)
 
@@ -190,12 +190,12 @@ This report serves as a template for analyzing the attack surface of firmware sa
 -   [X] ShellCheck
 
 
-<a id="org6e16ff2"></a>
+<a id="orgb7db248"></a>
 
 # Findings
 
 
-<a id="org47ac524"></a>
+<a id="org9f9b74b"></a>
 
 ## Results: Sample 1 Manual Review
 
@@ -207,7 +207,7 @@ formatting.  The program was then uploaded to github.com for use with the github
 SAST tool 'codeql'.
 
 
-<a id="orgaeb5259"></a>
+<a id="org637ed72"></a>
 
 ## Results: Sample 1 SAST Scan results
 
@@ -236,17 +236,36 @@ Having confirmed the scanner was functioning, the deliberate flaw was removed
 and the code recomitted to the original repository.
 
 
-<a id="org8dbe17f"></a>
+<a id="org1bcb75b"></a>
 
 ## Results: Sample 2 Manual Review
 
+A manual review of the daemon shell S80sampled did not produce any obvious
+vulnerabilities. 
 
-<a id="org20b7fa7"></a>
+
+<a id="org19ce603"></a>
 
 ## Results: Sample 2 Scan Results
 
+An automated scan of the script S80sampled produced alerts on the use of
+variables when calling 'printf()'
 
-<a id="org2281fff"></a>
+    In S80sampled line 6:
+      printf "Starting $DAEMON_NAME: "
+             ^-----------------------^ SC2059: Don't use variables in the printf... 
+    format string. Use printf "..%s.." "$foo".
+    
+    In S80sampled line 13:
+      printf "Stopping $DAEMON_NAME: "
+             ^-----------------------^ SC2059: Don't use variables in the printf...
+    format string. Use printf "..%s.." "$foo".
+    
+    For more information:
+      https://www.shellcheck.net/wiki/SC2059 -- Don't use variables in the printf...
+
+
+<a id="org7bec7d8"></a>
 
 # Conclusion
 
@@ -256,14 +275,14 @@ useful in building the workflow you see here.  This work flow has become the
 basis of a template for further code testing.
 
 
-<a id="org8be453e"></a>
+<a id="org2b337b9"></a>
 
 ## Attack Surface
 
 The attack surface for Sample 1 can be described as:
 
 
-<a id="org5ea6527"></a>
+<a id="orga5d9a10"></a>
 
 ### Data Paths
 
@@ -279,7 +298,7 @@ The attack surface for Sample 1 can be described as:
 4.  Data export
 
 
-<a id="org680bad2"></a>
+<a id="org3c3f614"></a>
 
 ### Data Path protections
 
@@ -292,7 +311,7 @@ The attack surface for Sample 1 can be described as:
 4.  Data Validation
 
 
-<a id="org03e6e3a"></a>
+<a id="orgeadc407"></a>
 
 ### Valueable data
 
@@ -305,7 +324,7 @@ The attack surface for Sample 1 can be described as:
 4.  Personal or PII data
 
 
-<a id="org3d789f2"></a>
+<a id="orgf8212b2"></a>
 
 ### Valueable data protections
 
