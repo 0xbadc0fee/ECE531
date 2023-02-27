@@ -1,0 +1,318 @@
+% Created 2023-02-27 Mon 13:46
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Silas Curfman}
+\date{}
+\title{Secure Code Review (template)}
+\hypersetup{
+ pdfauthor={Silas Curfman},
+ pdftitle={Secure Code Review (template)},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\#+LATEX\textsubscript{HEADER}
+\section{Firmware Analysis Report}
+\label{sec:org35cac4a}
+This report serves as a template for analyzing the attack surface of firmware samples.  Samples may
+\section{Abstract}
+\label{sec:org3ff914f}
+\section{Target(s)}
+\label{sec:org2d36070}
+\subsection{Sample 1}
+\label{sec:org98ad188}
+\subsubsection{name: mod4logd.c}
+\label{sec:org579e1ff}
+\subsubsection{obtained as:}
+\label{sec:org1a7891e}
+\begin{itemize}
+\item[{$\boxtimes$}] source code
+\item[{$\square$}] compresed binary
+\item[{$\square$}] encrypt
+\end{itemize}
+\subsubsection{source language:}
+\label{sec:org93d5584}
+\begin{itemize}
+\item[{$\boxtimes$}] C, C++
+\item[{$\square$}] PHP
+\item[{$\square$}] SH
+\item[{$\square$}] N/A
+\end{itemize}
+\subsection{Sample 2}
+\label{sec:org5528869}
+\subsubsection{name: S80sampled}
+\label{sec:orgfbd7561}
+\subsubsection{obtained as:}
+\label{sec:orga3b9d19}
+\begin{itemize}
+\item[{$\boxtimes$}] source code
+\item[{$\square$}] compressed binary
+\item[{$\square$}] encrypted
+\item[{$\square$}] other
+\end{itemize}
+\subsubsection{source language:}
+\label{sec:org8d64aaa}
+\begin{itemize}
+\item[{$\square$}] C, C++
+\item[{$\square$}] PHP
+\item[{$\boxtimes$}] SH
+\item[{$\square$}] N/A
+\end{itemize}
+\section{Methods}
+\label{sec:org71c7d50}
+\subsection{Applicable Standards}
+\label{sec:orgd6e7e1f}
+\begin{itemize}
+\item[{$\boxtimes$}] OWASP
+\item[{$\boxtimes$}] SANS
+\item[{$\square$}] CERT
+\item[{$\square$}] CVE
+\item[{$\boxtimes$}] MITRE / CWE / CWE Top 25
+\item[{$\square$}] NVE
+\item[{$\square$}] PA-DSS
+\end{itemize}
+\subsection{Applicable Attack Vectors}
+\label{sec:orgfc96519}
+\begin{itemize}
+\item[{$\boxtimes$}] Data / Input Validation
+\item[{$\boxtimes$}] Authentication
+\item[{$\square$}] Session Management
+\item[{$\square$}] Authorization
+\item[{$\square$}] Cryptography
+\item[{$\square$}] Error Handling
+\item[{$\boxtimes$}] Logging / Auditing
+\item[{$\square$}] Secure Code Environment
+\item[{$\boxtimes$}] Bad Coding Practices
+\end{itemize}
+\subsection{Suggested Tests, Manual}
+\label{sec:org82e41ed}
+\subsubsection{Test Set: Sample 1}
+\label{sec:org2be392d}
+\begin{enumerate}
+\item Data / Input Validation
+\label{sec:org499d138}
+\begin{itemize}
+\item[{$\square$}] CWE-665 Improper Initialization
+\item[{$\square$}] Stack Overflows
+\item[{$\square$}] Formatted Strings
+\end{itemize}
+\item Session Management
+\label{sec:orga149cb8}
+\item Authorization
+\label{sec:orgcd7966a}
+\begin{itemize}
+\item[{$\boxtimes$}] CWE-732 Incorrect Permission Assignment
+\end{itemize}
+\item Logging / Auditing
+\label{sec:orgca008f0}
+\end{enumerate}
+\subsubsection{Test Set: Sample 2}
+\label{sec:org5754780}
+\begin{enumerate}
+\item Data / Input Validation
+\label{sec:orgb005918}
+\begin{itemize}
+\item[{$\square$}] CWE-665 Improper Initialization
+\item[{$\square$}] Stack Overflows
+\item[{$\square$}] Formatted Strings
+\end{itemize}
+\end{enumerate}
+\subsection{Suggested Tests, Automatic (SAST)}
+\label{sec:org386e515}
+\begin{itemize}
+\item[{$\boxtimes$}] CodeQL (GitHub)
+\item[{$\square$}] SonarQube
+\item[{$\square$}] Snyk
+\item[{$\square$}] Veracode
+\item[{$\square$}] AppScan
+\item[{$\square$}] Checkmarx
+\item[{$\boxtimes$}] ShellCheck
+\end{itemize}
+\section{Findings}
+\label{sec:org5831ecf}
+\subsection{Results: Sample 1 Manual Review}
+\label{sec:orgfad0810}
+The code in Sample 1, mod4logd.c, is a very short program with limited scope. A
+brief manual review of the code, after successfully compiling and running,
+showed no obvious security vulnerabilities.  Special attention was paid to
+variable declarations, variable initializations, data types, and string
+formatting.  The program was then uploaded to github.com for use with the github
+SAST tool 'codeql'.
+\subsection{Results: Sample 1 SAST Scan results}
+\label{sec:org6a07277}
+Before the code in Sample 1 could be scanned with CodeQL, a special YAML file
+needed to be configured for the mod4logd.c code.  A 'dry' run was configured
+first in which no security scanning was done; but would confirm that CodeQL
+could compile and run the binary produced by internally compiling the c code.
+The configuration was set for an Ubuntu 20.04 environment, assigned the
+necessary libraries, and instructed to run 'make' in the same manner as was done
+on the development box.
+
+After making a few edits to the YAML file to succesfully compile the c code, the
+testing queries 'security-and-quality' and 'security-extended' were added to the
+YAML file instructions.  The code was then scanned again with the targeted
+security queries.
+
+The results came back with no alerts or warnings.  Just to confirm the code
+scanner was working as intended, a deliberate vulnerability was then added to
+mod4logd.c in the form of an unitialized variable that was then called in a
+function named '\textsubscript{do}\textsubscript{badidea}'.  On the development box the unitialized variable
+caused no problem in compiling or running the function.  The modified program
+was then pushed to the same github repository and an automatic re-scan was then
+triggered for CodeQL.  The second round of CodeQL scanning correctly identified
+the unitialized variable as a security vulnerability and logged an alert.
+Having confirmed the scanner was functioning, the deliberate flaw was removed
+and the code recomitted to the original repository.
+\subsection{Results: Sample 2 Manual Review}
+\label{sec:org4ecd670}
+A manual review of the daemon shell S80sampled did not produce any obvious
+vulnerabilities. 
+\subsection{Results: Sample 2 Scan Results}
+\label{sec:orgf79287a}
+An automated scan of the script S80sampled produced alerts on the use of
+variables when calling 'printf()'
+\phantomsection
+\label{org516101c}
+\begin{verbatim}
+In S80sampled line 6:
+  printf "Starting $DAEMON_NAME: "
+         ^-----------------------^ SC2059: Don't use variables in the printf... 
+format string. Use printf "..%s.." "$foo".
+
+In S80sampled line 13:
+  printf "Stopping $DAEMON_NAME: "
+         ^-----------------------^ SC2059: Don't use variables in the printf...
+format string. Use printf "..%s.." "$foo".
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2059 -- Don't use variables in the printf...
+\end{verbatim}
+
+After making the suggested edits at lines 6 \& 13, the shell script was rescanned
+and the results produced no errors or alerts.
+\section{Conclusion}
+\label{sec:org601c0f5}
+While the code for Sample 1 is quite small and presented no obvious security
+vulnerabilities during the manual and automated testing; the process was very
+useful in building the workflow you see here.  This work flow has become the
+basis of a template for further code testing.
+
+\subsection{Attack Surface}
+\label{sec:org15062ac}
+The attack surface for Sample 2 can be described as:
+\subsubsection{Data Paths}
+\label{sec:org617b583}
+\begin{enumerate}
+\item Argument strings
+\label{sec:org1c16436}
+\begin{itemize}
+\item This program relies on properly formated string arguments provided by the
+user.  This could possibly be exploited. CWE-135
+\end{itemize}
+\item Libraries
+\label{sec:org47f0209}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item Data ingest
+\label{sec:org565abf2}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item Data export
+\label{sec:orgb4c916a}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\end{enumerate}
+\subsubsection{Data Path protections}
+\label{sec:org7d0e0e0}
+\begin{enumerate}
+\item Authentication
+\label{sec:orgd2a44b6}
+\begin{itemize}
+\item There is no explicit user authentication built into this script. CWE-287
+\end{itemize}
+\item Authorization
+\label{sec:org1d11d52}
+\begin{itemize}
+\item There is no explicit user authorization built into this script. CWE-285
+\end{itemize}
+\item Activity Logging
+\label{sec:org3a7880f}
+\begin{itemize}
+\item There is no activity logging built into this script. CWE-778, OWASP top 10.
+\end{itemize}
+\item Data Validation
+\label{sec:orgdaff607}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\end{enumerate}
+\subsubsection{Valueable data}
+\label{sec:org9bf417d}
+\begin{enumerate}
+\item Secrets \& Keys
+\label{sec:orga310d4c}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item Intellectual Property
+\label{sec:org73e0216}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item Critical Business Data
+\label{sec:org84e3c6a}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item Personal or PII data
+\label{sec:org5da1349}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\end{enumerate}
+\subsubsection{Valueable data protections}
+\label{sec:org20ddd2b}
+\begin{enumerate}
+\item encryption \& checksums
+\label{sec:org20dbd51}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item access auditing
+\label{sec:org64470aa}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item data integrity
+\label{sec:orgdd92f78}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\item operational security controls
+\label{sec:org51cd870}
+\begin{itemize}
+\item n/a
+\end{itemize}
+\end{enumerate}
+\end{document}
