@@ -7,22 +7,27 @@
 *** Syllabus
 *** Course Map
 *** Schedule
-** Module 1
+** DONE Module 1
+CLOSED: [2023-04-26 Wed 12:42]
 N/A
 ------
-** Module 2 Software Analysis and Tools
+** DONE Module 2 Software Analysis and Tools
+CLOSED: [2023-04-26 Wed 12:42]
 *** GOALS: install all necessary dev, deploy, & analysis tool
-*** TODO Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17 [4/4]
+*** DONE Install Ubuntu 20.04 as VM in VMWare Workstation Pro 17 [4/4]
+CLOSED: [2023-04-26 Wed 12:42]
    - [X] Get ISO
    - [X] Provision hd with 50-100 gb
    - [X] Install as new VM
    - [X] Install VMWware Tools for file transfer
-*** TODO Configure devbox with following tools. [1/1]
+*** DONE Configure devbox with following tools. [1/1]
+CLOSED: [2023-04-26 Wed 12:42]
    - [X] BASIC TOOLS: [3/3]
      - [X] ssh
      - [X] net-tools
      - [X] vim
-*** TODO Configure devbox with following tools. [2/2]
+*** DONE Configure devbox with following tools. [2/2]
+CLOSED: [2023-04-26 Wed 12:42]
    - [X] BASIC TOOLS: [5/5]
      - [X] ssh
      - [X] tmux
@@ -31,11 +36,13 @@ N/A
      - [X] git tools
    - [X] ADVANCED TOOLS: [1/1]
      - [X] VMware Workstation (inside ubuntu)
-*** TODO Configure deployment box (vm inside vm) [3/3]
+*** DONE Configure deployment box (vm inside vm) [3/3]
+CLOSED: [2023-04-26 Wed 12:42]
    - [X] Dolwnload QEMU
    - [X] Download buildroot
    - [X] select vagrant or direct install method
-*** TODO Download & Analyze HS110 [4/4]
+*** DONE Download & Analyze HS110 [4/4]
+CLOSED: [2023-04-26 Wed 12:42]
    - [X] Download firmware
    - [X] Run binwalk on binary
    - [X] Review output of binwalk [5/5]
@@ -75,7 +82,8 @@ strings -n 10 439C > 439C-strings.out
      8. Runtime Analysis
      9. Binary Exploitation
 #+END_EXAMPLE
-*** TODO Assignment: NC220 Firmware Analysis (use OWASP model) [0/0]
+*** DONE Assignment: NC220 Firmware Analysis (use OWASP model) [0/0]
+CLOSED: [2023-04-26 Wed 12:42]
      1. Information Gathering / Recon
         1. Source: Provided via course material
         2. Files:
@@ -178,7 +186,8 @@ Dynamic section at offset 0xe8 contains 24 entries:
      4. Binary Exploitation
 
 ------
-** Module 3
+** DONE Module 3 Networking, Linking & Loading
+CLOSED: [2023-04-26 Wed 12:43]
 *** GOALS:
 **** A
      - Devolop and analyze an attack surface of an IoT System
@@ -389,7 +398,8 @@ Dynamic section at offset 0xe8 contains 24 entries:
       - [ ] ?? Need a oneliner for make file?
       - [ ] submit through canvas.
 ------
-** Module 4
+** DONE Module 4 System Programming & OS Dependencies
+CLOSED: [2023-04-26 Wed 12:43]
 *** Daemon Processes / video IoT_4_1_1
 **** Notes:
  - Forking processes
@@ -501,10 +511,620 @@ close(STDEER_FILENO);
       #+end_src
 
 -------
-** Module 5
-** Module 6
-** Module 7
-** Module 8
-** Misc Info / Notes
-   
-   
+** DONE Module 5 Cloud Computing Services [4/4]
+CLOSED: [2023-05-11 Thu 09:42]
+*** DONE Intro to Cloud Computing [4/4]
+CLOSED: [2023-04-27 Thu 09:03]
+- [X] Introduction to Cloud Computing for IoT
+  - exponential growth in cloud computing taking place of cyber infastructure
+  - by 2018, 59% of total cloud workload = SaaS, up from 41% in 2013
+  - Cisco predicts 28% of total cloud workload will be in IaaS
+  - 13% of total cloud work load in PaaS
+  - organizations need for infrastructure growth is never linear and is hard to predict peaks and valleys, moving from on prem to cloud allows organizations to scale up and scale back down as needed quickly and without too much cost.
+  - creates expensive SURPLUSES and unacceptable DEFICITS
+- [X] History of the Cloud Towards IoT
+  - in the begining pcs needed MAINFRAIMS and TERMINALS, all users facing a terminal, terminals not connected
+  - then came PC, more people having indivitual computer + terminal
+  - then networked PC became big
+  - networked PC's gave way to the internet
+  - web expanded greatly
+- [X] From Datacenters to the Cloud
+  - Datacenters: heart of networks / web today.  Very complex, big, facilities maint requirements, distributed around world, extremely expensive, very power and cooling hungry
+  - also lifelong high cost of maintaining data centers
+  - 10 years ago, data centers consumed 1.5% of all US electricity
+  - .. today, outsouce what you need from a datacenter to a provider,
+  - computing POWER is now a COMMODITY, part of the reason companies can START-UP GROW and GO PUBLIC so fast
+  - cloud benefits:
+    - offers low pay as you go model
+    - vendors build and manage the infrastructure at scale
+    - pass cost savings on to clients in form of lower prices
+    - with efficiencies of scale and expertise, continue to lower prices
+  - things to keep in mind:
+    - instances will die
+    - you will share resources with others
+    - the architecture will change
+    - you will never see the lights
+- [X] Quiz: Intro to Cloud Compution (5pts)
+*** DONE Cloud Models [4/4]
+CLOSED: [2023-04-27 Thu 10:05]
+- [X] Cloud Architecture and Models
+  1. Cloud Characteristics
+     - Common characteristics:
+       - massive scale
+       - homogeneity
+       - virtualization
+       - low cost software
+       - resilient computing
+       - geographic distribution
+       - service orientation
+       - advanced security
+     - Essential Characteristics:
+       - on demand self-service
+       - broad network access
+       - resource pooling
+       - rapid elasticity
+       - measured service
+     - NIST working definintion of cloud computing
+       1. Top layer (essential characteristics)
+          broad network access, rapid elasticiy, measured service, ondeman, resource pooling
+       2. Middle layer (service models)
+          SaaS, PaaS, IaaS
+       3. Bottom Layer (Deployment models)
+          Public, Private, Hybrid, Community
+  2. Service Models
+     1. Infrastructure as a Service (IaaS)
+        + we manage: applications, runtimes, security, databases
+        + they manage: servers, virtualization, HW, storage, networking
+     2. Platform as a Service (PaaS)
+        + we manage: applications
+        + they manage: everything else
+     3. Software as a Service (SaaS)
+        + we manage: nothing, all we do is interact with it / client / consume the service or application
+        + they manage: entire stack
+     4. On premise
+        we manage EVERYTHING
+  3. Deployment Models
+     1. Public
+     2. Private
+     3. Community
+     4. Hybrid
+- [X] Cloud Deployment Models
+  1. Public Cloud
+     1. enterprise <-> public cloud
+     2. RATIONAL: security, access control, concern for data integrity, government rules and regs, healthcare, etc.
+  2. Private Cloud
+     1. a cloud deployed INSIDE and ENTERPRISE, more secure, less access
+  3. Community Cloud
+     1. cloud being served by specific group of people (e.g. a university), connected to the enterprise but not inside it
+  4. Hybrid Cloud
+     1. cloud comprised of MULTIPLE DIFFERENT clouds. i.e. using Gdrive, O365, and AWS in the same enterprise
+- [X] Reading Assignment: The NIST definition of the cloud (10pts)
+- [X] Quiz: Cloud models (5pts)
+*** DONE Common Cloud Models [5/5]
+CLOSED: [2023-05-11 Thu 09:42]
+- [X] AWS Architecutre I
+- [X] AWS Arhictecture II
+- [X] Google Cloud and MS Azure
+- [X] Reading Assignment: Cloud Vendor Comparison (10pts)
+- [X] Quiz: Cloud Providers (6pts)
+*** DONE IoT Data and Cloud Computing [3/3]
+CLOSED: [2023-04-27 Thu 11:37]
+- [X] Why (not) move IoT service to the Cloud
+  
+| IoT Requirements             | Cloud Challenges                   |
+|------------------------------+------------------------------------|
+| High dynamic res. demands    | support for application elasticity |
+|------------------------------+------------------------------------|
+| real time needs              | quality of service assurance       |
+|------------------------------+------------------------------------|
+| expect exp growth of demand  | cloud infrastructure scalability   |
+|------------------------------+------------------------------------|
+| availability of applications | cloud reliability                  |
+|------------------------------+------------------------------------|
+| data protection & usr privcy | cloud privacy and security         |
+|------------------------------+------------------------------------|
+| effc power consumption, apps | effc energy resource mgmnt         |
+|------------------------------+------------------------------------|
+| execution of edge application| cloud federation                   |
+|------------------------------+------------------------------------|
+| access to an open, inter-    | cloud interoperability             |
+| operable cloud ecosystem     | and portability                    |
+|------------------------------+------------------------------------|
+
+  - advandtage of moving apps to cloud?
+    - cloud computing enables IoT application, which are system infrastructure dependent, to be infrastructure-less
+    - by using cloud infrastructure on pay-as-you-go or on demand we can save capital and operational investment
+    - IoT devices can:
+      - PUT their DATA on the PLATFORM instead of their own servers
+      - PUSH some of the computational load to the CLOUD by having apps run on the cloud
+      - data MANIPULATION and APP can exist in the SAME environment simplifying communication
+  - leveraging PUBLIC cloud providers
+    - enables services to be used WITHOUT any UNDERSTANDING of their INFRASTRUCTURE
+    - cloud just provides and API
+    - Cloud computing works using economies of scale:
+      - potentially lowers OUTLAY expense for startup companies, as they would no longer need to buy their own software or servers
+      - Cost would be by ON-DEMAND pricing
+      - VENDORS and SERVICE providers claim costs by establishing ONGOING revenue stream
+    - Data and services are stored remotely but accessible from "anywhere"
+    - Reduced software costs
+      - instead of purchasing expensive applications, you can get most of what you need 'free-ish'
+      - better than paying for similar COMMERCIAL software
+        - may alone be enough justification to move to CLOUD
+    - Instant Software Update
+      - Another advantage to cloud computing is thatyou are no longer faced with choosing between obsolete software and high upgrade costs
+      - when the application is web based, updates happen automatically
+      - when you access a web based application you get the latest version
+    - IoT INTEROPERABILITY
+      - so long as you have a uniform api, you are no longer tethered to a single computer or network
+      - changes to computers, applications, and documents FOLLOW you through the cloud
+      - move to a portable device ans your application and documents are still AVAILABLE
+  - [X] Challenges in moving IoT data to the Cloud
+    - What are the PAIN POINTS?
+      - BACKLASH, equal and parallel backlash AGAINST moving things to the cloud..
+        - use of cloud computing means DEPENDENCE on others and that could POSSIBLY limit flexibility and innovation
+          - other are likely to become the bigger internet companies like Google and IBS who may MONOPOLIZE the market
+          - some argue that this issue of supercomputers is a RETURN to the time of MAINFRAME computing that PC was a reaction against.
+        - SECURITY
+          - still unclear how safe out-sourced data is and when these services ownership of data is not always clear
+        - POLICY & ACCESS (do rules allow / prevent you from making use of the cloud)
+          - is your data stored ABROAD, is that permissible?
+          - what happens if remote server goes down??
+          - how will you access the files??
+          - significant cases of users being LOCKED OUT of accounts and LOSING ACCESS to data.
+      - Cloud CAN be SLOW, even if not typical
+        - even with fast connection, web apps can sometimes be slower than accessing similar software on prem (ERP, solidworks, etc)
+        - everything about the app from UI to backend has to be passed back and forth over the web
+        - if cloud servers loaded with traffic (backed up) can create lengthy headaches for cloud users felt through long delays.
+      - OTHER CHALLENGES
+        - Stored data might not be secure..
+          - with cloud computing, ALL IoT DATA IS STORED ON CLOUD
+            - so how secure is it?
+            - do your IoT apps contain PII?
+          - can unauthorized users access the data?
+        - stored data can be lost..
+          - theoretically safe, but replicated across multiple machines
+          - if data DOES go missing, no offsite backups
+            - relying on cloud puts you at resit fi teh cloud lets you down
+      - UNIVERSAL DATA ACCESS
+        - you don't take your data with you
+        - instead they stay in the cloud and you can access them anywhere you have a computer and internet cnx
+        - data are instantly available from WHEREVER you are
+      - Latest Version availability:
+        - when you edit a doc at home, that edited version is what you see when you a ccess the document work
+        - the cloud ALWAYS hosts the latest version of your doucment, as long as you are connected, you are not in danger of loosing your work,,,
+  - [X] Quiz: IoT Cloud Services (5pts)
+** TODO Module 6 Cloud & IoT Integration [3/4]
+*** DONE Edge & Microservices [4/4]
+CLOSED: [2023-05-11 Thu 10:44]
+- [X] Cloud Edge Services
+- [X] IoT pushing the limits of SOA to microservices
+- [X] Why microservices?
+- [X] Quiz: Edge Services (6pts)
+*** DONE IoT Device and Cloud Computing [4/4]
+CLOSED: [2023-05-11 Thu 10:44]
+- [X] Device to Cloud (D2C) pt 1
+  - how iot <-> cloud
+    - core properties are of MESSAGING functionality are RELIABILITY and DURABILITY
+      - properties enable RESILIENCE
+      - intermittenct connectivity on device side
+      - load spikes on cloud side
+      - IoT cloud app must exposed message / events
+  - what options.. (device facing)
+    - MQTT
+      - MQ Telemetry Transport, ibm
+        - uses tcp, lightweight, beneficial to small iot
+        - very mature, easy to implement
+      - works on a pub/sub model.  client subscribes to channel on a server , info gets pushed out to subscribers.
+      - offers QoS:
+        - 0: client/server will deliver message once, no confimration required
+        - 1: client/server will deliver at least once, with confirmation
+        - 2: client/server will deliver exactly once but by using handshake process
+      - each level uses more bandwith but will give spectrum of assurances
+      - with MQTT application must have a library to talk to the MQTT server and handle pub/sub method
+    - AMPQ
+      - [A]dvanced [M]essaging [Q]ueing [P]rotocol, sometimes an IoT protocol
+      - sends TRANSACTIONAL messages between cloud services
+      - message centric middleware that came out of the banking industry, can process thousands of RELIABLE queued transactions.
+      - focused on NOT LOSING MESSAGES
+        - uses tcp, strictly Point to Point
+        - endpoints MUST acknowledge acceptance of messages
+        - includes optional transaction mode / commit sequence
+        - due to banking origin, very focuses on tracking ALL messages.
+      - mostly used in business messaging (i.e. ERP)
+    - XMPP
+      - best suided for connecting DEVICES to PEOPLE, special d2c pattern
+      - originally called jabber.  developed for IM to connect peopl to other people vis text messages
+      - XMPP = Extensible Messaging and Presence Protocol. presence = people involved
+      - uses XML, makes person to person communications more naturally text based
+        - like MQTT, runs over TCP or HTTP on top of TCP
+        - key strength is name@domain.com addressing scheme
+      - IoT:
+        - XMPP offers easy way to address devices
+        - not designed to be fast
+        - BOSH (bidirectional streams over synch http) for server push.
+    - HTTP
+  - 
+- [X] Device to Cloud (D2C) pt 2
+  - WebSockets (is not HTTP)
+    - good option for IoT messaging
+    - best way to get full push/pull comms, not possible with HTTP
+    - great if you have a full web client
+    - downsize is need to come up with own protocol for transmission data
+  - Protocol over Websockets
+    - frequent use is to use MQTT/XMPP/AMPQ ON TOP OF websockets
+    - websocket defines how can rasise and HTTP connection in bidirection achannel
+      - problem websocket wasnt to resolve is HTTP is UNIDIRECTIONAL
+    - in higher layer, MQTT/XMPP/AMPQ defined how endpoints exchange data with same broker
+    - Analogy
+      - MQTT like fedex, you sign address, it delivers package
+      - websocket is like the road, if TCP is the roadbed underneath, enables the transport
+      - fedex travels on the road, MQTT works on websocket
+  - IoT needs many protocols
+    - ones here differ greately
+    - categories
+      - QoS
+        - quahlity of service
+        - controls the flexibility or looseness of data transfer
+        - complex QoS makes harder to understand and demanding to build applicaitons
+      - Addressing
+      - Application
+  - Discoverability
+    - finding data needle in huge IoT haystack
+    - XMPP best here for single item discovery
+      - uses "user@domain" addressing, well established conventions
+      - but doesn't easily handle large data sets
+    - MQTT (connection to a server) handles case well
+    - AMQP (connection to cloud) C2C microservices
+  - Intended Applications
+    - inter-device data use is fundamentally different use case from device data collection
+    - i.e. turning light switch on /off (XMPP) vs generating power & moving it (MQTT), analysing it (AMQP)
+- [X] D2C and C2D
+  - Considerations
+    - HTTP does not have efficient way to implement server push
+    - when using HTTP have to POLL the cloud for cloud-to-device messages, inefficient
+    - current HTTP guidelines, device should poll cloud every 25 min or more (very limiting)
+    - alternatively MQTT and AMQP support server push on rec cloud-to-device messaging
+  - Field GATEWAYS
+    - in IoT gateway sits between your device and an IoT hub
+    - typically located near the device
+    - device communicates direction with gateway not downstream endpoints
+    - field gateway can be highly specialized
+    - ability to m'plex the communicaiton from m' devices onto same cloud
+  - MQTT and field gateways
+    - MQTT + HTTP cannot connect multiple devices using same TLS connection
+    - suboptimal, even though field gateway present, has to have separate TLS connections for every diff device.
+  - Network traversal
+    - std ampq protocol uses port 5671 while mqtt listens on 8883, would cause problems on networks closed to HTTP protocols
+    - in this scenario, can use websockets for AMQP-MQTT
+  - Payload Size
+    - MQTT & AMQP binary protocols, result in more compact payloads than HTTP.  XML is ascii
+  - Cloud to Device Comm
+    - *Direct Methods* for comms that require IMMEDIATE confirmation of result
+    - *Twins* for setting desired properties adn propogating chagne...
+    - *Cloud-to-device Messages* one way notification to the device app
+- [X] Quiz: D2C and D2D communications
+*** DONE Cloud Security [5/5]
+CLOSED: [2023-05-11 Thu 11:26]
+- [X] Cloud Security
+  - Intro
+    - massic concentration of resources
+    - massivc concentration of risk
+    - significantly larger number os 'users' represents high concentration of threats
+  - cont.
+    - security is on of the most difficult to implement tasks in cloud computing.  it's different forms of attacks and hardware components.  catastrophic attacks need only one security flaw.
+  - why not everyone is going cloud..
+    - acts as a giant black bock, opaque to clients
+    - clients have little / no control over what happens inside cloud
+    - even if vendor is honest, can have malicious sysadmins
+    - still subject to traditional data confidentiality, integrity, availability demands
+- [X] Security Problems
+  - Source of Security Problems (in cloud)
+    - *Loss of control*
+      - Consumer side..
+        - data, applications, and resources handled by providers
+        - identity management handled at cloud
+        - access control rules & security policies managed by providers
+        - consumer relies on provider to ensure..
+          - data security and privacy
+          - resource availability
+          - monitoring and repairing of services..
+    - *lack of trust*
+      - trusting a third party requires risk
+      - define trust / risk
+        - 2 sides of same coin
+        - people only trust when it pays..
+        - need for trust arises only after risky situations
+      - defunct 3rd party management schemes..
+        - hard to balance risk and trust
+        - e.g. Key Escrow (clipper chip)
+        - is cloud headed to same path?
+      - what if cloud provider is competing with you (amazon sells same product?)
+        - big question for netflix, lyft, etc choose to use AWS of your potential competitor?
+        - does amazon benefit from competitors running infrastructure on AWS?
+    - *multi-tenancy*
+      - confilcts between tentanst opposing goals..
+        - tenanst have to share resources but who wins
+      - how does multi-tenancy handl conflicts of interests between tenants
+        - can tenants play well with each other sharing the same resources?
+        - if not, how can we isolate them?
+      - how to provide separation between tenants
+      - multiple independent users on same physical resources
+      - attackers can theoreticall be on the same machine as their targets
+      - Core issues
+        - many cloud providers trust their customers
+        - what if some customers are evil?
+  - most prolbems exist in 3rd party realm
+    - self-managed clouds stil lhave security issues but not related to the above
+    - 
+- [X] Taxonomy of Fear
+  - Confidentiality and Integrity
+    - Confidentiality
+      - fear of loss of control over data
+      - will cloud provider be honest, not peek at data?
+    - Integrity
+      - how do we know their doing the computations correctl?
+      - how do we know the provider isn't tampering with our data?
+  - Availability
+    - will critical systems go down if attacked?
+    - what happens if cloud provider goes out of business
+    - will cloud scale well enough
+    - whose downtime compares with users needs?
+  - more fears..
+    - concerns about large scale data mining..
+    - increased attack surface
+  - auditability and forensics
+    - difficult to audit data held outside an organization in a cloud
+    - forensics also made difficults, no clients don't maintain access locally
+  - legal quaqmires
+    - who is responsible for compliance (PCI, HIPAA, FERPA, etc)
+- [X] Threat Model
+  - Helps analize a scurity problem
+    - steps:
+      - identify: attackers, assets, threats, other companies
+      - rank the threats
+      - choose mitigation strategies
+      - build solutions based on those strategies
+    - why useful
+      - escpecially helpful in cloud computing, way of communicating threat landscape, document
+      - readable by both technical and non-technical people
+    - Components
+      - basic components:
+        - Attack modeling
+          - insider / outsider?
+          - single actor / group of actors?
+        - Attacker goals
+        - Vulnerabilites threats
+      - malicious insiders:
+        - at client
+          - learns passwords, authentication info?
+          - gains control of vm's?
+        - at cloud provider
+          - logs client comms?
+          - reads unencrypted data?
+          - peek into VM's?
+          - monitor network coming and goings?
+      - outside attacker..
+        - what?
+          - listen to network traffic
+          - insert malicious traffic
+          - probe cloud structure
+          - launch DOS
+        - Why (goal)?
+          - intrusion
+          - network analysis
+          - man in the middle
+          - cartography
+- [X] Quiz: Cloud Security (6pts)
+*** TODO Assignment: Communication in the Cloud
+** DONE Module 7 IoT Data & The Cloud [5/5]
+CLOSED: [2023-05-11 Thu 13:45]
+*** DONE Data Storage Platform [4/4]
+CLOSED: [2023-05-11 Thu 12:40]
+- [X] PaaS Storage
+  - Big Picture:
+    - as in any computing env, we need to ability to interact with some for of data storage..
+- [X] SQL vs NoSQL modeling
+- [X] NoSQL modeling
+- [X] Quiz: Data Storage Platform (6pts)
+*** DONE Distributed Storage Systems [5/5]
+CLOSED: [2023-05-11 Thu 12:47]
+- [X] Sharding
+- [X] CAP Theorem
+- [X] CAP Theorem Examples
+- [X] Reading Assignment: CAP Theorem Papers
+- [X] Quiz: CAP (12pts)
+*** DONE Eventual Consistency [4/4]
+CLOSED: [2023-05-11 Thu 13:45]
+- [X] Eventual Consistent Systems
+- [X] The Dynamo Protocol
+- [X] The Dynamo Protocol Design
+- [X] Paper Assignment: Amazon DB Paper
+*** DONE Data Pipeline [6/6]
+CLOSED: [2023-05-11 Thu 13:45]
+- [X] IoT and Pub/Sub
+- [X] Data Pipeline - w/o Messaging System
+- [X] Data Pipeline - w/ Messaging System
+- [X] Queueing Example - AWS SQS
+- [X] Other Queuing examples
+- [X] Reading Assignment: Kafka (10pts)
+*** DONE Data Infrastructure Systems [2/2]
+CLOSED: [2023-05-11 Thu 12:57]
+- [X] IaaS Storage
+- [X] Quiz: IaaS Storage (5pts)
+** DONE Module 8 Cloud Evolution [4/4]
+CLOSED: [2023-05-11 Thu 15:24]
+*** DONE Containers [4/4]
+CLOSED: [2023-05-11 Thu 13:43]
+- [X] Containers
+- [X] Containers or VMs
+- [X] Docker
+- [X] Quiz: Containers (5pts)
+*** DONE Orchestration [5/5]
+CLOSED: [2023-05-11 Thu 14:52]
+- [X] Orchestration & Kubernetes
+  - Container Orchestration
+    - facilitate microservices architecture
+    - provision containers
+    - manage container dependencies
+    - enable discovery
+    - handle container failure
+    - scale containers
+  - How to choose? (kubernetes is more common)
+    - Kubernetes
+      - created by google and red had
+      - can mount persistent volumes
+      - has load balancer integrate
+      - uses Etcd for service discovery
+      - uses a different CLI, different API and different YAML definitions
+      - cannot use Docker CLI
+      - Kubernetes PODS
+        - groups of CONTAINERS that are deployed and scheduled TOGETHER
+        - pod will typically be 1-5 containers, working together to provide a service
+        - Kubernetes runs other containers to provide logging and monitoring services
+        - pods are ephemeral in Kubernets
+      - Kubernetes SERVICES and REPLICATION control
+        - SERVICES
+          - are stable endpoints that can be addressed by name
+          - can be connected to pods using label selectors
+          - automatically round-robin requests between PODS
+        - REPLICATION controllers
+          - used to instantiate pods in Kubernetes..
+          - control and monitor the number of running pods (called replicas) for a service
+      - Kubernetes NET SPACE and LABELS
+        - Flat Networking Space
+          - containers within 1 pod share IP address, but address space is 'flat' across all pods (???)
+            - all pods can talk to each other without NAT
+          - makes multi-host clusters easier to manage, networking though is a little more tricky
+          - since containers using the same IP, use ports to communnicate to different ones directly i.e. localhost:637[1-9]
+        - Labels
+          - are key-value pairs attached to objects in Kubernetes, usually pods, used to describe characteristics of the object like version: x, tier:frontend, etc
+          - are not normally unique, expected to identify GROUPS of containers
+          - label sectors can be used to identify objects or groups of objects
+- [X] Orchestration (cont.)
+  - *Docker Swarm*
+    - native clustering for Docker
+    - Exposes Docker API
+      - means any tool you use in Docker, also works equally well with Docker Swarm
+    - but bound by same limitations as Docker API
+    - Architecture:
+      - ea host runs a swarm AGENT and one host runs a swarm MANAGER
+      - MANAGER is responsible for orchestration and scheduling of containers on the management host
+      - swarm can be run in HA mode where one of Etcd, Consul, or ZooKeeper is used to handle fail to a backup manager
+      - different methods for how hosts are found and added to a CLUSTER, this is DISCOVERY
+        - default is TOKEN based discovery, list in docker hub
+  - *Mesos*
+    - Apache Mesos, open source cluster manager.  designed to scale VERY LARGE CLUSTERS involving hundreds or thousands of hosts.
+      - mesos supports diverse workloads from multiple tenants; i.e. Docker on one, Hadoop on next..
+    - Apache Mesos was started as a project @ UC Berkely before being picked up by Twitter.  Now used in eBay and Airbnb..
+    - Mesos can run MANY frameworks simultaneously
+      - ... MARATHON and CHRONOS are most well known
+    - _Mesos Agent Nodes_: responsible for actually running tasks.  all agents submit list of their resources to the master node
+      - 
+    - _Mesos Master_: responsible for sending tasks to the agents
+      - maintains list of available resources and makes "offers" to frameworks..
+      - decides how many resources to offere based on an allocation strategy.  Typically 2-4 standby masters available to take over.
+    - _ZooKeeper_: used in ELECTIONS and for looking up address of current master (like a DNS or A-record?)
+      - typically 3-5 ZooKeeper instances will be running to ensure AVAILABILITY and handle failures
+  - *Mesos + Marathon*
+    - _Frameworks_: frameworks coordinate with the master to schedule tasks onto agent noded.  frameworks comprised of..
+      - /executor/ process which runs on the agent, takes care of running the tasks
+      - /scheduler/ which registers with teh master and selects resource based on offers from the master
+      - may be multiple frameworks running concurrently..
+    - _Marathon_: designed to START, MONITOR, and SCALE long-running applications
+      - designed to be flexible about the applications it launches
+        - can also start complimentary frameworks such as CHRONOS (cron jobs for datacenters)
+      - makes good choice of framework for running docker container
+      - supports various affinity and constraint rules
+      - clients interact with marathon through a REST API
+      - other features include support for health checks.. analyzing metrics... etc
+- [X] Container Conclusion
+  - Containers are imuutable
+    - OS, library, versions, configs, file struct, applications all wrapped inside container..
+  - Containers are lightweight
+    - memory footprint is small, need much less ram
+  - Containers are fast
+    - can start a container as fast as a typical linux process takes to start.. seconds instead of minutes
+  - But..
+    - many users still treating containers like VM's and forget that containers are DISPOSABLE
+  - Avoid these in Docker Containers..
+    - DO NOT store persistent data in containers (easily stopped, destroyed, replaced)
+    - DO NOT ship the app in pieces
+    - DO NOT create large images
+      - hard to distribute
+      - Avoid 'updates' that download many files
+    - DO NOT use single layer images
+      - use effective layers i.e. OS / user info / run time installation / configs / app(s)
+    - DO NOT create images from running containers
+      - e.g. don't try to use DOCKER COMMIT to create a finished image, not reproducicble
+- [X] Quiz: Container Orchestration
+- [X] End-Of-Course Eval
+*** DONE Serverless [5/5]
+CLOSED: [2023-05-11 Thu 15:24]
+- [X] Serverless
+  - Serverless Architecture...
+    - refers to applications that significantly depend on..
+      - third-party services,
+      - custom cod that's run in ephemeral containers (Function as a service / FaaS)
+    - Mobile Backend as a Service (MBaaS)
+      - serverless first used to describe applications that significantly depend on 3rd party software..
+      - typically 'rich client' applications (single page web apps, et) that use vast ecosystem of cloud accessible services
+    - Functions as a Service (FaaS)
+      - apps where some amount of server-side logic is still written by application developber but is run in stateless compute containers, they are..
+        - event-triggered
+        - ephemeral
+        - and fully managed by 3rd party
+      - building and supporting 'serverless' application is not looking after hardware or the processes,
+        - those are outsourced to vendor..
+    - Serverless Vendors
+      - _Amazon Lambda_: rund code without thinking about server, pay for only compute time you consume
+      - _Google Cloud Functions_: lightweight, event triggered, ansynchronous compute, good for creating single purpose functions that respond to cloud events
+      - _Azure Functions_: listen and react to events across your stack
+      - _IBM OpenWhisk_: distributed service to execute application logic in response to events
+      - many more...
+- [X] Deeper on Serverless
+  - means 'less servers' not 'no servers'..
+  - simply means DEVELOPERS don't need to think AS MUCH about the servers
+  - compute resources get used as services w/o having to manage physical capabilities or limts
+  - serverless allow you to NOT think about servers
+    - means you no longer have to deal with over/under capacity, deployments, scaling, and fault tolerance..
+  - SERVERLESS vs CONTAINERS
+    - containers require that you still think about the hosting cluster that it will run on, need to ask questions like:
+      - which cluster would best for this container?
+      - does the cluster have capacity for my containers needs?
+      - what is my strategy for deploying multiple instances of the container across multiple machines in the cluster?
+      - if the cluster has multiple machiens, do i need to be concerned when i choose my deployment strategy
+      - what are the security constraints of the cluster, do they need to be changed in order to properly host my container?
+  - BENEFITS of serverless:
+    - the hosting provider..
+      - figures out the allocation questions for you,
+      - guarantees you will have enough capacity for your needs.
+    - don't have to spend money up front on hostin environment
+    - not constrained to under-provisioned environments
+    - not paying for idle usage
+    - RELIABILITY and AVAILABILITY baked in.
+  - Review, big idea
+    - by composing and combining diff services together in LOOSE ORCHESTRATION, developers can now build complex systems very quickly and spend most of their time focusing on core business
+    - serverless systems can scale, grow, and evolve w/o developers or solution architecteds worrying about patch this patch that
+    - good serverless architecture can speed up development 
+- [X] Serverless Examples
+  - Pet Store, classic UI drive app design..
+    - traditional 3 TIER client-oriented system with server side logic
+    - i.e. implemented in Java on server side, HTML / Javascript on client side
+    - this model, client can be relativeliy unintelligent, much of logic all happening server side.
+  - Pet Store redesign as SERVERLESS..
+    - deleted AUTHENTICATION logic and replace w/ 3rd party BaaS service
+    - client can have direct access to a subnes of database (i.e. product listings) but is fully 3rd party hosted.
+  - a SERVERLESS view
+    - some logic that was in the pet store server is now in the CLIENT
+      - i.e. keeping track of the user session, ..
+    - Some UX related functionality CAN be kept in SERVER,
+      - IF it's compute intensive or requires access to lots of data (i.e. search apps)
+      - for the search feature instea of having an always-runnig server we can implement FaaS to request http via API gateway, can have both client and server read from same database for product data.
+  - another view
+    - since original server was implemented in java and aws, we can port the search code from the pet store server to teh pet store search function witho..
+    - finally we may replace 'purchase' functionality with another FaaS function...
+- [X] Reading Assignment (10pts)
+- [X] Quiz: Serverless
+*** DONE Quiz: Cloud Evolution (12pts)
+CLOSED: [2023-05-11 Thu 15:24]
+** TODO Final Project [2/3]
